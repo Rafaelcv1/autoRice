@@ -1,3 +1,6 @@
+# [output]
+# show_hyphens = true
+#
 [cache]
 dir = "~/.cache/tlrc"
 mirror = "https://github.com/tldr-pages/tldr/releases/latest/download"
@@ -7,10 +10,10 @@ languages = []
 
 [output]
 show_title = true
-platform_title = false
-show_hyphens = false
-example_prefix = "- "
-compact = false
+platform_title = true
+show_hyphens = true
+example_prefix = "🧛🏻‍♂️ "
+compact = true
 raw_markdown = false
 
 [indent]
