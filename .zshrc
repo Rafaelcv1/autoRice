@@ -113,7 +113,7 @@ export VISUAL="nvim"
 
 if uwsm check may-start && uwsm select; then
    rm -rf /home/rafa/.config/fastfetch/logo/
-   cp -r /home/rafa/.config/fastfetch/logoSFW/ /home/rafa/.config/fastfetch/logo/
+   cp -r /home/rafa/.config/fastfetch/logoS/ /home/rafa/.config/fastfetch/logo/
    exec uwsm start default
  fi
 
