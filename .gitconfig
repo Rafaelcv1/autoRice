@@ -1,0 +1,11 @@
+[user]
+	name = Rafael Costa Vieira
+	email = rafaelcvieira12@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+[color]
+	ui = true
+[alias]
+	st = status
