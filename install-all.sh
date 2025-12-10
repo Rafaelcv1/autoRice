@@ -4,7 +4,7 @@ sudo pacman -Syu
 
 #default packages
 sudo pacman -S noto-fonts-emoji ttf-font-awesome ttf-jetbrains-mono-nerd
-sudo pacman -S hyprland kitty zsh firefox fastfetch git yazi wofi mpv less waybar tmux 7zip imagemagick uwsm libnewt python-pip wl-clipboard KeePassXC proton-vpn-gtk-app network-manager-applet torbrowser-launcher swww xorg-xrandr pulseaudio brightnessctl pavucontrol
+sudo pacman -S hyprland kitty zsh firefox fastfetch git yazi wofi mpv less waybar tmux 7zip imagemagick uwsm libnewt python-pip wl-clipboard KeePassXC proton-vpn-gtk-app network-manager-applet torbrowser-launcher swww xorg-xrandr pulseaudio brightnessctl pavucontrol dunst
 
 #set AUR
 git clone https://aur.archlinux.org/yay.git
@@ -29,6 +29,3 @@ chsh -s /usr/bin/zsh
 
 #ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-#firefox configs:
-#dracula theme, avira manager, ublock firefox extension full-screen-api.warning.timeout: 1500
