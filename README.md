@@ -21,4 +21,4 @@ It's just dracula theme on everything
 - ublock origin
 - avira manager
 - full-screen-api.warning.timeout: 15000
-- dracula stylus: github and youtube
+- dracula stylus: github, youtube and leetcode
