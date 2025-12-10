@@ -130,6 +130,9 @@
       "combined": true
     },
     {
+      "type": "shell",
+    },
+    {
       "type": "wm",
       "keyIcon": "",
       "detectPlugin": false
@@ -138,6 +141,13 @@
       "type": "terminal",
       "keyIcon": ""
     },
+    {
+      "type": "separator",
+      "string": "+",
+      "outputColor": "hidden_dim_magenta",
+      "times": 23
+    },
+
     {
       "type": "cpu",
       "keyIcon": "",
