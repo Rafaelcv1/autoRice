@@ -29,3 +29,7 @@ chsh -s /usr/bin/zsh
 
 #ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+#copy dotfiles
+cp -r .config ~/
+cp .p10k.zsh .zshrc ~/
