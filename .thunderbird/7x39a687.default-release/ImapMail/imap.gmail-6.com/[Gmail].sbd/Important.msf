@@ -1,0 +1,106 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=folderName)(B9=account)(BA=junkscore)(BB=keywords)(BC=X-GM-MSGID)
+  (BD=X-GM-THRID)(BE=X-GM-LABELS)(BF=junkscoreorigin)
+  (C0=ns:msg:db:row:scope:ops:all)(C1=ns:msg:db:table:kind:ops)
+  (C2=dobayes.mailnews@mozilla.org#junk)(C3=storeToken)(C4=gloda-id)
+  (C5=gloda-dirty)(80=ns:msg:db:row:scope:msgs:all)(81=subject)
+  (82=sender)(83=message-id)(84=references)(85=recipients)(86=date)
+  (87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)(8C=ccList)
+  (8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)(B0=MRUTime)
+  (B1=highestModSeq)(B2=highestRecordedUID)(B3=replyTo)
+  (B4=ns:msg:db:row:scope:pending:all)(B5=ns:msg:db:table:kind:pending)
+  (B6=dateReceived)(B7=ProtoThreadFlags)>
+<(91=e)(8E=667db968)(81=0)(80=1)>
+[1:m(^9B=e)(^8F=e)(^91^8E)(^90=0)(^92=1)]
+<(9E=79)(99=67722fd0)>[2:m(^9B=79)(^8F=79)(^91^99)(^90=0)(^92=1)]
+<(A6=7a)(A4=67e6f875)>[3:m(^9B=7a)(^8F=7a)(^91^A4)(^90=0)(^92=1)(^93=1)]
+<(AC=7b)(AA=67e6f88a)>[4:m(^9B=7b)(^8F=7b)(^91^AA)(^90=0)(^92=1)(^93=1)]
+
+<(AE=81)(95=Instagram <no-reply@mail.instagram.com>)(96
+    ="Instagram" <no-reply@mail.instagram.com>)(8B
+    =rafaelcostavieira12@gmail.com)(97
+    =Action needed on your account, ju5ts741k1n)(98
+    =67722fdc.540a0220.1cee4f.973bSMTPIN_ADDED_MISSING@mx.google.com)
+  (88=)(9A=4)(8F=UTF-8)(9B=3057)(9C=imapflag)(9D=nonjunk)(92=ffffffff)
+  (A0=1819842030648959504)(94="\\\\Inbox")(B1=48541)(B2=308a)(B3=c4)>
+{79:^80 {(k^97:c)(s=9)2:m } [79(^88=81)(^B3^95)(^82^96)(^85^8B)(^81^97)
+    (^83^98)(^84=)(^B6^99)(^86^99)(^89=4)(^95^8F)(^87^9B)(^BA=0)(^BF^9C)
+    (^BB^9D)(^9A^92)(^8E=79)(^B7=0)(^BC^A0)(^BD^A0)(^BE^94)(^C3^B1)
+    (^9D^B2)(^8B=c4)]}
+
+<(A1=Google <no-reply@accounts.google.com>)(A2
+    ==?UTF-8?Q?Alerta_de_seguran=C3=A7a?=)(A3
+    =9IbIuDjuLsZO-CiYzgwWaQ@notifications.google.com)(A5=3046)(A8
+    =1827867338374267299)>
+{7A:^80 {(k^97:c)(s=9)3:m } [7A(^88=0)(^82^A1)(^85^8B)(^81^A2)(^83^A3)
+    (^84=)(^B6^A4)(^86^A4)(^89=1)(^87^A5)(^9A^92)(^8E=7a)(^B7=0)(^BC^A8)
+    (^BD^A8)(^BE^94)(^BB=)]}
+
+<(89=institutodemusicaguitarschool@gmail.com)(8A
+    =WeTransfer <noreply@wetransfer.com>)(8C
+    =institutodemusicaguitarschool@gmail.com sent you IR via WeTransfer)
+  (8D=wtm.5d0a34fd-4aec-4c1c-a62f-2a4046a8a54f@wetransfer.com)(90=bd47)
+  (93=1803042683724540145)(AF=bd7a)(B0=3ff)(B4=1e85)(A9
+    =2Wk3oM1x9fgz0pYXnrTrpA@notifications.google.com)(AB=300c)(AD
+    =1827867363658725877)>
+{1:^80 {(k^96:c)(s=9)} 
+  [E(^88=81)(^B3^89)(^82^8A)(^85^8B)(^81^8C)(^83^8D)(^84=)(^B6^8E)(^86^8E)
+    (^89=1)(^95^8F)(^87^90)(^9A^92)(^8E=e)(^B7=0)(^BC^93)(^BD^93)(^BE^94)
+    (^BB=)(^C3=0)(^9D^AF)(^8B^B0)(^C4^B4)]79 7A 
+  [7B(^88=0)(^82^A1)(^85^8B)(^81^A2)(^83^A9)(^84=)(^B6^AA)(^86^AA)(^89=1)
+    (^87^AB)(^9A^92)(^8E=7b)(^B7=0)(^BC^AD)(^BD^A8)(^BE^94)(^BB=)]}
+{7B:^80 {(k^97:c)(s=9)4:m } 7B }
+{E:^80 {(k^97:c)(s=9)1:m } E }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [E(^94^8C)]
+  [79(^94^97)]
+  [7A(^94^A2)]
+  [7B(^94^A2)]}
+
+<(82=[Gmail]/Important)(83=e000)(84=1766197205)(85=64069)(86=8082014)
+  (87=9)(9F=2)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AA=0)(^AF^83)(^B0^84)(^B1^85)(^A7^82)
+    (^88^86)(^A8=9)(^B2=7b)(^A1=4)(^A6=7b)(^A2=2)]}
+
+@$${2{@
+<(B6=80)(B5=61002)(B7=3079)(B8=ae)>
+[-7A:^80(^88=80)(^82^A1)(^85^8B)(^81^A2)(^83^A3)(^84=)(^B6^A4)(^86^A4)
+    (^89=1)(^87^A5)(^9A^92)(^8E=7a)(^B7=0)(^BC^A8)(^BD^A8)(^BE^94)(^BB=)
+    (^C3^B5)(^9D^B7)(^8B=ae)]
+<(B9=73446)(BA=303f)(BB=ac)>[-7B:^80(^88=80)(^82^A1)(^85^8B)(^81^A2)
+    (^83^A9)(^84=)(^B6^AA)(^86^AA)(^89=1)(^87^AB)(^9A^92)(^8E=7b)(^B7=0)
+    (^BC^AD)(^BD^A8)(^BE^94)(^BB=)(^C3^B9)(^9D^BA)(^8B=ac)]
+@$$}2}@
+
+@$${3{@
+<(BC=1e86)>[79:^80(^C4^BC)]
+<(BD=1e87)>[7A:^80(^C4^BD)]
+<(BE=1e88)>[7B:^80(^C4^BE)]
+@$$}3}@
+
+@$${5{@
+< <(a=c)> // (f=iso-8859-1)
+  (C6=useServerRetention)>
+@$$}5}@
+
+@$${7{@
+< <(a=c)> // (f=iso-8859-1)
+  (C7=retainBy)(C8=daysToKeepHdrs)(C9=numHdrsToKeep)(CA=daysToKeepBodies)
+  (CB=useServerDefaults)(CC=cleanupBodies)(CD=applyToFlaggedMessages)>
+[1:^9F(^C6=1)]
+@$$}7}@
+
+@$${8{@
+@$$}8}@

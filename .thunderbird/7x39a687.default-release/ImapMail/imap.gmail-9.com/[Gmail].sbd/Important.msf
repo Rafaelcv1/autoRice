@@ -1,0 +1,71 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=folderName)(B9=account)(BA=junkscore)(BB=keywords)(BC=X-GM-MSGID)
+  (BD=X-GM-THRID)(BE=X-GM-LABELS)(BF=junkscoreorigin)
+  (C0=dobayes.mailnews@mozilla.org#junk)(C1=ns:msg:db:row:scope:ops:all)
+  (C2=ns:msg:db:table:kind:ops)(C3=storeToken)(C4=gloda-id)
+  (C5=gloda-dirty)(80=ns:msg:db:row:scope:msgs:all)(81=subject)
+  (82=sender)(83=message-id)(84=references)(85=recipients)(86=date)
+  (87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)(8C=ccList)
+  (8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=useServerRetention)
+  (B0=imapFlags)(B1=MRUTime)(B2=highestModSeq)(B3=highestRecordedUID)
+  (B4=ns:msg:db:row:scope:pending:all)(B5=ns:msg:db:table:kind:pending)
+  (B6=dateReceived)(B7=ProtoThreadFlags)>
+<(8F=7)(8D=610db8a1)(81=0)(80=1)>
+[1:m(^9B=7)(^8F=7)(^91^8D)(^90=0)(^92=1)]
+<(98=8)(96=66551644)>[2:m(^9B=8)(^8F=8)(^91^96)(^90=0)(^92=1)]
+<(A1=10)(9D=67a4c9b4)>[3:m(^9B=10)(^8F=10)(^91^9D)(^90=0)(^92=1)(^93=1)]
+<(A7=11)(A5=6883f208)>[4:m(^9B=11)(^8F=11)(^91^A5)(^90=0)(^92=1)]
+
+<(AA=81)(89=Discord <noreply@discord.com>)(8A=discordbugoupeloip@gmail.com)
+  (8B=Verificar =?UTF-8?B?ZW5kZXJlw6dv?= de e-mail do Discord)(8C
+    =Y2kWLnIWTOq1-nyD1wX3xA@ismtpd0159p1iad2.sendgrid.net)(88=)(8E=518a)
+  (90=ffffffff)(91=1707384962280516629)(92="\\\\Inbox")(AB=51bd)(AC=171)
+  (BA=21f8)(93=Duolicious <no-reply@duolicious.app>)(94
+    =Sign in to Duolicious)(95
+    =0111018fbc5efb1a-0ec62c15-c033-488a-9d57-8844b2c73946-000000@us-west-1.am\
+azonses.com)(97=1ed9)(9A=1800250109574390657)(AD=20960)(AE=1f0c)(AF=6f)
+  (B9=21f7)(B1=80)(9B
+    =Verificar o acesso do Discord de uma nova =?UTF-8?B?bG9jYWxpemHDp8Ojbw==?\
+=)(9C=mIGagla3SGi0abQga8TnXQ@geopod-ismtpd-12)(9E=5cfe)(9F=imapflag)
+  (A0=nonjunk)(A3=1823319305839258905)(B0=28943)(B2=5d31)(B3=19f)(B8=21f6)
+  (A4=vT3wbT_SSI6Fr98J3bhNZg@geopod-ismtpd-6)(A6=5c5e)(A9
+    =1838654572494221802)(B4=52835)(B5=5c91)(B6=19d)(B7=21f5)>
+{1:^80 {(k^96:c)(s=9)} 
+  [7(^88=81)(^82^89)(^85^8A)(^81^8B)(^83^8C)(^84=)(^B6^8D)(^86^8D)(^89=1)
+    (^87^8E)(^9A^90)(^8E=7)(^B7=0)(^BC^91)(^BD^91)(^BE^92)(^BB=)(^C3=0)
+    (^9D^AB)(^8B^AC)(^C4^BA)]
+  [8(^88=81)(^82^93)(^85^8A)(^81^94)(^83^95)(^84=)(^B6^96)(^86^96)(^89=1)
+    (^87^97)(^9A^90)(^8E=8)(^B7=0)(^BC^9A)(^BD^9A)(^BE^92)(^BB=)(^C3^AD)
+    (^9D^AE)(^8B=6f)(^C4^B9)]
+  [10(^88=80)(^82^89)(^85^8A)(^81^9B)(^83^9C)(^84=)(^B6^9D)(^86^9D)
+    (^89=1)(^87^9E)(^BA=0)(^BF^9F)(^BB^A0)(^9A^90)(^8E=10)(^B7=0)(^BC^A3)
+    (^BD^A3)(^BE^92)(^C3^B0)(^9D^B2)(^8B^B3)(^C4^B8)]
+  [11(^88=81)(^82^89)(^85^8A)(^81^9B)(^83^A4)(^84=)(^B6^A5)(^86^A5)
+    (^89=1)(^87^A6)(^9A^90)(^8E=11)(^B7=0)(^BC^A9)(^BD^A9)(^BE^92)(^BB=)
+    (^C3^B4)(^9D^B5)(^8B^B6)(^C4^B7)]}
+{10:^80 {(k^97:c)(s=9)3:m } 10 }
+{11:^80 {(k^97:c)(s=9)4:m } 11 }
+{7:^80 {(k^97:c)(s=9)1:m } 7 }
+{8:^80 {(k^97:c)(s=9)2:m } 8 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [7(^94^8B)]
+  [8(^94^94)]
+  [10(^94^9B)]
+  [11(^94^9B)]}
+
+<(82=[Gmail]/Important)(83=e000)(84=1766197571)(85=41744)(86=8082014)
+  (87=9)(A8=4)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AA=0)(^AF=1)(^B0^83)(^B1^84)(^B2^85)
+    (^A7^82)(^88^86)(^A8=9)(^B3=11)(^A1=4)(^A6=11)(^A2=1)]}

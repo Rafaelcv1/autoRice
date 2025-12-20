@@ -1,0 +1,229 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=junkscore)(B9=keywords)(BA=X-GM-MSGID)(BB=X-GM-THRID)
+  (BC=X-GM-LABELS)(BD=dobayes.mailnews@mozilla.org#junk)
+  (BE=ns:msg:db:row:scope:ops:all)(BF=ns:msg:db:table:kind:ops)
+  (C0=useServerRetention)(C1=retainBy)(C2=daysToKeepHdrs)
+  (C3=numHdrsToKeep)(C4=daysToKeepBodies)(C5=useServerDefaults)
+  (C6=cleanupBodies)(C7=applyToFlaggedMessages)(C8=storeToken)
+  (C9=gloda-id)(CA=gloda-dirty)(80=ns:msg:db:row:scope:msgs:all)
+  (81=subject)(82=sender)(83=message-id)(84=references)(85=recipients)
+  (86=date)(87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)
+  (8C=ccList)(8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)
+  (B0=highestModSeq)(B1=highestRecordedUID)
+  (B2=ns:msg:db:row:scope:pending:all)(B3=ns:msg:db:table:kind:pending)
+  (B4=dateReceived)(B5=ProtoThreadFlags)(B6=folderName)(B7=account)>
+<(80=1)(8F=fffffffe)(8C=65f2276c)(81=0)>
+[1:m(^9B=1)(^8F^8F)(^91^8C)(^90=0)(^92=1)]
+<(96=2)(94=654595cb)>[2:m(^9B=2)(^8F=2)(^91^94)(^90=0)(^92=1)]
+<(9C=3)(9A=654434a9)>[3:m(^9B=3)(^8F=3)(^91^9A)(^90=0)(^92=1)]
+<(A2=4)(A0=641c89ff)>[4:m(^9B=4)(^8F=4)(^91^A0)(^90=0)(^92=1)]
+<(A8=5)(A6=6400c18e)>[5:m(^9B=5)(^8F=5)(^91^A6)(^90=0)(^92=1)]
+<(AE=6)(AC=63f79fff)>[6:m(^9B=6)(^8F=6)(^91^AC)(^90=0)(^92=1)]
+<(B4=7)(B2=63cec188)>[7:m(^9B=7)(^8F=7)(^91^B2)(^90=0)(^92=1)]
+<(BA=8)(B8=63cc30c1)>[8:m(^9B=8)(^8F=8)(^91^B8)(^90=0)(^92=1)]
+<(C0=9)(BE=628a5cef)>[9:m(^9B=9)(^8F=9)(^91^BE)(^90=0)(^92=1)]
+<(C6=a)(C4=621d8b90)>[A:m(^9B=a)(^8F=a)(^91^C4)(^90=0)(^92=1)]
+<(CC=b)(CA=61e21435)>[B:m(^9B=b)(^8F=b)(^91^CA)(^90=0)(^92=1)]
+<(D2=c)(D0=61c3436e)>[C:m(^9B=c)(^8F=c)(^91^D0)(^90=0)(^92=1)]
+<(D8=d)(D6=6176adc7)>[D:m(^9B=d)(^8F=d)(^91^D6)(^90=0)(^92=1)]
+<(DE=e)(DC=613e8221)>[E:m(^9B=e)(^8F=e)(^91^DC)(^90=0)(^92=1)]
+<(E4=f)(E2=613e81ec)>[F:m(^9B=f)(^8F=f)(^91^E2)(^90=0)(^92=1)]
+<(E9=10)(E7=613e81de)>[10:m(^9B=10)(^8F=10)(^91^E7)(^90=0)(^92=1)]
+<(EE=11)(EC=60e1e497)>[11:m(^9B=11)(^8F=11)(^91^EC)(^90=0)(^92=1)]
+<(86=12)(F2=5f983824)>[12:m(^9B=12)(^8F=12)(^91^F2)(^90=0)(^92=1)]
+<(F9=13)(F7=5f52c9ac)>[13:m(^9B=13)(^8F=13)(^91^F7)(^90=0)(^92=1)]
+
+<(FB=81)(88=Google Play <googleplay-noreply@google.com>)(89
+    =rafaelminhocadoida@gmail.com)(8A
+    =Your Google Play Order Receipt from Mar 13, 2024)(8B
+    =b5ecee3517a8488915b69895c1bcc86d47da8a14-10044049-110294243@google.com)
+  (87=)(8D=4cfa)(8E=ffffffff)(90=1793451487316721718)(91="\\\\Important")
+  (FC=4d2d)(FD=168)(92=Your Google Play Order Receipt from Nov 3, 2023)
+  (93
+    =83063d9e0744f16c56c9e6b8473eef8dd7ae0848-10044049-100240651@google.com)
+  (95=41ae)(97=1781592645004440695)(FE=19792)(FF=41e1)(100=13d)(98
+    =Your Google Play Order Receipt from Nov 2, 2023)(99
+    =61d0edcb483ee779dce21ad88cec8ecb2df46a20-10044049-100240651@google.com)
+  (9B=4399)(9D=1781497852115144598)(101=36692)(102=43cc)(103=149)(9E
+    =Seu recibo de pedido do Google Play em 23 de mar. de 2023)(9F
+    =123e55dda35f87fba21b01ee835037b2e5b373d8-10044049-110294243@google.com)
+  (A1=4758)(A3=1761179793583702588)(104=54083)(105=478b)(106=153)(A4
+    =Seu recibo de pedido do Google Play em 2 de mar. de 2023)(A5
+    =60c45993f544e398c48344e848e262f3b41875aa-10044049-100240651@google.com)
+  (A7=4201)(A9=1759270562040695452)(107=72433)(108=4234)(109=141)(AA
+    =Seu recibo de pedido do Google Play em 23 de fev. de 2023)(AB
+    =5f0b1679fc275fea3e54a993e7fa19410f0ee3cc-10044049-110294243@google.com)
+  (AD=4723)(AF=1758643078532717787)(10A=89416)(10B=4756)(10C=155)(B0
+    =Seu recibo de pedido do Google Play em 23 de jan. de 2023)(B1
+    =16905f784c3ee4e526b32cd9af9edf0cf6a91ad0-10044049-110294243@google.com)
+  (B3=488a)(B5=1755834582383111928)(10D=107713)(10E=48bd)(10F=159)(B6
+    =Seu recibo de pedido do Google Play em 21 de jan. de 2023)(B7
+    =2ad7531de41b3c780e5950924c1cca5aa6895173-10044049-100240651@google.com)
+  (B9=41cf)(BB=1755658279294678409)(110=126369)(111=4202)(112=140)(BC
+    =Seu recibo de pedido do Google Play em 22 de mai. de 2022)(BD
+    =c2f86c7c8346a20f524d00ba83c074ead610caed-10044049-100240651@google.com)
+  (BF=3c6d)(C1=1733542467076212163)(113=143302)(114=3ca0)(115=132)(C2
+    =Seu recibo de pedido do Google Play em 28 de fev. de 2022)(C3
+    =5ddfd6777bc9ec153772d5c16e8b2d1f095cc4de-10044049-100240651@google.com)
+  (C5=3cf6)(C7=1726064562048939774)(116=158857)(117=3d29)(C8
+    =Seu recibo de pedido do Google Play em 14 de jan. de 2022)(C9
+    =a576682c6c2ce8ca5f748c92c166365cf276f765-10044049-100240651@google.com)
+  (CB=3c63)(CD=1721978073439468438)(118=174549)(119=3c96)(11A=131)(CE
+    =Seu recibo de pedido do Google Play em 22 de dez. de 2021)(CF
+    =5887568023171e845a685dedf0ffa5a784509188-10044049-100240651@google.com)
+  (D1=3c03)(D3=1719860445387455949)(11B=190094)(11C=3c36)(11D=130)(D4
+    =Seu recibo de pedido do Google Play em 25 de out. de 2021)(D5
+    =49aa21e12e023c70488756c0cd0dac9d457e8ce9-10044049-100240651@google.com)
+  (D7=3d59)(D9=1714597593532528414)(11E=205543)(11F=3d8c)(DA
+    =Seu recibo de pedido do Google Play em 12 de set. de 2021)(DB
+    =7c86c206122db4b4f6a88af2c2ddb7ab964d6c1f-10044049-100240651@google.com)
+  (DD=3cc6)(DF=1710737585770006929)(E0=1710737515891502556)(120=221334)
+  (121=3cf9)(122=12d)(E1
+    =bccd760f49a067f25a922dfbd46c225a0dcce100-10044049-100240651@google.com)
+  (E3=3cd6)(E5=1710737529861631305)(123=236978)(124=3d09)(125=12e)(E6
+    =0cb366d9c5229d96c2ab03c84ce5ccd3e28d2082-10044049-100240651@google.com)
+  (E8=3cc8)(126=252638)(127=3cfb)(EA
+    =Seu recibo de pedido do Google Play em 4 de jul. de 2021)(EB
+    =4344dfdb0a242d7af1a19f30516e743666713fea-10044049-100240651@google.com)
+  (ED=3692)(EF=1704373105297284406)(128=268284)(129=36c5)(12A=11b)(F0
+    =Seu recibo de pedido do Google Play em 27 de out. de 2020)(F1
+    =37e955c2bdfb94398994e7aa506c72d4c58eff37-10044049-100240651@google.com)
+  (F3=366b)(F4=1681718105290953145)(12B=282340)(12C=369e)(12D=11c)(F5
+    =Seu recibo de pedido do Google Play em 4 de set. de 2020)(F6
+    =0f8a34d6d27e4410d67894baceb5bf1e1b1fee11-10044049-100240651@google.com)
+  (F8=3641)(FA=1676946808098587908)(12E=296357)(12F=3674)(130=11d)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^88=81)(^82^88)(^85^89)(^81^8A)(^83^8B)(^84=)(^B4^8C)(^86^8C)(^89=1)
+    (^87^8D)(^9A^8E)(^8E^8F)(^B5=0)(^BA^90)(^BB^90)(^BC^91)(^B9=)(^C8=0)
+    (^9D^FC)(^8B^FD)]
+  [2(^88=81)(^82^88)(^85^89)(^81^92)(^83^93)(^84=)(^B4^94)(^86^94)(^89=1)
+    (^87^95)(^9A^8E)(^8E=2)(^B5=0)(^BA^97)(^BB^97)(^BC=)(^B9=)(^C8^FE)
+    (^9D^FF)(^8B=13d)]
+  [3(^88=81)(^82^88)(^85^89)(^81^98)(^83^99)(^84=)(^B4^9A)(^86^9A)(^89=1)
+    (^87^9B)(^9A^8E)(^8E=3)(^B5=0)(^BA^9D)(^BB^9D)(^BC=)(^B9=)(^C8^101)
+    (^9D^102)(^8B=149)]
+  [4(^88=81)(^82^88)(^85^89)(^81^9E)(^83^9F)(^84=)(^B4^A0)(^86^A0)(^89=1)
+    (^87^A1)(^9A^8E)(^8E=4)(^B5=0)(^BA^A3)(^BB^A3)(^BC=)(^B9=)(^C8^104)
+    (^9D^105)(^8B=153)]
+  [5(^88=81)(^82^88)(^85^89)(^81^A4)(^83^A5)(^84=)(^B4^A6)(^86^A6)(^89=1)
+    (^87^A7)(^9A^8E)(^8E=5)(^B5=0)(^BA^A9)(^BB^A9)(^BC=)(^B9=)(^C8^107)
+    (^9D^108)(^8B=141)]
+  [6(^88=81)(^82^88)(^85^89)(^81^AA)(^83^AB)(^84=)(^B4^AC)(^86^AC)(^89=1)
+    (^87^AD)(^9A^8E)(^8E=6)(^B5=0)(^BA^AF)(^BB^AF)(^BC=)(^B9=)(^C8^10A)
+    (^9D^10B)(^8B=155)]
+  [7(^88=81)(^82^88)(^85^89)(^81^B0)(^83^B1)(^84=)(^B4^B2)(^86^B2)(^89=1)
+    (^87^B3)(^9A^8E)(^8E=7)(^B5=0)(^BA^B5)(^BB^B5)(^BC=)(^B9=)(^C8^10D)
+    (^9D^10E)(^8B=159)]
+  [8(^88=81)(^82^88)(^85^89)(^81^B6)(^83^B7)(^84=)(^B4^B8)(^86^B8)(^89=1)
+    (^87^B9)(^9A^8E)(^8E=8)(^B5=0)(^BA^BB)(^BB^BB)(^BC=)(^B9=)(^C8^110)
+    (^9D^111)(^8B=140)]
+  [9(^88=81)(^82^88)(^85^89)(^81^BC)(^83^BD)(^84=)(^B4^BE)(^86^BE)(^89=1)
+    (^87^BF)(^9A^8E)(^8E=9)(^B5=0)(^BA^C1)(^BB^C1)(^BC=)(^B9=)(^C8^113)
+    (^9D^114)(^8B=132)]
+  [A(^88=81)(^82^88)(^85^89)(^81^C2)(^83^C3)(^84=)(^B4^C4)(^86^C4)(^89=1)
+    (^87^C5)(^9A^8E)(^8E=a)(^B5=0)(^BA^C7)(^BB^C7)(^BC=)(^B9=)(^C8^116)
+    (^9D^117)(^8B=132)]
+  [B(^88=81)(^82^88)(^85^89)(^81^C8)(^83^C9)(^84=)(^B4^CA)(^86^CA)(^89=1)
+    (^87^CB)(^9A^8E)(^8E=b)(^B5=0)(^BA^CD)(^BB^CD)(^BC=)(^B9=)(^C8^118)
+    (^9D^119)(^8B=131)]
+  [C(^88=81)(^82^88)(^85^89)(^81^CE)(^83^CF)(^84=)(^B4^D0)(^86^D0)(^89=1)
+    (^87^D1)(^9A^8E)(^8E=c)(^B5=0)(^BA^D3)(^BB^D3)(^BC=)(^B9=)(^C8^11B)
+    (^9D^11C)(^8B=130)]
+  [D(^88=81)(^82^88)(^85^89)(^81^D4)(^83^D5)(^84=)(^B4^D6)(^86^D6)(^89=1)
+    (^87^D7)(^9A^8E)(^8E=d)(^B5=0)(^BA^D9)(^BB^D9)(^BC=)(^B9=)(^C8^11E)
+    (^9D^11F)(^8B=130)]
+  [E(^88=81)(^82^88)(^85^89)(^81^DA)(^83^DB)(^84=)(^B4^DC)(^86^DC)(^89=1)
+    (^87^DD)(^9A^8E)(^8E=e)(^B5=0)(^BA^DF)(^BB^E0)(^BC=)(^B9=)(^C8^120)
+    (^9D^121)(^8B=12d)]
+  [F(^88=81)(^82^88)(^85^89)(^81^DA)(^83^E1)(^84=)(^B4^E2)(^86^E2)(^89=1)
+    (^87^E3)(^9A^8E)(^8E=f)(^B5=0)(^BA^E5)(^BB^E0)(^BC=)(^B9=)(^C8^123)
+    (^9D^124)(^8B=12e)]
+  [10(^88=81)(^82^88)(^85^89)(^81^DA)(^83^E6)(^84=)(^B4^E7)(^86^E7)
+    (^89=1)(^87^E8)(^9A^8E)(^8E=10)(^B5=0)(^BA^E0)(^BB^E0)(^BC=)(^B9=)
+    (^C8^126)(^9D^127)(^8B=12e)]
+  [11(^88=81)(^82^88)(^85^89)(^81^EA)(^83^EB)(^84=)(^B4^EC)(^86^EC)
+    (^89=1)(^87^ED)(^9A^8E)(^8E=11)(^B5=0)(^BA^EF)(^BB^EF)(^BC=)(^B9=)
+    (^C8^128)(^9D^129)(^8B=11b)]
+  [12(^88=81)(^82^88)(^85^89)(^81^F0)(^83^F1)(^84=)(^B4^F2)(^86^F2)
+    (^89=1)(^87^F3)(^9A^8E)(^8E=12)(^B5=0)(^BA^F4)(^BB^F4)(^BC=)(^B9=)
+    (^C8^12B)(^9D^12C)(^8B=11c)]
+  [13(^88=81)(^82^88)(^85^89)(^81^F5)(^83^F6)(^84=)(^B4^F7)(^86^F7)
+    (^89=1)(^87^F8)(^9A^8E)(^8E=13)(^B5=0)(^BA^FA)(^BB^FA)(^BC=)(^B9=)
+    (^C8^12E)(^9D^12F)(^8B=11d)]}
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{4:^80 {(k^97:c)(s=9)4:m } 4 }
+{5:^80 {(k^97:c)(s=9)5:m } 5 }
+{6:^80 {(k^97:c)(s=9)6:m } 6 }
+{7:^80 {(k^97:c)(s=9)7:m } 7 }
+{8:^80 {(k^97:c)(s=9)8:m } 8 }
+{9:^80 {(k^97:c)(s=9)9:m } 9 }
+{A:^80 {(k^97:c)(s=9)A:m } A }
+{B:^80 {(k^97:c)(s=9)B:m } B }
+{C:^80 {(k^97:c)(s=9)C:m } C }
+{D:^80 {(k^97:c)(s=9)D:m } D }
+{E:^80 {(k^97:c)(s=9)E:m } E }
+{F:^80 {(k^97:c)(s=9)F:m } F }
+{10:^80 {(k^97:c)(s=9)10:m } 10 }
+{11:^80 {(k^97:c)(s=9)11:m } 11 }
+{12:^80 {(k^97:c)(s=9)12:m } 12 }
+{13:^80 {(k^97:c)(s=9)13:m } 13 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^8A)]
+  [2(^94^92)]
+  [3(^94^98)]
+  [4(^94^9E)]
+  [5(^94^A4)]
+  [6(^94^AA)]
+  [7(^94^B0)]
+  [8(^94^B6)]
+  [9(^94^BC)]
+  [A(^94^C2)]
+  [B(^94^C8)]
+  [C(^94^CE)]
+  [D(^94^D4)]
+  [E(^94^DA)]
+  [F(^94^DA)]
+  [10(^94^DA)]
+  [11(^94^EA)]
+  [12(^94^F0)]
+  [13(^94^F5)]}
+
+<(82=GooglePlay_Recibos)(83=e000)(84=2416973)(85=8082014)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF^83)(^B0^84)(^A7^82)(^88^85)(^A8=12)
+    (^B1=13)(^A1=13)(^A6=13)(^C0=1)]}
+
+@$${2{@
+<(136=19c3)>[E:^80(^C9^136)]
+<(135=19c2)>[F:^80(^C9^135)]
+<(134=19c1)>[10:^80(^C9^134)]
+<(133=19c0)>[11:^80(^C9^133)]
+<(132=19bf)>[12:^80(^C9^132)]
+<(131=19be)>[13:^80(^C9^131)]
+<(143=19d0)>[1:^80(^C9^143)]
+<(142=19cf)>[2:^80(^C9^142)]
+<(141=19ce)>[3:^80(^C9^141)]
+<(140=19cd)>[4:^80(^C9^140)]
+<(13F=19cc)>[5:^80(^C9^13F)]
+<(13E=19cb)>[6:^80(^C9^13E)]
+<(13D=19ca)>[7:^80(^C9^13D)]
+<(13C=19c9)>[8:^80(^C9^13C)]
+<(13B=19c8)>[9:^80(^C9^13B)]
+<(13A=19c7)>[A:^80(^C9^13A)]
+<(139=19c6)>[B:^80(^C9^139)]
+<(138=19c5)>[C:^80(^C9^138)]
+<(137=19c4)>[D:^80(^C9^137)]
+@$$}2}@

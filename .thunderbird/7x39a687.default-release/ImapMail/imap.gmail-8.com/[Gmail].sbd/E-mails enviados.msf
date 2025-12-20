@@ -1,0 +1,33 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=retainBy)(B9=daysToKeepHdrs)(BA=numHdrsToKeep)(BB=daysToKeepBodies)
+  (BC=useServerDefaults)(BD=cleanupBodies)(BE=applyToFlaggedMessages)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=indexingPriority)
+  (B0=imapFlags)(B1=highestModSeq)(B2=highestRecordedUID)
+  (B3=dobayes.mailnews@mozilla.org#junk)(B4=ns:msg:db:row:scope:ops:all)
+  (B5=ns:msg:db:table:kind:ops)(B6=folderName)(B7=useServerRetention)>
+
+<(80=1)(81=0)(82=[Gmail]/E-mails enviados)(83=60)(84=e000)(85=99684)
+  (86=8082214)(87=5)>
+{1:^9F {(k^A0:c)(s=9u)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF=60)(^B0^84)(^B1^85)(^A7^82)(^88^86)
+    (^A8=5)(^B2=0)(^B7=1)]}
+
+@$${1{@
+{-1:^80 {(k^96:c)(s=9)} }
+{-FFFFFFFD:^99 {(k^98:c)(s=9)} }
+@$$}1}@

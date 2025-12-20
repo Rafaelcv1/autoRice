@@ -1,0 +1,2524 @@
+From - Fri Dec 19 23:02:47 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rfl.must+nuuvem@gmail.com
+Received: by 2002:a05:7108:3b08:b0:402:38fc:9b72 with SMTP id ba8csp4164634gdb;
+        Thu, 3 Apr 2025 07:53:57 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEr2ANN/xpKoGCkX/wg2dyyBzJ5GXTtBMzt3WuIopzyhhJvwDeLsxQjkgup9V/9out52/X5
+X-Received: by 2002:a05:620a:19a3:b0:7c5:54c9:3b94 with SMTP id af79cd13be357-7c76645690amr926077585a.28.1743692036866;
+        Thu, 03 Apr 2025 07:53:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1743692036; cv=none;
+        d=google.com; s=arc-20240605;
+        b=RgOvf/MDKJaE3HxBwdPk9DITMi1R6I4e2PIrT0ZQg3zRFJvkbpr9p5CIeqPHt2HPJj
+         ANU65zs8hFPv20VkYAoUI+bPRnq7XN0vKjYSIc5JyrXQxaZahOvHSHr4ElMW1M+gVZRI
+         L6Kxioj82BK/5qiDSw0s/cDe0poWu5Q6vzXH0450PEt7ustRx3agCsqRRHRAtZCoJlyA
+         vjMKpYf7A+lbqsqO0d9KqKCz8rqaHjIdkh7Gu23ZwEdh/wshNvul8xwqHqkngmbj7u35
+         EFn9m3DsCnAzxMtT2bVq9N33HOvha621cNtEoGkStC2qVE8Ds6ZnDH1D97IIqX9lDB5x
+         WtNw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=message-id:to:from:subject:mime-version:date:dkim-signature
+         :dkim-signature;
+        bh=BW7mIszC92gk1f4QVyTQYKGztScb7CUiP/3PP1fqVPI=;
+        fh=N6xsSH1+thqZUmv4OB5CgpEEkihpnbafwLhY7tJFFhU=;
+        b=I/zlkgW1KhiC5j5uUplvIZRLPhSNImN9YOsb4ylMKW3kwAdu3j77ZmAo8JF8mCfozc
+         nKfFjOJ8keq1fz9A9Tx0Zg8kqHsc2cECe2iyRMn7wUONVJac+BsTEo3xMlruUTY9eyG4
+         dZiQ/GhxU2rXoAtke5XXowPdgjkhGIOUT0mBIpTHYFzjocJznycUCXPT4LiqilkqtxnH
+         3kTU9tWqDcy2M7E6uQKyXPCJpzAP6LvyFXTYCmgc7Y5coziq3jFlZ/UxohxhOFoiQsIO
+         iG/0J/eLutn9hRSCcpRau8sv/tD8mRcAfA0JCM5Eptc6d3Vl7xy2dCd6uVf+P0QsPoSe
+         NnuA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@cio48900.nuuvem.com header.s=pic header.b=Pm2+UMW4;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=AiIUkhwQ;
+       spf=pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.193.57 as permitted sender) smtp.mailfrom=postmaster@cio48900.nuuvem.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=nuuvem.com
+Return-Path: <postmaster@cio48900.nuuvem.com>
+Received: from m193-57.mailgun.net (m193-57.mailgun.net. [161.38.193.57])
+        by mx.google.com with UTF8SMTPS id af79cd13be357-7c76e74c795si126337185a.23.2025.04.03.07.53.56
+        for <rfl.must+nuuvem@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 03 Apr 2025 07:53:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.193.57 as permitted sender) client-ip=161.38.193.57;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@cio48900.nuuvem.com header.s=pic header.b=Pm2+UMW4;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=AiIUkhwQ;
+       spf=pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.193.57 as permitted sender) smtp.mailfrom=postmaster@cio48900.nuuvem.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=nuuvem.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=cio48900.nuuvem.com; q=dns/txt; s=pic; t=1743692036; x=1743699236;
+ h=Message-Id: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;
+ bh=BW7mIszC92gk1f4QVyTQYKGztScb7CUiP/3PP1fqVPI=;
+ b=Pm2+UMW4iN50rRcsBIAOfM3DH+hVu1QxzHNl16KxwvTP13s55Qn/zqKEs3iL1h8PzW0Bw3gwVcIAnXGEmh5ZqafPT+m+o4feRRtrx43geoiL/4ahb16lGtb6axnxSJDe5lFgszHQ7pHA4SoDc5/A3lDmVqeH8mX+8lVSp/4nsPM=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1743692036; x=1743699236;
+ h=Message-Id: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;
+ bh=BW7mIszC92gk1f4QVyTQYKGztScb7CUiP/3PP1fqVPI=;
+ b=AiIUkhwQ3EvWbe56pxF5m+Eizmbx5xk+bbLyi9K2gZtM02lkSKMHLMpcAVjm0Z6No9NANc9Y6Z8xyzU40fOdhLxf5Twr5X21+tnYCaS/4ZbPh4hM1Zr9mDpZlnltNaIZQMZwZfrhd6g7WWl2WM5tw8/6jmYV+yF9ZQk14SiO1cc=
+X-Feedback-Id: postmaster@cio48900.nuuvem.com::5e15f73e42f836ed26066962:mailgun
+X-Mailgun-Sending-Ip: 161.38.193.57
+X-Mailgun-Sending-Ip-Pool-Name: 
+X-Mailgun-Sending-Ip-Pool: 
+X-Mailgun-Sid: WyIxMjk4YyIsInJmbC5tdXN0K251dXZlbUBnbWFpbC5jb20iLCJmNzYzNTIiXQ==
+Received: by f79541a9b628 with HTTP id 67eea104e660211a2389e961; Thu, 03 Apr 2025
+ 14:53:56 GMT
+Date: Thu, 03 Apr 2025 14:53:56 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="09c94f4c57eb89e10f22e46151188e17aff080fcf42e9c7a173872d5112c"
+Subject: Payment pending approval
+From: Nuuvem <no-reply@nuuvem.com>
+To: rfl.must+nuuvem@gmail.com
+X-Mailgun-Dkim: true
+X-Mailgun-Native-Send: true
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: false
+X-Report-Abuse-To: badactor@customer.io
+X-Mailer: Customer.io (dgSckAUBAIbvtQGE77UBAZX8JPhvbU8XaETjBx9r4Q==;
+ +https://whatis.customeriomail.com)
+X-Mailgun-Variables: {"email_id": "dgSckAUBAIbvtQGE77UBAZX8JPhvbU8XaETjBx9r4Q=="}
+Message-Id: <20250403145356.ec6a757ad2dcd7e6@cio48900.nuuvem.com>
+
+--09c94f4c57eb89e10f22e46151188e17aff080fcf42e9c7a173872d5112c
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+Nuuvem Logo ( https://www.nuuvem.com/?utm_campaign=3Dorder+with+pending+pay=
+ment&utm_content=3Dpending+payment+%28en-us%29&utm_medium=3Dtransactional&u=
+tm_source=3Dmailing )
+
+Icon
+
+*************
+Hi, Rafaelcv1
+*************
+
+We are waiting for the payment for your order n=C2=BA 2004736118657525 plac=
+ed via PIX to be confirmed.
+
+View my orders ( https://secure.nuuvem.com/br-en/account/orders?utm_campaig=
+n=3Dorder+with+pending+payment&utm_content=3Dpending+payment+%28en-us%29&ut=
+m_medium=3Dtransactional&utm_source=3Dmailing )
+
+Or use this link instead:
+
+https://secure.nuuvem.com/br-en/account/orders ( https://secure.nuuvem.com/=
+br-en/account/orders?utm_campaign=3Dorder+with+pending+payment&utm_content=
+=3Dpending+payment+%28en-us%29&utm_medium=3Dtransactional&utm_source=3Dmail=
+ing )
+
+ORDER DETAILS
+-------------
+
+LEGO Batman 3: Beyond Gotham Season Pass
+
+LEGO Batman 3: Beyond Gotham
+
+LEGO Batman 2: DC Super Heroes
+
+LEGO Batman
+
+User
+
+Rafaelcv1
+
+Order date
+
+03/04/2025 11:53:41
+
+Payment method
+
+PIX
+
+Do relax, because as soon as this happens we'll send you an email automagic=
+ally, in the speed of light!
+
+In case of you have mistakenly made this order, just ignore it and within a=
+ few days this order will be canceled. But if you wish, you may manually ca=
+ncel it as well. Click here ( https://en.support.nuuvem.com/kb/article/2393=
+75/how-to-cancel-orders-with-waiting-payment-status?utm_campaign=3Dorder+wi=
+th+pending+payment&utm_content=3Dpending+payment+%28en-us%29&utm_medium=3Dt=
+ransactional&utm_source=3Dmailing ) if you need more details.
+
+Store ( https://www.nuuvem.com/?utm_campaign=3Dorder+with+pending+payment&u=
+tm_content=3Dpending+payment+%28en-us%29&utm_medium=3Dtransactional&utm_sou=
+rce=3Dmailing )
+Games ( https://www.nuuvem.com/catalog?utm_campaign=3Dorder+with+pending+pa=
+yment&utm_content=3Dpending+payment+%28en-us%29&utm_medium=3Dtransactional&=
+utm_source=3Dmailing )
+About ( https://www.nuuvem.com/about?utm_campaign=3Dorder+with+pending+paym=
+ent&utm_content=3Dpending+payment+%28en-us%29&utm_medium=3Dtransactional&ut=
+m_source=3Dmailing )
+Support ( https://www.nuuvem.com/support?utm_campaign=3Dorder+with+pending+=
+payment&utm_content=3Dpending+payment+%28en-us%29&utm_medium=3Dtransactiona=
+l&utm_source=3Dmailing )
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+----------------
+
+Facebook ( https://www.facebook.com/nuuvemamerica?utm_campaign=3Dorder+with=
++pending+payment&utm_content=3Dpending+payment+%28en-us%29&utm_medium=3Dtra=
+nsactional&utm_source=3Dmailing )
+
+Twitter ( https://twitter.com/nuuvem_us?utm_campaign=3Dorder+with+pending+p=
+ayment&utm_content=3Dpending+payment+%28en-us%29&utm_medium=3Dtransactional=
+&utm_source=3Dmailing )
+
+This notification was sent to the e-mail address associated with your Nuuve=
+m account.
+This e-mail was automatically generated. Do not reply to this e-mail. For a=
+ny inquiries, access
+https://www.nuuvem.com/support ( https://www.nuuvem.com/support?utm_campaig=
+n=3Dorder+with+pending+payment&utm_content=3Dpending+payment+%28en-us%29&ut=
+m_medium=3Dtransactional&utm_source=3Dmailing ).
+
+View this e-mail in your browser ( http://track.customer.io/deliveries/dgSc=
+kAUBAIbvtQGE77UBAZX8JPhvbU8XaETjBx9r4Q=3D=3D )
+--09c94f4c57eb89e10f22e46151188e17aff080fcf42e9c7a173872d5112c
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"/>
+    <style type=3D"text/css">
+      a {
+          color: #0099cc;
+          text-decoration: none;
+      }
+     =20
+      h1, h2, h3, h4, h5 {
+        font-weight: bold;
+      }
+     =20
+      h1 {
+          font-size: 36px
+      }
+     =20
+      h2 {
+          font-size: 28px
+      }
+     =20
+      h3 {
+          font-size: 20px
+      }
+     =20
+      h4 {
+          font-size: 18px
+      }
+     =20
+      h5 {
+          font-size: 16px
+      }
+     =20
+      button {
+          color: #fff;
+          border: none;
+          background: #069;
+          cursor: pointer;
+          border-radius: 5px;
+          font-weight: 700;
+          border: 1px solid #09c;
+      }
+     =20
+      button.big {
+          font-size: 18px;
+          padding: 15px 60px 15px 60px;
+      }
+     =20
+      button.big.buy {
+          font-size: 18px;
+          background: #973333;
+          padding: 15px 60px 15px 60px;
+          border: 1px solid #c33;
+      }
+     =20
+      button.fluid {
+          display: block;
+          width: 100%;
+      }
+     =20
+      hr {
+        margin: 15px 0;
+       =20
+        border: 0 none;
+        border-top: 1px dashed #eee;=20
+      }
+     =20
+      p {
+          line-height: 1.5;
+      }
+     =20
+      p.big {
+          font-size: 24px;
+      }
+     =20
+      p.info {
+          color: #fff;
+          font-size: 12px;
+      }
+     =20
+      .global-wrapper {
+          padding: 20px;
+          color: #fff;
+          font-family: "Open Sans", Helvetica, "sans serif", Arial; size=3D=
+"3";
+          font-size: 14px;
+          background-color: #151D27;
+      }
+     =20
+      .logo {
+          margin-top: 30px;
+          height: 50px;
+      }
+     =20
+      .content-icon {
+          margin-top: 20px;
+          height: 60px;
+      }
+     =20
+      .content {
+          display: block;
+          padding: 30px;
+          margin: 25px auto;
+          width: 100%;
+          max-width: 560px;
+          border-radius: 5px;
+          color: #fff;
+          box-sizing: border-box;
+          background: #1D2631;
+          border-bottom: 1px solid #070F19;
+      }
+     =20
+      .margin-top {
+          margin-top: 20px;
+        }
+       =20
+      .menu-item.float-center {
+          padding: 5px;
+        }
+       =20
+      .float-center {
+          color: #fff;
+          padding: 0 20px 0 20px;
+        }
+       =20
+      .footer {
+          width: 100%;
+          max-width: 560px;
+        }
+       =20
+        .link-button {
+            width: 100%;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            color: #fff;
+            font-weight: 700;
+            height: 40px;
+            display: block;
+            box-sizing: border-box;
+            font-size: 14px;
+            line-height: 18px;
+            border-width: 1px;
+            border-style: solid;
+        }
+       =20
+        .link-button--primary {
+            background:#069;
+            border-color: #09C;
+        }
+       =20
+        .link-button--default {
+            background:#435467;
+            border-color: #5F738A;
+        }
+       =20
+    </style>
+  </head>
+  <body><center>
+        <table class=3D"global-wrapper" width=3D"100%" style=3D"color: #fff=
+; font-family: &#39;Open Sans&#39;, Helvetica, &#39;sans serif&#39;, Arial;=
+ font-size: 14px; background-color: #151D27; padding: 20px;" bgcolor=3D"#15=
+1D27">
+            <tbody><tr>
+                <td align=3D"center">
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vP3V0bV9jYW1wYWlnbj1vcmRlcit3aXRoK3BlbmRpbmcrc=
+GF5bWVudFx1MDAyNnV0bV9jb250ZW50PXBlbmRpbmcrcGF5bWVudCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoxfQ/fb604013894e4ccf5c3=
+75e8b90c41a99824a2ad59623fc8f887fbb5d692802d5" style=3D"color: #0099cc; tex=
+t-decoration: none;">
+                        <img class=3D"logo" alt=3D"Nuuvem Logo" src=3D"http=
+s://userimg-assets.customeriomail.com/images/client-env-83996/1729619542859=
+_nuuvem-new-logo_01JATNQHFAJXEJ209CXNDS1175.png" style=3D"margin-top: 30px;=
+ height: 50px;"/>=20
+                    </a>
+                </td>
+            </tr>
+               =20
+            <tr>
+                <td align=3D"center">
+                    <div class=3D"content" style=3D"display: block; width: =
+100%; max-width: 560px; border-radius: 5px; color: #fff; box-sizing: border=
+-box; background-color: #1D2631; border-bottom-width: 1px; border-bottom-st=
+yle: solid; border-bottom-color: #070F19; margin: 25px auto; padding: 30px;=
+">
+                        <font-family: sans=3D"" helvetica=3D"" serif=3D"" a=
+rial=3D"" size=3D"3">
+                        <font-family: helvetica=3D"" serif=3D"" arial=3D"" =
+size=3D"3">
+
+  <img class=3D"content-icon" alt=3D"Icon" src=3D"https://userimg-bee.custo=
+meriomail.com/images/client-env-83993/Icons/2x/icon-waiting.png" style=3D"m=
+argin-top: 20px; height: 60px;"/>
+  <h1 style=3D"font-weight: bold; font-size: 36px;">Hi, Rafaelcv1</h1>
+  <p style=3D"line-height: 1.5;">We are waiting for the payment for your or=
+der <b style=3D"color: #09c;">n=C2=BA 2004736118657525</b> placed via <b>PI=
+X</b> to be confirmed.</p>
+  <br/>
+  <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody>
+      <tr>
+        <td bgcolor=3D"#369" style=3D"border-radius: 5px; text-align: cente=
+r; padding: 8px 20px; border: 1px solid #09c;" align=3D"center">
+          <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQ=
+VVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Imh0dHBzOi8v=
+c2VjdXJlLm51dXZlbS5jb20vYnItZW4vYWNjb3VudC9vcmRlcnM_dXRtX2NhbXBhaWduPW9yZGV=
+yK3dpdGgrcGVuZGluZytwYXltZW50XHUwMDI2dXRtX2NvbnRlbnQ9cGVuZGluZytwYXltZW50Ky=
+UyOGVuLXVzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZ=
+T1tYWlsaW5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjc5=
+MDd9/91b53bc538a0e20c82f3b36e3419940bf9a43ab4759b7ada2f4b8a999736c652" styl=
+e=3D"display: block; text-decoration: none; color: #0099cc;" target=3D"_bla=
+nk" title=3D"Link: https://secure.nuuvem.com/br-en/account/orders">
+            <font color=3D"#ffffff" style=3D"font-size: 14px; font-weight: =
+700; text-transform: uppercase;">
+              View my orders
+            </font>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br/><font size=3D"2">Or use this link instead:
+  <br/><a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVC=
+QUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Imh0dHBzOi8vc2V=
+jdXJlLm51dXZlbS5jb20vYnItZW4vYWNjb3VudC9vcmRlcnM_dXRtX2NhbXBhaWduPW9yZGVyK3=
+dpdGgrcGVuZGluZytwYXltZW50XHUwMDI2dXRtX2NvbnRlbnQ9cGVuZGluZytwYXltZW50KyUyO=
+GVuLXVzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1t=
+YWlsaW5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjc5MDd=
+9/91b53bc538a0e20c82f3b36e3419940bf9a43ab4759b7ada2f4b8a999736c652" style=
+=3D"text-decoration: none; color: #0099cc;"><font>https://secure.nuuvem.com=
+/br-en/account/orders</font></a></font>
+
+<br/><br/>
+
+<!-- divisor -->
+<hr style=3D"border-top-color: #070f19; margin: 20px 0; border-style: solid=
+ none none; border-width: 1px 0 0;"/>
+
+<!-- jogos -->
+<h5 style=3D"font-weight: bold; font-size: 16px;">ORDER DETAILS</h5>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #263241; border-radius: 5px; margin: 10px 0px; p=
+adding: 10px;" bgcolor=3D"#263241">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; vertical-align: middle;" src=3D"htt=
+p://assets.nuuvem.com/image/upload/v1/products/5fca8556c883e673cde2903c/ban=
+ners/vet3qscndsvn9xfxkbwc.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 10px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              LEGO Batman 3: Beyond Gotham Season Pass<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #263241; border-radius: 5px; margin: 10px 0px; p=
+adding: 10px;" bgcolor=3D"#263241">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; vertical-align: middle;" src=3D"htt=
+p://assets.nuuvem.com/image/upload/v1/products/557dbc9d69702d0a9c490001/ban=
+ners/x7dum3phqv7upzylwkv0.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 10px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              LEGO Batman 3: Beyond Gotham<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #263241; border-radius: 5px; margin: 10px 0px; p=
+adding: 10px;" bgcolor=3D"#263241">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; vertical-align: middle;" src=3D"htt=
+p://assets.nuuvem.com/image/upload/v1/products/557dba2469702d0a9cad0100/ban=
+ners/quccspz7yvqet6o0acml.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 10px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              LEGO Batman 2: DC Super Heroes<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #263241; border-radius: 5px; margin: 10px 0px; p=
+adding: 10px;" bgcolor=3D"#263241">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; vertical-align: middle;" src=3D"htt=
+p://assets.nuuvem.com/image/upload/v1/products/557dbaf169702d0a9cb55f00/ban=
+ners/pcqddpt6bo50hlebrxol.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 10px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              LEGO Batman<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+<!-- recibo-->
+   <table style=3D"width: 100%; border-radius: 5px; background-color: #151d=
+27; text-align: left; margin: 0; padding: 10px;" bgcolor=3D"#151d27">
+  <tbody><tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">User=
+</span>
+    </td>
+    <td align=3D"right">
+      <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-heig=
+ht: 2;">Rafaelcv1</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">Orde=
+r date</span>=20
+    </td>
+    <td align=3D"right">
+     =20
+        <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-he=
+ight: 2;">03/04/2025 11:53:41</b>
+     =20
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">Paym=
+ent method</span>
+    </td>
+    <td align=3D"right">
+      <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-heig=
+ht: 2;">PIX</b>
+    </td>
+  </tr>
+</tbody></table>
+  <!-- divisor -->
+<hr style=3D"border-top-color: #070f19; margin: 20px 0; border-style: solid=
+ none none; border-width: 1px 0 0;"/>
+<br/>
+<font size=3D"2"><p style=3D"line-height: 1.5;">Do relax, because as soon a=
+s this happens we&#39;ll send you an email automagically, in the speed of l=
+ight!
+</p>
+
+<p style=3D"line-height: 1.5;">In case of you have mistakenly made this ord=
+er, just ignore it and within a few days this order will be canceled. But i=
+f you wish, you may manually cancel it as well. Click <a href=3D"https://em=
+ail.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZi=
+VThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Imh0dHBzOi8vZW4uc3VwcG9ydC5udXV2ZW0uY29tL2t=
+iL2FydGljbGUvMjM5Mzc1L2hvdy10by1jYW5jZWwtb3JkZXJzLXdpdGgtd2FpdGluZy1wYXltZW=
+50LXN0YXR1cz91dG1fY2FtcGFpZ249b3JkZXIrd2l0aCtwZW5kaW5nK3BheW1lbnRcdTAwMjZ1d=
+G1fY29udGVudD1wZW5kaW5nK3BheW1lbnQrJTI4ZW4tdXMlMjlcdTAwMjZ1dG1fbWVkaXVtPXRy=
+YW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmNlPW1haWxpbmciLCJpbnRlcm5hbCI6IjljOTAwNTY=
+zZjQ0Yjg2ZWZiNTAxIiwibGlua19pZCI6NjY2OX0/b3499db35f5b7573fbbf11e6d43fb9f23e=
+ce4dbcc18d9dc032f4ec5eee802989" style=3D"color: #0099cc; text-decoration: n=
+one;">here</a> if you need more details.
+                    </p></font></font-family:></font-family:>
+</div>
+                </td>
+            </tr>
+               =20
+            <tr>
+                <!-- Links para o site -->
+                <td align=3D"center">
+                <center>
+                    <center data-parsed=3D"">
+                    <h5 style=3D"font-weight: bold; font-size: 16px;">
+                   =20
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vP3V0bV9jYW1wYWlnbj1vcmRlcit3aXRoK3BlbmRpbmcrc=
+GF5bWVudFx1MDAyNnV0bV9jb250ZW50PXBlbmRpbmcrcGF5bWVudCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoxfQ/fb604013894e4ccf5c3=
+75e8b90c41a99824a2ad59623fc8f887fbb5d692802d5" align=3D"center" class=3D"fl=
+oat-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;">=
+Store</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vY2F0YWxvZz91dG1fY2FtcGFpZ249b3JkZXIrd2l0aCtwZ=
+W5kaW5nK3BheW1lbnRcdTAwMjZ1dG1fY29udGVudD1wZW5kaW5nK3BheW1lbnQrJTI4ZW4tdXMl=
+MjlcdTAwMjZ1dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmNlPW1haWxpbmc=
+iLCJpbnRlcm5hbCI6IjljOTAwNTYzZjQ0Yjg2ZWZiNTAxIiwibGlua19pZCI6MTR9/fc118cf25=
+c0cf721a53a63e007ad011b0d6e610dc219716d8f62e9bdfca9c17e" align=3D"center" c=
+lass=3D"float-center" style=3D"color: #fff; text-decoration: none; padding:=
+ 0 20px;">Games</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vYWJvdXQ_dXRtX2NhbXBhaWduPW9yZGVyK3dpdGgrcGVuZ=
+GluZytwYXltZW50XHUwMDI2dXRtX2NvbnRlbnQ9cGVuZGluZytwYXltZW50KyUyOGVuLXVzJTI5=
+XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiw=
+iaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjE2fQ/c2b01810325=
+a4b2132f53bc8e59a78c896e1ddca11471cbab9b9f125baf4654c" align=3D"center" cla=
+ss=3D"float-center" style=3D"color: #fff; text-decoration: none; padding: 0=
+ 20px;">About</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vc3VwcG9ydD91dG1fY2FtcGFpZ249b3JkZXIrd2l0aCtwZ=
+W5kaW5nK3BheW1lbnRcdTAwMjZ1dG1fY29udGVudD1wZW5kaW5nK3BheW1lbnQrJTI4ZW4tdXMl=
+MjlcdTAwMjZ1dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmNlPW1haWxpbmc=
+iLCJpbnRlcm5hbCI6IjljOTAwNTYzZjQ0Yjg2ZWZiNTAxIiwibGlua19pZCI6MjN9/846103ede=
+3a6f7e8a5d9b42928ed3e3eed361f1ce0aed1a66c7e366246d02d61" align=3D"center" c=
+lass=3D"float-center" style=3D"color: #fff; text-decoration: none; padding:=
+ 0 20px;">Support</a>
+                   =20
+                    </h5>
+                  </center>
+                  <!-- Redes sociais -->
+                 =20
+                    <table align=3D"center" class=3D"menu float-center" sty=
+le=3D"color: #fff; padding: 0 20px;"><tbody><tr><td><table><tbody><tr>
+                      <th class=3D"menu-item float-center" style=3D"color: =
+#fff; padding: 5px;">
+                          <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpb=
+F9pZCI6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJl=
+ZiI6Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9udXV2ZW1hbWVyaWNhP3V0bV9jYW1wYWlnbj1=
+vcmRlcit3aXRoK3BlbmRpbmcrcGF5bWVudFx1MDAyNnV0bV9jb250ZW50PXBlbmRpbmcrcGF5bW=
+VudCslMjhlbi11cyUyOVx1MDAyNnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb=
+3VyY2U9bWFpbGluZyIsImludGVybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lk=
+Ijo0NzU2fQ/191437a888809538fb54450f54c5276092392cb071d7e7b033e444080b5486ec=
+" style=3D"color: #0099cc; text-decoration: none;">
+                            <img src=3D"https://userimg-assets.customerioma=
+il.com/images/client-env-83996/1726777722507_facebook-2x_01J85ZJ2CE6C3XNTQE=
+2EK8CMQK.png" alt=3D"Facebook" class=3D"social-icon" width=3D"40"/>
+                          </a>
+                        </th>
+                       =20
+                        <th class=3D"menu-item float-center" style=3D"color=
+: #fff; padding: 5px;">
+                          <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpb=
+F9pZCI6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJl=
+ZiI6Imh0dHBzOi8vdHdpdHRlci5jb20vbnV1dmVtX3VzP3V0bV9jYW1wYWlnbj1vcmRlcit3aXR=
+oK3BlbmRpbmcrcGF5bWVudFx1MDAyNnV0bV9jb250ZW50PXBlbmRpbmcrcGF5bWVudCslMjhlbi=
+11cyUyOVx1MDAyNnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpb=
+GluZyIsImludGVybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoxMDMyMH0/=
+9ebb15db3937b967c47a920e4b3531bd93aa824bf78faea3caa27a0f3513ef2e" style=3D"=
+color: #0099cc; text-decoration: none;">
+                            <img src=3D"https://userimg-assets.customerioma=
+il.com/images/client-env-83996/1726777725502_twitter-2x_01J85ZJ5A0JM0BVHSBE=
+97DNEC8.png" alt=3D"Twitter" class=3D"social-icon" width=3D"40"/>
+                          </a>
+                        </th>
+                     =20
+                    </tr></tbody></table></td></tr></tbody></table>
+                    </center>
+                    <br/>
+                    <p class=3D"footer" style=3D"line-height: 1.5; width: 1=
+00%; max-width: 560px;"><small><font color=3D"#96A6B7">
+                    <span>This notification was sent to the e-mail address =
+associated with your Nuuvem account.<br/>This e-mail was automatically gene=
+rated. Do not reply to this e-mail. For any inquiries, access=20
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vc3VwcG9ydD91dG1fY2FtcGFpZ249b3JkZXIrd2l0aCtwZ=
+W5kaW5nK3BheW1lbnRcdTAwMjZ1dG1fY29udGVudD1wZW5kaW5nK3BheW1lbnQrJTI4ZW4tdXMl=
+MjlcdTAwMjZ1dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmNlPW1haWxpbmc=
+iLCJpbnRlcm5hbCI6IjljOTAwNTYzZjQ0Yjg2ZWZiNTAxIiwibGlua19pZCI6MjN9/846103ede=
+3a6f7e8a5d9b42928ed3e3eed361f1ce0aed1a66c7e366246d02d61" style=3D"color: #0=
+099cc; text-decoration: none;">https://www.nuuvem.com/support</a>.</span></=
+font></small></p>
+                   =20
+                    <hr class=3D"footer" style=3D"border-top-color: #1D2631=
+; width: 100%; max-width: 560px; margin: 20px 0; border-style: solid none n=
+one; border-width: 1px 0 0;"/>
+                    <p class=3D"footer" style=3D"line-height: 1.5; width: 1=
+00%; max-width: 560px;"><span><a href=3D"https://email.nuuvem.com/deliverie=
+s/dgSckAUBAIbvtQGE77UBAZX8JPhvbU8XaETjBx9r4Q=3D=3D" style=3D"color: #0099cc=
+; text-decoration: none;">View this e-mail in your browser
+                    </a></span></p>
+                </td>
+            </tr>
+        </tbody></table>
+  </center>
+
+<img src=3D"https://email.nuuvem.com/e/o/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUlidn=
+RRR0U3N1VCQVpYOEpQaHZiVThYYUVUakJ4OXI0UT09In0=3D" style=3D"height: 1px !imp=
+ortant; max-height: 1px !important; max-width: 1px !important; width: 1px !=
+important; display: none !important;" alt=3D""/></body></html>
+--09c94f4c57eb89e10f22e46151188e17aff080fcf42e9c7a173872d5112c--
+
+From - Fri Dec 19 23:02:47 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rfl.must+nuuvem@gmail.com
+Received: by 2002:a05:7108:3b08:b0:402:38fc:9b72 with SMTP id ba8csp4167801gdb;
+        Thu, 3 Apr 2025 07:59:39 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHN59OetTBYzKU24GfDBJLk0HyhX/XCMgXKRDfebMGjqS9+vMK1bgueH3nDUdV50rmRtVdi
+X-Received: by 2002:a05:620a:4056:b0:7c0:c332:1cdb with SMTP id af79cd13be357-7c76f347565mr271183585a.38.1743692378853;
+        Thu, 03 Apr 2025 07:59:38 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1743692378; cv=none;
+        d=google.com; s=arc-20240605;
+        b=XBhEQWEgfBBwH7GHMFDfZztgO6Lm4iJYnI9/+lpvS/EH/HEZMTuNWJilMNmUB2cETl
+         2N00aQc+wGxB7xq7bHhp0E5Zbvzxk9yf3sMC0GhPG9Bh/Dokn7d4sfUF/wms5cjeZHQw
+         FO3RpToovCgEp9dMjr5YCn7tQoz9Impqegnfx22+GHIj26po3pqlgaPunfQibpHqtjwv
+         xaA5ZZgC4V0fBdrA8PkqSygr9pxbBPhAJ+940Rn3pYGz2fdTl0x4DKFdoyhGGVWrTO/8
+         0H0vUD6BOV6IhCtRKqLZ06i6QOCGzpIUPoS7I9A2G/s3etFYCt7QKv6gEvo1DnAq9luF
+         i18A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=message-id:to:from:subject:mime-version:date:dkim-signature
+         :dkim-signature;
+        bh=/5NguK2azH6Ul3ABRyGPRb4WkgCtWJSQFtGDxP8TKI0=;
+        fh=N6xsSH1+thqZUmv4OB5CgpEEkihpnbafwLhY7tJFFhU=;
+        b=dYoLPjuVIw0H4v20yJUvzDbN1CzoP1NpKDYVel2YnCyg0sPJF9r62Y272Cd0kmCGHV
+         f1aNlmhVRbWhwFzHsJrGR2NNrgMu+UqyTAyTSJqwNF637AuSrIkbI1BCqTL2YWPZOUxI
+         3SQqI+QeWRdFUBfJ0gmLqTc6Yb7+9X/AmP1Z4IkGqiDl4G2oiveSga2hXMELYqD+UBpl
+         81vYjK5EGupgQ3fe+3sAhBFJKlqtlJaGluEHsGooND+oFqkwtCX8tQ62hyoweIUF3p4u
+         b1ej8tAR3cMZ4+73bvX+fH2Boq+fc5PWk9v9wGpIf7Yl8Z/WYjDiECkhWk2jNS6pcsMe
+         Hujg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@cio48900.nuuvem.com header.s=pic header.b=Auk2HFcn;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=IwDb0gM3;
+       spf=pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.98 as permitted sender) smtp.mailfrom=postmaster@cio48900.nuuvem.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=nuuvem.com
+Return-Path: <postmaster@cio48900.nuuvem.com>
+Received: from m192-98.mailgun.net (m192-98.mailgun.net. [161.38.192.98])
+        by mx.google.com with UTF8SMTPS id af79cd13be357-7c76ea901b7si126941085a.377.2025.04.03.07.59.38
+        for <rfl.must+nuuvem@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 03 Apr 2025 07:59:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.98 as permitted sender) client-ip=161.38.192.98;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@cio48900.nuuvem.com header.s=pic header.b=Auk2HFcn;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=IwDb0gM3;
+       spf=pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.98 as permitted sender) smtp.mailfrom=postmaster@cio48900.nuuvem.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=nuuvem.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=cio48900.nuuvem.com; q=dns/txt; s=pic; t=1743692378; x=1743699578;
+ h=Message-Id: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;
+ bh=/5NguK2azH6Ul3ABRyGPRb4WkgCtWJSQFtGDxP8TKI0=;
+ b=Auk2HFcnAUbZYkgHUaZ4ekvhMSmqVYcW9Kou7nG42YUoX+UpFDzbSFKjIniWq1vw3f+3SkUCngw+g4do8uDMVmjQMu5A/c6TCotYq22bU7gXfQaYBVJi62lYCaTeKqqhVBEc1i+F+lS8xiCjDm5HWG+H9+apeh+wTCTH7ZCoRwU=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1743692378; x=1743699578;
+ h=Message-Id: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;
+ bh=/5NguK2azH6Ul3ABRyGPRb4WkgCtWJSQFtGDxP8TKI0=;
+ b=IwDb0gM3KBNeqG2/G+ZHrtWDGYHyNaLeHmBZ61gg4TG9TA85H7WklCWGD21bD+YQIrVQXI1a4kF++zMXTeF5VZFOmPakOdrMty9ObrzxRmfkIUPuhvIhZzflBRcZinzMaFpb4YNwJ3RnB5GVBryqY2gCGW1twklLx+/k//IRKOU=
+X-Feedback-Id: postmaster@cio48900.nuuvem.com::5e15f73e42f836ed26066962:mailgun
+X-Mailgun-Sending-Ip: 161.38.192.98
+X-Mailgun-Sending-Ip-Pool-Name: 
+X-Mailgun-Sending-Ip-Pool: 
+X-Mailgun-Sid: WyIxMjk4YyIsInJmbC5tdXN0K251dXZlbUBnbWFpbC5jb20iLCJmNzYzNTIiXQ==
+Received: by c65b6892f9f3 with HTTP id 67eea25a29108a0e08ead66f; Thu, 03 Apr 2025
+ 14:59:38 GMT
+Date: Thu, 03 Apr 2025 14:59:38 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="4f2237be1a5d298574d2313866874314bd59819eafbea077804d4150fd23"
+Subject: Your order was approved. Go, go, go!
+From: Nuuvem <no-reply@nuuvem.com>
+To: rfl.must+nuuvem@gmail.com
+X-Mailgun-Track-Opens: false
+X-Mailgun-Dkim: true
+X-Mailgun-Native-Send: true
+X-Mailgun-Track-Clicks: false
+X-Mailer: Customer.io (dgSckAUBAIbvtQGE77UBAZX8KjDIJUxqp2Paerf2pA==;
+ +https://whatis.customeriomail.com)
+X-Report-Abuse-To: badactor@customer.io
+X-Mailgun-Variables: {"email_id": "dgSckAUBAIbvtQGE77UBAZX8KjDIJUxqp2Paerf2pA=="}
+Message-Id: <20250403145938.b98eeb9d32ab8a4a@cio48900.nuuvem.com>
+
+--4f2237be1a5d298574d2313866874314bd59819eafbea077804d4150fd23
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+Nuuvem Logo ( https://www.nuuvem.com/?utm_campaign=3Dorder+released&utm_con=
+tent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sour=
+ce=3Dmailing )
+
+Icon
+
+*************
+Hi, Rafaelcv1
+*************
+
+Yeay, your order n=C2=BA 2004736118657525 was approved. Have fun!
+
+View my games ( https://secure.nuuvem.com/br-en/account/library?utm_campaig=
+n=3Dorder+released&utm_content=3Dorder+released+email+%28en-us%29&utm_mediu=
+m=3Dtransactional&utm_source=3Dmailing )
+
+Or use this link instead:
+
+https://secure.nuuvem.com/br-en/account/library ( https://secure.nuuvem.com=
+/br-en/account/library?utm_campaign=3Dorder+released&utm_content=3Dorder+re=
+leased+email+%28en-us%29&utm_medium=3Dtransactional&utm_source=3Dmailing )
+
+ORDER DETAILS
+-------------
+
+LEGO Batman 3: Beyond Gotham
+
+LEGO Batman 2: DC Super Heroes
+
+LEGO Batman
+
+LEGO Batman 3: Beyond Gotham Season Pass
+
+User
+
+Rafaelcv1
+
+Order date
+
+03/04/2025 11:53:41
+
+Payment method
+
+PIX
+
+Have you visited our Trustpilot profile? Click the button below and rate yo=
+ur experience with us! ;)
+
+HOW DID WE DO? ( https://us.trustpilot.com/evaluate/nuuvem.com?utm_campaign=
+=3Dorder+released&utm_content=3Dorder+released+email+%28en-us%29&utm_medium=
+=3Dtransactional&utm_source=3Dmailing )
+
+Store ( https://www.nuuvem.com/?utm_campaign=3Dorder+released&utm_content=
+=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_source=
+=3Dmailing )
+Games ( https://www.nuuvem.com/catalog?utm_campaign=3Dorder+released&utm_co=
+ntent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sou=
+rce=3Dmailing )
+About ( https://www.nuuvem.com/about?utm_campaign=3Dorder+released&utm_cont=
+ent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sourc=
+e=3Dmailing )
+Support ( https://www.nuuvem.com/support?utm_campaign=3Dorder+released&utm_=
+content=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_s=
+ource=3Dmailing )
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+---------
+
+Facebook ( https://www.facebook.com/nuuvemamerica?utm_campaign=3Dorder+rele=
+ased&utm_content=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactio=
+nal&utm_source=3Dmailing )
+
+Twitter ( https://twitter.com/nuuvem_us?utm_campaign=3Dorder+released&utm_c=
+ontent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_so=
+urce=3Dmailing )
+
+This notification was sent to the e-mail address associated with your Nuuve=
+m account.
+This e-mail was automatically generated. Do not reply to this e-mail. For a=
+ny inquiries, access
+https://www.nuuvem.com/support ( https://www.nuuvem.com/support?utm_campaig=
+n=3Dorder+released&utm_content=3Dorder+released+email+%28en-us%29&utm_mediu=
+m=3Dtransactional&utm_source=3Dmailing ).
+
+View this e-mail in your browser ( http://track.customer.io/deliveries/dgSc=
+kAUBAIbvtQGE77UBAZX8KjDIJUxqp2Paerf2pA=3D=3D )
+--4f2237be1a5d298574d2313866874314bd59819eafbea077804d4150fd23
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"/>
+    <style type=3D"text/css">
+      a {
+          color: #0099cc;
+          text-decoration: none;
+      }
+     =20
+      h1, h2, h3, h4, h5 {
+        font-weight: bold;
+      }
+     =20
+      h1 {
+          font-size: 36px
+      }
+     =20
+      h2 {
+          font-size: 28px
+      }
+     =20
+      h3 {
+          font-size: 20px
+      }
+     =20
+      h4 {
+          font-size: 18px
+      }
+     =20
+      h5 {
+          font-size: 16px
+      }
+     =20
+      button {
+          color: #fff;
+          border: none;
+          background: #069;
+          cursor: pointer;
+          border-radius: 5px;
+          font-weight: 700;
+          border: 1px solid #09c;
+      }
+     =20
+      button.big {
+          font-size: 18px;
+          padding: 15px 60px 15px 60px;
+      }
+     =20
+      button.big.buy {
+          font-size: 18px;
+          background: #973333;
+          padding: 15px 60px 15px 60px;
+          border: 1px solid #c33;
+      }
+     =20
+      button.fluid {
+          display: block;
+          width: 100%;
+      }
+     =20
+      hr {
+        margin: 15px 0;
+       =20
+        border: 0 none;
+        border-top: 1px dashed #eee;=20
+      }
+     =20
+      p {
+          line-height: 1.5;
+      }
+     =20
+      p.big {
+          font-size: 24px;
+      }
+     =20
+      p.info {
+          color: #fff;
+          font-size: 12px;
+      }
+     =20
+      .global-wrapper {
+          padding: 20px;
+          color: #fff;
+          font-family: "Open Sans", Helvetica, "sans serif", Arial; size=3D=
+"3";
+          font-size: 14px;
+          background-color: #151D27;
+      }
+     =20
+      .logo {
+          margin-top: 30px;
+          height: 50px;
+      }
+     =20
+      .content-icon {
+          margin-top: 20px;
+          height: 60px;
+      }
+     =20
+      .content {
+          display: block;
+          padding: 30px;
+          margin: 25px auto;
+          width: 100%;
+          max-width: 560px;
+          border-radius: 5px;
+          color: #fff;
+          box-sizing: border-box;
+          background: #1D2631;
+          border-bottom: 1px solid #070F19;
+      }
+     =20
+      .margin-top {
+          margin-top: 20px;
+        }
+       =20
+      .menu-item.float-center {
+          padding: 5px;
+        }
+       =20
+      .float-center {
+          color: #fff;
+          padding: 0 20px 0 20px;
+        }
+       =20
+      .footer {
+          width: 100%;
+          max-width: 560px;
+        }
+       =20
+        .link-button {
+            width: 100%;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            color: #fff;
+            font-weight: 700;
+            height: 40px;
+            display: block;
+            box-sizing: border-box;
+            font-size: 14px;
+            line-height: 18px;
+            border-width: 1px;
+            border-style: solid;
+        }
+       =20
+        .link-button--primary {
+            background:#069;
+            border-color: #09C;
+        }
+       =20
+        .link-button--default {
+            background:#435467;
+            border-color: #5F738A;
+        }
+       =20
+    </style>
+  </head>
+  <body><center>
+        <table class=3D"global-wrapper" width=3D"100%" style=3D"color: #fff=
+; font-family: &#39;Open Sans&#39;, Helvetica, &#39;sans serif&#39;, Arial;=
+ font-size: 14px; background-color: #151D27; padding: 20px;" bgcolor=3D"#15=
+1D27">
+            <tbody><tr>
+                <td align=3D"center">
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vP3V0bV9jYW1wYWlnbj1vcmRlcityZWxlYXNlZFx1MDAyN=
+nV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5XHUwMDI2dXRtX21l=
+ZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiwiaW50ZXJuYWwiOiI=
+5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjF9/87e59f721a6d5a183b08e096f471a=
+101fb2ec4de00ecd24c5ae0604a75a4055c" style=3D"color: #0099cc; text-decorati=
+on: none;">
+                        <img class=3D"logo" alt=3D"Nuuvem Logo" src=3D"http=
+s://userimg-assets.customeriomail.com/images/client-env-83996/1729619542859=
+_nuuvem-new-logo_01JATNQHFAJXEJ209CXNDS1175.png" style=3D"margin-top: 30px;=
+ height: 50px;"/>=20
+                    </a>
+                </td>
+            </tr>
+               =20
+            <tr>
+                <td align=3D"center">
+                    <div class=3D"content" style=3D"display: block; width: =
+100%; max-width: 560px; border-radius: 5px; color: #fff; box-sizing: border=
+-box; background-color: #1D2631; border-bottom-width: 1px; border-bottom-st=
+yle: solid; border-bottom-color: #070F19; margin: 25px auto; padding: 30px;=
+">
+                        <font-family: sans=3D"" helvetica=3D"" serif=3D"" a=
+rial=3D"" size=3D"3">
+                        =20
+<img class=3D"content-icon" alt=3D"Icon" src=3D"https://userimg-bee.custome=
+riomail.com/images/client-env-83993/Icons/2x/icon-success.png" style=3D"mar=
+gin-top: 20px; height: 60px;"/>
+
+  <h1 style=3D"font-weight: bold; font-size: 36px;">Hi, Rafaelcv1</h1>
+  <p style=3D"line-height: 1.5;">Yeay, your order <b style=3D"color: #09c;"=
+>n=C2=BA 2004736118657525</b> was approved. Have fun!</p>
+  <br/>
+  <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody>
+      <tr>
+        <td bgcolor=3D"#369" style=3D"border-radius: 5px; text-align: cente=
+r; padding: 8px 20px; border: 1px solid #09c;" align=3D"center">
+          <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQ=
+VVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Imh0dHBzOi8v=
+c2VjdXJlLm51dXZlbS5jb20vYnItZW4vYWNjb3VudC9saWJyYXJ5P3V0bV9jYW1wYWlnbj1vcmR=
+lcityZWxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLX=
+VzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsa=
+W5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjc5MTF9/0e6=
+65f01016373a32e402156af985a33e88035692cd431e28c914dab74362732" style=3D"dis=
+play: block; text-decoration: none; color: #0099cc;" target=3D"_blank" titl=
+e=3D"Link: https://secure.nuuvem.com/account/library">
+            <font color=3D"#ffffff" style=3D"font-size: 14px; font-weight: =
+700; text-transform: uppercase;">
+              View my games
+            </font>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br/>
+  <font size=3D"2">Or use this link instead: <br/>
+    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUl=
+idnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Imh0dHBzOi8vc2VjdX=
+JlLm51dXZlbS5jb20vYnItZW4vYWNjb3VudC9saWJyYXJ5P3V0bV9jYW1wYWlnbj1vcmRlcityZ=
+WxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5=
+XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiw=
+iaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjc5MTF9/0e665f010=
+16373a32e402156af985a33e88035692cd431e28c914dab74362732" style=3D"text-deco=
+ration: none; color: #0099cc;">
+      <font color=3D"#09c">
+        https://secure.nuuvem.com/br-en/account/library
+      </font>
+    </a>
+  </font>
+  <br/><br/>
+
+<!-- divisor -->
+<hr style=3D"border-top-color: #070f19; margin: 20px 0; border-style: solid=
+ none none; border-width: 1px 0 0;"/>
+
+<!-- jogos -->
+<h5 style=3D"font-weight: bold; font-size: 16px;">ORDER DETAILS</h5>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #263241; border-radius: 5px; margin: 10px 0px; p=
+adding: 10px;" bgcolor=3D"#263241">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; vertical-align: middle;" src=3D"htt=
+p://assets.nuuvem.com/image/upload/v1/products/557dbc9d69702d0a9c490001/ban=
+ners/x7dum3phqv7upzylwkv0.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 10px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              LEGO Batman 3: Beyond Gotham<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #263241; border-radius: 5px; margin: 10px 0px; p=
+adding: 10px;" bgcolor=3D"#263241">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; vertical-align: middle;" src=3D"htt=
+p://assets.nuuvem.com/image/upload/v1/products/557dba2469702d0a9cad0100/ban=
+ners/quccspz7yvqet6o0acml.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 10px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              LEGO Batman 2: DC Super Heroes<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #263241; border-radius: 5px; margin: 10px 0px; p=
+adding: 10px;" bgcolor=3D"#263241">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; vertical-align: middle;" src=3D"htt=
+p://assets.nuuvem.com/image/upload/v1/products/557dbaf169702d0a9cb55f00/ban=
+ners/pcqddpt6bo50hlebrxol.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 10px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              LEGO Batman<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #263241; border-radius: 5px; margin: 10px 0px; p=
+adding: 10px;" bgcolor=3D"#263241">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; vertical-align: middle;" src=3D"htt=
+p://assets.nuuvem.com/image/upload/v1/products/5fca8556c883e673cde2903c/ban=
+ners/vet3qscndsvn9xfxkbwc.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 10px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              LEGO Batman 3: Beyond Gotham Season Pass<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+
+<!-- recibo-->
+ <table style=3D"width: 100%; border-radius: 5px; background-color: #151d27=
+; text-align: left; margin: 0; padding: 10px;" bgcolor=3D"#151d27">
+  <tbody><tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">User=
+</span>
+    </td>
+    <td align=3D"right">
+      <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-heig=
+ht: 2;">Rafaelcv1</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">Orde=
+r date</span>=20
+    </td>
+    <td align=3D"right">
+     =20
+        <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-he=
+ight: 2;">03/04/2025 11:53:41</b>
+     =20
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">Paym=
+ent method</span>
+    </td>
+    <td align=3D"right">
+      <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-heig=
+ht: 2;">PIX</b>
+    </td>
+  </tr>
+</tbody></table>
+<p style=3D"font-size: 12px; margin-top: 10px; text-align: center; line-hei=
+ght: 1.5;" align=3D"center">
+    Have you visited our Trustpilot profile? Click the button below and rat=
+e your experience with us! ;)
+</p>
+<p style=3D"text-align: center; line-height: 1.5;" align=3D"center">
+    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUl=
+idnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Imh0dHBzOi8vdXMudH=
+J1c3RwaWxvdC5jb20vZXZhbHVhdGUvbnV1dmVtLmNvbT91dG1fY2FtcGFpZ249b3JkZXIrcmVsZ=
+WFzZWRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1=
+MDAyNnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsIml=
+udGVybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoxOTM1OH0/46f008aeeb=
+ce1f9e7714d6b6a06c4646bbaf8df2c4faf8e6a844302d5df99063" style=3D"font-size:=
+ 12px; text-decoration: none; background-color: #09c; color: #fff; border-r=
+adius: 3px; text-align: center; font-weight: bold; padding: 8px 20px; borde=
+r: 1px solid #09c;">HOW DID WE DO?</a>
+</p>
+                    </font-family:>
+</div>
+                </td>
+            </tr>
+               =20
+            <tr>
+                <!-- Links para o site -->
+                <td align=3D"center">
+                <center>
+                    <center data-parsed=3D"">
+                    <h5 style=3D"font-weight: bold; font-size: 16px;">
+                   =20
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vP3V0bV9jYW1wYWlnbj1vcmRlcityZWxlYXNlZFx1MDAyN=
+nV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5XHUwMDI2dXRtX21l=
+ZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiwiaW50ZXJuYWwiOiI=
+5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjF9/87e59f721a6d5a183b08e096f471a=
+101fb2ec4de00ecd24c5ae0604a75a4055c" align=3D"center" class=3D"float-center=
+" style=3D"color: #fff; text-decoration: none; padding: 0 20px;">Store</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vY2F0YWxvZz91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoxNH0/b24f0dc7789831553f=
+271762f433d3968455c23ae7426b465a53eae7d316e8ea" align=3D"center" class=3D"f=
+loat-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;"=
+>Games</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vYWJvdXQ_dXRtX2NhbXBhaWduPW9yZGVyK3JlbGVhc2VkX=
+HUwMDI2dXRtX2NvbnRlbnQ9b3JkZXIrcmVsZWFzZWQrZW1haWwrJTI4ZW4tdXMlMjlcdTAwMjZ1=
+dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmNlPW1haWxpbmciLCJpbnRlcm5=
+hbCI6IjljOTAwNTYzZjQ0Yjg2ZWZiNTAxIiwibGlua19pZCI6MTZ9/49b598bc765dc17598fa7=
+abfbfe5d8526873391f2f4354358531fdecc2a4cad3" align=3D"center" class=3D"floa=
+t-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;">Ab=
+out</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vc3VwcG9ydD91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoyM30/ce627226fcf84a774a=
+8d0d457153de7b3e06b9e3a6500a325888a898e8434859" align=3D"center" class=3D"f=
+loat-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;"=
+>Support</a>
+                   =20
+                    </h5>
+                  </center>
+                  <!-- Redes sociais -->
+                 =20
+                    <table align=3D"center" class=3D"menu float-center" sty=
+le=3D"color: #fff; padding: 0 20px;"><tbody><tr><td><table><tbody><tr>
+                      <th class=3D"menu-item float-center" style=3D"color: =
+#fff; padding: 5px;">
+                          <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpb=
+F9pZCI6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJl=
+ZiI6Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9udXV2ZW1hbWVyaWNhP3V0bV9jYW1wYWlnbj1=
+vcmRlcityZWxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOG=
+VuLXVzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tY=
+WlsaW5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjQ3NTZ9=
+/92c141bd6cb7741af3ef04113493c594a8cd732c27138e55a7d2e5378359c6ee" style=3D=
+"color: #0099cc; text-decoration: none;">
+                            <img src=3D"https://userimg-assets.customerioma=
+il.com/images/client-env-83996/1726777722507_facebook-2x_01J85ZJ2CE6C3XNTQE=
+2EK8CMQK.png" alt=3D"Facebook" class=3D"social-icon" width=3D"40"/>
+                          </a>
+                        </th>
+                       =20
+                        <th class=3D"menu-item float-center" style=3D"color=
+: #fff; padding: 5px;">
+                          <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpb=
+F9pZCI6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJl=
+ZiI6Imh0dHBzOi8vdHdpdHRlci5jb20vbnV1dmVtX3VzP3V0bV9jYW1wYWlnbj1vcmRlcityZWx=
+lYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5XH=
+UwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiwia=
+W50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjEwMzIwfQ/5d8d4c9d2=
+de9733a88d20909e4642a43b9fea593eeb6245ec3723ac679f124dc" style=3D"color: #0=
+099cc; text-decoration: none;">
+                            <img src=3D"https://userimg-assets.customerioma=
+il.com/images/client-env-83996/1726777725502_twitter-2x_01J85ZJ5A0JM0BVHSBE=
+97DNEC8.png" alt=3D"Twitter" class=3D"social-icon" width=3D"40"/>
+                          </a>
+                        </th>
+                     =20
+                    </tr></tbody></table></td></tr></tbody></table>
+                    </center>
+                    <br/>
+                    <p class=3D"footer" style=3D"line-height: 1.5; width: 1=
+00%; max-width: 560px;"><small><font color=3D"#96A6B7">
+                    <span>This notification was sent to the e-mail address =
+associated with your Nuuvem account.<br/>This e-mail was automatically gene=
+rated. Do not reply to this e-mail. For any inquiries, access=20
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vc3VwcG9ydD91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoyM30/ce627226fcf84a774a=
+8d0d457153de7b3e06b9e3a6500a325888a898e8434859" style=3D"color: #0099cc; te=
+xt-decoration: none;">https://www.nuuvem.com/support</a>.</span></font></sm=
+all></p>
+                   =20
+                    <hr class=3D"footer" style=3D"border-top-color: #1D2631=
+; width: 100%; max-width: 560px; margin: 20px 0; border-style: solid none n=
+one; border-width: 1px 0 0;"/>
+                    <p class=3D"footer" style=3D"line-height: 1.5; width: 1=
+00%; max-width: 560px;"><span><a href=3D"https://email.nuuvem.com/deliverie=
+s/dgSckAUBAIbvtQGE77UBAZX8KjDIJUxqp2Paerf2pA=3D=3D" style=3D"color: #0099cc=
+; text-decoration: none;">View this e-mail in your browser
+                    </a></span></p>
+                </td>
+            </tr>
+        </tbody></table>
+  </center>
+
+<img src=3D"https://email.nuuvem.com/e/o/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUlidn=
+RRR0U3N1VCQVpYOEtqRElKVXhxcDJQYWVyZjJwQT09In0=3D" style=3D"height: 1px !imp=
+ortant; max-height: 1px !important; max-width: 1px !important; width: 1px !=
+important; display: none !important;" alt=3D""/></body></html>
+--4f2237be1a5d298574d2313866874314bd59819eafbea077804d4150fd23--
+
+From - Fri Dec 19 23:02:47 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rfl.must+nuuvem@gmail.com
+Received: by 2002:a05:7109:7107:b0:461:af2c:5e57 with SMTP id kb7csp2223005gdc;
+        Sun, 22 Jun 2025 11:06:29 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHOXY89N/JQzxJyZ7N26GMGDRdlBd7+a1PKO0ZeaRMfyillWkxtOGZ0dBvZ0HQlPpimdw08
+X-Received: by 2002:a05:6214:4b13:b0:6fb:59de:f8ab with SMTP id 6a1803df08f44-6fd0a49a8a4mr175872976d6.10.1750615589601;
+        Sun, 22 Jun 2025 11:06:29 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1750615586; cv=none;
+        d=google.com; s=arc-20240605;
+        b=MnCcNkxZcBbJHlw9OpS0VP/eIQYJVojLxB+ElEyUXGlmovVTDhuDNYjlUDlTE0x/Rr
+         dgRo1YV+ggKk/hfeyKqbeLhW9vRMHeV8K3Zc/gAst/e8zUbOiAAs8uiV+DFLVpBiJqzv
+         wqJgyI116g9J5CjJQiSlxfT29owkbeOJhHzrTe7go06ZDswuvzok5aVrqmBk7ZmMMYS8
+         EBJLKPEkaigt9SbxYSyBjdvpAKl1d0pDS04zvXJzJKvxaEqenUnBp5zBYSpKAyWfxl7o
+         iug/c7tNJrMLWu54Jw04WbbrhGL62sb0dVuEt20Y9xLSjy6PETMTl/DL4NioYBbkChdX
+         fBrQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=message-id:to:from:subject:mime-version:date:dkim-signature
+         :dkim-signature;
+        bh=2HGrmfFufDiOVDUMT/T8d9YRqrY8LuyG+Q1fegzpCVE=;
+        fh=N6xsSH1+thqZUmv4OB5CgpEEkihpnbafwLhY7tJFFhU=;
+        b=ecHxJDqPPPLiPZySgUli/ZLZwpthHXylJIZb735JW3PvODWN9vZHr/qdB4uznuJSaY
+         rfS7aXDtOvdPL7cc+0kxeOAy+B9RPjtEbWJjlHKXma+9o5nPwoq7au1GZhB4SGj/ZfEE
+         OEjmHPN9BPo9H3i/lvkBxHsv/zHkcFWmbzz+ECMlB0B4TL3TPWzmUQmot29L4c5uOz9v
+         rGdAAybBOzsgwEld10Trg+IKx4mxup13+BmcAbsFtIjSw38JXKFtu1MQyPH29C2QYztW
+         R5iKmbCzT8kw/c44OvgoKTfZYX8FWDemXvVaHcAfMA9hlpL6/yl6w27Jz6LGQa61gYp6
+         LREQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@cio48900.nuuvem.com header.s=pic header.b=A2gsp7My;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=eKmqYHvL;
+       spf=pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.99 as permitted sender) smtp.mailfrom=postmaster@cio48900.nuuvem.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=nuuvem.com
+Return-Path: <postmaster@cio48900.nuuvem.com>
+Received: from m192-99.mailgun.net (m192-99.mailgun.net. [161.38.192.99])
+        by mx.google.com with UTF8SMTPS id 6a1803df08f44-6fd09530c08si71243106d6.205.2025.06.22.11.06.25
+        for <rfl.must+nuuvem@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 22 Jun 2025 11:06:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.99 as permitted sender) client-ip=161.38.192.99;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@cio48900.nuuvem.com header.s=pic header.b=A2gsp7My;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=eKmqYHvL;
+       spf=pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.99 as permitted sender) smtp.mailfrom=postmaster@cio48900.nuuvem.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=nuuvem.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=cio48900.nuuvem.com; q=dns/txt; s=pic; t=1750615585; x=1750622785;
+ h=Message-Id: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;
+ bh=2HGrmfFufDiOVDUMT/T8d9YRqrY8LuyG+Q1fegzpCVE=;
+ b=A2gsp7MyRLXchXn689w7ZZXOy2Hdb/ZZ+/ZXbtTcgqCs/HOYvKc4A8wJqAxpzoIpwo2GUq+woKMuWaAOQlV3b/2NCqsU6TxNs5xCoiBOlPrNQvnF7diJAH7Yr5ZsSOsblctBOeiw3XWRV4OI6HNH8H3PaW/7c8753rID6506bNU=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1750615585; x=1750622785;
+ h=Message-Id: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;
+ bh=2HGrmfFufDiOVDUMT/T8d9YRqrY8LuyG+Q1fegzpCVE=;
+ b=eKmqYHvLFNh2/sR9KGG9ip4QJvkhvAioRunL++KF8HdtRk2MW6/A+a9D9e0/ajU2XJMCOzjndRKjBLe3DDDrj5p5A/7uaH5JxA6mrukVPhYJCcHUF0LMX4zi1Y+WknRkNUIu2ldoxixITkRBjhhgeUb1JgKmyMN474L8BeZ48cY=
+X-Mailgun-Sid: WyIxMjk4YyIsInJmbC5tdXN0K251dXZlbUBnbWFpbC5jb20iLCJmNzYzNTIiXQ==
+X-Feedback-Id: postmaster@cio48900.nuuvem.com::5e15f73e42f836ed26066962:mailgun
+Received: by dbe80c2850dd with HTTP id 685846214ce52476f8f3066b; Sun, 22 Jun 2025
+ 18:06:25 GMT
+X-Mailgun-Sending-Ip: 161.38.192.99
+Date: Sun, 22 Jun 2025 18:06:25 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="9dddbf621b7bc2d04e010fba268e191a85a39cd047cff4a00b43c77bbbf5"
+Subject: Your order was approved. Go, go, go!
+From: Nuuvem <no-reply@nuuvem.com>
+To: rfl.must+nuuvem@gmail.com
+X-Mailgun-Native-Send: true
+X-Mailgun-Track-Clicks: false
+X-Mailgun-Track-Opens: false
+X-Mailgun-Dkim: true
+X-Report-Abuse-To: badactor@customer.io
+X-Mailer: Customer.io (dgSckAUBAIbvtQGE77UBAZeY0fEkAbHNPnXtlLo_sA==;
+ +https://whatis.customeriomail.com)
+X-Mailgun-Variables: {"email_id": "dgSckAUBAIbvtQGE77UBAZeY0fEkAbHNPnXtlLo_sA=="}
+Message-Id: <20250622180625.3ac02db2a0868ee8@cio48900.nuuvem.com>
+
+--9dddbf621b7bc2d04e010fba268e191a85a39cd047cff4a00b43c77bbbf5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+Nuuvem Logo ( https://www.nuuvem.com/?utm_campaign=3Dorder+released&utm_con=
+tent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sour=
+ce=3Dmailing )
+
+Icon
+
+*************
+Hi, Rafaelcv1
+*************
+
+Yay, your order n=C2=BA 2006940456757025 has been approved! Have fun!
+
+View my games ( https://secure.nuuvem.com/br-en/account/library?utm_campaig=
+n=3Dorder+released&utm_content=3Dorder+released+email+%28en-us%29&utm_mediu=
+m=3Dtransactional&utm_source=3Dmailing )
+
+Or click this link instead:
+
+https://secure.nuuvem.co/br-en/account/library ( https://secure.nuuvem.com/=
+br-en/account/library?utm_campaign=3Dorder+released&utm_content=3Dorder+rel=
+eased+email+%28en-us%29&utm_medium=3Dtransactional&utm_source=3Dmailing )
+
+Order details
+-------------
+
+Middle-earth: Shadow of Mordor - Game of the Year Edition
+
+User
+
+Rafaelcv1
+
+Order date
+
+22/06/2025 14:59:24
+
+Payment method
+
+Credit Card - In Full
+
+Store ( https://www.nuuvem.com/?utm_campaign=3Dorder+released&utm_content=
+=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_source=
+=3Dmailing )
+Games ( https://www.nuuvem.com/catalog?utm_campaign=3Dorder+released&utm_co=
+ntent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sou=
+rce=3Dmailing )
+About ( https://www.nuuvem.com/about?utm_campaign=3Dorder+released&utm_cont=
+ent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sourc=
+e=3Dmailing )
+Support ( https://www.nuuvem.com/support?utm_campaign=3Dorder+released&utm_=
+content=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_s=
+ource=3Dmailing )
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+---------
+
+Facebook ( https://www.facebook.com/nuuvemamerica?utm_campaign=3Dorder+rele=
+ased&utm_content=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactio=
+nal&utm_source=3Dmailing )
+X (Twitter) ( https://x.com/nuuvem_us?utm_campaign=3Dorder+released&utm_con=
+tent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sour=
+ce=3Dmailing )
+
+This notification was sent to the e-mail address associated with your Nuuve=
+m account.
+This e-mail was automatically generated. Do not reply to this e-mail. For a=
+ny inquiries, access
+https://www.nuuvem.com/support ( https://www.nuuvem.com/support?utm_campaig=
+n=3Dorder+released&utm_content=3Dorder+released+email+%28en-us%29&utm_mediu=
+m=3Dtransactional&utm_source=3Dmailing ).
+
+Trouble reading this message?
+Click here ( http://track.customer.io/deliveries/dgSckAUBAIbvtQGE77UBAZeY0f=
+EkAbHNPnXtlLo_sA=3D=3D )
+--9dddbf621b7bc2d04e010fba268e191a85a39cd047cff4a00b43c77bbbf5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"/>
+    <style type=3D"text/css">
+      a {
+          color: #6A9BFF;
+          text-decoration: none;
+      }
+     =20
+      h1, h2, h3, h4, h5 {
+        font-weight: bold;
+      }
+     =20
+      h1 {
+          font-size: 36px
+      }
+     =20
+      h2 {
+          font-size: 28px
+      }
+     =20
+      h3 {
+          font-size: 20px
+      }
+     =20
+      h4 {
+          font-size: 18px
+      }
+     =20
+      h5 {
+          font-size: 16px
+      }
+     =20
+      button {
+          color: #fff;
+          border: none;
+          background: #2069FF;
+          cursor: pointer;
+          border-radius: 5px;
+          font-weight: 700;
+      }
+     =20
+      button.big {
+          font-size: 18px;
+          padding: 16px 60px 16px 60px;
+      }
+     =20
+      button.big.buy {
+          font-size: 18px;
+          background: #926FE96;
+          padding: 16px 60px 16px 60px;
+      }
+     =20
+      button.fluid {
+          display: block;
+          width: 100%;
+      }
+     =20
+      hr {
+        margin: 16px 0;
+       =20
+        border: 0 none;
+        border-top: 1px dashed #eee;=20
+      }
+     =20
+      p {
+          line-height: 1.5;
+      }
+     =20
+      p.big {
+          font-size: 24px;
+      }
+     =20
+      p.info {
+          color: #fff;
+          font-size: 12px;
+      }
+     =20
+      .global-wrapper {
+          padding: 20px;
+          color: #fff;
+          font-family: "Open Sans", Helvetica, "sans serif", Arial; size=3D=
+"3";
+          font-size: 14px;
+          background-color: #0D2C6B;
+      }
+     =20
+      .logo {
+          margin-top: 28px;
+          height: 40px;
+      }
+     =20
+      .content-icon {
+          height: 60px;
+      }
+     =20
+      .content {
+          display: block;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          padding-left: 28px;
+          padding-right: 28px;
+          margin: 20px auto;
+          width: 100%;
+          max-width: 700px;
+          border-radius: 20px;
+          color: #fff;
+          box-sizing: border-box;
+          background: #123A8C;
+      }
+     =20
+      .margin-top {
+          margin-top: 20px;
+        }
+       =20
+      .menu-item.float-center {
+          padding: 6px;
+          display: inline-block;
+        }
+       =20
+      .float-center {
+          color: #fff;
+          padding: 0 20px 0 20px;
+        }
+       =20
+      .footer {
+          width: 100%;
+          max-width: 700px;
+        }
+       =20
+        .link-button {
+            width: 100%;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            color: #fff;
+            font-weight: 700;
+            height: 40px;
+            display: block;
+            box-sizing: border-box;
+            font-size: 14px;
+            line-height: 18px;
+            border-width: 1px;
+            border-style: solid;
+        }
+       =20
+        .link-button--primary {
+            background:#069;
+            border-color: #09C;
+        }
+       =20
+        .link-button--default {
+            background:#435467;
+            border-color: #5F738A;
+        }
+       =20
+    </style>
+  </head>
+  <body><center>
+        <table class=3D"global-wrapper" width=3D"100%" style=3D"color: #fff=
+; font-family: &#39;Open Sans&#39;, Helvetica, &#39;sans serif&#39;, Arial;=
+ font-size: 14px; background-color: #0D2C6B; padding: 20px;" bgcolor=3D"#0D=
+2C6B">
+            <tbody><tr>
+                <td align=3D"center">
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vP3V0bV9jYW1wYWlnbj1vcmRlcityZWxlYXNlZFx1MDAyN=
+nV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5XHUwMDI2dXRtX21l=
+ZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiwiaW50ZXJuYWwiOiI=
+5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjF9/1b816d6c4041ee8a1438e44d1ff0e=
+7b0964fb1b634b098c870ecc1def2958780" style=3D"color: #6A9BFF; text-decorati=
+on: none;">
+                        <img class=3D"logo" alt=3D"Nuuvem Logo" src=3D"http=
+s://userimg-assets.customeriomail.com/images/client-env-83996/1729619542859=
+_nuuvem-new-logo_01JATNQHFAJXEJ209CXNDS1175.png" style=3D"margin-top: 28px;=
+ height: 40px;"/>=20
+                    </a>
+                </td>
+            </tr>
+               =20
+            <tr>
+                <td align=3D"center">
+                    <div class=3D"content" style=3D"display: block; width: =
+100%; max-width: 700px; border-radius: 20px; color: #fff; box-sizing: borde=
+r-box; background-color: #123A8C; margin: 20px auto; padding: 40px 28px;">
+                        <font-family: sans=3D"" helvetica=3D"" serif=3D"" a=
+rial=3D"" size=3D"3">
+                         =20
+<img class=3D"content-icon" alt=3D"Icon" src=3D"https://userimg-assets.cust=
+omeriomail.com/images/client-env-83993/1746042498222_check_circle_outline_0=
+1JT43WBQAZV6CY4AK24BFR9V7.png" style=3D"height: 60px;"/>
+
+  <h1 style=3D"font-weight: bold; font-size: 36px;">Hi, Rafaelcv1</h1>
+  <p style=3D"line-height: 1.5;">Yay, your order <b>n=C2=BA 200694045675702=
+5</b> has been approved! Have fun!</p>
+<br/> =20
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+    <tbody>
+      <tr>
+        <td bgcolor=3D"#2069FF" style=3D"border-radius: 8px; text-align: ce=
+nter; padding: 10px 24px;" align=3D"center">
+          <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQ=
+VVCQUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09IiwiaHJlZiI6Imh0dHBzOi8v=
+c2VjdXJlLm51dXZlbS5jb20vYnItZW4vYWNjb3VudC9saWJyYXJ5P3V0bV9jYW1wYWlnbj1vcmR=
+lcityZWxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLX=
+VzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsa=
+W5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjc5MTF9/826=
+a798b6c4e7964acf1bf00319c18a4a2c3586eb1b2e47eb876f5e3e4303b7f" style=3D"dis=
+play: block; text-decoration: none; color: #6A9BFF;" target=3D"_blank" titl=
+e=3D"Link: https://secure.nuuvem.com/account/library">
+            <font color=3D"#ffffff" style=3D"font-size: 16px; font-weight: =
+700;">
+              View my games
+            </font>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br/>
+  <font size=3D"2">Or click this link instead:<br/>
+    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUl=
+idnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09IiwiaHJlZiI6Imh0dHBzOi8vc2VjdX=
+JlLm51dXZlbS5jb20vYnItZW4vYWNjb3VudC9saWJyYXJ5P3V0bV9jYW1wYWlnbj1vcmRlcityZ=
+WxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5=
+XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiw=
+iaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjc5MTF9/826a798b6=
+c4e7964acf1bf00319c18a4a2c3586eb1b2e47eb876f5e3e4303b7f" style=3D"text-deco=
+ration: none; color: #6A9BFF;">
+      <font color=3D"#6A9BFF"><b>
+        https://secure.nuuvem.co/br-en/account/library
+      </b></font>
+    </a>
+  </font>
+  <br/><br/><br/>
+
+<!-- jogos -->
+<h5 style=3D"font-weight: bold; font-size: 16px;">Order details</h5>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #174BB5; border-radius: 8px; margin: 10px 0px 20=
+px; padding: 12px;" bgcolor=3D"#174BB5">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; border-radius: 4px; vertical-align:=
+ middle;" src=3D"http://assets.nuuvem.com/image/upload/v1/products/557dbcb2=
+69702d0a9c600801/banners/lsv97mpj5fk77u9ghc1a.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 12px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              Middle-earth: Shadow of Mordor - Game of the Year Edition<br/=
+>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+
+<!-- recibo-->
+  <table style=3D"width: 100%; border-radius: 8px; background-color: #0D2C6=
+B; text-align: left; margin: 0; padding: 12px;" bgcolor=3D"#0D2C6B">
+  <tbody><tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">User=
+</span>
+    </td>
+    <td align=3D"right">
+      <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-heig=
+ht: 2;">Rafaelcv1</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">Orde=
+r date</span>=20
+    </td>
+    <td align=3D"right">
+     =20
+        <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-he=
+ight: 2;">22/06/2025 14:59:24</b>
+     =20
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">Paym=
+ent method</span>
+    </td>
+    <td align=3D"right">
+      <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-heig=
+ht: 2;">Credit Card - In Full</b>
+    </td>
+  </tr>
+</tbody></table>
+                    </font-family:>
+</div>
+                </td>
+            </tr>
+               =20
+            <tr>
+                <!-- Links para o site -->
+                <td align=3D"center">
+                <center>
+                    <center data-parsed=3D"">
+                    <h5 style=3D"font-weight: bold; font-size: 16px;">
+                   =20
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vP3V0bV9jYW1wYWlnbj1vcmRlcityZWxlYXNlZFx1MDAyN=
+nV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5XHUwMDI2dXRtX21l=
+ZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiwiaW50ZXJuYWwiOiI=
+5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjF9/1b816d6c4041ee8a1438e44d1ff0e=
+7b0964fb1b634b098c870ecc1def2958780" align=3D"center" class=3D"float-center=
+" style=3D"color: #fff; text-decoration: none; padding: 0 20px;">Store</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vY2F0YWxvZz91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoxNH0/271cd2d300641b4cbe=
+091a0f6b5f614cb2f0b32043bde701ee756f3f4b6436f4" align=3D"center" class=3D"f=
+loat-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;"=
+>Games</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vYWJvdXQ_dXRtX2NhbXBhaWduPW9yZGVyK3JlbGVhc2VkX=
+HUwMDI2dXRtX2NvbnRlbnQ9b3JkZXIrcmVsZWFzZWQrZW1haWwrJTI4ZW4tdXMlMjlcdTAwMjZ1=
+dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmNlPW1haWxpbmciLCJpbnRlcm5=
+hbCI6IjljOTAwNTYzZjQ0Yjg2ZWZiNTAxIiwibGlua19pZCI6MTZ9/80f7b29ab65ed62bcb253=
+a6f4d00c72baae7cf12c6b2530c437203bf552df20d" align=3D"center" class=3D"floa=
+t-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;">Ab=
+out</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vc3VwcG9ydD91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoyM30/ba50112067b184f056=
+8c81a087eebf922c1a2a3b4e6b19bb92a865cb2a5fbe05" align=3D"center" class=3D"f=
+loat-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;"=
+>Support</a>
+                   =20
+                    </h5>
+                  </center>
+                  <!-- Redes sociais -->
+                 =20
+                    <table align=3D"center" class=3D"menu float-center" sty=
+le=3D"color: #fff; padding: 0 20px;"><tbody><tr><td><table><tbody><tr>
+                      <th class=3D"menu-item float-center" style=3D"display=
+: inline-block; color: #fff; padding: 6px;"><a href=3D"https://email.nuuvem=
+=2Ecom/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVC=
+QUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdG=
+xMb19zQT09IiwiaHJlZiI6Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9udXV2ZW1hbWVyaWNhP=
+3V0bV9jYW1wYWlnbj1vcmRlcityZWxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVh=
+c2VkK2VtYWlsKyUyOGVuLXVzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI=
+2dXRtX3NvdXJjZT1tYWlsaW5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsIm=
+xpbmtfaWQiOjQ3NTZ9/1187f8743c151340730e5615cc319ffbaeae606a6e62b216c8caa76d=
+89080a30" style=3D"color: #6A9BFF; text-decoration: none;"><img src=3D"http=
+s://userimg-assets.customeriomail.com/images/client-env-83993/1746037122220=
+_facebook-icon_01JT3YR9RP4EWE9Q3R2H130PW1.png" alt=3D"Facebook" class=3D"so=
+cial-icon" width=3D"40"/></a></th>
+                      <th class=3D"menu-item float-center" style=3D"display=
+: inline-block; color: #fff; padding: 6px;"><a href=3D"https://email.nuuvem=
+=2Ecom/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVC=
+QUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdG=
+xMb19zQT09IiwiaHJlZiI6Imh0dHBzOi8veC5jb20vbnV1dmVtX3VzP3V0bV9jYW1wYWlnbj1vc=
+mRlcityZWxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVu=
+LXVzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWl=
+saW5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjI5NjY2fQ=
+/f014fa98ff69771d2e855de7c0c276575633c9a84dea791a978ace1c8972bfc1" style=3D=
+"color: #6A9BFF; text-decoration: none;"><img src=3D"https://userimg-assets=
+=2Ecustomeriomail.com/images/client-env=
+-83993/1746037123719_x-icon_01JT3YRB2P=
+SNH4ERJ6N5XZH6E3.png" alt=3D"X (Twitter)" class=3D"social-icon" width=3D"40=
+"/></a></th>
+                     =20
+                    </tr></tbody></table></td></tr></tbody></table>
+                    </center>
+                    <br/>
+                    <p class=3D"footer" style=3D"line-height: 1.5; width: 1=
+00%; max-width: 700px;"><small><font color=3D"#BAD1FF">
+                    <span>This notification was sent to the e-mail address =
+associated with your Nuuvem account.<br/>This e-mail was automatically gene=
+rated. Do not reply to this e-mail. For any inquiries, access=20
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vc3VwcG9ydD91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoyM30/ba50112067b184f056=
+8c81a087eebf922c1a2a3b4e6b19bb92a865cb2a5fbe05" style=3D"color: #6A9BFF; te=
+xt-decoration: none;"><b>https://www.nuuvem.com/support</b></a>.</span></fo=
+nt></small></p>
+                   =20
+                    <br/>
+                    <p class=3D"footer" style=3D"line-height: 1.5; width: 1=
+00%; max-width: 700px;"><span><b><small>Trouble reading this message?</smal=
+l></b>
+                    <a href=3D"https://email.nuuvem.com/deliveries/dgSckAUB=
+AIbvtQGE77UBAZeY0fEkAbHNPnXtlLo_sA=3D=3D" style=3D"color: #6A9BFF; text-dec=
+oration: none;"><b><small>Click here</small></b>
+                    </a></span></p>
+                </td>
+            </tr>
+        </tbody></table>
+  </center>
+
+<img src=3D"https://email.nuuvem.com/e/o/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUlidn=
+RRR0U3N1VCQVplWTBmRWtBYkhOUG5YdGxMb19zQT09In0=3D" style=3D"height: 1px !imp=
+ortant; max-height: 1px !important; max-width: 1px !important; width: 1px !=
+important; display: none !important;" alt=3D""/></body></html>
+--9dddbf621b7bc2d04e010fba268e191a85a39cd047cff4a00b43c77bbbf5--
+
+From - Fri Dec 19 23:02:47 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rfl.must+nuuvem@gmail.com
+Received: by 2002:a05:7109:7107:b0:461:af2c:5e57 with SMTP id kb7csp2192622gdc;
+        Sun, 22 Jun 2025 09:52:35 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGf8v31PvNy7zDqUHkZrIs0NmkD4LoOQjh6hG7rtqa4ZMzHDwQ+eOyq85YXGftwfvNZVqwq
+X-Received: by 2002:a05:622a:a1a:b0:494:b1f9:d683 with SMTP id d75a77b69052e-4a77a256f97mr169854021cf.49.1750611155171;
+        Sun, 22 Jun 2025 09:52:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1750611155; cv=none;
+        d=google.com; s=arc-20240605;
+        b=XavZnHtRLCBPq2jj7rAOeFTcaRpxL12/P3TtfUyzTPpOUmtKWgy/Lgk3EASn7l9buf
+         Og2uNLZgTsLNVpDrBqfaNpwf26tQtyHP4H90saFoyV+iT5bZxjzrPw33i5UkVfOil56T
+         N4f66HBVOzGYecadeR6A2tPhAKBcWOiRXh6c68nfejRYVeoOfAmkM4gbkGi/cHr9N5h5
+         z8fTgMkkfxswNXXsLJaHnKvkaPtPR746PlaLAx42PmNcTxjL198Hsx8hv3kO1UpDwuEp
+         KihBl7+kYFLSFuwLNKRfOzULYNGq9YYuI6GpKsgoxKimQExaCUUk8d0RGBSYErYQj2Ws
+         sNOg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=message-id:to:from:subject:mime-version:date:dkim-signature
+         :dkim-signature;
+        bh=Uq1ymub4wieUpD1AmWRK1LhJmRIlWNuow/J/yXwnfgU=;
+        fh=N6xsSH1+thqZUmv4OB5CgpEEkihpnbafwLhY7tJFFhU=;
+        b=bsWp8u5IVATND0p53d298CoSrwLr0tLeIV0P7yD8vguwgfKcSw56eRmNWHO2zdnHU+
+         5uDxaDOX3bK/UCHT/A3l2JtDE8MFiemc5+v5Cy9VdM4Id58yDL7ePYK87G0woovd47E4
+         ptfdMGZ+FEuAaPjH3nAa+RSFePFzLed4hV1OgaebQ++aEoBXPzjvgZT2cWS6VnIuJE0T
+         o9+6LWnbe00kUK+43PgoqG/ooneIsujW65hCHv3A/NmgWAOYvPXPwWNYx9j3Q5x16+bI
+         XI0jzlmG88KS5bRfEXYUldwHPxtuEbwPUY2IDbO0oNEqsuQv9dBpLP1Ux6Dc4RHIsm9U
+         qKZw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@cio48900.nuuvem.com header.s=pic header.b=X8PjrlZ0;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b="OITF/hRN";
+       spf=pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.98 as permitted sender) smtp.mailfrom=postmaster@cio48900.nuuvem.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=nuuvem.com
+Return-Path: <postmaster@cio48900.nuuvem.com>
+Received: from m192-98.mailgun.net (m192-98.mailgun.net. [161.38.192.98])
+        by mx.google.com with UTF8SMTPS id d75a77b69052e-4a77a0b2c9asi66105661cf.354.2025.06.22.09.52.34
+        for <rfl.must+nuuvem@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 22 Jun 2025 09:52:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.98 as permitted sender) client-ip=161.38.192.98;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@cio48900.nuuvem.com header.s=pic header.b=X8PjrlZ0;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b="OITF/hRN";
+       spf=pass (google.com: domain of postmaster@cio48900.nuuvem.com designates 161.38.192.98 as permitted sender) smtp.mailfrom=postmaster@cio48900.nuuvem.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=nuuvem.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=cio48900.nuuvem.com; q=dns/txt; s=pic; t=1750611154; x=1750618354;
+ h=Message-Id: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;
+ bh=Uq1ymub4wieUpD1AmWRK1LhJmRIlWNuow/J/yXwnfgU=;
+ b=X8PjrlZ0YCKQNfchBV/2+UmPTTs+WR/BQo+MOl5YpUMqSlLVGunZ8lLzMsaQWn7M157SzlZXBs+ghzGRVcTWoRL5S9chPUUB9fY+/9J2qP8Heoxi3kUNzaKdnXepp1abrJ+uaTc0ADhxhd0KWI2KLLTRnZfcQUysiav1Iv1B/Ds=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1750611154; x=1750618354;
+ h=Message-Id: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;
+ bh=Uq1ymub4wieUpD1AmWRK1LhJmRIlWNuow/J/yXwnfgU=;
+ b=OITF/hRNvXCQRUsaswh8+RvE/n9s2wsyXXZtNyh0lY2qGHW2ah9U3wboDacpNVBzU+BNru4uQ2J6F47/H6s+6XI6MPhBgLTqkaByKAy1F8cT9iDHjmL9S3DcrtQAMbQKvvt9TMck6BexeJpzDp9xxR9etLl1wlG/xYOFXEMgZ4A=
+X-Mailgun-Sid: WyIxMjk4YyIsInJmbC5tdXN0K251dXZlbUBnbWFpbC5jb20iLCJmNzYzNTIiXQ==
+X-Feedback-Id: postmaster@cio48900.nuuvem.com::5e15f73e42f836ed26066962:mailgun
+Received: by f3b81b09aea1 with HTTP id 685834d2fd6b48f3206fa577; Sun, 22 Jun 2025
+ 16:52:34 GMT
+X-Mailgun-Sending-Ip: 161.38.192.98
+Date: Sun, 22 Jun 2025 16:52:34 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="762b45f67cf081bc5ac82e944954efffafca7f60b951cab40d5999a258fd"
+Subject: Your order was approved. Go, go, go!
+From: Nuuvem <no-reply@nuuvem.com>
+To: rfl.must+nuuvem@gmail.com
+X-Mailgun-Track-Opens: false
+X-Mailgun-Dkim: true
+X-Mailgun-Native-Send: true
+X-Mailgun-Track-Clicks: false
+X-Mailer: Customer.io (dgSckAUBAIbvtQGE77UBAZeYjlUPmY_UgTEJF7Co-Q==;
+ +https://whatis.customeriomail.com)
+X-Report-Abuse-To: badactor@customer.io
+X-Mailgun-Variables: {"email_id": "dgSckAUBAIbvtQGE77UBAZeYjlUPmY_UgTEJF7Co-Q=="}
+Message-Id: <20250622165234.4682b91629f59d91@cio48900.nuuvem.com>
+
+--762b45f67cf081bc5ac82e944954efffafca7f60b951cab40d5999a258fd
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+Nuuvem Logo ( https://www.nuuvem.com/?utm_campaign=3Dorder+released&utm_con=
+tent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sour=
+ce=3Dmailing )
+
+Icon
+
+*************
+Hi, Rafaelcv1
+*************
+
+Yay, your order n=C2=BA 2006720993329725 has been approved! Have fun!
+
+View my games ( https://secure.nuuvem.com/br-en/account/library?utm_campaig=
+n=3Dorder+released&utm_content=3Dorder+released+email+%28en-us%29&utm_mediu=
+m=3Dtransactional&utm_source=3Dmailing )
+
+Or click this link instead:
+
+https://secure.nuuvem.co/br-en/account/library ( https://secure.nuuvem.com/=
+br-en/account/library?utm_campaign=3Dorder+released&utm_content=3Dorder+rel=
+eased+email+%28en-us%29&utm_medium=3Dtransactional&utm_source=3Dmailing )
+
+Order details
+-------------
+
+Middle-earth: Shadow of War Definitive Edition
+
+User
+
+Rafaelcv1
+
+Order date
+
+22/06/2025 13:44:00
+
+Payment method
+
+Credit Card - In Full
+
+Store ( https://www.nuuvem.com/?utm_campaign=3Dorder+released&utm_content=
+=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_source=
+=3Dmailing )
+Games ( https://www.nuuvem.com/catalog?utm_campaign=3Dorder+released&utm_co=
+ntent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sou=
+rce=3Dmailing )
+About ( https://www.nuuvem.com/about?utm_campaign=3Dorder+released&utm_cont=
+ent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sourc=
+e=3Dmailing )
+Support ( https://www.nuuvem.com/support?utm_campaign=3Dorder+released&utm_=
+content=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_s=
+ource=3Dmailing )
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+---------
+
+Facebook ( https://www.facebook.com/nuuvemamerica?utm_campaign=3Dorder+rele=
+ased&utm_content=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactio=
+nal&utm_source=3Dmailing )
+X (Twitter) ( https://x.com/nuuvem_us?utm_campaign=3Dorder+released&utm_con=
+tent=3Dorder+released+email+%28en-us%29&utm_medium=3Dtransactional&utm_sour=
+ce=3Dmailing )
+
+This notification was sent to the e-mail address associated with your Nuuve=
+m account.
+This e-mail was automatically generated. Do not reply to this e-mail. For a=
+ny inquiries, access
+https://www.nuuvem.com/support ( https://www.nuuvem.com/support?utm_campaig=
+n=3Dorder+released&utm_content=3Dorder+released+email+%28en-us%29&utm_mediu=
+m=3Dtransactional&utm_source=3Dmailing ).
+
+Trouble reading this message?
+Click here ( http://track.customer.io/deliveries/dgSckAUBAIbvtQGE77UBAZeYjl=
+UPmY_UgTEJF7Co-Q=3D=3D )
+--762b45f67cf081bc5ac82e944954efffafca7f60b951cab40d5999a258fd
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"/>
+    <style type=3D"text/css">
+      a {
+          color: #6A9BFF;
+          text-decoration: none;
+      }
+     =20
+      h1, h2, h3, h4, h5 {
+        font-weight: bold;
+      }
+     =20
+      h1 {
+          font-size: 36px
+      }
+     =20
+      h2 {
+          font-size: 28px
+      }
+     =20
+      h3 {
+          font-size: 20px
+      }
+     =20
+      h4 {
+          font-size: 18px
+      }
+     =20
+      h5 {
+          font-size: 16px
+      }
+     =20
+      button {
+          color: #fff;
+          border: none;
+          background: #2069FF;
+          cursor: pointer;
+          border-radius: 5px;
+          font-weight: 700;
+      }
+     =20
+      button.big {
+          font-size: 18px;
+          padding: 16px 60px 16px 60px;
+      }
+     =20
+      button.big.buy {
+          font-size: 18px;
+          background: #926FE96;
+          padding: 16px 60px 16px 60px;
+      }
+     =20
+      button.fluid {
+          display: block;
+          width: 100%;
+      }
+     =20
+      hr {
+        margin: 16px 0;
+       =20
+        border: 0 none;
+        border-top: 1px dashed #eee;=20
+      }
+     =20
+      p {
+          line-height: 1.5;
+      }
+     =20
+      p.big {
+          font-size: 24px;
+      }
+     =20
+      p.info {
+          color: #fff;
+          font-size: 12px;
+      }
+     =20
+      .global-wrapper {
+          padding: 20px;
+          color: #fff;
+          font-family: "Open Sans", Helvetica, "sans serif", Arial; size=3D=
+"3";
+          font-size: 14px;
+          background-color: #0D2C6B;
+      }
+     =20
+      .logo {
+          margin-top: 28px;
+          height: 40px;
+      }
+     =20
+      .content-icon {
+          height: 60px;
+      }
+     =20
+      .content {
+          display: block;
+          padding-top: 40px;
+          padding-bottom: 40px;
+          padding-left: 28px;
+          padding-right: 28px;
+          margin: 20px auto;
+          width: 100%;
+          max-width: 700px;
+          border-radius: 20px;
+          color: #fff;
+          box-sizing: border-box;
+          background: #123A8C;
+      }
+     =20
+      .margin-top {
+          margin-top: 20px;
+        }
+       =20
+      .menu-item.float-center {
+          padding: 6px;
+          display: inline-block;
+        }
+       =20
+      .float-center {
+          color: #fff;
+          padding: 0 20px 0 20px;
+        }
+       =20
+      .footer {
+          width: 100%;
+          max-width: 700px;
+        }
+       =20
+        .link-button {
+            width: 100%;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            color: #fff;
+            font-weight: 700;
+            height: 40px;
+            display: block;
+            box-sizing: border-box;
+            font-size: 14px;
+            line-height: 18px;
+            border-width: 1px;
+            border-style: solid;
+        }
+       =20
+        .link-button--primary {
+            background:#069;
+            border-color: #09C;
+        }
+       =20
+        .link-button--default {
+            background:#435467;
+            border-color: #5F738A;
+        }
+       =20
+    </style>
+  </head>
+  <body><center>
+        <table class=3D"global-wrapper" width=3D"100%" style=3D"color: #fff=
+; font-family: &#39;Open Sans&#39;, Helvetica, &#39;sans serif&#39;, Arial;=
+ font-size: 14px; background-color: #0D2C6B; padding: 20px;" bgcolor=3D"#0D=
+2C6B">
+            <tbody><tr>
+                <td align=3D"center">
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vP3V0bV9jYW1wYWlnbj1vcmRlcityZWxlYXNlZFx1MDAyN=
+nV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5XHUwMDI2dXRtX21l=
+ZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiwiaW50ZXJuYWwiOiI=
+5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjF9/e72db170da85208db725ffb7e94d1=
+fde33219c1f705bfa2023f547873ba495aa" style=3D"color: #6A9BFF; text-decorati=
+on: none;">
+                        <img class=3D"logo" alt=3D"Nuuvem Logo" src=3D"http=
+s://userimg-assets.customeriomail.com/images/client-env-83996/1729619542859=
+_nuuvem-new-logo_01JATNQHFAJXEJ209CXNDS1175.png" style=3D"margin-top: 28px;=
+ height: 40px;"/>=20
+                    </a>
+                </td>
+            </tr>
+               =20
+            <tr>
+                <td align=3D"center">
+                    <div class=3D"content" style=3D"display: block; width: =
+100%; max-width: 700px; border-radius: 20px; color: #fff; box-sizing: borde=
+r-box; background-color: #123A8C; margin: 20px auto; padding: 40px 28px;">
+                        <font-family: sans=3D"" helvetica=3D"" serif=3D"" a=
+rial=3D"" size=3D"3">
+                         =20
+<img class=3D"content-icon" alt=3D"Icon" src=3D"https://userimg-assets.cust=
+omeriomail.com/images/client-env-83993/1746042498222_check_circle_outline_0=
+1JT43WBQAZV6CY4AK24BFR9V7.png" style=3D"height: 60px;"/>
+
+  <h1 style=3D"font-weight: bold; font-size: 36px;">Hi, Rafaelcv1</h1>
+  <p style=3D"line-height: 1.5;">Yay, your order <b>n=C2=BA 200672099332972=
+5</b> has been approved! Have fun!</p>
+<br/> =20
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+    <tbody>
+      <tr>
+        <td bgcolor=3D"#2069FF" style=3D"border-radius: 8px; text-align: ce=
+nter; padding: 10px 24px;" align=3D"center">
+          <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQ=
+VVCQUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09IiwiaHJlZiI6Imh0dHBzOi8v=
+c2VjdXJlLm51dXZlbS5jb20vYnItZW4vYWNjb3VudC9saWJyYXJ5P3V0bV9jYW1wYWlnbj1vcmR=
+lcityZWxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLX=
+VzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsa=
+W5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjc5MTF9/9bf=
+382d7b320f02db54995b3cf4fc3ef9da1b6ef65864d982f32dda7af8d2d27" style=3D"dis=
+play: block; text-decoration: none; color: #6A9BFF;" target=3D"_blank" titl=
+e=3D"Link: https://secure.nuuvem.com/account/library">
+            <font color=3D"#ffffff" style=3D"font-size: 16px; font-weight: =
+700;">
+              View my games
+            </font>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br/>
+  <font size=3D"2">Or click this link instead:<br/>
+    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUl=
+idnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09IiwiaHJlZiI6Imh0dHBzOi8vc2VjdX=
+JlLm51dXZlbS5jb20vYnItZW4vYWNjb3VudC9saWJyYXJ5P3V0bV9jYW1wYWlnbj1vcmRlcityZ=
+WxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5=
+XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiw=
+iaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjc5MTF9/9bf382d7b=
+320f02db54995b3cf4fc3ef9da1b6ef65864d982f32dda7af8d2d27" style=3D"text-deco=
+ration: none; color: #6A9BFF;">
+      <font color=3D"#6A9BFF"><b>
+        https://secure.nuuvem.co/br-en/account/library
+      </b></font>
+    </a>
+  </font>
+  <br/><br/><br/>
+
+<!-- jogos -->
+<h5 style=3D"font-weight: bold; font-size: 16px;">Order details</h5>
+ =20
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"background-color: #174BB5; border-radius: 8px; margin: 10px 0px 20=
+px; padding: 12px;" bgcolor=3D"#174BB5">
+      <tbody>
+        <tr>
+          <td>
+            <img style=3D"width: 100px; border-radius: 4px; vertical-align:=
+ middle;" src=3D"http://assets.nuuvem.com/image/upload/v1/products/5b841542=
+881024053e889691/banners/wz70tttkiundcmoertig.jpg"/>
+          </td>
+          <td style=3D"width: 100%; padding-left: 12px;" align=3D"left">
+            <font style=3D"font-size: 12px; font-weight: 700; color: #fff;"=
+>
+              Middle-earth: Shadow of War Definitive Edition<br/>
+            </font>
+           =20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+ =20
+
+<!-- recibo-->
+  <table style=3D"width: 100%; border-radius: 8px; background-color: #0D2C6=
+B; text-align: left; margin: 0; padding: 12px;" bgcolor=3D"#0D2C6B">
+  <tbody><tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">User=
+</span>
+    </td>
+    <td align=3D"right">
+      <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-heig=
+ht: 2;">Rafaelcv1</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">Orde=
+r date</span>=20
+    </td>
+    <td align=3D"right">
+     =20
+        <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-he=
+ight: 2;">22/06/2025 13:44:00</b>
+     =20
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <span style=3D"font-size: 12px; color: #fff; line-height: 16px;">Paym=
+ent method</span>
+    </td>
+    <td align=3D"right">
+      <b style=3D"font-size: 12px; margin-left: 5px; color: #fff; line-heig=
+ht: 2;">Credit Card - In Full</b>
+    </td>
+  </tr>
+</tbody></table>
+                    </font-family:>
+</div>
+                </td>
+            </tr>
+               =20
+            <tr>
+                <!-- Links para o site -->
+                <td align=3D"center">
+                <center>
+                    <center data-parsed=3D"">
+                    <h5 style=3D"font-weight: bold; font-size: 16px;">
+                   =20
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vP3V0bV9jYW1wYWlnbj1vcmRlcityZWxlYXNlZFx1MDAyN=
+nV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVuLXVzJTI5XHUwMDI2dXRtX21l=
+ZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWlsaW5nIiwiaW50ZXJuYWwiOiI=
+5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjF9/e72db170da85208db725ffb7e94d1=
+fde33219c1f705bfa2023f547873ba495aa" align=3D"center" class=3D"float-center=
+" style=3D"color: #fff; text-decoration: none; padding: 0 20px;">Store</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vY2F0YWxvZz91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoxNH0/52c817147e0e0c088c=
+8d9d5865688cd3fc1639107087974ac2fd0d63fe54ad54" align=3D"center" class=3D"f=
+loat-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;"=
+>Games</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vYWJvdXQ_dXRtX2NhbXBhaWduPW9yZGVyK3JlbGVhc2VkX=
+HUwMDI2dXRtX2NvbnRlbnQ9b3JkZXIrcmVsZWFzZWQrZW1haWwrJTI4ZW4tdXMlMjlcdTAwMjZ1=
+dG1fbWVkaXVtPXRyYW5zYWN0aW9uYWxcdTAwMjZ1dG1fc291cmNlPW1haWxpbmciLCJpbnRlcm5=
+hbCI6IjljOTAwNTYzZjQ0Yjg2ZWZiNTAxIiwibGlua19pZCI6MTZ9/ebd3f27b2b79479309640=
+17b2e2f561ccedfe8366d249b0b200627082b1c43fe" align=3D"center" class=3D"floa=
+t-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;">Ab=
+out</a>
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vc3VwcG9ydD91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoyM30/2373514e9437e6d346=
+98059604dff558b52271f0b05fc4ed9a3d23255aab9a77" align=3D"center" class=3D"f=
+loat-center" style=3D"color: #fff; text-decoration: none; padding: 0 20px;"=
+>Support</a>
+                   =20
+                    </h5>
+                  </center>
+                  <!-- Redes sociais -->
+                 =20
+                    <table align=3D"center" class=3D"menu float-center" sty=
+le=3D"color: #fff; padding: 0 20px;"><tbody><tr><td><table><tbody><tr>
+                      <th class=3D"menu-item float-center" style=3D"display=
+: inline-block; color: #fff; padding: 6px;"><a href=3D"https://email.nuuvem=
+=2Ecom/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVC=
+QUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSk=
+Y3Q28tUT09IiwiaHJlZiI6Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9udXV2ZW1hbWVyaWNhP=
+3V0bV9jYW1wYWlnbj1vcmRlcityZWxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVh=
+c2VkK2VtYWlsKyUyOGVuLXVzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI=
+2dXRtX3NvdXJjZT1tYWlsaW5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsIm=
+xpbmtfaWQiOjQ3NTZ9/dfa8c9288f6eba5b2ccdf19d3aec108c74727a929365c3207b25d819=
+a3971fc5" style=3D"color: #6A9BFF; text-decoration: none;"><img src=3D"http=
+s://userimg-assets.customeriomail.com/images/client-env-83993/1746037122220=
+_facebook-icon_01JT3YR9RP4EWE9Q3R2H130PW1.png" alt=3D"Facebook" class=3D"so=
+cial-icon" width=3D"40"/></a></th>
+                      <th class=3D"menu-item float-center" style=3D"display=
+: inline-block; color: #fff; padding: 6px;"><a href=3D"https://email.nuuvem=
+=2Ecom/e/c/eyJlbWFpbF9pZCI6ImRnU2NrQVVC=
+QUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSk=
+Y3Q28tUT09IiwiaHJlZiI6Imh0dHBzOi8veC5jb20vbnV1dmVtX3VzP3V0bV9jYW1wYWlnbj1vc=
+mRlcityZWxlYXNlZFx1MDAyNnV0bV9jb250ZW50PW9yZGVyK3JlbGVhc2VkK2VtYWlsKyUyOGVu=
+LXVzJTI5XHUwMDI2dXRtX21lZGl1bT10cmFuc2FjdGlvbmFsXHUwMDI2dXRtX3NvdXJjZT1tYWl=
+saW5nIiwiaW50ZXJuYWwiOiI5YzkwMDU2M2Y0NGI4NmVmYjUwMSIsImxpbmtfaWQiOjI5NjY2fQ=
+/d3ac831be85fbd2f65dc6bbfcb1d8bec11d48ab3ae21291096d269f28d972a96" style=3D=
+"color: #6A9BFF; text-decoration: none;"><img src=3D"https://userimg-assets=
+=2Ecustomeriomail.com/images/client-env=
+-83993/1746037123719_x-icon_01JT3YRB2P=
+SNH4ERJ6N5XZH6E3.png" alt=3D"X (Twitter)" class=3D"social-icon" width=3D"40=
+"/></a></th>
+                     =20
+                    </tr></tbody></table></td></tr></tbody></table>
+                    </center>
+                    <br/>
+                    <p class=3D"footer" style=3D"line-height: 1.5; width: 1=
+00%; max-width: 700px;"><small><font color=3D"#BAD1FF">
+                    <span>This notification was sent to the e-mail address =
+associated with your Nuuvem account.<br/>This e-mail was automatically gene=
+rated. Do not reply to this e-mail. For any inquiries, access=20
+                    <a href=3D"https://email.nuuvem.com/e/c/eyJlbWFpbF9pZCI=
+6ImRnU2NrQVVCQUlidnRRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09IiwiaHJlZiI6Im=
+h0dHBzOi8vd3d3Lm51dXZlbS5jb20vc3VwcG9ydD91dG1fY2FtcGFpZ249b3JkZXIrcmVsZWFzZ=
+WRcdTAwMjZ1dG1fY29udGVudD1vcmRlcityZWxlYXNlZCtlbWFpbCslMjhlbi11cyUyOVx1MDAy=
+NnV0bV9tZWRpdW09dHJhbnNhY3Rpb25hbFx1MDAyNnV0bV9zb3VyY2U9bWFpbGluZyIsImludGV=
+ybmFsIjoiOWM5MDA1NjNmNDRiODZlZmI1MDEiLCJsaW5rX2lkIjoyM30/2373514e9437e6d346=
+98059604dff558b52271f0b05fc4ed9a3d23255aab9a77" style=3D"color: #6A9BFF; te=
+xt-decoration: none;"><b>https://www.nuuvem.com/support</b></a>.</span></fo=
+nt></small></p>
+                   =20
+                    <br/>
+                    <p class=3D"footer" style=3D"line-height: 1.5; width: 1=
+00%; max-width: 700px;"><span><b><small>Trouble reading this message?</smal=
+l></b>
+                    <a href=3D"https://email.nuuvem.com/deliveries/dgSckAUB=
+AIbvtQGE77UBAZeYjlUPmY_UgTEJF7Co-Q=3D=3D" style=3D"color: #6A9BFF; text-dec=
+oration: none;"><b><small>Click here</small></b>
+                    </a></span></p>
+                </td>
+            </tr>
+        </tbody></table>
+  </center>
+
+<img src=3D"https://email.nuuvem.com/e/o/eyJlbWFpbF9pZCI6ImRnU2NrQVVCQUlidn=
+RRR0U3N1VCQVplWWpsVVBtWV9VZ1RFSkY3Q28tUT09In0=3D" style=3D"height: 1px !imp=
+ortant; max-height: 1px !important; max-width: 1px !important; width: 1px !=
+important; display: none !important;" alt=3D""/></body></html>
+--762b45f67cf081bc5ac82e944954efffafca7f60b951cab40d5999a258fd--
+

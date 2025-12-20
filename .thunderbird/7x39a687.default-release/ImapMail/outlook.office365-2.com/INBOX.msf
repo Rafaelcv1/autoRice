@@ -1,0 +1,122 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=keywords)(B9=MRUTime)(BA=replyTo)
+  (BB=dobayes.mailnews@mozilla.org#junk)(BC=preview)(BD=storeToken)
+  (BE=gloda-id)(BF=gloda-dirty)(C0=ns:msg:db:row:scope:ops:all)
+  (C1=ns:msg:db:table:kind:ops)(C2=prevkeywords)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)
+  (B0=highestModSeq)(B1=highestRecordedUID)
+  (B2=ns:msg:db:row:scope:pending:all)(B3=ns:msg:db:table:kind:pending)
+  (B4=dateReceived)(B5=ProtoThreadFlags)(B6=account)(B7=junkscore)>
+<(8D=1b2)(8B=669a1197)(81=0)(80=1)>
+[1:m(^9B^8D)(^8F^8D)(^91^8B)(^90=0)(^92=1)]
+<(94=1f2)(92=66cbfc72)>[2:m(^9B^94)(^8F^94)(^91^92)(^90=0)(^92=1)]
+<(9A=379)(98=68aa3a51)>[3:m(^9B^9A)(^8F^9A)(^91^98)(^90=0)(^92=1)(^93=1)]
+<(A5=382)(A2=68b0931f)>[4:m(^9B^A5)(^8F^A5)(^91^A2)(^90=0)(^92=1)(^93=1)]
+<(AB=38a)(A9=68ba9017)>[5:m(^9B^AB)(^8F^AB)(^91^A9)(^90=0)(^92=1)(^93=1)]
+
+<(BE=81)(87=Outlook <outlook@communication.microsoft.com>)(88
+    =<Rafaelcvieira1@hotmail.com>)(89
+    ==?utf-8?b?QcOnw6NvIG5lY2Vzc8OhcmlhOiB2b2PDqiBwZXJkZXLDoQ==?= o acesso a a\
+lguns de seus aplicativos de email e de =?utf-8?b?Y2FsZW5kw6FyaW8=?= de tercei\
+ros)(8A
+    =[e52add66498246a5b920e2c99aeb1b68-JFBVALKQOJXWILKNK4YVA7CDIRXECRLNMFUWYUD\
+MMF2GM33SNV6EGRDOIF6EK6DPKNWXI4A=@microsoft.com])(86=)(BC=1357a)(8E
+    =ffffffff)(BD=203492)(BF=135ad)(C0=406)(8F
+    =Microsoft <msa@communication.microsoft.com>)(90
+    ==?utf-8?b?QXR1YWxpemHDp8O1ZXM=?= dos nossos termos de uso)(91
+    =[3cf1432b311041cf83b4eb4784dd42f1-JFBVALKQOJXWILKCJQZFA7CDIRXECRLNMFUWYUD\
+MMF2GM33SNV6EGRDOIF6EK6DPKNWXI4A=@microsoft.com])(C1=9bd5)(C2=282804)
+  (C3=9c08)(C4=214)(AF=80)(96=Rafaelcvieira1@hotmail.com)(97
+    =[be4b2c4999fe43d88369cd4705021842-JFZGS42DN5WW25LONFRWC5DJN5XFA3DBORTG64T\
+NFVIHE33EFVGVOMKQPRBUI3SBIVWWC2LMKBWGC5DGN5ZG27CDIRXEC7CFPBXVG3LUOA======@micr\
+osoft.com])(AE=9657)(AD
+    =*Seu Contrato de Servi$C3$A7os ficou mais claro* Ol$C3$A1, Voc$C3$AA est$C3\
+$A1 recebendo este email porque estamos atualizando o Contrato de Servi$C3$A7o\
+s Microsoft, que se aplica a um ou mais produtos ou servi$C3$A7os da Microsoft\
+ que voc$C3$AA utiliza. Estamos fazendo essas a)(B0=968a)(B1=202)(B2=2494)
+  (9D="noreply" <replies@microsoft.com>)(9E
+    ="Microsoft Copilot" <Copilot@engagemail.microsoft.com>)(9F
+    =<rafaelcvieira1@hotmail.com>)(A0
+    =Retome o ritmo de aprendizado com o Copilot)(A1
+    =AC70000000029F6C9ED2693F123mscom_mkt_prod126@engagemail.microsoft.com)
+  (A3=utf-8)(B4=14540)(B5=38573)(B6=14573)(B7=a39)(C5=2495)(A7
+    ==?windows-1252?Q?Suas_ideias_s=E3o_exibidas_em_instantes?=)(A8
+    =AC7000000002AB12F192694124Dmscom_mkt_prod126@engagemail.microsoft.com)
+  (B8=13e4b)(B9=121923)(BA=13e7e)(BB=9d4)(C6=2496)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1B2(^88=81)(^82^87)(^85^88)(^81^89)(^83^8A)(^84=)(^B4^8B)(^86^8B)
+    (^89=1)(^87^BC)(^9A^8E)(^8E^8D)(^B5=0)(^C2=)(^B8=)(^BD^BD)(^9D^BF)
+    (^8B^C0)]
+  [1F2(^88=81)(^82^8F)(^85^88)(^81^90)(^83^91)(^84=)(^B4^92)(^86^92)
+    (^89=1)(^87^C1)(^9A^8E)(^8E^94)(^B5=0)(^C2=)(^B8=)(^BD^C2)(^9D^C3)
+    (^8B^C4)]
+  [379(^88=80)(^82^8F)(^85^96)(^81^90)(^83^97)(^84=)(^B4^98)(^86^98)
+    (^89=1)(^87^AE)(^9A^8E)(^8E^9A)(^B5=0)(^BC^AD)(^BD=0)(^9D^B0)(^8B^B1)
+    (^BE^B2)(^C2=)(^B8=)]
+  [382(^88=80)(^BA^9D)(^82^9E)(^85^9F)(^81^A0)(^83^A1)(^84=)(^B4^A2)
+    (^86^A2)(^89=1)(^95^A3)(^87^B4)(^9A^8E)(^8E^A5)(^B5=0)(^BD^B5)(^9D^B6)
+    (^8B^B7)(^C2=)(^B8=)(^BE^C5)]
+  [38A(^88=80)(^BA^9D)(^82^9E)(^85^9F)(^81^A7)(^83^A8)(^84=)(^B4^A9)
+    (^86^A9)(^89=1)(^95^A3)(^87^B8)(^9A^8E)(^8E^AB)(^B5=0)(^BD^B9)(^9D^BA)
+    (^8B^BB)(^C2=)(^B8=)(^BE^C6)]}
+{1F2:^80 {(k^97:c)(s=9)2:m } 1F2 }
+{38A:^80 {(k^97:c)(s=9)5:m } 38A }
+{1B2:^80 {(k^97:c)(s=9)1:m } 1B2 }
+{382:^80 {(k^97:c)(s=9)4:m } 382 }
+{379:^80 {(k^97:c)(s=9)3:m } 379 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [1B2(^94^89)]
+  [1F2(^94^90)]
+  [379(^94^90)]
+  [382(^94^A0)]
+  [38A(^94^A7)]}
+
+<(82=INBOX)(83=2000)(B3=8083014)(85=e)(AC=5)(9B=3)(9C=1766200271)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF^83)(^B0=0)(^A7^82)(^88^B3)(^A8=e)
+    (^B1^AB)(^A1=5)(^A6^AB)(^A2=3)(^B9^9C)]}
+
+@$${C{@
+<(C7=83014)>[1:^9F(^88^C7)]
+@$$}C}@
+
+@$${D{@
+<(C9=2498)>[1F2:^80(^BE^C9)]
+<(C8=2497)>[1B2:^80(^BE^C8)]
+@$$}D}@
+
+@$${F{@
+[1:^9F(^88^B3)]
+@$$}F}@
+
+@$${10{@
+< <(a=c)> // (f=iso-8859-1)
+  (C3=useServerRetention)(C4=retainBy)(C5=daysToKeepHdrs)
+  (C6=numHdrsToKeep)(C7=daysToKeepBodies)(C8=useServerDefaults)
+  (C9=cleanupBodies)(CA=applyToFlaggedMessages)>
+[1:^9F(^C3=1)]
+@$$}10}@
+
+@$${11{@
+@$$}11}@
+
+@$${12{@
+{-1:^C0 {(k^C1:c)(s=9)} }
+@$$}12}@
+
+@$${13{@
+@$$}13}@

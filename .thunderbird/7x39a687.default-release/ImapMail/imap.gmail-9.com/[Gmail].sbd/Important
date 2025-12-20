@@ -1,0 +1,1324 @@
+From - Sat Dec 20 02:26:18 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: discordbugoupeloip@gmail.com
+Received: by 2002:a5d:898a:0:0:0:0:0 with SMTP id m10csp959976iol;
+        Fri, 6 Aug 2021 15:33:06 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJyCHRoT9a9LZy0vAn0UIYrLuabF3ETmK1BDaxvJnk8oKPm/l4aBI0mNDdxx+cm5WX2ieGZl
+X-Received: by 2002:aa7:cd03:: with SMTP id b3mr16428654edw.54.1628289186553;
+        Fri, 06 Aug 2021 15:33:06 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1628289186; cv=none;
+        d=google.com; s=arc-20160816;
+        b=VZ8DXtdhQRMhBsBNFpjbD9AsD7PaDjPLgOUhwCDpN8aW8dLXibVhlDkHFizB3R19Op
+         MaKGjO97Lg3eF77bx7AaQez+yv1mDxvtUD2bGs7xQzuyyo/oCwykXiKk+FPbxIGgwmJR
+         2H9RHRaoSvQatUrCpb14PsYZ48lgL3D1eg6J+Tb4Oga7npi9Pzp39zqBC/tBhPbhKXCM
+         lo4jmvyqCU/Gjz8IEMCajtuU6jS70RghRO9Oke3Y/jH4kxtoqEmDLVXc0i8S75YrNG+d
+         ewQzKZ1ENjzqeIkn+dyl97loE9wdtjmx/dFecpJi5GtFbppU7HyrZ5usJz3b/09mVuo7
+         mZvw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:mime-version:from:date:dkim-signature
+         :dkim-signature;
+        bh=bsniXPplcv1lyaz+EjNvqqmqC570+qZeSxvtkN6OU+Y=;
+        b=bk4zqls9ltTMGbw9q7Pu+MhovLksbjZ8p2UBNRIH1YRImCmNY/zj8tB39DqUVLEfJs
+         pjyZ9nooKfTg4OAiCnVMLB7q1AeBx4kptpiJz4az5d3+VOV3A1WZ8OodOFzQpHNx/154
+         qv46en94DutdTNQa+SvkV4pGDXnmkfoWaErTdiiWfEoDX8y1QQpp4IKNQJ0C9zXeFjlf
+         lLxbSfOkKUyznnksFH3zWYz5b76AOMjG/6bUJtuULBs7k/yGxY/kw958Z0SpLZWN/AAt
+         2lTePEL6LzUf2EQyEplI3HoyjXrMe3QQgu3jpNjMULW1jrqLgXVs8hl7Kyb8Aq1GsSDq
+         pqiQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@discord.com header.s=s2 header.b=lgVNb+lF;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=e758LFyQ;
+       spf=pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.228.79 as permitted sender) smtp.mailfrom="bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=discord.com
+Return-Path: <bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com>
+Received: from o22.ptr2763.discord.com (o22.ptr2763.discord.com. [149.72.228.79])
+        by mx.google.com with ESMTPS id cq1si9870564edb.603.2021.08.06.15.33.06
+        for <discordbugoupeloip@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 06 Aug 2021 15:33:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.228.79 as permitted sender) client-ip=149.72.228.79;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@discord.com header.s=s2 header.b=lgVNb+lF;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=e758LFyQ;
+       spf=pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.228.79 as permitted sender) smtp.mailfrom="bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=discord.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=discord.com;
+	h=content-type:from:mime-version:subject:x-feedback-id:to;
+	s=s2; bh=bsniXPplcv1lyaz+EjNvqqmqC570+qZeSxvtkN6OU+Y=;
+	b=lgVNb+lF3o06IYnxoy+G9OqmqnfpkWVbh9gyhb6cflOGXCT6o3QM59qk0Qg0fq/r8iJy
+	1rPDMVNfFZBMYTpTXXFPQPrE9FDVSKmoLN2SmzIVUdQvTIID2/K/FXmvQuqhinyx6ZXlJr
+	1MXJ5m3X38jMevd65NRWOtLIQ0iPAsph8=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:from:mime-version:subject:x-feedback-id:to;
+	s=smtpapi; bh=bsniXPplcv1lyaz+EjNvqqmqC570+qZeSxvtkN6OU+Y=;
+	b=e758LFyQ+EeWCx/y+MKezvZcLgCD7K7OtyWRn8hQVPgoTOqvQI1uko4qWlRRuvL7zgnT
+	6mjeTOCylD3lHNPHjLhV94hIUeGOsD3t8rpvOYOCkZ8CMRLtLUKyBzExqXSx7NzQ5PVwwd
+	tIcbH53xfXthfejt/9vXiJS0YOmYyHH2g=
+Received: by filterdrecv-6b668bdb48-csk9k with SMTP id filterdrecv-6b668bdb48-csk9k-1-610DB8A1-85
+        2021-08-06 22:33:05.454512797 +0000 UTC m=+965058.886812907
+Received: from MTI1NTEyNDE (unknown)
+	by ismtpd0159p1iad2.sendgrid.net (SG)
+	with HTTP
+	id Y2kWLnIWTOq1-nyD1wX3xA
+	Fri, 06 Aug 2021 22:33:05.440 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=f92dc79f8c75a2980f9537c0d69caa2c60ac850c513e0577014b817d39b8
+Date: Fri, 06 Aug 2021 22:33:05 +0000 (UTC)
+From: Discord <noreply@discord.com>
+Mime-Version: 1.0
+Message-ID: <Y2kWLnIWTOq1-nyD1wX3xA@ismtpd0159p1iad2.sendgrid.net>
+Subject: Verificar =?UTF-8?B?ZW5kZXJlw6dv?= de e-mail do Discord
+X-Feedback-ID: 12551241:SG
+X-SG-EID: 
+ =?us-ascii?Q?gjlEyPnYHrZ+7Q0ew9iJIXlCMxZVz4eHaCpvqnyQh4pda0IeZQz1BhkDHL602K?=
+ =?us-ascii?Q?dqS5Hu=2F0z3k9HRGT09m9nmwtnY4Iu6863RYllEQ?=
+ =?us-ascii?Q?Oq4r9bE7Z3zHCi2cYbiXdQJPmAL1eMh8zqUAqKw?=
+ =?us-ascii?Q?XAKBo5qOY71sEgVMZH3I=2FtnW3qqTYjgLmuuUkZE?=
+ =?us-ascii?Q?b9gaHj+zswWn24fpCCmcZPgLMATJPa2zlulMTzO?=
+ =?us-ascii?Q?Skn=2FlCPlUPiDNCKQfnC3O3cuNNx21KAygzPXOS?=
+To: discordbugoupeloip@gmail.com
+X-Entity-ID: 4L3hxw1QFhr929+CeHVUJw==
+
+--f92dc79f8c75a2980f9537c0d69caa2c60ac850c513e0577014b817d39b8
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1
+Mime-Version: 1.0
+
+Ol=E1, Rafaelcv1!
+
+Agradecemos por registrar uma conta no Discord! Antes de come=E7armos, prec=
+isamos confirmar que =E9 voc=EA mesmo. Clique abaixo para verificar seu end=
+ere=E7o de e-mail:
+
+Verificar e-mail: https://click.discord.com/ls/click?upn=3DqDOo8cnwIoKzt0aL=
+L1cBeFE1RlVCKJFF5zAq8ml-2BFh1dq-2FeX22E9yMPFmLMSO5CYdeCZEVSB341CRmMelX11Xlv=
+jr3ZkXND8aFY0MxKFKw0XrBX5dzPqTJwoNfWho3qoKFs6RH66AwhKtSHYU5moEpeWM8rPxjhsZB=
+g6HTT6kAd75Dhd3HBEMuf6M4RN2E7mOIVzz1ndheySdctMgGguwHcpnT5pl3L3goFtoqdSrLk-3=
+Dck7M_FMvPyUpaQAMc-2BvzoljlxpgnBYg-2F5okuVWH5VrqgkkZMfRTsF5PgWkFItp5plXfiqQ=
+v-2By3mEHJQ3MbUem4Z4MAH88qDkaonhNn-2BscGiuHnY7XEtbLc07QDL-2Ff5lz3zEua6EyMob=
+f5jIKybOgNisWvbdir8jqGUGvx-2FIXowXEeRJ9hJleDy3bBj-2FyYWjYQzsBian8YjkRBxoflD=
+hjI91NyaztF2GC7fXLdV5EBneHRldM-3D
+
+
+--f92dc79f8c75a2980f9537c0d69caa2c60ac850c513e0577014b817d39b8
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+  <title></title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <!--<![endif]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<style type=3D"text/css">
+  #outlook a { padding: 0; }
+  .ReadMsgBody { width: 100%; }
+  .ExternalClass { width: 100%; }
+  .ExternalClass * { line-height:100%; }
+  body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; }
+  table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; }
+  img { border: 0; height: auto; line-height: 100%; outline: none; text-dec=
+oration: none; -ms-interpolation-mode: bicubic; }
+  p { display: block; margin: 13px 0; }
+</style>
+<!--[if !mso]><!-->
+<style type=3D"text/css">
+  @media only screen and (max-width:480px) {
+    @-ms-viewport { width:320px; }
+    @viewport { width:320px; }
+  }
+</style>
+<!--<![endif]-->
+<!--[if mso]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+  .outlook-group-fix {
+    width:100% !important;
+  }
+</style>
+<![endif]-->
+
+<!--[if !mso]><!-->
+    <link href=3D"https://fonts.googleapis.com/css?family=3DUbuntu:300,400,=
+500,700" rel=3D"stylesheet" type=3D"text/css">
+    <style type=3D"text/css">
+
+        @import url(https://fonts.googleapis.com/css?family=3DUbuntu:300,40=
+0,500,700);
+
+    </style>
+  <!--<![endif]--><style type=3D"text/css">
+  @media only screen and (min-width:480px) {
+    .mj-column-per-100, * [aria-labelledby=3D"mj-column-per-100"] { width:1=
+00%!important; }
+  }
+</style>
+</head>
+<body style=3D"background: #F9F9F9;">
+  <div style=3D"background-color:#F9F9F9;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+  <style type=3D"text/css">
+    html, body, * {
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+    }
+    a {
+      color:#1EB0F4;
+      text-decoration:none;
+    }
+    a:hover {
+      text-decoration:underline;
+    }
+  </style>
+<div style=3D"margin:0px auto;max-width:640px;background:transparent;"><tab=
+le role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+size:0px;width:100%;background:transparent;" align=3D"center" border=3D"0">=
+<tbody><tr><td style=3D"text-align:center;vertical-align:top;direction:ltr;=
+font-size:0px;padding:40px 0px;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"center"><table role=3D"presentation" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"border-collapse:collapse;border-spacing:0px;" align=
+=3D"center" border=3D"0"><tbody><tr><td style=3D"width:138px;"><a href=3D"h=
+ttps://click.discord.com/ls/click?upn=3DqDOo8cnwIoKzt0aLL1cBeARJoBrGSa2vu41=
+A5vK-2B4ute1kWYI6zNuxQFCVciWW4KQsmi_FMvPyUpaQAMc-2BvzoljlxpgnBYg-2F5okuVWH5=
+VrqgkkZMfRTsF5PgWkFItp5plXfiqQv-2By3mEHJQ3MbUem4Z4MANQT4GOUd-2FvWZPQPzDHLeO=
+pFwlqy6xIJ4dwe2wngKCBpK9X0g9UdWtJsK6KBKnZyQyG9d8ejdzU18ceuZP95q1bZDpnb9rl5H=
+DTkX-2FeAwgZBEuIhCGmc86djSLoJzXUkfv-2Fv8vLjRK3pwKLb-2BI4NjCc-3D" target=3D"=
+_blank"><img alt=3D"" title=3D"" height=3D"38px" src=3D"https://cdn.discord=
+app.com/email_assets/592423b8aedd155170617c9ae736e6e7.png" style=3D"border:=
+none;border-radius:;display:block;outline:none;text-decoration:none;width:1=
+00%;height:38px;" width=3D"138"></a></td></tr></tbody></table></td></tr></t=
+body></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+      <!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]--><div style=3D"max-width:640px;margin:0 auto;box-shadow:0p=
+x 1px 5px rgba(0,0,0,0.1);border-radius:4px;overflow:hidden"><div style=3D"=
+margin:0px auto;max-width:640px;background:#ffffff;"><table role=3D"present=
+ation" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:0px;width:100=
+%;background:#ffffff;" align=3D"center" border=3D"0"><tbody><tr><td style=
+=3D"text-align:center;vertical-align:top;direction:ltr;font-size:0px;paddin=
+g:40px 50px;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"left"><div style=3D"cursor:auto;color:#737F8D;font-family:Wh=
+itney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-siz=
+e:16px;line-height:24px;text-align:left;">
+           =20
+  <h2 style=3D"font-family: Whitney, Helvetica Neue, Helvetica, Arial, Luci=
+da Grande, sans-serif;font-weight: 500;font-size: 20px;color: #4F545C;lette=
+r-spacing: 0.27px;">Ol=C3=A1, Rafaelcv1!</h2>
+<p>Agradecemos por registrar uma conta no Discord! Antes de come=C3=A7armos=
+, precisamos confirmar que =C3=A9 voc=C3=AA mesmo. Clique abaixo para verif=
+icar seu endere=C3=A7o de e-mail:</p>
+
+          </div></td></tr><tr><td style=3D"word-break:break-word;font-size:=
+0px;padding:10px 25px;padding-top:20px;" align=3D"center"><table role=3D"pr=
+esentation" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:se=
+parate;" align=3D"center" border=3D"0"><tbody><tr><td style=3D"border:none;=
+border-radius:3px;color:white;cursor:auto;padding:15px 19px;" align=3D"cent=
+er" valign=3D"middle" bgcolor=3D"#5865f2"><a href=3D"https://click.discord.=
+com/ls/click?upn=3DqDOo8cnwIoKzt0aLL1cBeFE1RlVCKJFF5zAq8ml-2BFh1dq-2FeX22E9=
+yMPFmLMSO5CYdeCZEVSB341CRmMelX11Xlvjr3ZkXND8aFY0MxKFKw0XrBX5dzPqTJwoNfWho3q=
+oKFs6RH66AwhKtSHYU5moEpeWM8rPxjhsZBg6HTT6kAd75Dhd3HBEMuf6M4RN2E7mOIVzz1ndhe=
+ySdctMgGguwKGnHzdNsCojpRiQM1Zuq4Q-3DHeDV_FMvPyUpaQAMc-2BvzoljlxpgnBYg-2F5ok=
+uVWH5VrqgkkZMfRTsF5PgWkFItp5plXfiqQv-2By3mEHJQ3MbUem4Z4MALt5fX-2F1sx-2FVoeN=
+7aIMdRUkAtwqbSKTSH0t0CBlalcbI02RZRgwoeIkyX-2FfgDoD1lhmzXdDYI9et57JM1JQgf44y=
+XZRltPFmzq2JW8dEm-2B-2BbKT2Mx-2FeHqyxyaNBBZalNyv3Q1ikwT2cXsW40RK5wipo-3D" s=
+tyle=3D"text-decoration:none;line-height:100%;background:#5865f2;color:whit=
+e;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:15px;font-weig=
+ht:normal;text-transform:none;margin:0px;" target=3D"_blank">
+            Verificar e-mail
+          </a></td></tr></tbody></table></td></tr><tr><td style=3D"word-bre=
+ak:break-word;font-size:0px;padding:30px 0px;"><p style=3D"font-size:1px;ma=
+rgin:0px auto;border-top:1px solid #DCDDDE;width:100%;"></p><!--[if mso | I=
+E]><table role=3D"presentation" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-size:1px;margin:0px auto;border-top:=
+1px solid #DCDDDE;width:100%;" width=3D"640"><tr><td style=3D"height:0;line=
+-height:0;">=C2=A0</td></tr></table><![endif]--></td></tr><tr><td style=3D"=
+word-break:break-word;font-size:0px;padding:0px;" align=3D"left"><div style=
+=3D"cursor:auto;color:#747F8D;font-family:Whitney, Helvetica Neue, Helvetic=
+a, Arial, Lucida Grande, sans-serif;font-size:13px;line-height:16px;text-al=
+ign:left;">
+<p>Precisa de ajuda? <a href=3D"https://click.discord.com/ls/click?upn=3DqD=
+Oo8cnwIoKzt0aLL1cBeNlOcN7VC1Mue2BSa5oqYEdKm-2BPBEvWHLEUfi61TfqfxuvBipSaAkPt=
+kAVPOEnBIzw-3D-3Dxq45_FMvPyUpaQAMc-2BvzoljlxpgnBYg-2F5okuVWH5VrqgkkZMfRTsF5=
+PgWkFItp5plXfiqQv-2By3mEHJQ3MbUem4Z4MANHCjnloQkhEMiKz12o0J8tVxEV-2B03m-2BQI=
+iCh-2FllhSZH0CNx1o7lgDc-2BLMEjOhoO7JhYvcWXKoMkuwwo9M2vSXqyiIsVB6QyeN7yKSvgC=
+-2BhChaDlYe9upS71feHsuRABjbcpAtBVSxu1kbs-2FSabOvxA-3D" style=3D"font-family=
+: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;colo=
+r: #5865f2;">Entre em contato com nossa equipe de assist=C3=AAncia</a> ou n=
+os d=C3=AA um toque no Twitter <a href=3D"https://click.discord.com/ls/clic=
+k?upn=3DqDOo8cnwIoKzt0aLL1cBeHLasbud5D3vi74o1Q-2B2VLcLLCDOodJpEqop-2Fc-2F5W=
+r6Z5WmO_FMvPyUpaQAMc-2BvzoljlxpgnBYg-2F5okuVWH5VrqgkkZMfRTsF5PgWkFItp5plXfi=
+qQv-2By3mEHJQ3MbUem4Z4MAKEI1AOkAQRvt2kcxvirQSRK-2F14BDIj2oCEKBPlpR3fJgdsuIw=
+2Y894f2-2BWfKwJimRkxwZ0AtRvFo5yk8L2wUaeZFAYginc-2FRQ8dwmxEAs06k621Gq7RBIrya=
+U0TDdfXkfjrsFiZSCNAFgmPpdgINYk-3D" style=3D"font-family: Whitney, Helvetica=
+ Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #5865f2;">@discor=
+d</a>.<br>
+Quer nos dar sua opini=C3=A3o? Diga o que acha em nosso <a href=3D"https://=
+click.discord.com/ls/click?upn=3DqDOo8cnwIoKzt0aLL1cBeGtifxhyb-2FEeTgeN31uA=
+kBS2ZTvlNepPcLUnXgSC4-2BGK1s_T_FMvPyUpaQAMc-2BvzoljlxpgnBYg-2F5okuVWH5Vrqgk=
+kZMfRTsF5PgWkFItp5plXfiqQv-2By3mEHJQ3MbUem4Z4MACHBo6fdEqsI3uJFwszvwKCSUm-2F=
+ml-2FdjKuxhTGbi9VtBAEG9rSQUSY7-2BOf471S-2F60S6g6ZdSHRiVyUtnfYA2n4-2FTEsYpTe=
+B7-2Fcsawbo-2BpdY-2Fyep2yw5sL-2Fi0pdhpx0aUWBy-2BZyuVNBUG-2F1aLWGFiDVY-3D" s=
+tyle=3D"font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Gran=
+de, sans-serif;color: #5865f2;">site de coment=C3=A1rios</a>.</p>
+
+</div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+      <!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]--></div><div style=3D"margin:0px auto;max-width:640px;backg=
+round:transparent;"><table role=3D"presentation" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"font-size:0px;width:100%;background:transparent;" align=
+=3D"center" border=3D"0"><tbody><tr><td style=3D"text-align:center;vertical=
+-align:top;direction:ltr;font-size:0px;padding:20px 0px;"><!--[if mso | IE]=
+>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"center"><div style=3D"cursor:auto;color:#99AAB5;font-family:=
+Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-s=
+ize:12px;line-height:24px;text-align:center;">
+      Enviado pelo Discord =E2=80=A2
+      <a href=3D"https://click.discord.com/ls/click?upn=3DqDOo8cnwIoKzt0aLL=
+1cBeJH69ZST7vortkxRfT-2FA4A3VjNfCTRtqoYt2A-2FcqUeqSOwWn_FMvPyUpaQAMc-2Bvzol=
+jlxpgnBYg-2F5okuVWH5VrqgkkZMfRTsF5PgWkFItp5plXfiqQv-2By3mEHJQ3MbUem4Z4MAFFc=
+VnJ6iN8LdLd-2FJ-2B3yjnVN2Ue2B8VtkszO6R9BTiqd5lrOoQlbgOG5pNXKb70HdXIsY0FBLsl=
+zTFFmqACg1vIus-2BhwtBPLOIkJioA-2Fv0iNRklzTyQSsc-2FMzSkrF8fg9PhT13tjZPnoyoRX=
+ApWSwjQ-3D" style=3D"color:#1EB0F4;text-decoration:none;">confira nosso blo=
+g</a>
+      =E2=80=A2 <a href=3D"https://click.discord.com/ls/click?upn=3DqDOo8cn=
+wIoKzt0aLL1cBeHLasbud5D3vi74o1Q-2B2VLcLLCDOodJpEqop-2Fc-2F5Wr6ZrD3W_FMvPyUp=
+aQAMc-2BvzoljlxpgnBYg-2F5okuVWH5VrqgkkZMfRTsF5PgWkFItp5plXfiqQv-2By3mEHJQ3M=
+bUem4Z4MADr4OlDL0vpjiX4BXD-2BzgQ3Lsbot4-2BJGY3KMKNRIV36YOz191bH5mkD8EuRIvBo=
+0D0MXBNZdIZYWikvwb4cOx3oE2AxzASQzwNZFfXC3L2Iir-2BNv980eySR5pb7DlOhM9Qk6Bo-2=
+BzOP1k8MEQ-2FIhaFcM-3D" style=3D"color:#1EB0F4;text-decoration:none;">@disc=
+ord</a>
+    </div></td></tr><tr><td style=3D"word-break:break-word;font-size:0px;pa=
+dding:0px;" align=3D"center"><div style=3D"cursor:auto;color:#99AAB5;font-f=
+amily:Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;=
+font-size:12px;line-height:24px;text-align:center;">
+      444 De Haro Street, Suite 200, San Francisco, CA 94107
+    </div></td></tr><tr><td style=3D"word-break:break-word;font-size:0px;pa=
+dding:0px;" align=3D"left"><div style=3D"cursor:auto;color:#000000;font-fam=
+ily:Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:13px;line-height:22px;text-align:left;">
+      <img src=3D"https://discord.com/api/science/868600581202264094/f2fa85=
+fd-5594-418f-9c56-85e6b1451d7f.gif?properties=3DeyJlbWFpbF90eXBlIjogInVzZXJ=
+fdmVyaWZ5X2VtYWlsIn0%3D" width=3D"1" height=3D"1">
+    </div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></div>
+<img src=3D"https://click.discord.com/wf/open?upn=3D4zGAeIk8-2Bk8KDevSzNp8C=
+g2qWy75kdo4kcykuYQFzfj9YfQ9jMAD1a7iImuQZCOq35oyBuccwWQ8wVOQsWnpfPd9lX7xxeoR=
+MjXU-2FxC9TaRd5MKcwu5xe4A8LKxK5v6odzc57YmONGRKlh4eIG82y7NlWWwQYq75X3a6jx6yN=
+CovVUBG4OjgXwspXIHtWaZGGvxAW-2B9ki9ZhYoVx2yjReovCDycborr3IPhMY0wehIo-3D" al=
+t=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important=
+;width:1px !important;border-width:0 !important;margin-top:0 !important;mar=
+gin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;=
+padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !impor=
+tant;padding-left:0 !important;"/></body>
+</html>
+--f92dc79f8c75a2980f9537c0d69caa2c60ac850c513e0577014b817d39b8--
+
+From - Sat Dec 20 02:26:18 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: discordbugoupeloip@gmail.com
+Received: by 2002:abe:7f05:0:b0:3a3:9d10:cf52 with SMTP id p5csp3453689vlj;
+        Mon, 27 May 2024 16:24:53 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IFWQe4iQB4swURyMm7LWPLM29iL1fVocaoXqdznJ6RQBuF9fvWOyYXBtB8+cJtW/UZIoGDu
+X-Received: by 2002:a17:903:32c2:b0:1f4:8bb9:924f with SMTP id d9443c01a7336-1f48bb99a39mr63475005ad.1.1716852293010;
+        Mon, 27 May 2024 16:24:53 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1716852292; cv=none;
+        d=google.com; s=arc-20160816;
+        b=yKfG8FpKQV4N23SaUz8H+tTLhZCaMD3moCKNF007foRtPCwKIwuH9N7WYVQu5VMJ4a
+         QOY5+a2181fRAtQ8eQdP2c+C8UUZMYRLF4zAYpkfjh8UhDlBDxZoNZWRNJeP3KeXjxpv
+         KcStrwTIE6Rg9dJE0vOhk66TH+AXdp/F12SR7JZA02hXXzu7E9Mc0NyGkS3Qsn3/L2je
+         IHQtUY/5rMjzNQ7EQ1imUyVVOnxxgxhymqaXiZpmmUJYlu/TaUahP+vmmk/joHcZngSc
+         lvyPBN9LNJi5pP9KZe40uBIkz7r4bqAhdHNe1pTuU2nzJ6O8irZzABj3eH+MhKZptcJb
+         UzoA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:date:message-id:subject:to:from:mime-version
+         :dkim-signature:dkim-signature;
+        bh=vnDbV7OfqDj1ysI0zDRBE6E2CL/of7sqsiZLscWK/+w=;
+        fh=ETRg9lZykI5P+bINS80hFYhAls2gc4iemSm35FLZkZs=;
+        b=crX/noWWxTFdyvtSVD3QX5jGk+h7dd3p/MoErsEejXz7O6gtF0Pw4f3raOvrCuIhft
+         dadngvKxd+jSbtFfkt+8GOJvwicGDmhAhO2f8Tk64bgh7fA4gpy/+oIpIi0nvx9RnYvE
+         K1lQp70KBvKsS/kX9VDvjrAobZ6VqPW6NmMgzUID6P5k5VBVpdttNKgnmO3VqzbzCH0P
+         sW7UbATz44qRlpUM4Gk/uVo2NqSE6f78nF5whDpe8+w6AdfzgJzP7hFJKqjOKOUej4JZ
+         4ULpwfJRKzycxCm6Ni9gSa+cvoZpNP7dwEi0rsfWRnUlOGjLInoJUyKp75BRi/kjj7hH
+         +UTQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@duolicious.app header.s=na7e3tqpwd3asx6je7xlpbtjp2hkvia6 header.b="C6qH/JUP";
+       dkim=pass header.i=@amazonses.com header.s=iek43urnex4zqv5t3opageoatkmhcael header.b=WhHJZ5GD;
+       spf=pass (google.com: domain of 0111018fbc5efb1a-0ec62c15-c033-488a-9d57-8844b2c73946-000000@us-west-1.amazonses.com designates 23.251.242.11 as permitted sender) smtp.mailfrom=0111018fbc5efb1a-0ec62c15-c033-488a-9d57-8844b2c73946-000000@us-west-1.amazonses.com
+Return-Path: <0111018fbc5efb1a-0ec62c15-c033-488a-9d57-8844b2c73946-000000@us-west-1.amazonses.com>
+Received: from e242-11.smtp-out.us-west-1.amazonses.com (e242-11.smtp-out.us-west-1.amazonses.com. [23.251.242.11])
+        by mx.google.com with ESMTPS id d9443c01a7336-1f48b9e8443si32941665ad.37.2024.05.27.16.24.52
+        for <discordbugoupeloip@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 May 2024 16:24:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0111018fbc5efb1a-0ec62c15-c033-488a-9d57-8844b2c73946-000000@us-west-1.amazonses.com designates 23.251.242.11 as permitted sender) client-ip=23.251.242.11;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@duolicious.app header.s=na7e3tqpwd3asx6je7xlpbtjp2hkvia6 header.b="C6qH/JUP";
+       dkim=pass header.i=@amazonses.com header.s=iek43urnex4zqv5t3opageoatkmhcael header.b=WhHJZ5GD;
+       spf=pass (google.com: domain of 0111018fbc5efb1a-0ec62c15-c033-488a-9d57-8844b2c73946-000000@us-west-1.amazonses.com designates 23.251.242.11 as permitted sender) smtp.mailfrom=0111018fbc5efb1a-0ec62c15-c033-488a-9d57-8844b2c73946-000000@us-west-1.amazonses.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=na7e3tqpwd3asx6je7xlpbtjp2hkvia6; d=duolicious.app; t=1716852292;
+	h=Content-Type:MIME-Version:From:To:Subject:Message-ID:Date;
+	bh=vnDbV7OfqDj1ysI0zDRBE6E2CL/of7sqsiZLscWK/+w=;
+	b=C6qH/JUPqAoshQfxRml9Qkis64DYvUWbbICLyRcnRCjDSRDy+SBWsj3PeQPPGgSC
+	774Og4OIf7xfDpF0TH9m2aslU02sAAfrNQIyxIHeK/Nh1fcFVLL2f1iLzRjeSb1jtqU
+	4xFY3nsEfWDO2V3G+a0FkKOZlExq26gqwW1+Bp+tha/VTltPxtKrA0qX3hpcZM8m8Vr
+	OqCNvj6rPHbCobwoUzy6hkMA2EYEErYSN13pEw35uGTqmqtS2Opsd05OrbHw24DVsnP
+	nQq5tzFIc2Rzloi0/5veUkvrxRVb58Jmlejak5WFypzav8t5OrYcUjnQSFGYa6CQZt1
+	ysBsZMi6fg==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=iek43urnex4zqv5t3opageoatkmhcael; d=amazonses.com; t=1716852292;
+	h=Content-Type:MIME-Version:From:To:Subject:Message-ID:Date:Feedback-ID;
+	bh=vnDbV7OfqDj1ysI0zDRBE6E2CL/of7sqsiZLscWK/+w=;
+	b=WhHJZ5GD7PqX+kg/qsZWqltLMFK1QIw1/nzV0XZDg+ZxyBit4ZXh/tg/F4+ZNZo6
+	1Kcn0ARd8Rov3SIXUrKxlbntltlfOthSj8RQC/LuG/cYUK4UOPw6zaaSZfF4kuoDRFz
+	lNUffVYw6Te9ebgXvkoxS/iToxsgZJ0JYQAsvbyE=
+Content-Type: multipart/alternative; boundary="===============6222833489232788732=="
+MIME-Version: 1.0
+From: Duolicious <no-reply@duolicious.app>
+To: discordbugoupeloip@gmail.com
+Subject: Sign in to Duolicious
+Message-ID: <0111018fbc5efb1a-0ec62c15-c033-488a-9d57-8844b2c73946-000000@us-west-1.amazonses.com>
+Date: Mon, 27 May 2024 23:24:52 +0000
+Feedback-ID: ::1.us-west-1.kbqjTUtegupXL4/t4iXaXLUd8f1J334iIJkHGwReFEs=:AmazonSES
+X-SES-Outgoing: 2024.05.27-23.251.242.11
+
+--===============6222833489232788732==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+CjwhRE9DVFlQRSBodG1sPgo8aHRtbCBsYW5nPSJlbiI+CjxoZWFkPgogICAgPG1ldGEgY2hhcnNl
+dD0iVVRGLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmlj
+ZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgPHRpdGxlPlNpZ24gaW4gdG8gRHVvbGlj
+aW91czwvdGl0bGU+CjwvaGVhZD4KPGJvZHkgc3R5bGU9Im1hcmdpbjogMDsgcGFkZGluZzogMDsg
+Zm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7Ij4KICAgIDx0YWJsZSB3
+aWR0aD0iMTAwJSIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBib3JkZXI9IjAiIGFs
+aWduPSJjZW50ZXIiPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRkIGFsaWduPSJjZW50ZXIi
+PgogICAgICAgICAgICAgICAgPHRhYmxlIHN0eWxlPSJtYXgtd2lkdGg6IDYwMHB4OyB3aWR0aDog
+MTAwJTsiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgYm9yZGVyPSIwIiBhbGlnbj0i
+Y2VudGVyIj4KICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAg
+IDx0ZCBiZ2NvbG9yPSIjNzBmIiBhbGlnbj0iY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIDxpbWcgc3JjPSJodHRwczovL2VtYWlsLWFzc2V0cy5kdW9saWNpb3VzLmFwcC9oZWFk
+ZXItbG9nby5wbmciIGFsdD0iRHVvbGljaW91cyBMb2dvIiB3aWR0aD0iMTA4IiBoZWlnaHQ9IjUw
+IiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgIDwv
+dHI+CiAgICAgICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQg
+Ymdjb2xvcj0iI2YxZTVmZiIgaGVpZ2h0PSIyMCI+Jm5ic3A7PC90ZD4KICAgICAgICAgICAgICAg
+ICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICAg
+ICAgPHRkIGJnY29sb3I9IiNmMWU1ZmYiIGFsaWduPSJjZW50ZXIiIHN0eWxlPSJjb2xvcjogIzcw
+ZjsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9ImNvbG9yOiAjNzBmOyBm
+b250LXNpemU6IDE2cHgiPllvdXIgb25lLXRpbWUgcGFzc3dvcmQgaXM6PC9wPgogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgPHRhYmxlIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIg
+Ym9yZGVyPSIwIiBhbGlnbj0iY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBiZ2NvbG9yPSIj
+NzBmIiBzdHlsZT0iZm9udC13ZWlnaHQ6IDkwMDsgZm9udC1zaXplOiAzMnB4OyBjb2xvcjogd2hp
+dGU7IHBhZGRpbmc6IDE1cHg7IGJvcmRlci1yYWRpdXM6IDE1cHg7Ij40MjE5NDE8L3RkPgogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICA8L3RhYmxlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9ImNvbG9y
+OiAjNzBmOyBmb250LXNpemU6IDE2cHgiPklmIHlvdSBkaWRu4oCZdCByZXF1ZXN0IHRoaXMsIHlv
+dSBjYW4gaWdub3JlIHRoaXMgbWVzc2FnZS48L3A+CiAgICAgICAgICAgICAgICAgICAgICAgIDwv
+dGQ+CiAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgICA8dHI+CiAg
+ICAgICAgICAgICAgICAgICAgICAgIDx0ZCBiZ2NvbG9yPSIjZjFlNWZmIiBoZWlnaHQ9IjIwIj4m
+bmJzcDs8L3RkPgogICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAg
+PHRyPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQgYmdjb2xvcj0iIzcwZiIgaGVpZ2h0PSI1
+MCI+Jm5ic3A7PC90ZD4KICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAg
+PC90YWJsZT4KICAgICAgICAgICAgPC90ZD4KICAgICAgICA8L3RyPgogICAgPC90YWJsZT4KPC9i
+b2R5Pgo8L2h0bWw+Cg==
+
+--===============6222833489232788732==--
+
+From - Sat Dec 20 02:26:18 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: discordbugoupeloip@gmail.com
+Received: by 2002:ab4:1657:0:b0:3d2:af98:5a4 with SMTP id t23csp1566641vll;
+        Thu, 6 Feb 2025 06:39:53 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IEAVIEqXij7JLop0r5OnSiO01jVFiSKghF2t4hjVHxwZbwl2htuWSKw3rXmgDv5cJQXZCM4
+X-Received: by 2002:a05:6a21:6d8e:b0:1e8:a374:cee6 with SMTP id adf61e73a8af0-1ede87fbcb8mr13076628637.6.1738852792772;
+        Thu, 06 Feb 2025 06:39:52 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1738852792; cv=none;
+        d=google.com; s=arc-20240605;
+        b=PeY9mwkoVNfmNCD/19dMt3W4A4qLmmBThra8roqwyy2NZN7IIctVOVh3jZ0ng/03jV
+         O2iJtWDEzztHY8bSuF/k22CB092KPLJsBcc1q0K6YWsGFd963KQVhGQgCRysDKaANEbn
+         bU7BDpXXfxsXq+oPGu+WJGcXihm9xZGpC9hdpAK0vhUwtQASJtXlKaRqEbTaHzoT3DHl
+         jnxq3tkiz27v2Tbkms3OF/aDv5/gj4zkAWFNS5PaVhbhMxKEzC6Nr9OvjJ78oasyMU6d
+         Rrihoi+jRime6gF83SOBBLYyjd1PgsEww/nSnn7K0c3WsuA6V9Pr78mIUbFsGACnzZRt
+         j49Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:mime-version:from:date:dkim-signature
+         :dkim-signature;
+        bh=dhTgKE1DgPWF0YdfggD2y9p6teWKWiVS8dZpeWf71zU=;
+        fh=ETRg9lZykI5P+bINS80hFYhAls2gc4iemSm35FLZkZs=;
+        b=CqfqWDFgQ5D6yAHye9rd0MFz2uhK7dASxWpytlJEdcR4BYMC4ZHBY0iS1CyKJ1tQmM
+         s9cgprRRIugHfSnSvKaZHSGJMPr0MSxDtC6F7Z860md6XACyT5IK8eOVmHX/59RpGHRX
+         sDbfZrx8YcQYSHgHRQ09QMRadZjpwWtJ79HoR+onCAeghNv2mhootwV7jacWjrEISgPS
+         I3PHBCnUqVFViHrBSlp9driW+BTVt0SktKs7lE1wZOzjeMiZkDt/HgnO2s/UzsM8qbc2
+         pQCECaTaxJjlwWDqfSQX1UBxyebx1nB39gV6CCfbSsa75JiAiQV1mxSNhahZMjv/pklD
+         JLfQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@discord.com header.s=s1 header.b=owz42Baw;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b="Yv5rgc/5";
+       spf=pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.138.241 as permitted sender) smtp.mailfrom="bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=discord.com
+Return-Path: <bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com>
+Received: from o20.ptr1353.discord.com (o20.ptr1353.discord.com. [149.72.138.241])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-ad51af8bd9dsi1899221a12.357.2025.02.06.06.39.51
+        for <discordbugoupeloip@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 06 Feb 2025 06:39:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.138.241 as permitted sender) client-ip=149.72.138.241;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@discord.com header.s=s1 header.b=owz42Baw;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b="Yv5rgc/5";
+       spf=pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.138.241 as permitted sender) smtp.mailfrom="bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=discord.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=discord.com;
+	h=content-type:from:mime-version:subject:x-feedback-id:to:cc:
+	content-type:from:subject:to;
+	s=s1; bh=dhTgKE1DgPWF0YdfggD2y9p6teWKWiVS8dZpeWf71zU=;
+	b=owz42BawTYtT+ryzle/Tolxge+5S4B/Ej7+y/eDySPyHcmHIBYaYJrrbPvDEvLeg93qY
+	Hv59WUfbeWIljcvJXrfF68kcPe4RA4XeC3IAccFpMKzrqCpgpOvIsFlJMWVCO0XTQFjzIe
+	tkO2sFllQbkGrrpJVUHqT7XN26fTmWD19dV2F7u67O3TeTIJGXEI+LY8x7W+puNpp0xHP8
+	+en/sWcZsYaYMsr2+5uC/b4AJOOa1mUCJc0by7KJyB6S8b23yKPauE8K9mGildAUorkNEZ
+	otTtKdy8ZNWC8E4A2XLh7s9eUjRg7pboqrqAWpsykZyPX/dHKGwfVE1XFqytKLgg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:from:mime-version:subject:x-feedback-id:to:cc:
+	content-type:from:subject:to;
+	s=smtpapi; bh=dhTgKE1DgPWF0YdfggD2y9p6teWKWiVS8dZpeWf71zU=;
+	b=Yv5rgc/5mrDsIcTFAPb7Kxn/GZGveNZwZR+ac2mcyxb4s9F0IfuL6Ku4/l5ekXfnntRn
+	OWzYWdTJbHMypbWPEk7G5axMxvv9p/HnBEBiMvpAEWYco7F65r4M28sSEbKj6bQHSedPW8
+	zeHC0UkN3bqvwaHNtVs8E1LAeR1jxqZDM=
+Received: by recvd-56b5bc89b5-hfvk2 with SMTP id recvd-56b5bc89b5-hfvk2-1-67A4C9B4-20
+	2025-02-06 14:39:48.68330214 +0000 UTC m=+7233321.421837260
+Received: from MTI1NTEyNDE (unknown)
+	by geopod-ismtpd-12 (SG) with HTTP
+	id mIGagla3SGi0abQga8TnXQ
+	Thu, 06 Feb 2025 14:39:48.630 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=37247e02e17f28814fbca737e74fe278c93d4c509e6f6320609487f570bf
+Date: Thu, 06 Feb 2025 14:39:48 +0000 (UTC)
+From: Discord <noreply@discord.com>
+Mime-Version: 1.0
+Message-ID: <mIGagla3SGi0abQga8TnXQ@geopod-ismtpd-12>
+Subject: Verificar o acesso do Discord de uma nova
+ =?UTF-8?B?bG9jYWxpemHDp8Ojbw==?=
+X-Feedback-ID: 12551241:SG
+X-SG-EID: 
+ =?us-ascii?Q?u001=2Encph=2Fx3Jw0NdHDwq6twCdiOEjRqduaW+3S=2FWXBRXzv62NXoGt1LlW8ZOp?=
+ =?us-ascii?Q?GajFHOcXgsBe7IL0iI7Sayl075L2vFiQ6T1Nrf5?=
+ =?us-ascii?Q?hNJZvuUE+dDXURV9XKS2v7sepY6FrALEmILi9fD?=
+ =?us-ascii?Q?78DkssQd6YeVBC8J+XgNQNSADxk=2FbSj+Y1s+oEd?=
+ =?us-ascii?Q?cbqBZ6xDWRNXpg5Lwy1LMj8DOkDR2IcaRK8zLUv?=
+ =?us-ascii?Q?h2sJiCn6ltAOYLW3ZGoJFty3eAc6x4Qh8z=2Fiy7B?= =?us-ascii?Q?QmaY?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BsGytvXNKE6mYwFinnK1wM76cbKjtdO+hxCzp?=
+ =?us-ascii?Q?DmEyM+JGojNPIPPyxgDZSI5Hy7w8g=3D=3D?=
+To: discordbugoupeloip@gmail.com
+X-Entity-ID: u001./CsYf4h0MhpT6Wn4uiuimw==
+
+--37247e02e17f28814fbca737e74fe278c93d4c509e6f6320609487f570bf
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1
+Mime-Version: 1.0
+
+ Ol=E1, rafaelcv12345!
+
+Algu=E9m tentou entrar na sua conta do Discord de uma nova localiza=E7=E3o.=
+ Se foi voc=EA, clique no link abaixo para autorizar o acesso =E0 sua conta=
+ a partir dessa nova localiza=E7=E3o.
+
+**Endere=E7o IP:** 104.28.222.130
+
+**Localiza=E7=E3o:** Florian=F3polis, Santa Catarina, Brazil
+
+Verificar acesso: https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1=
+sulNx5wS1jjasHPOV5MgsCNLIOUybEqgv-2F76hJtte7st2YGE6B-2FX1cBwOpx1ulw-2BG8znw=
+baw5rZANM7E1p6xQPIiB-2BE-2B-2Fp4XEgcIRtG6vyfAiC8BII5cvBNAIfqfc9Ep54DBq3fxzQ=
+aPJ2KawyB7txz2jVIpdDALP-2FriN2OYyeuJgpG3Vn54Ce9y6_mTb0WYj6VOYE3MBGs9CQKf4jU=
+i-2FpXmfPzMH-2BkXrhoJU-2B9yjYRwv2OZkeNu0w-2BQOZIOaPgC1DLttYBpR8jbL7uo1LuSBk=
+s87lFl-2BGknvHZi1xbL1sWaujtDIx06hiXtmW77cFTe-2BXHopSBy6YAi0mq9XZ-2F3PcThJAa=
+XxmXQUsaFkGUVoMHR6FoeK3swPYcp6pLhcxxI8DgRfRqojTohpdZsxdJ0iQi2aba7jXqrKUKbDA=
+FB9-2FpUQpyaYwqZZJiZjCSyKblWTOEPELYxEvx8ZBKw-3D-3D
+
+Se n=E3o foi voc=EA, clique aqui para **redefinir sua senha e sair de todos=
+ os dispositivos: https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1=
+sulNx5wS1jknApIuAF-2FfT4WgZNAL0QTSmgnFLHXBpL0fL-2FH3CqD8aWBmCwjyPQqipCTufaW=
+BI7hQkN4SVfNHmv4d8IQLAQ7mtVuqyE7Id3owcaRKkSUsKWukhO2BgGSyPYs2u6pfCEyHKsEl7F=
+0NApX7001KJw-2B7O46f7bqaiH60RJDmOJW7F8yK-2FBk-2FloTc-2FI2UsdjyNZI6Opv5CFSWO=
+aAzd5UCqamA-3DgtWT_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJU-2B9yjYRw=
+v2OZkeNu0w-2BQOZIOaPgC1DLttYBpR8jbL7ukbQTDhyGiYoqsIDU5zRucF2wMvjDCcAtxNVylT=
+G-2B0udNpmYg-2FbgK2LJp9Z1EcMtXB30fiIlnSxSl2-2BDgwX0HelBLdWriNqLVJqHBVlbCWMl=
+AmknceWSclKqN-2BsdkwOmOWA-2FKXq-2BTh2BBtCFp0UaDAmK75RlrL7jQXHSMYf7qwi1YHuG9=
+k-2Bw4dIoPa6HxIYGVg-3D-3D
+
+
+--37247e02e17f28814fbca737e74fe278c93d4c509e6f6320609487f570bf
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+  <title></title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <!--<![endif]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<style type=3D"text/css">
+  #outlook a { padding: 0; }
+  .ReadMsgBody { width: 100%; }
+  .ExternalClass { width: 100%; }
+  .ExternalClass * { line-height:100%; }
+  body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; }
+  table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; }
+  img { border: 0; height: auto; line-height: 100%; outline: none; text-dec=
+oration: none; -ms-interpolation-mode: bicubic; }
+  p { display: block; margin: 13px 0; }
+</style>
+<!--[if !mso]><!-->
+<style type=3D"text/css">
+  @media only screen and (max-width:480px) {
+    @-ms-viewport { width:320px; }
+    @viewport { width:320px; }
+  }
+</style>
+<!--<![endif]-->
+<!--[if mso]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+  .outlook-group-fix {
+    width:100% !important;
+  }
+</style>
+<![endif]-->
+
+<!--[if !mso]><!-->
+    <link href=3D"https://fonts.googleapis.com/css?family=3DUbuntu:300,400,=
+500,700" rel=3D"stylesheet" type=3D"text/css">
+    <style type=3D"text/css">
+
+        @import url(https://fonts.googleapis.com/css?family=3DUbuntu:300,40=
+0,500,700);
+
+    </style>
+  <!--<![endif]--><style type=3D"text/css">
+  @media only screen and (min-width:480px) {
+    .mj-column-per-100, * [aria-labelledby=3D"mj-column-per-100"] { width:1=
+00%!important; }
+  }
+</style>
+</head>
+<body style=3D"background: #F9F9F9;">
+  <div style=3D"background-color:#F9F9F9;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+  <style type=3D"text/css">
+    html, body, * {
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+    }
+    a {
+      color:#1EB0F4;
+      text-decoration:none;
+    }
+    a:hover {
+      text-decoration:underline;
+    }
+  </style>
+<div style=3D"margin:0px auto;max-width:640px;background:transparent;"><tab=
+le role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+size:0px;width:100%;background:transparent;" align=3D"center" border=3D"0">=
+<tbody><tr><td style=3D"text-align:center;vertical-align:top;direction:ltr;=
+font-size:0px;padding:40px 0px;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"center"><table role=3D"presentation" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"border-collapse:collapse;border-spacing:0px;" align=
+=3D"center" border=3D"0"><tbody><tr><td style=3D"width:138px;"><a href=3D"h=
+ttps://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jvdSQ2XvqH=
+IrLV9yv-2FClqGMsQ561nXpQGbTcquM2dU3XiKYf_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfP=
+zMH-2BkXrhoJU-2B9yjYRwv2OZkeNu0w-2BQOZIOaPgC1DLttYBpR8jbL7urNgSDzPD9oUnxdsq=
+LgBulXod-2BmHLF6SwqOhPmYc5bpw3kz0gBMiYuDj7cwgQ90Si-2BqRovvjQlIN-2Bynq2hi2jj=
+RQsQV8mkA6Uu6CLf8kh55y3zTSaDFd4Q2-2BPvB6nwkMP5qyDnIsNvYBoZPjXOBTLQ3xo-2BWDS=
+qn1gbdeJNkWiZJ21Gn9ey-2BMbZwZ59e4jmjHKw-3D-3D" target=3D"_blank"><img alt t=
+itle height=3D"38px" src=3D"https://cdn.discordapp.com/email_assets/592423b=
+8aedd155170617c9ae736e6e7.png" style=3D"border:none;border-radius:;display:=
+block;outline:none;text-decoration:none;width:100%;height:38px;" width=3D"1=
+38"></a></td></tr></tbody></table></td></tr></tbody></table></div><!--[if m=
+so | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+      <!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]--><div style=3D"max-width:640px;margin:0 auto;box-shadow:0p=
+x 1px 5px rgba(0,0,0,0.1);border-radius:4px;overflow:hidden"><div style=3D"=
+margin:0px auto;max-width:640px;background:#ffffff;"><table role=3D"present=
+ation" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:0px;width:100=
+%;background:#ffffff;" align=3D"center" border=3D"0"><tbody><tr><td style=
+=3D"text-align:center;vertical-align:top;direction:ltr;font-size:0px;paddin=
+g:40px 50px;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"left"><div style=3D"cursor:auto;color:#737F8D;font-family:He=
+lvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:16px;li=
+ne-height:24px;text-align:left;">
+           =20
+  <h2 style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande=
+, sans-serif;font-weight: 500;font-size: 20px;color: #4F545C;letter-spacing=
+: 0.27px;">Ol=C3=A1, rafaelcv12345!</h2>
+<p>Algu=C3=A9m tentou entrar na sua conta do Discord de uma nova localiza=
+=C3=A7=C3=A3o. Se foi voc=C3=AA, clique no link abaixo para autorizar o ace=
+sso =C3=A0 sua conta a partir dessa nova localiza=C3=A7=C3=A3o.</p>
+<p><strong>Endere=C3=A7o IP:</strong> 104<span class=3D"no-style">.</span>2=
+8<span class=3D"no-style">.</span>222<span class=3D"no-style">.</span>130<b=
+r>
+<strong>Localiza=C3=A7=C3=A3o:</strong> Florian=C3=B3polis, Santa Catarina,=
+ Brazil</p>
+<p>Se n=C3=A3o foi voc=C3=AA, clique aqui para <strong><a href=3D"https://c=
+lick.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jknApIuAF-2FfT4WgZ=
+NAL0QTSmgnFLHXBpL0fL-2FH3CqD8aWBmCwjyPQqipCTufaWBI7hQkN4SVfNHmv4d8IQLAQ7mtV=
+uqyE7Id3owcaRKkSUsKWukhO2BgGSyPYs2u6pfCEyHKsEl7F0NApX7001KJw-2B7O46f7bqaiH6=
+0RJDmOJW7F8yK-2FBk-2FloTc-2FI2UsdjyNZB-2Bzk5spPHSI-2B6lHAG7w7Tg-3Dutmv_mTb0=
+WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJU-2B9yjYRwv2OZkeNu0w-2BQOZIOaPgC1=
+DLttYBpR8jbL7utpkIoWqhb9jzuv33vlqvoS9O8Ig-2F-2F61FVAANRFEkWInJ9yPy2JeZnA6IE=
+YhjPwyY0DtVS8GK48oFJna1anuzp1lUn6-2BDy6ioepVPcvtkgfjkaTmjgfmWoXw2Oi5itR1T-2=
+B6KqFMfR08LcqieHLURtMnCvDhu7dz7zoPeR3DGht2zIdiowzbNZc9IUtJ-2B08-2FzuQ-3D-3D=
+" style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sa=
+ns-serif;color: #5865f2;">redefinir sua senha e sair de todos os dispositiv=
+os</a></strong>.</p>
+
+          </div></td></tr><tr><td style=3D"word-break:break-word;font-size:=
+0px;padding:10px 25px;padding-top:20px;" align=3D"center"><table role=3D"pr=
+esentation" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:se=
+parate;" align=3D"center" border=3D"0"><tbody><tr><td style=3D"border:none;=
+border-radius:3px;color:white;cursor:auto;padding:15px 19px;" align=3D"cent=
+er" valign=3D"middle" bgcolor=3D"#5865f2"><a href=3D"https://click.discord.=
+com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jjasHPOV5MgsCNLIOUybEqgv-2F76hJ=
+tte7st2YGE6B-2FX1cBwOpx1ulw-2BG8znwbaw5rZANM7E1p6xQPIiB-2BE-2B-2Fp4XEgcIRtG=
+6vyfAiC8BII5cvBNAIfqfc9Ep54DBq3fxzQaPJ2KawyB7txz2jVIpdDALP-2FriN2OYyeuJgpG3=
+Vn54C7gvX_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJU-2B9yjYRwv2OZkeNu0=
+w-2BQOZIOaPgC1DLttYBpR8jbL7ujYU0nZNY4JzX59-2BbN-2BGyqK12Ra2eTfMqkIIW9f7-2F3=
+4dh6kwDQ3FTD1qMUBJFJLs9FtGh3frdSWbCZ0QLJIuoHghXCmIBoZbqvF9F3sTZ50g-2FDoXPO8=
+J-2FPWFodazOpf-2FRtsHh4xCvVKfv9MnZ86OPqERnXYuojBanUGxmlzu4i9N5z6YVPLky2jAme=
+-2BnkGzipQ-3D-3D" style=3D"text-decoration:none;line-height:100%;background=
+:#5865f2;color:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-=
+size:15px;font-weight:normal;text-transform:none;margin:0px;" target=3D"_bl=
+ank">
+            Verificar acesso
+          </a></td></tr></tbody></table></td></tr><tr><td style=3D"word-bre=
+ak:break-word;font-size:0px;padding:30px 0px;"><p style=3D"font-size:1px;ma=
+rgin:0px auto;border-top:1px solid #DCDDDE;width:100%;"></p><!--[if mso | I=
+E]><table role=3D"presentation" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-size:1px;margin:0px auto;border-top:=
+1px solid #DCDDDE;width:100%;" width=3D"640"><tr><td style=3D"height:0;line=
+-height:0;">=C2=A0</td></tr></table><![endif]--></td></tr><tr><td style=3D"=
+word-break:break-word;font-size:0px;padding:0px;" align=3D"left"><div style=
+=3D"cursor:auto;color:#747F8D;font-family:Helvetica Neue, Helvetica, Arial,=
+ Lucida Grande, sans-serif;font-size:13px;line-height:16px;text-align:left;=
+">
+<p>Precisa de ajuda? <a href=3D"https://click.discord.com/ls/click?upn=3Du0=
+01.a0NJ38DJJG1sulNx5wS1jjzYylRfR1dTnRDiglN63M-2BMCClfzJfrsZtMYvRMSOpubXgqn3=
+QOXIgl2Qki904cEg-3D-3DpHoW_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJU-=
+2B9yjYRwv2OZkeNu0w-2BQOZIOaPgC1DLttYBpR8jbL7ugE8gs8oU4g7pEw1EayQ7BKSbFdcXMP=
+WbRBa9mYRbToI-2Fz5vSGjCrYnJYkyXSYUHDI2unazqSnjj-2FtoqhmMcmSmEi-2Btwo3xiuzwP=
+Ra3XmVluk5fs5PLDX4yEuIiTj3xIulYv77EMEEq3gmgqnEaNF0zJ0kr4hhKyLV4pDkpRa-2FDla=
+Rc0q8Q7oUPuzNqRogBmQw-3D-3D" style=3D"font-family: Helvetica Neue, Helvetic=
+a, Arial, Lucida Grande, sans-serif;color: #5865f2;">Entre em contato com n=
+ossa equipe de assist=C3=AAncia</a> ou nos d=C3=AA um toque no Twitter <a h=
+ref=3D"https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jn=
+pxPanz-2BDufkvgs2NaX85-2BGP-2BXsyAU8iwP8huE2m291bsHd_mTb0WYj6VOYE3MBGs9CQKf=
+4jUi-2FpXmfPzMH-2BkXrhoJU-2B9yjYRwv2OZkeNu0w-2BQOZIOaPgC1DLttYBpR8jbL7umxxn=
+7RqvYTsKuBuoi-2BS42R7QSIboyd5wki0Fxx4qp0ZY-2FRH3vFS2K9ygZxg3xiikU660VBar9eI=
+Lnu6771X-2FdR97uinkHpj0w4AaOdtUwAQ4qSU86MoQxfUAV-2Brqg-2FqOGsBpv0QTeXyb2QuL=
+O7WjeKkB3V6MLlYrWX5R0G-2FyPhbE3dQllo4xzHEfPKab3y3qQ-3D-3D" style=3D"font-fa=
+mily: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #5=
+865f2;">@discord</a>.<br>
+Quer nos dar sua opini=C3=A3o? Diga o que acha em nosso <a href=3D"https://=
+click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1joI9Fqppk-2F0J2T5=
+Y6xRzgVmFjYYBJG4huhnJGbyj2T7mHYCf_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2Bk=
+XrhoJU-2B9yjYRwv2OZkeNu0w-2BQOZIOaPgC1DLttYBpR8jbL7urLibadw6lWnWbwltGi8oS3p=
+E4hj4lDBZU-2BhvlDVGY-2Fzs3HuJjf-2BT1x7WXfCRFJWxfZJdIEsT3dsCKLlhdznew1KVtiJv=
+kmHj0FUKrHryjYPn1Wvx0HQ0NMLQISZ1Gc600g-2Barw8vqzC8Dsb8xn-2BqegcLVSXed7xzVpA=
+pScCXLOUL1lxqcHmjqKnrCEC2ofy4g-3D-3D" style=3D"font-family: Helvetica Neue,=
+ Helvetica, Arial, Lucida Grande, sans-serif;color: #5865f2;">site de comen=
+t=C3=A1rios</a>.</p>
+
+</div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+      <!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]--></div><div style=3D"margin:0px auto;max-width:640px;backg=
+round:transparent;"><table role=3D"presentation" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"font-size:0px;width:100%;background:transparent;" align=
+=3D"center" border=3D"0"><tbody><tr><td style=3D"text-align:center;vertical=
+-align:top;direction:ltr;font-size:0px;padding:20px 0px;"><!--[if mso | IE]=
+>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"center"><div style=3D"cursor:auto;color:#99AAB5;font-family:=
+Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;=
+line-height:24px;text-align:center;">
+      Enviado pelo Discord =E2=80=A2
+      <a href=3D"https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1s=
+ulNx5wS1jg47LNijrYlxYHgEj-2F4b07UMFx-2FY1i3YU2fQrHXY43ACvW7H_mTb0WYj6VOYE3M=
+BGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJU-2B9yjYRwv2OZkeNu0w-2BQOZIOaPgC1DLttYBpR8j=
+bL7uuwlxs4-2B8GXPKc-2FWdsPHH3WeWZB0YdDrHt1B4qWlqEVM6GKhRzIHv5oNnCMEd-2F-2Bk=
+PzBVoUuu-2FjuWdOcEKKDm0SJUshi-2B3O-2FiEH1d0gDAmxAOdnShSmqGajVIexVofDjq3C7oR=
+LXIVUVQ1Pr04y87IEde6mj9tmDf1Le551dNxriLSM9YokkrmiPBVEuZhVZE6A-3D-3D" style=
+=3D"color:#1EB0F4;text-decoration:none;">Confira nosso blog</a>
+      =E2=80=A2 <a href=3D"https://click.discord.com/ls/click?upn=3Du001.a0=
+NJ38DJJG1sulNx5wS1jnpxPanz-2BDufkvgs2NaX85-2BGP-2BXsyAU8iwP8huE2m291DsfP_mT=
+b0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJU-2B9yjYRwv2OZkeNu0w-2BQOZIOaPg=
+C1DLttYBpR8jbL7ugzyr-2BrGj9wScGPmxL0Y1BQ5Q8B2RUY3onQi7-2BBwHHork-2B3MitJQhK=
+0P1-2B4t-2Flq9mrobcCGKrJBkK13gKacKdUL4vBTwUqtr0F7hjk9FY-2F5IP8zFr8j4lcXO05d=
+ECZgPqZur32Xsokq0xNitmvX-2BQ3xKQBcC-2FCetw0pgyBjkuD-2BJ5ovgPC-2BT9YAdEJUt9c=
+5iPg-3D-3D" style=3D"color:#1EB0F4;text-decoration:none;">@discord</a>
+    </div></td></tr><tr><td style=3D"word-break:break-word;font-size:0px;pa=
+dding:0px;" align=3D"center"><div style=3D"cursor:auto;color:#99AAB5;font-f=
+amily:Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size=
+:12px;line-height:24px;text-align:center;">
+      444 De Haro Street, Suite 200, San Francisco, CA 94107
+    </div></td></tr><tr><td style=3D"word-break:break-word;font-size:0px;pa=
+dding:0px;" align=3D"left"><div style=3D"cursor:auto;color:#000000;font-fam=
+ily:Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:1=
+3px;line-height:22px;text-align:left;">
+      <img src=3D"https://discord.com/api/science/868600581202264094/b2d038=
+04-183a-4914-9198-3e6ff5d9fc00.gif?properties=3DeyJlbWFpbF90eXBlIjogInVzZXJ=
+faXBfYXV0aG9yaXplX3YyIn0%3D" width=3D"1" height=3D"1">
+    </div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></div>
+<img src=3D"https://click.discord.com/wf/open?upn=3Du001.k8GmoR-2B-2B02-2Ff=
+GPvMwOObSDRcCNWw79u6hr3G4tEGdjROsm-2BjOTbl7OgolCVyDsL6pZyKInc6OfLgeP-2BUSZM=
+Xk4rQfPjRTLFZpnIWbBb-2FsxPfGXZGeXNJYIxY3VkK3lAeQeMmSIm9nJlYjR8z1BaMaCLAng5d=
+cDHSFAxgltBTChDfOOXCT2JEF-2BxAhXOpBXF2ZqsqGwxxFzch7bqSKgz8tqaweFAFlXTQLvVvQ=
+blslCsrFKEpxw5WBgpVTeqirSpZ0PERFS3VY093uNrPiHTGjA-3D-3D" alt=3D"" width=3D"=
+1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !impo=
+rtant;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !im=
+portant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !i=
+mportant;padding-bottom:0 !important;padding-right:0 !important;padding-lef=
+t:0 !important;"/></body>
+</html>
+--37247e02e17f28814fbca737e74fe278c93d4c509e6f6320609487f570bf--
+
+From - Sat Dec 20 02:26:18 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: discordbugoupeloip@gmail.com
+Received: by 2002:a05:6022:626:b0:72:6dfe:abf5 with SMTP id bo38csp1962374lab;
+        Fri, 25 Jul 2025 14:07:23 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IFLFTzoaQdfc38BjNqkff8M/dCwyu2UYR+JXVfOvBv49+Kz/lSkaG9NKhi0/GxPoS49fowx
+X-Received: by 2002:a05:620a:28c3:b0:7e3:367a:efc7 with SMTP id af79cd13be357-7e63bf9cf70mr518475285a.44.1753477642744;
+        Fri, 25 Jul 2025 14:07:22 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1753477642; cv=none;
+        d=google.com; s=arc-20240605;
+        b=IWYFKRw8FdNOjAzyt6Xu2sBzUeDoYWYlwmK5Gf5mmJC4u2mAl72G2b54e9RduWpWPE
+         qIbeSskvvV6G6+4Lr5VVQK9AiiakzTlvDnuqdmZQ71NFiLt5Yx7t1WI/DhgLYSEnyw/p
+         OzZJPiLxBJ6PZXZ9qNUoUle2rnBKkj+alXUfGA63rBAm5lXV4xRkPJ03MyipdtdByNEo
+         ZCL3mqQ+luBhqAnX/kSFEkZZ+1XDg8Zomk9O24Hy+GEG2gZsOBL9MXIO5x2a1RMZzizi
+         C8nyfiZCy3amx1gEl35r+iJW91L4jxERZxPKGTOr/aZigWurmtNXnBFXCl/zwlwsgHo6
+         50bg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:mime-version:from:date:dkim-signature
+         :dkim-signature;
+        bh=QDxkpS1dWKNPDQx5pnfjt1hM9qKFyrA8T2PyaVFVvSc=;
+        fh=ETRg9lZykI5P+bINS80hFYhAls2gc4iemSm35FLZkZs=;
+        b=C9Bk0/nhamWvzCsJcrp/aYeUnN0yixilGflqsZGivyEEvVWPSusvc179PtF4ghYU7m
+         58nNnX4ZdaieUDUGpbcvgUQ66Q6eFp65mCfw8d0qoBWYm6QPf0jWrFlXi1YV1WtX5oJk
+         VgULqQ3Ne8O+XYK829ucrh8TwFx1MqZu6fdjKcm/m2Cj58ORsFXPjJjmYoDwmDyxa5gL
+         rhZb7D4vaucDVDqQcGknA+HH+m6BGLa8ObAb6eUKykrgchLMvQf/BMGGjW65mBWYTBbf
+         86olENjRwXgy0Glhu32933jLHQELD6pAL/LG7wEE4smn4LLg0M7+q8xIo2WEExCIgD0J
+         WbyA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@discord.com header.s=s1 header.b=H4pESRuR;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=J51dpMCi;
+       spf=pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.170.220 as permitted sender) smtp.mailfrom="bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=discord.com
+Return-Path: <bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com>
+Received: from o21.ptr6759.discord.com (o21.ptr6759.discord.com. [149.72.170.220])
+        by mx.google.com with ESMTPS id af79cd13be357-7e6438c9fd2si49651985a.649.2025.07.25.14.07.21
+        for <discordbugoupeloip@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 25 Jul 2025 14:07:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.170.220 as permitted sender) client-ip=149.72.170.220;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@discord.com header.s=s1 header.b=H4pESRuR;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=J51dpMCi;
+       spf=pass (google.com: domain of bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com designates 149.72.170.220 as permitted sender) smtp.mailfrom="bounces+12551241-573f-discordbugoupeloip=gmail.com@mail.discord.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=discord.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=discord.com;
+	h=content-type:date:from:mime-version:subject:to:cc:content-type:date:
+	feedback-id:from:subject:to;
+	s=s1; bh=QDxkpS1dWKNPDQx5pnfjt1hM9qKFyrA8T2PyaVFVvSc=;
+	b=H4pESRuRzvG5OjbxcLGvlTHvt45i2j7NiHDTS02KgzFnc/GKxKOWuzWio8VpMSyrKOBo
+	nEH+LxyT9uppIwbogOsf4R3XY8pDcwGBd7RCiIrggInsXQIzRJg5h7V4olyK/jemfhjzPs
+	A6lack5/b3ap7W/o8z3ais+nhBmXGPtdg8S7gdFhBXJWJEN8ODkkMOV0cSEWbn7qi8qtUs
+	RFpF4LO3KSlk9/thOk9dsuDO00SSlXVQ9Luiw6IEWsxqx9Wq0IVSgniETovf7AT/9mOvIy
+	72ufEF6uwVENFUpA1bWksEaRn98bbOA2+F5aWaJzfdEQwoqOsCejhjC6TT8eKP7Q==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:date:from:mime-version:subject:to:cc:content-type:date:
+	feedback-id:from:subject:to;
+	s=smtpapi; bh=QDxkpS1dWKNPDQx5pnfjt1hM9qKFyrA8T2PyaVFVvSc=;
+	b=J51dpMCinTgHahEFddsryw8uj7bm0K6Djl854uXKjHH373dF5FLhEKL0e0t4tMNXN28Q
+	B75UDLmxPvskOg/CVxHiEdUFIZY2xl+ZMnKNu0+mPZSbr+Cwz6GS8z8Xh066i5I7yRzY8O
+	40tfWKC0NVrZR+Zs0nqI2W7HpZ8W223M0=
+Received: by recvd-9fbc8bcc7-thv74 with SMTP id recvd-9fbc8bcc7-thv74-1-6883F208-3B
+	2025-07-25 21:07:20.774081497 +0000 UTC m=+4423013.130721939
+Received: from MTI1NTEyNDE (unknown)
+	by geopod-ismtpd-6 (SG) with HTTP
+	id vT3wbT_SSI6Fr98J3bhNZg
+	Fri, 25 Jul 2025 21:07:20.767 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=76092cb6897c4b8590ab1a659d28ae8f4403ba354b134e2cf2ae9a88a71a
+Date: Fri, 25 Jul 2025 21:07:20 +0000 (UTC)
+From: Discord <noreply@discord.com>
+Mime-Version: 1.0
+Message-ID: <vT3wbT_SSI6Fr98J3bhNZg@geopod-ismtpd-6>
+Subject: Verificar o acesso do Discord de uma nova
+ =?UTF-8?B?bG9jYWxpemHDp8Ojbw==?=
+X-SG-EID: 
+ =?us-ascii?Q?u001=2Encph=2Fx3Jw0NdHDwq6twCdiOEjRqduaW+3S=2FWXBRXzv62NXoGt1LlW8ZOp?=
+ =?us-ascii?Q?GajFHOciT84GbVgggyHsxvkeg7FXLGhtye4S8i=2F?=
+ =?us-ascii?Q?uxhHpiLgpWzfvwhd85KkzxyJsSnuWSOlrgn6ES=2F?=
+ =?us-ascii?Q?lkkLRJqH6Lm6MtJZDO6JNEg3lGk3Mmv=2FcbnYlPr?=
+ =?us-ascii?Q?OyOZoVYRdL2313uNMpM9q6oQyDwrnwtqVsxa3IB?=
+ =?us-ascii?Q?VxUvmMpMM6jQdSLPL7oLkIY2+aR0KDRs9IYU=2F=2FI?=
+ =?us-ascii?Q?gEje?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BsGytvXNKE6mYwFinnK1wM76cbKjtdO+hxCzp?=
+ =?us-ascii?Q?DmEyM+JGojNPIPPyxgDZSI5Hy7w8g=3D=3D?=
+To: discordbugoupeloip@gmail.com
+X-Entity-ID: u001./CsYf4h0MhpT6Wn4uiuimw==
+
+--76092cb6897c4b8590ab1a659d28ae8f4403ba354b134e2cf2ae9a88a71a
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1
+Mime-Version: 1.0
+
+ Ol=E1, rafaelcv12345!
+
+Algu=E9m tentou entrar na sua conta do Discord de uma nova localiza=E7=E3o.=
+ Se foi voc=EA, clique no link abaixo para autorizar o acesso =E0 sua conta=
+ a partir dessa nova localiza=E7=E3o.
+
+**Endere=E7o IP:** 161.22.59.143
+
+**Localiza=E7=E3o:** S=E3o Jos=E9, Santa Catarina, Brazil
+
+Verificar acesso: https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1=
+sulNx5wS1jjasHPOV5MgsCNLIOUybEqgv-2F76hJtte7st2YGE6B-2FX1cBwOpx1ulw-2BG8znw=
+baw5rVNbsPrCpjm86o-2BcLuD9fwwqNhA2KZZckhRpxVHI8W6u2ChZ0wxupu2n5fJlgfELU4uD-=
+2Fok2AaGUsSyNJNMxuUf3PHOqJwpLqEDDe4UQfjoA6U2H_mTb0WYj6VOYE3MBGs9CQKf4jUi-2F=
+pXmfPzMH-2BkXrhoJWVnhfMx1ebZ0K6NuA1cm5FNi1dzmym7l1OfJjuAlfiIkP3a2cboRI-2Bwj=
+UjpqMn6foyg61m0tqnbwKTMNI0TKzzbWku4rhb8xyvmN407zZ5q2XBTNn5RU4EGmiRFh4CxtfRa=
+zs2xMs615jtJVlosQoo0Iggiy7yI7ENJSYSNpzhqPw5vztBzqVUNr4x6NrAV6FN0ngKoaDwqIW4=
+pVXodJwBlvcDtcUFreRzeXYOoRupUw-3D-3D
+
+Se n=E3o foi voc=EA, clique aqui para **redefinir sua senha e sair de todos=
+ os dispositivos: https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1=
+sulNx5wS1jknApIuAF-2FfT4WgZNAL0QTSmgnFLHXBpL0fL-2FH3CqD8aWBmCwjyPQqipCTufaW=
+BI7hQkN4SVfNHmv4d8IQLAQ7mtVuqyE7Id3owcaRKkSUsKWukhO2BgGSyPYs2u6pfCEyHKsEl7F=
+0NApX7001KJw-2B75kl44BztfJ-2Fk5zVy2WX6O7ckl4xpooika7vQ8x8AzVwMcZOVnZCSLo-2B=
+FQIrkEA-2F8-3DT4-t_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJWVnhfMx1eb=
+Z0K6NuA1cm5FNi1dzmym7l1OfJjuAlfiInrZ567zkWkTH7Z38-2BiYAbXrKUEnWLf5UrIrqqTBV=
+-2BnywTZT06yqm9O3t5Q1RkPIJ8ZDo-2Bap2FvagG2yZACRr9EKds8zvejyqaWZ-2FXBd2gbHaA=
+Dh2mpUdRV2rm44JjUMUykdR7P-2B4tbAoQ-2BzQGotQTE4sIgcFZ1YraI0nNDz1RvETXRJudiY-=
+2F0bu30pigWuhUg-3D-3D
+
+
+--76092cb6897c4b8590ab1a659d28ae8f4403ba354b134e2cf2ae9a88a71a
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+  <title></title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <!--<![endif]-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<style type=3D"text/css">
+  #outlook a { padding: 0; }
+  .ReadMsgBody { width: 100%; }
+  .ExternalClass { width: 100%; }
+  .ExternalClass * { line-height:100%; }
+  body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; }
+  table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; }
+  img { border: 0; height: auto; line-height: 100%; outline: none; text-dec=
+oration: none; -ms-interpolation-mode: bicubic; }
+  p { display: block; margin: 13px 0; }
+</style>
+<!--[if !mso]><!-->
+<style type=3D"text/css">
+  @media only screen and (max-width:480px) {
+    @-ms-viewport { width:320px; }
+    @viewport { width:320px; }
+  }
+</style>
+<!--<![endif]-->
+<!--[if mso]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+  .outlook-group-fix {
+    width:100% !important;
+  }
+</style>
+<![endif]-->
+
+<!--[if !mso]><!-->
+    <link href=3D"https://fonts.googleapis.com/css?family=3DUbuntu:300,400,=
+500,700" rel=3D"stylesheet" type=3D"text/css">
+    <style type=3D"text/css">
+
+        @import url(https://fonts.googleapis.com/css?family=3DUbuntu:300,40=
+0,500,700);
+
+    </style>
+  <!--<![endif]--><style type=3D"text/css">
+  @media only screen and (min-width:480px) {
+    .mj-column-per-100, * [aria-labelledby=3D"mj-column-per-100"] { width:1=
+00%!important; }
+  }
+</style>
+</head>
+<body style=3D"background: #F9F9F9;">
+  <div style=3D"background-color:#F9F9F9;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+  <style type=3D"text/css">
+    html, body, * {
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+    }
+    a {
+      color:#1EB0F4;
+      text-decoration:none;
+    }
+    a:hover {
+      text-decoration:underline;
+    }
+  </style>
+<div style=3D"margin:0px auto;max-width:640px;background:transparent;"><tab=
+le role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-=
+size:0px;width:100%;background:transparent;" align=3D"center" border=3D"0">=
+<tbody><tr><td style=3D"text-align:center;vertical-align:top;direction:ltr;=
+font-size:0px;padding:40px 0px;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"center"><table role=3D"presentation" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"border-collapse:collapse;border-spacing:0px;" align=
+=3D"center" border=3D"0"><tbody><tr><td style=3D"width:138px;"><a href=3D"h=
+ttps://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jvdSQ2XvqH=
+IrLV9yv-2FClqGMsQ561nXpQGbTcquM2dU3X8CHc_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfP=
+zMH-2BkXrhoJWVnhfMx1ebZ0K6NuA1cm5FNi1dzmym7l1OfJjuAlfiIkhgedvvWVdvgslq0NZiI=
+bRiuc-2FxF3vSnONsGr7F1BWP7t9gmB3fNLgC2N-2Fcf9FKTKx1esL0Yv582F9iHfjQO3K03htw=
+itAWxivN8HtYSpMXeNEPPaMvGuRaELP3VA8LgnCHLZ0ELsW3RO8Cy0sVLtZ-2Fc-2Bzg3uBhZuj=
+l-2B9siRBzMJCNOH24jEMdrBatgTPjK5Q-3D-3D" target=3D"_blank"><img alt title h=
+eight=3D"38px" src=3D"https://cdn.discordapp.com/email_assets/592423b8aedd1=
+55170617c9ae736e6e7.png" style=3D"border:none;border-radius:;display:block;=
+outline:none;text-decoration:none;width:100%;height:38px;" width=3D"138"></=
+a></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | I=
+E]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+      <!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]--><div style=3D"max-width:640px;margin:0 auto;box-shadow:0p=
+x 1px 5px rgba(0,0,0,0.1);border-radius:4px;overflow:hidden"><div style=3D"=
+margin:0px auto;max-width:640px;background:#ffffff;"><table role=3D"present=
+ation" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size:0px;width:100=
+%;background:#ffffff;" align=3D"center" border=3D"0"><tbody><tr><td style=
+=3D"text-align:center;vertical-align:top;direction:ltr;font-size:0px;paddin=
+g:40px 50px;"><!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"left"><div style=3D"cursor:auto;color:#737F8D;font-family:He=
+lvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:16px;li=
+ne-height:24px;text-align:left;">
+           =20
+  <h2 style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande=
+, sans-serif;font-weight: 500;font-size: 20px;color: #4F545C;letter-spacing=
+: 0.27px;">Ol=C3=A1, rafaelcv12345!</h2>
+<p>Algu=C3=A9m tentou entrar na sua conta do Discord de uma nova localiza=
+=C3=A7=C3=A3o. Se foi voc=C3=AA, clique no link abaixo para autorizar o ace=
+sso =C3=A0 sua conta a partir dessa nova localiza=C3=A7=C3=A3o.</p>
+<p><strong>Endere=C3=A7o IP:</strong> 161<span class=3D"no-style">.</span>2=
+2<span class=3D"no-style">.</span>59<span class=3D"no-style">.</span>143<br=
+>
+<strong>Localiza=C3=A7=C3=A3o:</strong> S=C3=A3o Jos=C3=A9, Santa Catarina,=
+ Brazil</p>
+<p>Se n=C3=A3o foi voc=C3=AA, clique aqui para <strong><a href=3D"https://c=
+lick.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jknApIuAF-2FfT4WgZ=
+NAL0QTSmgnFLHXBpL0fL-2FH3CqD8aWBmCwjyPQqipCTufaWBI7hQkN4SVfNHmv4d8IQLAQ7mtV=
+uqyE7Id3owcaRKkSUsKWukhO2BgGSyPYs2u6pfCEyHKsEl7F0NApX7001KJw-2B75kl44BztfJ-=
+2Fk5zVy2WX6O7ckl4xpooika7vQ8x8AzV7Y1d2YQgO2umWnTe1iV8j8-3DR3XP_mTb0WYj6VOYE=
+3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJWVnhfMx1ebZ0K6NuA1cm5FNi1dzmym7l1OfJjuAlf=
+iIozqJu67wsjHiOgEMT7AUELs2aTcsHWG2NAlk6t8dUk4o76KcH-2BJ7BGIdqSS3n40XqOOPImL=
+0PikTiJHRkJGBYpxUFfz7tIJFzChpb9-2FxGYIvpgwmyV4-2FYZPh526oHt0KQlwScJ7G-2FQdV=
+t9-2Bn6nPOatyJVW6RuOwsR5-2Bk1eVB9KBHPNjHIeZeoKTFmhH3y6xmw-3D-3D" style=3D"f=
+ont-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;col=
+or: #5865f2;">redefinir sua senha e sair de todos os dispositivos</a></stro=
+ng>.</p>
+
+          </div></td></tr><tr><td style=3D"word-break:break-word;font-size:=
+0px;padding:10px 25px;padding-top:20px;" align=3D"center"><table role=3D"pr=
+esentation" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:se=
+parate;" align=3D"center" border=3D"0"><tbody><tr><td style=3D"border:none;=
+border-radius:3px;color:white;cursor:auto;padding:15px 19px;" align=3D"cent=
+er" valign=3D"middle" bgcolor=3D"#5865f2"><a href=3D"https://click.discord.=
+com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jjasHPOV5MgsCNLIOUybEqgv-2F76hJ=
+tte7st2YGE6B-2FX1cBwOpx1ulw-2BG8znwbaw5rVNbsPrCpjm86o-2BcLuD9fwwqNhA2KZZckh=
+RpxVHI8W6u2ChZ0wxupu2n5fJlgfELU4uD-2Fok2AaGUsSyNJNMxuUf3PHOqJwpLqEDDe4UQfjo=
+AzvbS_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJWVnhfMx1ebZ0K6NuA1cm5FN=
+i1dzmym7l1OfJjuAlfiIggDw1j9iiiyVy1corO-2B9WtTSo3LhJ18ZubVwLBDG5itQ6MQHk4Rup=
+5Es-2B7aR739iC1mdktQCsOImtR7sk2S-2Bk4y6nFjJX8soJzbDTsokDdMT9SUdJ7Js-2FzU5pm=
+PtFTlkegcifae0KHq2KSp5j3T5qYdS3pdnKiZdz4O-2FrSiNpwN4uKOicg4wT09knhK7fUVXg-3=
+D-3D" style=3D"text-decoration:none;line-height:100%;background:#5865f2;col=
+or:white;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:15px;fo=
+nt-weight:normal;text-transform:none;margin:0px;" target=3D"_blank">
+            Verificar acesso
+          </a></td></tr></tbody></table></td></tr><tr><td style=3D"word-bre=
+ak:break-word;font-size:0px;padding:30px 0px;"><p style=3D"font-size:1px;ma=
+rgin:0px auto;border-top:1px solid #DCDDDE;width:100%;"></p><!--[if mso | I=
+E]><table role=3D"presentation" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-size:1px;margin:0px auto;border-top:=
+1px solid #DCDDDE;width:100%;" width=3D"640"><tr><td style=3D"height:0;line=
+-height:0;">=C2=A0</td></tr></table><![endif]--></td></tr><tr><td style=3D"=
+word-break:break-word;font-size:0px;padding:0px;" align=3D"left"><div style=
+=3D"cursor:auto;color:#747F8D;font-family:Helvetica Neue, Helvetica, Arial,=
+ Lucida Grande, sans-serif;font-size:13px;line-height:16px;text-align:left;=
+">
+<p>Precisa de ajuda? <a href=3D"https://click.discord.com/ls/click?upn=3Du0=
+01.a0NJ38DJJG1sulNx5wS1jjzYylRfR1dTnRDiglN63M-2BMCClfzJfrsZtMYvRMSOpubXgqn3=
+QOXIgl2Qki904cEg-3D-3D2PgO_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJWV=
+nhfMx1ebZ0K6NuA1cm5FNi1dzmym7l1OfJjuAlfiIvLSV6XPUknZqVOFrdCZhNDQSuu6KjZluf4=
+EoS7BQJQo8qZxuXp9jOi0LxG4W9nYrmytaw4l5f-2B4zL8nhxezb7pl0aDrwLs-2BtXrX3xUJCf=
+HakSihf8WDF8CDL6Ro-2FBFLNHLwkqqM05IXh6iTLPHYQmBGsDT2kU3E-2F-2BArEUG0nfmOoFX=
+44v6fQAJ2S8hA36V0Eg-3D-3D" style=3D"font-family: Helvetica Neue, Helvetica,=
+ Arial, Lucida Grande, sans-serif;color: #5865f2;">Entre em contato com nos=
+sa equipe de suporte</a> ou nos d=C3=AA um toque no X <a href=3D"https://cl=
+ick.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jj3tSd0wO7l0RMa-2Fg=
+4oVt1Y-3Dumfv_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJWVnhfMx1ebZ0K6N=
+uA1cm5FNi1dzmym7l1OfJjuAlfiIg0eeeRVhusFm0NfMHZmcq5Q4MmgKBOuQIJd0PTHYigV4RiR=
+pI0kROd2dJolY1TqkvKXyKOMFU9Zoqgs0xSQQZZXHltyqQUX1ywIew03WW4PMHTZk0-2Brh0ZnF=
+75Tmh1Vw4j5TqBJ1cG6d5aB0qtVGBUY2p-2Fe4NAl21g6gdO10EWiAlaQ7Td55w-2FCb7mpRsDy=
+kg-3D-3D" style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida Gr=
+ande, sans-serif;color: #5865f2;">@discord</a>.<br>
+Quer nos dar sua opini=C3=A3o? Diga o que acha em nosso <a href=3D"https://=
+click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1joI9Fqppk-2F0J2T5=
+Y6xRzgVmFjYYBJG4huhnJGbyj2T7mgHSI_mTb0WYj6VOYE3MBGs9CQKf4jUi-2FpXmfPzMH-2Bk=
+XrhoJWVnhfMx1ebZ0K6NuA1cm5FNi1dzmym7l1OfJjuAlfiItRQuWTBHg0mqISLr5zdid2luPWC=
+JaBhWosz7AdLZIkYCUrXluBnboVpXDNj935jbDzzNBz12NipW3JE1t71pfIphdjifqmcvHUOo4-=
+2B8eDSSNEGk-2B-2BAbsb5tQi1mQOmqHgL-2FgRuIJ5rVvsG-2BbGiQ2GSh8ZYcWBPRC4R6fyBq=
+g0hdEebwEmSnD5QnU2XOOi1fHw-3D-3D" style=3D"font-family: Helvetica Neue, Hel=
+vetica, Arial, Lucida Grande, sans-serif;color: #5865f2;">site de coment=C3=
+=A1rios</a>.</p>
+
+</div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]-->
+      <!--[if mso | IE]>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"640" align=3D"center" style=3D"width:640px;">
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]--></div><div style=3D"margin:0px auto;max-width:640px;backg=
+round:transparent;"><table role=3D"presentation" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"font-size:0px;width:100%;background:transparent;" align=
+=3D"center" border=3D"0"><tbody><tr><td style=3D"text-align:center;vertical=
+-align:top;direction:ltr;font-size:0px;padding:20px 0px;"><!--[if mso | IE]=
+>
+      <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0"><tr><td style=3D"vertical-align:top;width:640px;">
+      <![endif]--><div aria-labelledby=3D"mj-column-per-100" class=3D"mj-co=
+lumn-per-100 outlook-group-fix" style=3D"vertical-align:top;display:inline-=
+block;direction:ltr;font-size:13px;text-align:left;width:100%;"><table role=
+=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=
+=3D"0"><tbody><tr><td style=3D"word-break:break-word;font-size:0px;padding:=
+0px;" align=3D"center"><div style=3D"cursor:auto;color:#99AAB5;font-family:=
+Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12px;=
+line-height:24px;text-align:center;">
+      Enviado pelo Discord =E2=80=A2
+      <a href=3D"https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1s=
+ulNx5wS1jg47LNijrYlxYHgEj-2F4b07UMFx-2FY1i3YU2fQrHXY43ACW599_mTb0WYj6VOYE3M=
+BGs9CQKf4jUi-2FpXmfPzMH-2BkXrhoJWVnhfMx1ebZ0K6NuA1cm5FNi1dzmym7l1OfJjuAlfiI=
+nK09tWd495IsFCquYs0aonVRlZ4lTS03egH3pWZ2PVqQ7PRr6tSkjnvRh9FH-2FvnqFrI0bv-2F=
+y-2F4pGN-2BUEU-2FePrh33WtayUK-2FmgduN7oVZQpi3KqJO2QOX54XrM2hHWMnV33m3yc8Pnx=
+5VpiCVb4Nwy0sMNTxXsAJSXyRt-2BraL9fkLkEWTvwm0EXjzGaHPX0IUw-3D-3D" style=3D"c=
+olor:#1EB0F4;text-decoration:none;">Confira nosso blog</a>
+      =E2=80=A2 <a href=3D"https://click.discord.com/ls/click?upn=3Du001.a0=
+NJ38DJJG1sulNx5wS1jj3tSd0wO7l0RMa-2Fg4oVt1Y-3D9NWK_mTb0WYj6VOYE3MBGs9CQKf4j=
+Ui-2FpXmfPzMH-2BkXrhoJWVnhfMx1ebZ0K6NuA1cm5FNi1dzmym7l1OfJjuAlfiIksO5Prtleg=
+tXYfujNlGjhK3V9MYJXb5u1OmXRWWLZnALzzou-2FlloQ6J6yZo-2BnJhW9BZyp1XPp6oe0AbGl=
+9QN4Eftdzkjr4fXKsM7TADtrCT6nipKqo1oY6RsrKT7CnMP4pEZ13qUQLlFozRy09esa6yd7Mk9=
+QQyoNPy37Fr1DA4HY7eBY46ERrApBIW76l7lQ-3D-3D" style=3D"color:#1EB0F4;text-de=
+coration:none;">@discord</a>
+    </div></td></tr><tr><td style=3D"word-break:break-word;font-size:0px;pa=
+dding:0px;" align=3D"center"><div style=3D"cursor:auto;color:#99AAB5;font-f=
+amily:Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size=
+:12px;line-height:24px;text-align:center;">
+      444 De Haro Street, Suite 200, San Francisco, CA 94107
+    </div></td></tr><tr><td style=3D"word-break:break-word;font-size:0px;pa=
+dding:0px;" align=3D"left"><div style=3D"cursor:auto;color:#000000;font-fam=
+ily:Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:1=
+3px;line-height:22px;text-align:left;">
+      <img src=3D"https://discord.com/api/science/868600581202264094/ceb1c5=
+e6-015a-4a9c-8b3d-897925e5cc61.gif?properties=3DeyJlbWFpbF90eXBlIjogInVzZXJ=
+faXBfYXV0aG9yaXplX3YyIn0%3D" width=3D"1" height=3D"1">
+    </div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></div>
+<img src=3D"https://click.discord.com/wf/open?upn=3Du001.k8GmoR-2B-2B02-2Ff=
+GPvMwOObSDRcCNWw79u6hr3G4tEGdjQIxk6C-2FB8agVWO4jH1O8rxDqUhUbcv2k31kxVHhlaGM=
+JAO-2FSiYS4ZH0LMVymTRwcXCR4gu7g3NMBV32nIFhRfFwClalHO-2F4-2Fah8AnghQ6XCs08ZH=
+JQ50hX-2FocENYADHu593j8sFqFnngJmidiNO-2BuXHgMuseX-2BKgK5bvRov7DsQnIaDtD3LK3=
+6dvOqx8MXgF8BAXW10nPxY57Tdei6kIYnyQY9JMo1amAiCQHtgqI8EQ-3D-3D" alt=3D"" wid=
+th=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px=
+ !important;border-width:0 !important;margin-top:0 !important;margin-bottom=
+:0 !important;margin-right:0 !important;margin-left:0 !important;padding-to=
+p:0 !important;padding-bottom:0 !important;padding-right:0 !important;paddi=
+ng-left:0 !important;"/></body>
+</html>
+--76092cb6897c4b8590ab1a659d28ae8f4403ba354b134e2cf2ae9a88a71a--
+

@@ -1,0 +1,66 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=junkscore)(B9=keywords)(BA=X-GM-MSGID)(BB=X-GM-THRID)
+  (BC=X-GM-LABELS)(BD=ns:msg:db:row:scope:ops:all)
+  (BE=ns:msg:db:table:kind:ops)(BF=dobayes.mailnews@mozilla.org#junk)
+  (C0=storeToken)(C1=gloda-id)(C2=gloda-dirty)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)
+  (B0=highestModSeq)(B1=highestRecordedUID)
+  (B2=ns:msg:db:row:scope:pending:all)(B3=ns:msg:db:table:kind:pending)
+  (B4=dateReceived)(B5=ProtoThreadFlags)(B6=folderName)(B7=account)>
+<(8E=5)(8C=6542e92b)(81=0)(80=1)>
+[1:m(^9B=5)(^8F=5)(^91^8C)(^90=0)(^92=1)]
+<(96=6)(94=6542e97a)>[2:m(^9B=6)(^8F=6)(^91^94)(^90=0)(^92=1)]
+
+<(99=81)(88=Discord <noreply@discord.com>)(89=4rafaelcv4@gmail.com)
+  (8A=Pedido de =?UTF-8?B?cmVkZWZpbmnDp8Ojbw==?= de senha do Discord)
+  (8B=uho9a58IR_-nEfMuF-IKgQ@geopod-ismtpd-31)(87=)(8D=546e)(8F=ffffffff)
+  (90=1781408867279692131)(91="\\\\Inbox")(9A=54a1)(9B=17c)(9F=1e67)
+  (92=A senha do Discord foi alterada)(93
+    =OswT4hlUQiSH-jHWxEXV9g@geopod-ismtpd-34)(95=56a5)(98
+    =1781408949905646198)(9C=21700)(9D=56d8)(9E=18a)>
+{1:^80 {(k^96:c)(s=9)} 
+  [5(^88=81)(^82^88)(^85^89)(^81^8A)(^83^8B)(^84=)(^B4^8C)(^86^8C)(^89=1)
+    (^87^8D)(^9A^8F)(^8E=5)(^B5=0)(^BA^90)(^BB^90)(^BC^91)(^B9=)(^C0=0)
+    (^9D^9A)(^8B^9B)(^C1^9F)]
+  [6(^88=81)(^82^88)(^85^89)(^81^92)(^83^93)(^84=)(^B4^94)(^86^94)(^89=1)
+    (^87^95)(^9A^8F)(^8E=6)(^B5=0)(^BA^98)(^BB^98)(^BC^91)(^B9=)(^C0^9C)
+    (^9D^9D)(^8B^9E)]}
+{5:^80 {(k^97:c)(s=9)1:m } 5 }
+{6:^80 {(k^97:c)(s=9)2:m } 6 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [5(^94^8A)]
+  [6(^94^92)]}
+
+<(82=[Gmail]/Important)(83=e000)(84=25714)(85=8082014)(86=9)(97=2)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF^83)(^B0^84)(^A7^82)(^88^85)(^A8=9)
+    (^B1=6)(^A1=2)(^A6=6)]}
+
+@$${2{@
+<(A0=1e68)>[6:^80(^C1^A0)]
+@$$}2}@
+
+@$${5{@
+< <(a=c)> // (f=iso-8859-1)
+  (C3=useServerRetention)(C4=retainBy)(C5=daysToKeepHdrs)
+  (C6=numHdrsToKeep)(C7=daysToKeepBodies)(C8=useServerDefaults)
+  (C9=cleanupBodies)(CA=applyToFlaggedMessages)>
+[1:^9F(^C3=1)]
+@$$}5}@
+
+@$${6{@
+@$$}6}@

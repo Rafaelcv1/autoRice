@@ -1,0 +1,64 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=junkscore)(B9=keywords)(BA=dobayes.mailnews@mozilla.org#junk)
+  (BB=ns:msg:db:row:scope:ops:all)(BC=ns:msg:db:table:kind:ops)
+  (BD=prevkeywords)(BE=useServerRetention)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)
+  (B0=highestModSeq)(B1=highestRecordedUID)
+  (B2=ns:msg:db:row:scope:pending:all)(B3=ns:msg:db:table:kind:pending)
+  (B4=dateReceived)(B5=ProtoThreadFlags)(B6=folderName)(B7=account)>
+<(80=1)(8E=fffffffe)(8B=673cc434)(81=0)>
+[1:m(^9B=1)(^8F^8E)(^91^8B)(^90=0)(^92=1)]
+<(93=2)(91=675b095b)>[2:m(^9B=2)(^8F=2)(^91^91)(^90=0)(^92=1)]
+<(97=3)(95=675b097b)>[3:m(^9B=3)(^8F=3)(^91^95)(^90=0)(^92=1)]
+
+<(87=Nomad <noreply@nomadglobal.com>)(88=rafaelcostav1@hotmail.com)
+  (89==?UTF-8?q?Convers=C3=A3o_para_d=C3=B3lares_solicitada?=)(8A
+    =20241119170036.124fda9a65872d8a@cio58741.nomadglobal.com)(86=)
+  (8C=47bd8)(8D=ffffffff)(8F
+    ==?UTF-8?q?Saldo_em_reais_dispon=C3=ADvel_->_converta_agora_em_d=C3=B3lare\
+?= =?UTF-8?q?s_pelo_app?=)(90
+    =20241212160339.1a073d2204bd5c0f@cio58741.nomadglobal.com)(92=412df)
+  (94=20241212160411.0a4fee3ba7bd7b26@cio58741.nomadglobal.com)(96=47a3b)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^88=1)(^82^87)(^85^88)(^81^89)(^83^8A)(^84=)(^B4^8B)(^86^8B)(^89=1)
+    (^87^8C)(^9A^8D)(^8E^8E)(^B5=0)(^BD=)(^B9=)]
+  [2(^88=1)(^82^87)(^85^88)(^81^8F)(^83^90)(^84=)(^B4^91)(^86^91)(^89=1)
+    (^87^92)(^9A^8D)(^8E=2)(^B5=0)(^BD=)(^B9=)]
+  [3(^88=1)(^82^87)(^85^88)(^81^89)(^83^94)(^84=)(^B4^95)(^86^95)(^89=1)
+    (^87^96)(^9A^8D)(^8E=3)(^B5=0)(^BD=)(^B9=)]}
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^89)]
+  [2(^94^8F)]
+  [3(^94^89)]}
+
+<(82=Nomad_Recibos)(83=2000)(84=8082014)(85=154)>
+{1:^9F {(k^A0:c)(s=9u)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF^83)(^B0=0)(^A7^82)(^88^84)(^A8^85)
+    (^B1=3)(^A1=3)(^A6=3)]}
+
+@$${1{@
+< <(a=c)> // (f=iso-8859-1)
+  (BF=retainBy)(C0=daysToKeepHdrs)(C1=numHdrsToKeep)(C2=daysToKeepBodies)
+  (C3=useServerDefaults)(C4=cleanupBodies)(C5=applyToFlaggedMessages)>
+[1:^9F(^BE=1)]
+@$$}1}@
+
+@$${2{@
+@$$}2}@

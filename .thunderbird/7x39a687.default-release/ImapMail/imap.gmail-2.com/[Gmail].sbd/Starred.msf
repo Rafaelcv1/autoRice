@@ -1,0 +1,88 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=folderName)(B9=account)(BA=junkscore)(BB=keywords)(BC=X-GM-MSGID)
+  (BD=X-GM-THRID)(BE=X-GM-LABELS)(BF=dobayes.mailnews@mozilla.org#junk)
+  (C0=ns:msg:db:row:scope:ops:all)(C1=ns:msg:db:table:kind:ops)
+  (C2=storeToken)(C3=gloda-id)(C4=gloda-dirty)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=highestModSeq)
+  (B0=imapFlags)(B1=useServerRetention)(B2=MRUTime)
+  (B3=highestRecordedUID)(B4=ns:msg:db:row:scope:pending:all)
+  (B5=ns:msg:db:table:kind:pending)(B6=dateReceived)(B7=ProtoThreadFlags)>
+<(91=4b)(8D=656a00eb)(81=0)(80=1)>
+[1:m(^9B=4b)(^8F=4b)(^91^8D)(^90=0)(^92=1)]
+<(9D=4c)(99=656a0aa3)>[2:m(^9B=4c)(^8F=4c)(^91^99)(^90=0)(^92=1)]
+<(A5=4d)(A3=656e899c)>[3:m(^9B=4d)(^8F=4d)(^91^A3)(^90=0)(^92=1)]
+<(AD=52)(AB=65a02fff)>[4:m(^9B=52)(^8F=52)(^91^AB)(^90=0)(^92=1)]
+<(B6=54)(B4=693f8fd5)>[5:m(^9B=54)(^8F=54)(^91^B4)(^90=0)(^92=1)(^93=1)]
+
+<(BC=85)(A0=PerfectAcademy <noreply@perfectacademy.com.br>)(96
+    =Rafael Costa Vieira <rafaelminhocadoida@gmail.com>)(A1
+    =PerfectAcademy - Token de acesso direto)(A2
+    =010f018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000@us-east-2.am\
+azonses.com)(88=)(9A=utf-8)(A4=1c74)(92=ffffffff)(A7=1784406873770056319)
+  (A8="\\\\Important" "\\\\Inbox")(BF=24928)(C0=1ca7)(C1=74)(C7=162c)>
+{4D:^80 {(k^97:c)(s=9)3:m } [4D(^88=85)(^82^A0)(^85^96)(^81^A1)(^83^A2)
+    (^84=)(^B6^A3)(^86^A3)(^89=1)(^95^9A)(^87^A4)(^9A^92)(^8E=4d)(^B7=0)
+    (^BC^A7)(^BD^A7)(^BE^A8)(^BB=)(^C2^BF)(^9D^C0)(^8B=74)(^C3^C7)]}
+
+<(B8=10000085)(89=PerfectPay <noreply@perfectpay.com.br>)(8A
+    =rafaelminhocadoida@gmail.com)(8B
+    =Compra Aprovada: Manual dos Acordes para =?utf-8?Q?Viol=C3=A3o?= e Guitar\
+ra. =?utf-8?Q?=C2=BB?= Compra: PPCPMTB5CLN8I0)(8C
+    =010f018c261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000@us-east-2.am\
+azonses.com)(8F=40e4)(93=1784095303032318071)(94="\\\\Inbox")(B9=4117)
+  (BA=105)(C9=162e)(95=Manual dos Acordes <noreply@perfectacademy.com.br>)
+  (97=Acesso Liberado)(98
+    =010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000@us-east-2.am\
+azonses.com)(9B=1fd0)(9F=1784097911194281963)(BB=16698)(BD=2003)(BE=83)
+  (C8=162d)(90=10000005)(A9==?UTF-8?Q?Plano_de_sa=C3=BAde_?=)(AA
+    =CANX4u1jBMruUpK_Tk7q+pqF0a2JjpnEjYtMKRE6mUdqNgsewsQ@mail.gmail.com)
+  (AC=198dc)(AE=1787818791682335212)(AF=1787818772009665150)(B0
+    ="\\\\Important" "\\\\Inbox" "\\\\Sent")(C3=84)(B1
+    =Supercell <noreply@id.supercell.com>)(B2
+    ==?UTF-8?Q?Supercell_ID_=E2=80=93_alerta_de_novo_dispositivo?=)
+  (B3
+    =0100019b2049da27-68807a67-f4f6-4ed8-8658-b98884aadd24-000000@email.amazon\
+ses.com)(B5=6414)(B7=1851547471983486751)(C2=32298)(C4=6447)(C5=232)
+  (C6=162b)>
+{1:^80 {(k^96:c)(s=9)} 
+  [4B(^88^B8)(^82^89)(^85^8A)(^81^8B)(^83^8C)(^84=)(^B6^8D)(^86^8D)
+    (^89=1)(^87^8F)(^9A^92)(^8E=4b)(^B7=0)(^BC^93)(^BD^93)(^BE^94)(^BB=)
+    (^C2=0)(^9D^B9)(^8B^BA)(^C3^C9)]
+  [4C(^88=85)(^82^95)(^85^96)(^81^97)(^83^98)(^84=)(^B6^99)(^86^99)
+    (^89=1)(^95^9A)(^87^9B)(^9A^92)(^8E=4c)(^B7=0)(^BC^9F)(^BD^9F)(^BE^94)
+    (^BB=)(^C2^BB)(^9D^BD)(^8B=83)(^C3^C8)]4D 
+  [52(^88^90)(^82^96)(^85^8A)(^81^A9)(^83^AA)(^84=)(^B6^AB)(^86^AB)
+    (^89=1)(^87^AC)(^9A^92)(^8E=52)(^B7=0)(^BC^AE)(^BD^AF)(^BE^B0)(^BB=)]
+  [54(^88=84)(^82^B1)(^85^8A)(^81^B2)(^83^B3)(^84=)(^B6^B4)(^86^B4)
+    (^89=1)(^87^B5)(^9A^92)(^8E=54)(^B7=0)(^BC^B7)(^BD^B7)(^BE^A8)(^BB=)
+    (^C2^C2)(^9D^C4)(^8B^C5)(^C3^C6)]}
+{52:^80 {(k^97:c)(s=9)4:m } 52 }
+{54:^80 {(k^97:c)(s=9)5:m } 54 }
+{4B:^80 {(k^97:c)(s=9)1:m } 4B }
+{4C:^80 {(k^97:c)(s=9)2:m } 4C }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [4B(^94^8B)]
+  [4C(^94^97)]
+  [4D(^94^A1)]
+  [52(^94^A9)]
+  [54(^94^B2)]}
+
+<(82=[Gmail]/Starred)(83=2416973)(84=e000)(85=1766195515)(86=8082014)
+  (87=4)(9C=5)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AA=0)(^AF^83)(^B0^84)(^B1=1)(^B2^85)
+    (^A7^82)(^88^86)(^A8=4)(^B3=54)(^A1=5)(^A6=54)(^A2=1)]}

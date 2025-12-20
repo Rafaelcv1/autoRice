@@ -1,0 +1,74 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=account)(B9=junkscore)(BA=keywords)(BB=ns:msg:db:row:scope:ops:all)
+  (BC=ns:msg:db:table:kind:ops)(BD=prevkeywords)
+  (BE=dobayes.mailnews@mozilla.org#junk)(BF=storeToken)(C0=gloda-id)
+  (C1=gloda-dirty)(80=ns:msg:db:row:scope:msgs:all)(81=subject)
+  (82=sender)(83=message-id)(84=references)(85=recipients)(86=date)
+  (87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)(8C=ccList)
+  (8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=indexingPriority)
+  (B0=imapFlags)(B1=highestModSeq)(B2=highestRecordedUID)
+  (B3=ns:msg:db:row:scope:pending:all)(B4=ns:msg:db:table:kind:pending)
+  (B5=dateReceived)(B6=ProtoThreadFlags)(B7=folderName)>
+<(80=1)(90=fffffffe)(8C=67361ee7)(81=0)>
+[1:m(^9B=1)(^8F^90)(^91^8C)(^90=0)(^92=1)]
+<(95=5)(93=673d0050)>[2:m(^9B=5)(^8F=5)(^91^93)(^90=0)(^92=1)]
+<(9B=9)(9A=675c45cf)>[3:m(^9B=9)(^8F=9)(^91^9A)(^90=0)(^92=1)]
+
+<(9E=81)(88=Rafael Costa Vieira <rfl.must@outlook.com>)(89
+    =<rafaelminhocadoida@gmail.com>)(8A=testes)(8B
+    =SJ0PR03MB7127A57BA8341CF77D716622955B2@SJ0PR03MB7127.namprd03.prod.outloo\
+k.com)(87=)(8D=UTF-8)(9D=63c)(8F=ffffffff)(9F=66f)(A0=20)(A7=21f9)(91
+    =testse)(92
+    =MW4PR07MB8538DC1CBA4955BFF86B15F795202@MW4PR07MB8538.namprd07.prod.outloo\
+k.com)(A1=636)(A2=1682)(A3=669)(A8=21fa)(97=<rfl.must@gmail.com>)(98
+    =tretert)(99
+    =DS0PR05MB10110328948ED91C0C003E89595382@DS0PR05MB10110.namprd05.prod.outl\
+ook.com)(A4=62e)(A5=3358)(A6=661)(A9=21fb)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^88=81)(^82^88)(^85^89)(^81^8A)(^83^8B)(^84=)(^B5^8C)(^86^8C)(^89=1)
+    (^95^8D)(^87^9D)(^9A^8F)(^8E^90)(^B6=0)(^BD=)(^BA=)(^BF=0)(^9D^9F)
+    (^8B=20)(^C0^A7)]
+  [5(^88=81)(^82^88)(^85^89)(^81^91)(^83^92)(^84=)(^B5^93)(^86^93)(^89=1)
+    (^95^8D)(^87^A1)(^9A^8F)(^8E=5)(^B6=0)(^BD=)(^BA=)(^BF^A2)(^9D^A3)
+    (^8B=20)(^C0^A8)]
+  [9(^88=81)(^82^88)(^85^97)(^81^98)(^83^99)(^84=)(^B5^9A)(^86^9A)(^89=1)
+    (^95^8D)(^87^A4)(^9A^8F)(^8E=9)(^B6=0)(^BD=)(^BA=)(^BF^A5)(^9D^A6)
+    (^8B=20)(^C0^A9)]}
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{5:^80 {(k^97:c)(s=9)2:m } 5 }
+{9:^80 {(k^97:c)(s=9)3:m } 9 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^8A)]
+  [5(^94^91)]
+  [9(^94^98)]}
+
+<(82=Sent)(83=60)(84=2000)(85=8082214)(86=b)(9C=3)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF=60)(^B0^84)(^B1=0)(^A7^82)(^88^85)
+    (^A8=b)(^B2=9)(^A1=3)(^A6=9)]}
+
+@$${1{@
+< <(a=c)> // (f=iso-8859-1)
+  (C2=useServerRetention)>
+@$$}1}@
+
+@$${3{@
+< <(a=c)> // (f=iso-8859-1)
+  (C3=retainBy)(C4=daysToKeepHdrs)(C5=numHdrsToKeep)(C6=daysToKeepBodies)
+  (C7=useServerDefaults)(C8=cleanupBodies)(C9=applyToFlaggedMessages)>
+[1:^9F(^C2=1)]
+@$$}3}@
+
+@$${4{@
+@$$}4}@

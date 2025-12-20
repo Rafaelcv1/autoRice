@@ -1,0 +1,88 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=junkscore)(B9=keywords)(BA=X-GM-MSGID)(BB=X-GM-THRID)
+  (BC=X-GM-LABELS)(BD=ns:msg:db:row:scope:ops:all)
+  (BE=ns:msg:db:table:kind:ops)(BF=dobayes.mailnews@mozilla.org#junk)
+  (C0=storeToken)(C1=gloda-id)(C2=gloda-dirty)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)
+  (B0=highestModSeq)(B1=highestRecordedUID)
+  (B2=ns:msg:db:row:scope:pending:all)(B3=ns:msg:db:table:kind:pending)
+  (B4=dateReceived)(B5=ProtoThreadFlags)(B6=folderName)(B7=account)>
+<(80=1)(8F=fffffffe)(8C=67eea104)(81=0)>
+[1:m(^9B=1)(^8F^8F)(^91^8C)(^90=0)(^92=1)]
+<(96=2)(94=67eea25a)>[2:m(^9B=2)(^8F=2)(^91^94)(^90=0)(^92=1)]
+<(9B=3)(99=68584621)>[3:m(^9B=3)(^8F=3)(^91^99)(^90=0)(^92=1)]
+<(A1=4)(9F=685834d2)>[4:m(^9B=4)(^8F=4)(^91^9F)(^90=0)(^92=1)]
+
+<(A2=81)(88=Nuuvem <no-reply@nuuvem.com>)(89=rfl.must+nuuvem@gmail.com)
+  (8A=Payment pending approval)(8B
+    =20250403145356.ec6a757ad2dcd7e6@cio48900.nuuvem.com)(87=)(8D=725f)
+  (8E=ffffffff)(90=1828393621275314338)(91="\\\\Important")(A3=7292)
+  (A4=2ac)(92=Your order was approved. Go, go, go!)(93
+    =20250403145938.b98eeb9d32ab8a4a@cio48900.nuuvem.com)(95=6f8f)(97
+    =1828393980054412258)(A5=29365)(A6=6fc2)(A7=2a5)(98
+    =20250622180625.3ac02db2a0868ee8@cio48900.nuuvem.com)(9A=5f6a)(9C
+    =1835653488697475463)(9D=1835648842888916652)(A8=58010)(A9=5f9d)
+  (AA=23e)(9E=20250622165234.4682b91629f59d91@cio48900.nuuvem.com)(A0=5f54)
+  (AB=82522)(AC=5f87)(AD=23d)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^88=81)(^82^88)(^85^89)(^81^8A)(^83^8B)(^84=)(^B4^8C)(^86^8C)(^89=1)
+    (^87^8D)(^9A^8E)(^8E^8F)(^B5=0)(^BA^90)(^BB^90)(^BC^91)(^B9=)(^C0=0)
+    (^9D^A3)(^8B^A4)]
+  [2(^88=81)(^82^88)(^85^89)(^81^92)(^83^93)(^84=)(^B4^94)(^86^94)(^89=1)
+    (^87^95)(^9A^8E)(^8E=2)(^B5=0)(^BA^97)(^BB^97)(^BC^91)(^B9=)(^C0^A5)
+    (^9D^A6)(^8B^A7)]
+  [3(^88=81)(^82^88)(^85^89)(^81^92)(^83^98)(^84=)(^B4^99)(^86^99)(^89=1)
+    (^87^9A)(^9A^8E)(^8E=3)(^B5=0)(^BA^9C)(^BB^9D)(^BC^91)(^B9=)(^C0^A8)
+    (^9D^A9)(^8B^AA)]
+  [4(^88=81)(^82^88)(^85^89)(^81^92)(^83^9E)(^84=)(^B4^9F)(^86^9F)(^89=1)
+    (^87^A0)(^9A^8E)(^8E=4)(^B5=0)(^BA^9D)(^BB^9D)(^BC^91)(^B9=)(^C0^AB)
+    (^9D^AC)(^8B^AD)]}
+{2:^80 {(k^97:c)(s=9)2:m } 2 }
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{3:^80 {(k^97:c)(s=9)3:m } 3 }
+{4:^80 {(k^97:c)(s=9)4:m } 4 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^8A)]
+  [2(^94^92)]
+  [3(^94^92)]
+  [4(^94^92)]}
+
+<(82=Nuuvem_Recibos)(83=e000)(84=227851)(85=8082014)(86=f)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF^83)(^B0^84)(^A7^82)(^88^85)(^A8=f)
+    (^B1=4)(^A1=4)(^A6=4)]}
+
+@$${2{@
+<(B0=42)>[3:^80(^C1=42)]
+<(B1=43)>[4:^80(^C1=43)]
+<(AE=40)>[1:^80(^C1=40)]
+<(AF=41)>[2:^80(^C1=41)]
+@$$}2}@
+
+@$${3{@
+< <(a=c)> // (f=iso-8859-1)
+  (C3=useServerRetention)(C4=retainBy)(C5=daysToKeepHdrs)
+  (C6=numHdrsToKeep)(C7=daysToKeepBodies)(C8=useServerDefaults)
+  (C9=cleanupBodies)(CA=applyToFlaggedMessages)>
+[1:^9F(^C3=1)]
+@$$}3}@
+
+@$${4{@
+@$$}4}@
+
+@$${5{@
+@$$}5}@

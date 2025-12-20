@@ -1,0 +1,1581 @@
+From - Sat Dec 20 02:20:18 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rafaelcostavieira12@gmail.com
+Received: by 2002:a05:6919:779e:b0:23b:fbb4:3f2d with SMTP id kb30csp606982ysc;
+        Thu, 27 Jun 2024 12:11:39 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHsxeFLnYcRnQ7jqlO1McEE4Z2WPQDZep8+kDuWti19Q+mxR6Mhyd8Lzak/yOgWXtoTORTB
+X-Received: by 2002:a9d:7754:0:b0:701:ef8b:d675 with SMTP id 46e09a7af769-701ef8bf616mr3528619a34.17.1719515498944;
+        Thu, 27 Jun 2024 12:11:38 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1719515498; cv=none;
+        d=google.com; s=arc-20160816;
+        b=QM+EyoO7JzpwVtkr5ewoQ09N2Nj88ldL9jR43sZRpj8lQUGVx6XrhzV0Je3iY2E2xY
+         XrxDpT1k+YsLMKnDC4UpBIXXOQ/Q0XdkQfxX6FaxAUOt6iXhKFpkShrJiQU7mqfO8UMq
+         rspz3xibetVPn3rzNo8S5ZyV3cz7zn4NqlI9edy29JrC1P2zUJv6yCN+zVXCDW0k+Kc7
+         MV3KA27Fz4YzGp4wTOU7xJYo+lXJs+6j9ybsmbA08WP3F8ISXCuSUy8CKePR0CEc6N0I
+         xQRgmeDVUq/5EiXXOz1k713AXfhGUkdzEX4zy8H+a90keIa8aasmuSlM0nig9hquRDUq
+         WzDg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe-post:list-unsubscribe:to:reply-to
+         :content-transfer-encoding:mime-version:subject:message-id:from:date
+         :dkim-signature:dkim-signature;
+        bh=pFqtndM2M+TJixrIbQyjTOEex8WwSXwTOXmnQsDctkM=;
+        fh=S8u2YPHUydqqzi0DVytoDCAwpdMj+RVAjaCdPpmmH5o=;
+        b=ZIMdmAkr1b3sgX71kiOGVaGC0KQLTN2t3uGV/JWOikfP6XzxBsOeRmja5n1Ov+clCv
+         ki7MG1iH6zYkDspJ+77km247TQQSeIw1q2UilgYvXoNz4lexWs5dAdamz3arTudOlbGo
+         zBYKI5Rjb1zy+sg9mpvcDhigl0c1lcfOMqLk2PDJ9+Myb85fVX7dhHRzFtxUv595luWN
+         F8ZCqBQKAgZALEqYSdQCYxMRYOCCqzjLypcQii2G9CyMWiI8/BOyPtx2wlcoHeYLytX/
+         fRGWxL/n56+iC/5kk/NI1FyPcPRxQZGMOjthw+75s5Rpp/jM8CIlzQH6TyRIeFL6adpT
+         OcdQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@email.wetransfer.com header.s=s1 header.b=ecDZQWSa;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=OLsrhy6f;
+       spf=pass (google.com: domain of bounces+922094-8d3a-rafaelcostavieira12=gmail.com@em9713.email.wetransfer.com designates 192.254.123.89 as permitted sender) smtp.mailfrom="bounces+922094-8d3a-rafaelcostavieira12=gmail.com@em9713.email.wetransfer.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=wetransfer.com
+Return-Path: <bounces+922094-8d3a-rafaelcostavieira12=gmail.com@em9713.email.wetransfer.com>
+Received: from o4.email.wetransfer.com (o4.email.wetransfer.com. [192.254.123.89])
+        by mx.google.com with ESMTPS id af79cd13be357-79d692f13aasi16724485a.251.2024.06.27.12.11.37
+        for <rafaelcostavieira12@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 27 Jun 2024 12:11:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+922094-8d3a-rafaelcostavieira12=gmail.com@em9713.email.wetransfer.com designates 192.254.123.89 as permitted sender) client-ip=192.254.123.89;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email.wetransfer.com header.s=s1 header.b=ecDZQWSa;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=OLsrhy6f;
+       spf=pass (google.com: domain of bounces+922094-8d3a-rafaelcostavieira12=gmail.com@em9713.email.wetransfer.com designates 192.254.123.89 as permitted sender) smtp.mailfrom="bounces+922094-8d3a-rafaelcostavieira12=gmail.com@em9713.email.wetransfer.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=wetransfer.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.wetransfer.com;
+	h=from:subject:mime-version:content-type:content-transfer-encoding:
+	reply-to:x-feedback-id:to:list-unsubscribe:list-unsubscribe-post:cc:
+	content-type:from:subject:to;
+	s=s1; bh=pFqtndM2M+TJixrIbQyjTOEex8WwSXwTOXmnQsDctkM=;
+	b=ecDZQWSa9RSfj8GExy9tGwiVxmyo+24ZLqT7JS4c7eT5YVRo3YwfWCLAoR9/w4ptffw+
+	bzI4G9QCjFxEGoaw58kMEHU+gmSi2g4oszODvNeqnlJQADcwaqTH1UxIh46ysYz0PIqfaX
+	AIoL900S+iDx/wIOMDWTCfvaoP1o3za7wuHG06JFNlMoFq2Mq5OjJzXtCmFrmacUFuzxMr
+	VXhuAVREt6C3DAI3jQpyqRmC/H+OHw5OkY97Fy51B3dPO+SenM/Ea8H4tq0fWDj9F9Cf8m
+	KTq5Rqo9MTW8crUw8IYUKYSlW61YeOCcXcCUzq94XU9qXKsXmka02lwLCMP6OOkA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=from:subject:mime-version:content-type:content-transfer-encoding:
+	reply-to:x-feedback-id:to:list-unsubscribe:list-unsubscribe-post:cc:
+	content-type:from:subject:to;
+	s=smtpapi; bh=pFqtndM2M+TJixrIbQyjTOEex8WwSXwTOXmnQsDctkM=;
+	b=OLsrhy6fHCRj25QCVvz6on6DLVyY6gsG/5gi+fctOYBW3vjV5WGUwROTuXJGll01pCOV
+	5xCPfO1iU1UYsp+Th7arbOuScclso5YYiEKQzG2aYgn3sLW/iputx0V5cgV8/6CFd+QGwN
+	zKrO2J2TOHXD5byBf0VRgYURAk1Sd00d0=
+Received: by filterdrecv-78d9567-pd2tp with SMTP id filterdrecv-78d9567-pd2tp-1-667DB968-4
+        2024-06-27 19:11:36.032179552 +0000 UTC m=+5085019.843107055
+Received: from e50ab0801100 (unknown)
+	by geopod-ismtpd-5 (SG) with ESMTP
+	id HXKZWLv1S1ql9gqM0d1oyg
+	for <rafaelcostavieira12@gmail.com>;
+	Thu, 27 Jun 2024 19:11:36.023 +0000 (UTC)
+Received: from [10.30.66.111] (helo=wetransfer.com)
+	by e50ab0801100 with esmtp (Exim 4.86_2)
+	(envelope-from <noreply@wetransfer.com>)
+	id 1sMuWt-00077C-Ux
+	for rafaelcostavieira12@gmail.com; Thu, 27 Jun 2024 19:11:36 +0000
+Date: Thu, 27 Jun 2024 19:11:36 +0000 (UTC)
+From: WeTransfer <noreply@wetransfer.com>
+Message-ID: <wtm.5d0a34fd-4aec-4c1c-a62f-2a4046a8a54f@wetransfer.com>
+Subject: institutodemusicaguitarschool@gmail.com sent you IR via WeTransfer
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_667db967d50cf_aa03c25448f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Mailer-Method: DownloadMailer#notify_recipient
+X-Code: ef4e66f5a9323ed24bf847af9b2d989a20240627191055
+X-UID: ef4e66f5a9323ed24bf847af9b2d989a20240627191055
+X-Category: notify_recipient
+X-Recipient-Id: 61fd3de86ea3763a5ae6acb80b54587920240627191112
+X-WT-Download-URL: https://wetransfer.com/downloads/ef4e66f5a9323ed24bf847af9b2d989a20240627191055/61fd3de86ea3763a5ae6acb80b54587920240627191112/72c77f
+X-Profile: wetransfer
+Reply-To: institutodemusicaguitarschool@gmail.com
+X-Feedback-ID: 922094:SG
+X-SG-EID: 
+ =?us-ascii?Q?u001=2ERm2yG1dkhygQzPmWIx+g8t1warRbn6vl4e6A2bua60lOftmvOX0MHa3Ko?=
+ =?us-ascii?Q?Z4DXpc90M06SOp5Lay6k=2FS9FAH2ccTlSi=2Fca95z?=
+ =?us-ascii?Q?Ny04HmkU11BT9eeBQolAdpHvPZdahq9z7HKTWxa?=
+ =?us-ascii?Q?7dHVNiqByzsqDoNZV2jmEY+5l5OdzVWidZFCdlN?=
+ =?us-ascii?Q?pSjWgJgxRlTK5duDNPexaxQi8fPIqG75n9rpYW3?=
+ =?us-ascii?Q?9y0xJzNk1HVsLTAQgy8L=2FxfR1r0hygzMx9porGV?= =?us-ascii?Q?kmgk?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BhcpPHuVKLW0P+tIVr94DB16wEz9ZbI03n8zl?=
+ =?us-ascii?Q?pnLPisfsbhk9nfBZ63x2HA1rY3kqBJ1swjozl9o?=
+ =?us-ascii?Q?AdEaD6SbIjANHa1cDbQlLb5h9CVhH=2F6UxqHuEW5?=
+ =?us-ascii?Q?pMrvMpgXZkGpsbCWgnOVZ5s5ANp7q6QJKZTuxMY?=
+ =?us-ascii?Q?HRaqSXvZ2fz5yL7Dua?=
+To: rafaelcostavieira12@gmail.com
+X-Entity-ID: u001.vimAvT6dOFZTE29aHhHZcA==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em9713=2Eemail=2Ewetransfer=2Ecom=3Fsubject=3Dhttp=3A=2F?=
+ =?us-ascii?Q?=2Femail=2Ewetransfer=2Ecom=2Fwf=2Funsubscribe*q*?=
+ =?us-ascii?Q?upn=3D3GEjPxJ3WsP8IaZacR37iKbSpNEhlrsjqEY?=
+ =?us-ascii?Q?dT8jSktc40pdiY6QQ0GQHDE0a-2F-2BwkesDGcW?=
+ =?us-ascii?Q?3tqz6tGJJYAuz8gUFXnq0xqaRnJ3Np5F1ivmIVu?=
+ =?us-ascii?Q?43oEebFvcEQnWa9EP6w9XIt0JVhMCj402qntskZ?=
+ =?us-ascii?Q?v5eZESewDAaYomexeGImjScskCNkiHGOiUpxUYk?=
+ =?us-ascii?Q?-2B2MSfRGmp1ip-2BykG6f5GVc9-2FI3URQ9Fd7?=
+ =?us-ascii?Q?Ch-2FseBCwDvIy8Cg0-2FmZO9xA0KlMY5rBiDh3?=
+ =?us-ascii?Q?dA8rLwDQKgshHcdEqCgfNrQ7RMYD2PN0QHSw5kN?=
+ =?us-ascii?Q?SKnQb7B71fuwcI-2FrsMjKZtrjt3Ww4C-2Bl8jE?=
+ =?us-ascii?Q?QRILkhDOkOeTGDpo48-2BpfxcgA8tKT7b9N8VW2?=
+ =?us-ascii?Q?5kWNnSvaWwGI79Cf64F-2FLf8OuoL99ZPGVUZcL?=
+ =?us-ascii?Q?1Wg-3D-3D=3E=2C=3Chttps=3A=2F=2Fu922094=2Ect=2Esendgrid?=
+ =?us-ascii?Q?=2Enet=2Flu=2Funsubscribe=3Foc=3Du001=2EDelOKq3d8Ty?=
+ =?us-ascii?Q?W3Ng5QbeLcjTdpBZG=5FZokC4W=5FpPLHJSDKtzQml7?=
+ =?us-ascii?Q?GqhlfEBl3jZ8AwP7cir7wfPZCj7c3cf1bzuZWPI?=
+ =?us-ascii?Q?8FvE49Z49DH=5FDU7CnTYy8IEhkNKir1KGxw34abC?=
+ =?us-ascii?Q?MDyyKHXf4E4GE3HUQ42aUq9argjh2bgsozDO09P?=
+ =?us-ascii?Q?-VRFwtpg4FG=5FMkVmAlbszZNZULNf0LCHbEDfSu1?=
+ =?us-ascii?Q?R2aBfc4h2fMuTe5NuFn9hYVnz6ZaK1OvvYi-EXH?=
+ =?us-ascii?Q?FR=5FkDAlsa2X6Bjt0=5F4K9g0QDu=5FAKp5=5FHXWxwd-R?=
+ =?us-ascii?Q?gXHbkNJLOjVjuIBYve=5FRvKO8O3CziE4dUx-kAH1?=
+ =?us-ascii?Q?0AqiyAKGJYUYeJ=5FUVPUEXlf5SAitzcLnm7dypaq?=
+ =?us-ascii?Q?AUyQx0Kr8nbQYPV5Z1o=5FVSvzcyxkwsCWDfTAYqR?=
+ =?us-ascii?Q?t=5F0kMO5Ww98bOTLK5xI1Hsa59OYx5wO-2H=5FVgW=5F?=
+ =?us-ascii?Q?pSA09ZX7xXHTFaU5TukItAvqkiJXPsvfPB2D3QA?=
+ =?us-ascii?Q?TQTATDZaoD48Pt6UmdQRkXHUaz0054GfVtlrhHu?=
+ =?us-ascii?Q?kcV0VMwDX6H7ennaWNqTtQbCJ7=5FXTvnQVnuiSlB?=
+ =?us-ascii?Q?FvVt2rf=5FbdG1buwT0fcAVKJ69YJUac9yNDQTfAw?=
+ =?us-ascii?Q?us3i7BUisfVFCILoKQB8qD-EinG-9YjtQS8lAY7?=
+ =?us-ascii?Q?vqeG18vy704lrpJEAI7tXPYTRlw=3E?=
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+
+
+----==_mimepart_667db967d50cf_aa03c25448f
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+institutodemusicaguitarschool@gmail.com sent you IR
+
+3 items, 2.5 MB in total =E3=83=BB Expires on 30 June, 2024
+
+
+Download link:
+https://wetransfer.com/downloads/ef4e66f5a9323ed24bf847af9b2d989a2024062719=
+1055/61fd3de86ea3763a5ae6acb80b54587920240627191112/72c77f?trk=3DTRN_TDL_01=
+&utm_campaign=3DTRN_TDL_01&utm_medium=3Demail&utm_source=3Dsendgrid
+
+
+
+
+
+3 items
+
+J12-CN - Folder=E3=83=BB2 items
+M-PR-55 - Folder=E3=83=BB2 items
+V30-EN - Folder=E3=83=BB2 items
+
+
+[Get more out of WeTransfer, get Pro](https://wetransfer.com/pricing?trk=3D=
+TRN_TDL_01&utm_campaign=3DTRN_TDL_01&utm_medium=3Demail&utm_source=3Dsendgr=
+id)
+
+
+
+About WeTransfer: https://wetransfer.com/about
+Help: https://wetransfer.zendesk.com/hc/en-us
+Legal: https://wetransfer.com/legal/terms
+
+
+To make sure our emails arrive, please add noreply@wetransfer.com to [your =
+contacts](https://wetransfer.zendesk.com/hc/en-us/articles/204909429).
+
+
+----==_mimepart_667db967d50cf_aa03c25448f
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-m=
+icrosoft-com:office:office">
+
+    <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0" />
+    <!--[if !mso]><!-- -->
+    <meta http-equiv=3D"x-ua-compatible" content=3D"ie=3Dedge" />
+    <!--<![endif]-->
+    <meta name=3D"apple-mobile-web-app-capable" content=3D"yes" />
+    <meta name=3D"apple-mobile-web-app-status-bar-style" content=3D"black" =
+/>
+    <meta name=3D"format-detection" content=3D"telephone=3Dno" />
+    <meta http-equiv=3D"x-rim-auto-match" content=3D"none" />
+    <!-- Fonts, excluded from MSO -->
+    <!--[if !mso]><!-- -->
+    <style type=3D"text/css" data-premailer=3D"ignore">
+        /* Font-family declarations must not be inlined */
+        @font-face {
+            font-family: 'Fakt Pro';
+            src: url(/fonts/faktpro/FaktProWeb-Normal.woff);
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Fakt Pro Medium';
+            src: url(/fonts/faktpro/FaktProWeb-Medium.woff);
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <!--<![endif]-->
+   =20
+   =20
+    <style type=3D"text/css" data-premailer=3D"ignore">
+        /* client specific styles - DO NOT EDIT */
+        @-ms-viewport {
+            width: device-width;
+        }
+        @media only screen and (max-width: 600px) {
+
+        body {
+            padding: 0 !important;
+            width: auto !important;
+            min-width: auto !important;
+            max-width: auto !important;
+        }
+
+        *[class~=3Dinner_wrapper_table],
+        *[class~=3Dinner_wrapper_td] {
+            height: auto !important;
+            max-width: 320px !important;
+            min-width: 0 !important;
+            width: 100% !important;
+        }
+
+        *[class~=3Dpadded_mobile] {
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+        }
+
+        *[class~=3Dunpadded_mobile] {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        td[class~=3Dmain_heading_td_profile_picture_visible]{
+            font-size: 19px !important;
+        }
+
+        td[class~=3Dlogo_td] {
+            padding-top: 18px !important;
+        }
+
+        td[class~=3Dlogo_outer_wrapper_td] {
+            padding-top: 2px !important;
+            padding-bottom: 1px !important;
+        }
+
+        td[class~=3Dmain_heading_td] {
+            font-size: 19px !important;
+            line-height: 24px !important;
+            padding-top: 40px !important;
+        }
+
+        td[class~=3Davatar_outer_wrapper_td] {
+            padding-top: 40px !important;
+        }
+        td[class~=3Dbutton_outer_wrapper_td] {
+            padding-top: 30px !important;
+        }
+        td[class~=3Dbody_content_td] {
+            padding-top: 30px !important;
+            padding-bottom: 0px !important;
+        }
+        td[class~=3Dseparator_20_outer_wrapper_td] {
+            padding-top: 30px !important;
+            padding-bottom: 0px !important;
+        }
+        td[class~=3Dcall_to_action_td] {
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+        td[class~=3Dseparator_40_outer_wrapper_td] {
+            padding-top: 30px !important;
+            padding-bottom: 0px !important;
+        }
+        td[class~=3Dbutton_outer_wrapper_td_keep_it_button] {
+            padding-top: 30px !important;
+            padding-bottom: 0px !important;
+        }
+
+        *[class~=3Davatar_outer_wrapper_td] img {
+            height: 80px !important;
+            width: 80px !important;
+        }
+
+        *[class~=3Dmonster] img {
+            height: 100px !important;
+            width: 100px !important;
+        }
+
+        td[class~=3Dfiles_details_td] {
+            padding-top: 10px !important;
+            color: #6A6D70;
+            font-size: 12px !important;
+            mso-line-height-rule: exactly;
+            /* this needs to proceed the line-height property */
+            line-height: 19px;
+        }
+
+        td[class~=3Dfiles_list] {
+            padding-top: 30px !important;
+            font-size: 14px !important;
+            mso-line-height-rule: exactly;
+            /* this needs to proceed the line-height property */
+            line-height: 23px !important;
+        }
+
+        span[class~=3Dbody_content_subheading_span] {
+            font-size: 16px;
+        }
+
+        table[class~=3Dbutton_table] {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            width: auto !important;
+        }
+
+        td[class~=3Dsignoff_td] {
+            font-size: 16px !important;
+            line-height: 24px !important;
+            padding-top: 30px !important;
+            padding-bottom: 40px !important;
+        }
+
+        td[class~=3Dadd_our_email_td] {
+            font-size: 12px !important;
+            line-height: 19px !important;
+            padding-top: 15px !important;
+            padding-bottom: 15px !important;
+        }
+
+       td[class~=3Dfooter_td] {
+            font-size: 12px !important;
+            line-height: 23px !important;
+            padding-top: 20px !important;
+            padding-bottom: 30px !important;
+
+        }
+        td[class~=3Dbody_content_padding_bottom_td] {
+            padding-bottom: 40px !important;
+        }
+        td[class~=3Dfiles_list_title] {
+            padding-bottom: 0 !important;
+        }
+        td[class~=3Dfiles_list_content] {
+            padding-top: 0 !important;
+        }
+    }
+    </style>
+
+    <!--[if gte mso 9]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+<style>.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass {
+width: 100%;
+}
+body {
+-ms-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-font-sm=
+oothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0; outlin=
+e: none; padding: 0;
+}
+img {
+-ms-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-font-sm=
+oothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0; outlin=
+e: none; padding: 0;
+}
+img {
+border: none; display: block; height: auto; line-height: 100%; -ms-interpol=
+ation-mode: bicubic; text-decoration: none;
+}
+body {
+background-color: #f4f4f4;
+}
+.body_content_td a:active {
+color: #17181a; text-decoration: underline;
+}
+.footer_td p a:active {
+color: #17181a; text-decoration: underline;
+}
+.recipient_information a:active {
+color: #5268ff; font-weight: normal; text-decoration: none;
+}
+.add_our_email_td a:active {
+color: #797c7f; font-weight: normal; text-decoration: underline;
+}
+.email_without_default_client_style a:active {
+color: #797c7f; font-weight: normal; text-decoration: none !important;
+}
+body.nu_body {
+background-color: #ffffff;
+}
+.nu_footer_td p a:active {
+color: #919599;
+}
+.nu_footer_marketing p a:active {
+font-size: 16px; color: #ffffff; line-height: 22px;
+}
+</style></head>
+
+
+    <body style=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: no=
+ne; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale=
+; outline: none; margin: 0; padding: 0;" bgcolor=3D"#f4f4f4">
+        <!-- outer wrapper table -->
+            <!--[if !mso]><!-- -->
+        <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D=
+"0" class=3D"outer_wrapper_table" style=3D"-ms-text-size-adjust: none; -web=
+kit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-f=
+ont-smoothing: grayscale; outline: none; border-collapse: collapse; border-=
+spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: auto !i=
+mportant; margin: 0; padding: 0;" bgcolor=3D"#f4f4f4">
+            <tr>
+                <!-- separate background image for hotmail, with lots of tr=
+ansparency added to the bottom -->
+                <td style=3D"-ms-text-size-adjust: none; -webkit-text-size-=
+adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing:=
+ grayscale; outline: none; width: 100%; margin: 0; padding: 0;" align=3D"le=
+ft" valign=3D"top">
+
+                    <!--<![endif]-->
+
+                    <!--[if gte mso 9]>
+                    <table style=3D"width: 100%; margin: 0px; padding: 0px;=
+ border-collapse: collapse; border-spacing: 0px; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; background-color: transparent;" cellspacing=3D"0" cellp=
+adding=3D"0" border=3D"0">
+                      <tr>
+                        <td style=3D"width: 100%; margin: 0px; padding: 0px=
+; vertical-align: top; text-align: left;">
+
+                    <![endif]-->
+
+                    <center>
+                        <!-- inner wrapper table -->
+                        <table width=3D"600" align=3D"center" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" class=3D"inner_wrapper_table table_ce=
+ntered" style=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: none=
+; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; =
+outline: none; border-collapse: collapse; border-spacing: 0; mso-table-lspa=
+ce: 0; mso-table-rspace: 0; table-layout: fixed; width: 600px; min-width: 6=
+00px; margin: 0 auto; padding: 0;">
+                            <tr>
+                                <td width=3D"600" class=3D"inner_wrapper_td=
+" style=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: none; -web=
+kit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; outlin=
+e: none; width: 600px; min-width: 600px; margin: 0; padding: 0;" align=3D"l=
+eft" valign=3D"top">
+
+                                    <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" class=3D"hidden_teaser" style=3D"-ms-text-size-adjust: non=
+e; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -mo=
+z-osx-font-smoothing: grayscale; outline: none; border-collapse: collapse; =
+border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: =
+fixed; display: none; font-size: 0; max-height: 0; width: 0; margin: 0; pad=
+ding: 0;">
+    <tr>
+        <td class=3D"hidden_teaser" style=3D"-ms-text-size-adjust: none; -w=
+ebkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx=
+-font-smoothing: grayscale; outline: none; width: 0; display: none; font-si=
+ze: 0; max-height: 0; margin: 0; padding: 0;" align=3D"left" valign=3D"top"=
+>
+          This transfer expires on 2024-06-30
+        </td>
+    </tr>
+</table>
+
+
+                                    <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" class=3D"table_full_width" style=3D"-ms-text-size-adjust: =
+none; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; =
+-moz-osx-font-smoothing: grayscale; outline: none; border-collapse: collaps=
+e; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layou=
+t: fixed; width: 100%; margin: 0; padding: 0;">
+    <tr>
+        <td class=3D"logo_outer_wrapper_td" style=3D"-ms-text-size-adjust: =
+none; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; =
+-moz-osx-font-smoothing: grayscale; outline: none; width: 100%; margin: 0; =
+padding: 55px 0 0;" align=3D"left" valign=3D"top">
+            <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=
+=3D"table_full_width" style=3D"-ms-text-size-adjust: none; -webkit-text-siz=
+e-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothin=
+g: grayscale; outline: none; border-collapse: collapse; border-spacing: 0; =
+mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;=
+ margin: 0; padding: 0;">
+                <tr>
+                    <!--[if !mso]><!-- -->
+                    <td class=3D"logo_inner_wrapper_td" style=3D"-ms-text-s=
+ize-adjust: none; -webkit-text-size-adjust: none; -webkit-font-smoothing: a=
+ntialiased; -moz-osx-font-smoothing: grayscale; outline: none; width: 100%;=
+ font-size: 10px; background: no-repeat center / cover; margin: 0; padding:=
+ 0;" align=3D"left" bgcolor=3D"#5268ff" valign=3D"top">
+                        <!--<![endif]-->
+                        <!--[if mso]> <td> <![endif]-->
+
+                        <!-- background image for MSO -->
+                        <!--[if gte mso 9]>  <v:rect xmlns:v=3D"urn:schemas=
+-microsoft-com:vml" fill=3D"false" stroke=3D"false" style=3D"position: rela=
+tive; top: 0; left: 0; width: 600px; height: 60px;"> <v:textbox inset=3D"0,=
+0,0,0"> <![endif]-->
+                        <center>
+                            <table align=3D"center" cellspacing=3D"0" cellp=
+adding=3D"0" border=3D"0" class=3D"table_centered" style=3D"-ms-text-size-a=
+djust: none; -webkit-text-size-adjust: none; -webkit-font-smoothing: antial=
+iased; -moz-osx-font-smoothing: grayscale; outline: none; border-collapse: =
+collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; tabl=
+e-layout: fixed; width: auto; margin: 0 auto; padding: 0;">
+                                <!-- spacing tr/td for Yahoo mail and MSO -=
+->
+                                <tr>
+                                    <td height=3D"16px" style=3D"height: 16=
+px; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-fon=
+t-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; outline: none=
+; width: 100%; margin: 0; padding: 0;" align=3D"left" valign=3D"top"></td>
+                                </tr>
+                                <!-- ENDOF spacing tr/td for Yahoo mail and=
+ MSO -->
+                                <tr>
+                                    <td style=3D"-ms-text-size-adjust: none=
+; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz=
+-osx-font-smoothing: grayscale; outline: none; width: 100%; margin: 0; padd=
+ing: 0;" align=3D"left" valign=3D"top">
+                                        <a href=3D"https://wetransfer.com/?=
+trk=3DTRN_TDL_01&amp;utm_campaign=3DTRN_TDL_01&amp;utm_medium=3Demail&amp;u=
+tm_source=3Dsendgrid" target=3D"_blank">
+                                            <img src=3D"https://email.wetra=
+nsfer.net/emails/logos/blue_2x.png" alt=3D"Click 'Download images' to view =
+images" align=3D"center" border=3D"0" width=3D"56" class=3D"logo_blue_img" =
+style=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: none; -webki=
+t-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; outline:=
+ none; display: block; height: auto; line-height: 100%; -ms-interpolation-m=
+ode: bicubic; text-decoration: none; width: 56px; margin: 0; padding: 0; bo=
+rder-style: none;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                                <!-- spacing tr/td for Yahoo mail and MSO -=
+->
+                                <tr>
+                                    <td height=3D"11px" style=3D"height: 11=
+px; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-fon=
+t-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; outline: none=
+; width: 100%; margin: 0; padding: 0;" align=3D"left" valign=3D"top"></td>
+                                </tr>
+                               <!-- ENDOF spacing tr/td for Yahoo mail and =
+MSO -->
+                            </table>
+                        </center>
+                        <!--[if gte mso 9]> </v:textbox> </v:rect> <![endif=
+]-->
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+                                    <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" class=3D"main_content_outer_wrapper_table" style=3D"-ms-te=
+xt-size-adjust: none; -webkit-text-size-adjust: none; -webkit-font-smoothin=
+g: antialiased; -moz-osx-font-smoothing: grayscale; outline: none; border-c=
+ollapse: collapse; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace=
+: 0; table-layout: fixed; width: 100%; margin: 0; padding: 0;" bgcolor=3D"#=
+ffffff">
+    <tr>
+        <td style=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: =
+none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: graysca=
+le; outline: none; width: 100%; margin: 0; padding: 0;" align=3D"left" vali=
+gn=3D"top">
+            <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=
+=3D"table_full_width" style=3D"-ms-text-size-adjust: none; -webkit-text-siz=
+e-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothin=
+g: grayscale; outline: none; border-collapse: collapse; border-spacing: 0; =
+mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%;=
+ margin: 0; padding: 0;">
+                <tr>
+                    <td class=3D"padded_mobile main_content_inner_wrapper_t=
+d" style=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: none; -we=
+bkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; outli=
+ne: none; width: 100%; margin: 0; padding: 0;" align=3D"left" valign=3D"top=
+">
+                        <table cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" class=3D"table_full_width" style=3D"-ms-text-size-adjust: none; -web=
+kit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-f=
+ont-smoothing: grayscale; outline: none; border-collapse: collapse; border-=
+spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; =
+width: 100%; margin: 0; padding: 0;">
+                           =20
+<tr>
+<td class=3D"main_heading_td unpadded_mobile main_heading_td_wider" style=
+=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-fon=
+t-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; outline: none=
+; width: 100%; color: #17181a; font-size: 26px; font-style: normal; font-we=
+ight: normal; mso-line-height-rule: exactly; line-height: 30px; word-spacin=
+g: 0; margin: 0; padding: 60px 80px 0;" align=3D"center" valign=3D"top">
+<a class=3D"main_heading_email_link" href=3D"mailto:institutodemusicaguitar=
+school@gmail.com" style=3D"color: #17181a; font-weight: normal; text-decora=
+tion: none;"><span class=3D"main_heading_email_link" style=3D"color: #5268f=
+f; font-weight: normal; text-decoration: none;">institutodemusicaguitarscho=
+ol@gmail.com</span></a>
+<br />
+<span class=3D"transfer_display_name" style=3D"display: inline-flex;">
+sent you IR
+</span>
+</td>
+</tr>
+
+<tr>
+<td class=3D"files_details_td unpadded_mobile" style=3D"-ms-text-size-adjus=
+t: none; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiase=
+d; -moz-osx-font-smoothing: grayscale; outline: none; width: 100%; color: #=
+6a6d70; font-family: 'Fakt Pro', 'Segoe UI', 'SanFrancisco Display', Arial,=
+ sans-serif; font-size: 14px; font-style: normal; font-weight: normal; mso-=
+line-height-rule: exactly; line-height: 23px; word-spacing: 0; margin: 0; p=
+adding: 20px 80px 0;" align=3D"center" valign=3D"top">
+3 items, 2.5 MB in total
+=E3=83=BB Expires on 30 June, 2024
+</td>
+</tr>
+
+
+<!--[if !mso]><!-- -->
+<tr>
+  <td class=3D"button_outer_wrapper_td_get unpadded_mobile" style=3D"-ms-te=
+xt-size-adjust: none; -webkit-text-size-adjust: none; -webkit-font-smoothin=
+g: antialiased; -moz-osx-font-smoothing: grayscale; outline: none; width: 1=
+00%; margin: 0; padding: 40px 160px;" align=3D"left" valign=3D"top">
+    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"table_=
+full_width button_table" style=3D"-ms-text-size-adjust: none; -webkit-text-=
+size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoot=
+hing: grayscale; outline: none; border-collapse: collapse; border-spacing: =
+0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 10=
+0%; margin: 0; padding: 0;">
+      <tr>
+        <td style=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: =
+none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: graysca=
+le; outline: none; width: 100%; margin: 0; padding: 0;" align=3D"left" vali=
+gn=3D"top">
+          <a target=3D"_blank" class=3D"button_anchor button_2_anchor" href=
+=3D"https://wetransfer.com/downloads/ef4e66f5a9323ed24bf847af9b2d989a202406=
+27191055/61fd3de86ea3763a5ae6acb80b54587920240627191112/72c77f?trk=3DTRN_TD=
+L_01&amp;utm_campaign=3DTRN_TDL_01&amp;utm_medium=3Demail&amp;utm_source=3D=
+sendgrid" style=3D"background-color: #5268ff; color: #ffffff; display: bloc=
+k; font-size: 14px; font-style: normal; text-align: center; text-decoration=
+: none; word-spacing: 0; -mox-border-radius: 25px; -webkit-border-radius: 2=
+5px; o-border-radius: 25px; -ms-border-radius: 25px; border-radius: 25px; p=
+adding: 15px 20px;">
+            <span>
+                  Get your files
+            </span>
+</a>        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<!--<![endif]-->
+<!--[if mso]>
+<tr>
+  <td style=3D"padding: 40px 160px 0px 160px;">
+    <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:s=
+chemas-microsoft-com:office:word"
+  href=3D"https://wetransfer.com/downloads/ef4e66f5a9323ed24bf847af9b2d989a=
+20240627191055/61fd3de86ea3763a5ae6acb80b54587920240627191112/72c77f?trk=3D=
+TRN_TDL_01&amp;utm_campaign=3DTRN_TDL_01&amp;utm_medium=3Demail&amp;utm_sou=
+rce=3Dsendgrid" style=3D"height: 44px; v-text-anchor: middle; width: 270px;=
+" arcsize=3D"50%" stroke=3D"false" fillcolor=3D"#409FFF">
+      <w:anchorlock/>
+      <center style=3D"color: #FFFFFF; font-family: Arial, sans-serif; font=
+-size: 14px; font-weight: normal; text-decoration: none;">
+          Get your files
+      </center>
+    </v:roundrect>
+  </td>
+</tr>
+<![endif]-->
+
+
+
+
+
+
+                            <tr>
+    <td class=3D"separator_40_outer_wrapper_td unpadded_mobile" style=3D"-m=
+s-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-font-smoo=
+thing: antialiased; -moz-osx-font-smoothing: grayscale; outline: none; widt=
+h: 100%; margin: 0; padding: 40px 80px 0;" align=3D"left" valign=3D"top">
+        <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"ta=
+ble_full_width" style=3D"-ms-text-size-adjust: none; -webkit-text-size-adju=
+st: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: gra=
+yscale; outline: none; border-collapse: collapse; border-spacing: 0; mso-ta=
+ble-lspace: 0; mso-table-rspace: 0; table-layout: fixed; width: 100%; margi=
+n: 0; padding: 0;">
+            <tr>
+                <td class=3D"separator_td" style=3D"-ms-text-size-adjust: n=
+one; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -=
+moz-osx-font-smoothing: grayscale; outline: none; width: 100%; border-botto=
+m-width: 2px; border-bottom-color: #f4f4f4; border-bottom-style: solid; fon=
+t-size: 1px; mso-line-height-rule: exactly; line-height: 0; margin: 0; padd=
+ing: 0;" align=3D"left" valign=3D"top">=C2=A0</td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+                              <tr>
+<td class=3D"body_content_td unpadded_mobile download_link_container" style=
+=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-fon=
+t-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; outline: none=
+; width: 100%; color: #797c7f; font-family: 'Fakt Pro', 'Segoe UI', 'SanFra=
+ncisco Display', Arial, sans-serif; font-size: 14px; font-style: normal; fo=
+nt-weight: normal; mso-line-height-rule: exactly; line-height: 24px; word-s=
+pacing: 0; word-break: break-all; margin: 0; padding: 50px 80px 0;" align=
+=3D"left" valign=3D"top">
+<span class=3D"body_content_subheading_span" style=3D"color: #17181a; font-=
+size: 18px; font-weight: 500;">
+Download link
+</span>
+<br />
+<a class=3D"download_link_link" href=3D"https://wetransfer.com/downloads/ef=
+4e66f5a9323ed24bf847af9b2d989a20240627191055/61fd3de86ea3763a5ae6acb80b5458=
+7920240627191112/72c77f?trk=3DTRN_TDL_01&amp;utm_campaign=3DTRN_TDL_01&amp;=
+utm_medium=3Demail&amp;utm_source=3Dsendgrid" style=3D"color: #17181a; text=
+-decoration: underline; font-weight: normal; word-wrap: break-word;"><span =
+class=3D"download_link_link" style=3D"color: #5268ff; font-weight: normal; =
+text-decoration: underline; word-wrap: break-word;">https://wetransfer.com/=
+downloads/ef4e66f5a9323ed24bf847af9b2d989a20240627191055/61fd3de86ea3763a5a=
+e6acb80b54587920240627191112/72c77f</span>
+</a>
+</td>
+</tr>
+
+  <tr>
+<td class=3D"body_content_td body_content_padding_bottom_td files_list file=
+s_list_title unpadded_mobile" style=3D"-ms-text-size-adjust: none; -webkit-=
+text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-font-=
+smoothing: grayscale; outline: none; width: 100%; color: #797c7f; font-fami=
+ly: 'Fakt Pro', 'Segoe UI', 'SanFrancisco Display', Arial, sans-serif; font=
+-size: 14px; font-style: normal; font-weight: normal; mso-line-height-rule:=
+ exactly; line-height: 24px; word-spacing: 0; margin: 0; padding: 50px 80px=
+ 0;" align=3D"left" valign=3D"top">
+<span class=3D"body_content_subheading_span" style=3D"color: #17181a; font-=
+size: 18px; font-weight: 500;">
+3 items
+</span>
+</td>
+</tr>
+<tr>
+<td class=3D"tp0 body_content_td body_content_padding_bottom_td files_list =
+files_list_content unpadded_mobile" style=3D"-ms-text-size-adjust: none; -w=
+ebkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx=
+-font-smoothing: grayscale; outline: none; width: 100%; color: #797c7f; fon=
+t-family: 'Fakt Pro', 'Segoe UI', 'SanFrancisco Display', Arial, sans-serif=
+; font-size: 14px; font-style: normal; font-weight: normal; mso-line-height=
+-rule: exactly; line-height: 24px; word-spacing: 0; margin: 0; padding: 0 8=
+0px 50px;" align=3D"left" valign=3D"top">
+<div class=3D"body_content_subheading_span" style=3D"color: #17181a; font-s=
+ize: 18px; font-weight: 500;"></div>
+<div class=3D"transfer_item" style=3D"border-bottom-width: 1px; border-bott=
+om-color: #f4f4f4; border-bottom-style: solid; padding: 9px 0 7px;">
+<div class=3D"transfer_item_title" style=3D"color: #17181a; font-family: 'F=
+akt Pro', 'Segoe UI', 'SanFrancisco Display', Arial, sans-serif; font-size:=
+ 14px; font-style: normal; font-weight: normal; mso-line-height-rule: exact=
+ly; line-height: 16px; word-spacing: 0;">
+J12-CN
+</div>
+<div class=3D"transfer_item_description" style=3D"color: #6a6d70; font-size=
+: 12px; mso-line-height-rule: exactly; line-height: 16px;">
+<img class=3D"folder_icon_img" alt=3D"" src=3D"https://email.wetransfer.net=
+/emails/folder-icon-for-email@2x.png" style=3D"-ms-text-size-adjust: none; =
+-webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-o=
+sx-font-smoothing: grayscale; outline: none; display: inline; height: auto;=
+ line-height: 100%; -ms-interpolation-mode: bicubic; text-decoration: none;=
+ width: 9px !important; margin: 0; padding: 0; border-style: none;" />
+ Folder=E3=83=BB2 items
+</div>
+</div>
+<div class=3D"transfer_item" style=3D"border-bottom-width: 1px; border-bott=
+om-color: #f4f4f4; border-bottom-style: solid; padding: 9px 0 7px;">
+<div class=3D"transfer_item_title" style=3D"color: #17181a; font-family: 'F=
+akt Pro', 'Segoe UI', 'SanFrancisco Display', Arial, sans-serif; font-size:=
+ 14px; font-style: normal; font-weight: normal; mso-line-height-rule: exact=
+ly; line-height: 16px; word-spacing: 0;">
+M-PR-55
+</div>
+<div class=3D"transfer_item_description" style=3D"color: #6a6d70; font-size=
+: 12px; mso-line-height-rule: exactly; line-height: 16px;">
+<img class=3D"folder_icon_img" alt=3D"" src=3D"https://email.wetransfer.net=
+/emails/folder-icon-for-email@2x.png" style=3D"-ms-text-size-adjust: none; =
+-webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-o=
+sx-font-smoothing: grayscale; outline: none; display: inline; height: auto;=
+ line-height: 100%; -ms-interpolation-mode: bicubic; text-decoration: none;=
+ width: 9px !important; margin: 0; padding: 0; border-style: none;" />
+ Folder=E3=83=BB2 items
+</div>
+</div>
+<div class=3D"transfer_item transfer_item_last" style=3D"border-bottom-widt=
+h: 1px; border-bottom-color: #f4f4f4; border-bottom-style: none; padding: 9=
+px 0 7px;">
+<div class=3D"transfer_item_title" style=3D"color: #17181a; font-family: 'F=
+akt Pro', 'Segoe UI', 'SanFrancisco Display', Arial, sans-serif; font-size:=
+ 14px; font-style: normal; font-weight: normal; mso-line-height-rule: exact=
+ly; line-height: 16px; word-spacing: 0;">
+V30-EN
+</div>
+<div class=3D"transfer_item_description" style=3D"color: #6a6d70; font-size=
+: 12px; mso-line-height-rule: exactly; line-height: 16px;">
+<img class=3D"folder_icon_img" alt=3D"" src=3D"https://email.wetransfer.net=
+/emails/folder-icon-for-email@2x.png" style=3D"-ms-text-size-adjust: none; =
+-webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-o=
+sx-font-smoothing: grayscale; outline: none; display: inline; height: auto;=
+ line-height: 100%; -ms-interpolation-mode: bicubic; text-decoration: none;=
+ width: 9px !important; margin: 0; padding: 0; border-style: none;" />
+ Folder=E3=83=BB2 items
+</div>
+</div>
+</td>
+</tr>
+
+
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+                                    <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" class=3D"table_full_width" style=3D"-ms-text-size-adjust: =
+none; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; =
+-moz-osx-font-smoothing: grayscale; outline: none; border-collapse: collaps=
+e; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layou=
+t: fixed; width: 100%; margin: 0; padding: 0;">
+    <tr>
+        <td class=3D"add_our_email_outer_wrapper_td" style=3D"-ms-text-size=
+-adjust: none; -webkit-text-size-adjust: none; -webkit-font-smoothing: anti=
+aliased; -moz-osx-font-smoothing: grayscale; outline: none; width: 100%; ma=
+rgin: 0; padding: 2px 0 0;" align=3D"left" valign=3D"top">
+
+            <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=
+=3D"add_our_email_wrapper_table" style=3D"-ms-text-size-adjust: none; -webk=
+it-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-fo=
+nt-smoothing: grayscale; outline: none; border-collapse: collapse; border-s=
+pacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; w=
+idth: 100%; margin: 0; padding: 0;" bgcolor=3D"#ffffff">
+                <tr>
+                    <td class=3D"padded_mobile add_our_email_inner_wrapper_=
+td" style=3D"-ms-text-size-adjust: none; -webkit-text-size-adjust: none; -w=
+ebkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; outl=
+ine: none; width: 100%; margin: 0; padding: 0 20px;" align=3D"left" valign=
+=3D"top">
+
+                        <table cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" class=3D"table_full_width" style=3D"-ms-text-size-adjust: none; -web=
+kit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-f=
+ont-smoothing: grayscale; outline: none; border-collapse: collapse; border-=
+spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layout: fixed; =
+width: 100%; margin: 0; padding: 0;">
+                            <tr>
+                                <td class=3D"add_our_email_td" style=3D"-ms=
+-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-font-smoot=
+hing: antialiased; -moz-osx-font-smoothing: grayscale; outline: none; width=
+: 100%; color: #797c7f; font-family: 'Fakt Pro', 'Segoe UI', 'SanFrancisco =
+Display', Arial, sans-serif; font-size: 12px; font-style: normal; font-weig=
+ht: normal; mso-line-height-rule: exactly; line-height: 24px; word-spacing:=
+ 0; margin: 0; padding: 13px 0;" align=3D"center" valign=3D"top">
+                                <p style=3D"-ms-text-size-adjust: none; -we=
+bkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-=
+font-smoothing: grayscale; outline: none; margin: 0; padding: 0;">To make s=
+ure our emails arrive, please add <a class=3D"email_without_default_client_=
+style" href=3D"mailto:noreply@wetransfer.com" style=3D"color: #797c7f; font=
+-weight: normal; text-decoration: none !important;"><span class=3D"email_wi=
+thout_default_client_style" style=3D"color: #797c7f; font-weight: normal; t=
+ext-decoration: none !important;">noreply@wetransfer.com</span></a> to <a h=
+ref=3D"https://wetransfer.zendesk.com/hc/en-us/articles/204909429?utm_campa=
+ign=3DTRN_TDL_01&amp;utm_source=3Dsendgrid&amp;utm_medium=3Demail&amp;trk=
+=3DTRN_TDL_01" style=3D"color: #797c7f; font-weight: normal; text-decoratio=
+n: underline;">your contacts</a>.</p>
+
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+
+                                    <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" class=3D"table_full_width" style=3D"-ms-text-size-adjust: =
+none; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; =
+-moz-osx-font-smoothing: grayscale; outline: none; border-collapse: collaps=
+e; border-spacing: 0; mso-table-lspace: 0; mso-table-rspace: 0; table-layou=
+t: fixed; width: 100%; margin: 0; padding: 0;">
+    <tr>
+        <td class=3D"footer_td" style=3D"-ms-text-size-adjust: none; -webki=
+t-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-fon=
+t-smoothing: grayscale; outline: none; width: 100%; color: #797c7f; font-fa=
+mily: 'Fakt Pro', 'Segoe UI', 'SanFrancisco Display', Arial, sans-serif; fo=
+nt-size: 12px; font-style: normal; font-weight: normal; mso-line-height-rul=
+e: exactly; line-height: 23px; word-spacing: 0; margin: 0; padding: 30px 20=
+px;" align=3D"center" valign=3D"top">
+
+
+            <a href=3D"https://wetransfer.com/about?trk=3DTRN_TDL_01&amp;ut=
+m_campaign=3DTRN_TDL_01&amp;utm_medium=3Demail&amp;utm_source=3Dsendgrid" c=
+lass=3D"footer_link" style=3D"color: #797c7f; font-weight: normal; text-dec=
+oration: underline;">
+              <span class=3D"footer_link" style=3D"color: #797c7f; font-wei=
+ght: normal; text-decoration: underline;">About WeTransfer</span></a>
+
+            <span class=3D"footer_link_separator" style=3D"color: #797c7f;"=
+>=C2=A0=C2=A0=E3=83=BB=C2=A0=C2=A0</span>
+
+            <a href=3D"https://wetransfer.zendesk.com/hc/en-us?utm_campaign=
+=3DTRN_TDL_01&amp;utm_source=3Dsendgrid&amp;utm_medium=3Demail&amp;trk=3DTR=
+N_TDL_01" class=3D"footer_link" style=3D"color: #797c7f; font-weight: norma=
+l; text-decoration: underline;">
+                <span class=3D"footer_link" style=3D"color: #797c7f; font-w=
+eight: normal; text-decoration: underline;">Help</span></a>
+
+            <span class=3D"footer_link_separator" style=3D"color: #797c7f;"=
+>=C2=A0=C2=A0=E3=83=BB=C2=A0=C2=A0</span>
+
+            <a href=3D"https://wetransfer.com/legal/terms?trk=3DTRN_TDL_01&=
+amp;utm_campaign=3DTRN_TDL_01&amp;utm_medium=3Demail&amp;utm_source=3Dsendg=
+rid" class=3D"footer_link" style=3D"color: #797c7f; font-weight: normal; te=
+xt-decoration: underline;">
+                <span class=3D"footer_link" style=3D"color: #797c7f; font-w=
+eight: normal; text-decoration: underline;">Legal</span></a>
+
+                <span class=3D"footer_link_separator" style=3D"color: #797c=
+7f;">=C2=A0=C2=A0=E3=83=BB=C2=A0=C2=A0</span>
+  <a href=3D"https://safety.wetransfer.com/report?productUrl=3Dhttps://wetr=
+ansfer.com/downloads/ef4e66f5a9323ed24bf847af9b2d989a20240627191055/ac916e"=
+ rel=3D"external" target=3D"_blank" class=3D"footer_link" style=3D"color: #=
+797c7f; font-weight: normal; text-decoration: underline;">
+                <span class=3D"footer_link" style=3D"color: #797c7f; font-w=
+eight: normal; text-decoration: underline;">Report this transfer</span></a>
+
+
+
+        </td>
+    </tr>
+</table>
+
+                                </td>
+                            </tr>
+                    </table>
+                    <!-- ENDOF inner wrapper table -->
+                </center>
+            </td>
+        </tr>
+    </table>
+    <!-- ENDOF outer wrapper table -->
+
+    <!-- tracking start -->
+    <!-- tracking end -->
+
+    <!-- Removed GA tracking so we won't hit their limit -->
+
+    <!-- crazy gmail app fix -->
+    <div style=3D"display: none; white-space: nowrap; color: #FFFFFF; font:=
+ 20px courier;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0</div>
+    <!-- ENDOF crazy gmail app fix -->
+
+<img src=3D"http://email.wetransfer.com/wf/open?upn=3Du001.1nX3Cs8oV6gFC4cE=
+heiBdVKbZRv28NHZp1sQ7Y0G7XL07XxNtQv-2B44YN2t3BQTygau3aJoZbR1kKWpOXibPpdTQRk=
+TZPLg-2Fbi-2BXxX-2BdjyoQNK32uPkL7W-2FpHKkRGqHoIqHV94gGmVcPWeUc14DGFN0SuDcLI=
+RnO0c-2B-2BJ-2B9x0ly-2Bd1RxxgmVBy6Coc9QeJRotYRjMJYMJBsaBTZ7-2FI-2BtXpPYISIC=
+de7rYEXliPiOsmQVfzPBY1LLvRifxe8S3d2NiZCfFPsJ-2FzOindn4M56mA85Sr9GSP7QFzxVxk=
+XxHy-2BVp7qV0NZOzT9Vhap7U1var86jPAAUU-2FPDyE3PvyZmx3XWMlVLeJK-2F1Z-2FfT4-2F=
+RBVikJzUt4I5WCOUramWhs-2FVWeHwcPOFrmWku6gSSSN9GL8LQ-3D-3D" alt=3D"" width=
+=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !=
+important;border-width:0 !important;margin-top:0 !important;margin-bottom:0=
+ !important;margin-right:0 !important;margin-left:0 !important;padding-top:=
+0 !important;padding-bottom:0 !important;padding-right:0 !important;padding=
+-left:0 !important;"/></body>
+</html>
+
+----==_mimepart_667db967d50cf_aa03c25448f--
+
+From - Sat Dec 20 02:20:18 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rafaelcostavieira12@gmail.com
+Received: by 2002:a05:6a10:a68f:b0:5c7:a264:2fda with SMTP id p15csp7827772pxv;
+        Sun, 29 Dec 2024 21:30:04 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFS9H7Lny6gqpWfIoL7X/nV8+btoyXKiVKr81kukZQYAq3yd+GdSVrCQiIPn01ondel8Yqt
+X-Received: by 2002:a05:6808:23c4:b0:3e7:b800:1d80 with SMTP id 5614622812f47-3ed88f02f44mr20363235b6e.17.1735536604196;
+        Sun, 29 Dec 2024 21:30:04 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1735536604; cv=none;
+        d=google.com; s=arc-20240605;
+        b=dik6qd/1Q+3xLp45c4bPfIrq9Z9fLxHfcF8WfQE/auKiQ8HUAzqX9cIJ+8Rvxuarzk
+         FZ8FTaxGdzXfjCWvACRCbuoqIsxJMuIOITye0lzBjByQARu0nQgUKzhq+LMVjon/QRvr
+         Y32ctg2/B4xURqRsb6FDPlcku6h3jIi7+MBmhfvt9mSgyOfx7xl8n2NjRrYUnFR1Lk5r
+         +t4JGP1Tn+BvwuaYHy4QgCwSY5xcaTXLT05DC16PCd2ZK/p840ADGH/8r8E/dl2NcW+v
+         WyMxFitJZtzjGp+DEVoonnjVVcZiMTfs7cXWjGeCpaRNrvLXb1kY2YlcX5DJXqcyFiX/
+         pmkA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:mime-version:feedback-id:bimi-selector
+         :errors-to:reply-to:from:subject:to:date:dkim-signature:message-id;
+        bh=1eY7xY86YQ9pS9KaU4+2clfj1wmAmyT+dWyZQhvsDk0=;
+        fh=S8u2YPHUydqqzi0DVytoDCAwpdMj+RVAjaCdPpmmH5o=;
+        b=X6f5D0L7nTrTL9Ykz3GTrd3eMyX8u+AjS5cs6UN4yHYDpy76Pa3eyHa2yx8EV/O5SM
+         QzlmhzGWART0GQjnSXDIdRffKlgFDJFsdwoaelTzMbBvJkdhn+/zDvfkM8QfYseGkMH1
+         9NIq1g3YXwBUD/RAaEfHvs0AGFrj1t5E/igJ+clgtRHdjY0biZTVP/ddbaeIewq97sLq
+         lYVUwRX7liozU30or6cMBwOs079wWJ1p+ly0PTcld7IeeQCr5Kamm4kSXl3Pu0v2GBdq
+         ujyqklOYvly+DeJazcYyVTlNBrgvj+//4w+v4slzWzmXiamsxq7C6rr3Gbwa47BgfZY0
+         Lblg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail.instagram.com header.s=s1024-2013-q3 header.b=P01Y6Vyx;
+       spf=pass (google.com: domain of no-reply@mail.instagram.com designates 69.171.232.145 as permitted sender) smtp.mailfrom=no-reply@mail.instagram.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.instagram.com
+Return-Path: <no-reply@mail.instagram.com>
+Received: from 69-171-232-145.mail-mail.facebook.com (69-171-232-145.mail-mail.facebook.com. [69.171.232.145])
+        by mx.google.com with ESMTPS id 5614622812f47-3ece244d46fsi13241960b6e.33.2024.12.29.21.30.04
+        for <rafaelcostavieira12@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 29 Dec 2024 21:30:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of no-reply@mail.instagram.com designates 69.171.232.145 as permitted sender) client-ip=69.171.232.145;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.instagram.com header.s=s1024-2013-q3 header.b=P01Y6Vyx;
+       spf=pass (google.com: domain of no-reply@mail.instagram.com designates 69.171.232.145 as permitted sender) smtp.mailfrom=no-reply@mail.instagram.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.instagram.com
+Message-ID: <67722fdc.540a0220.1cee4f.973bSMTPIN_ADDED_MISSING@mx.google.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail.instagram.com;
+	s=s1024-2013-q3; t=1735536592;
+	bh=1eY7xY86YQ9pS9KaU4+2clfj1wmAmyT+dWyZQhvsDk0=;
+	h=Date:To:Subject:From:MIME-Version:Content-Type;
+	b=P01Y6VyxPTFxbRsL8QnDymDUHwQdTpH6WyJRkqodwcdPhF6X+xCfj25YDfhiCq+Y+
+	 OjRishenxyfVPZwnuM1XBEiPWp/j/z5636+/8cDnKKVCZVGbg2APoo+0gcn+IjoXhM
+	 jn+GXeIQdZr1vLId9uNK8e73qTFlOyF30gWKQ7xg=
+X-Facebook: from 2803:6081:3094:5442:66d5:8ab0:300:0 ([MTI3LjAuMC4x]) 
+	by ig-thrift.facebook.com with HTTPS (ZuckMail);
+Date: Sun, 29 Dec 2024 21:29:52 -0800
+To: rafaelcostavieira12@gmail.com
+Subject: Action needed on your account, ju5ts741k1n
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Return-Path: no-reply@mail.instagram.com
+From: "Instagram" <no-reply@mail.instagram.com>
+Reply-to: Instagram <no-reply@mail.instagram.com>
+Errors-To: no-reply@mail.instagram.com
+X-Facebook-Notify: ig_ufac_enrollment_email; mailid=U2U62a75d0823c24G24bc3d87e31bb1G62a761a183ef6G5e09
+X-FB-Internal-Notiftype: ig_ufac_enrollment_email
+BIMI-Selector: v=BIMI1; s=fb2021q2v1;
+Feedback-ID: ig_ufac_enrollment_email:Facebook
+X-FB-Internal-MID: U2U62a75d0823c24G24bc3d87e31bb1G62a761a183ef6G5e09
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /><style nonce=3D"VJbovpi2">@media =
+all and (max-width: 480px){*[class].ib_t{min-width:100% =
+!important}*[class].ib_row{display:block =
+!important}*[class].ib_ext{display:block !important;padding:10px 0 5px =
+0;vertical-align:top !important;width:100% =
+!important}*[class].ib_img,*[class].ib_mid{vertical-align:top =
+!important}*[class].mb_blk{display:block =
+!important;padding-bottom:10px;width:100% =
+!important}*[class].mb_hide{display:none =
+!important}*[class].mb_inl{display:inline =
+!important}*[class].d_mb_flex{display:block =
+!important}}.d_mb_show{display:none}.d_mb_flex{display:flex}@media only =
+screen and (max-device-width: 480px){.d_mb_hide{display:none =
+!important}.d_mb_show{display:block !important}.d_mb_flex{display:block =
+!important}}.mb_text h1,.mb_text h2,.mb_text h3,.mb_text h4,.mb_text =
+h5,.mb_text h6{line-height:normal}.mb_work_text =
+h1{font-size:18px;line-height:normal;margin-top:4px}.mb_work_text =
+h2,.mb_work_text =
+h3{font-size:16px;line-height:normal;margin-top:4px}.mb_work_text =
+h4,.mb_work_text h5,.mb_work_text =
+h6{font-size:14px;line-height:normal}.mb_work_text =
+a{color:#1270e9}.mb_work_text p{margin-top:4px}</style></head><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td width=3D"100%" =
+align=3D"center" style=3D""><table border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"center" =
+style=3D"border-collapse:collapse;"><tr><td width=3D"840" align=3D"center" =
+style=3D""><body style=3D"max-width:420px;margin:0 auto;" dir=3D"ltr" =
+bgcolor=3D"#ffffff"><table border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"center" id=3D"email_table" =
+style=3D"border-collapse:collapse;max-width:420px;margin:0 auto;"><tr><td =
+id=3D"email_content" style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr style=3D""><td height=3D"20" =
+style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+height=3D"1" colspan=3D"3" style=3D"line-height:1px;"></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;text-align:center;html=
+_width:100%;width:100%;"><tr><td width=3D"15px" =
+style=3D"width:15px;"></td><td =
+style=3D"line-height:0px;max-width:600px;padding:0 0 15px 0;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td =
+style=3D"width:100%;text-align:left;height:33px;"><img height=3D"33" =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v4/yO/r/Otjcwa2eCOF.png" =
+style=3D"border:0;" /></td></tr></table></td><td width=3D"15px" =
+style=3D"width:15px;"></td></tr></table></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"430" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;margin:0 auto 0 =
+auto;"><tr><td style=3D""><span class=3D"mb_text" =
+style=3D"font-weight:bold;font-size:1.5em;"><p>Take action or lose access =
+to ju5ts741k1n</p></span></td></tr><tr><td style=3D""><span =
+class=3D"mb_text">Hi ju5ts741k1n,<p>Your Instagram account has been =
+suspended. This is because your account, or activity on it, doesn&#039;t =
+follow our <a target=3D"_blank" href=3D"https://l.facebook.com/l.php?u=3Dh=
+ttps%3A%2F%2Ftransparency.meta.com%2Fpolicies%2Fcommunity-standards%2Facco=
+unt-integrity%2F&amp;h=3DAT0Y6FNEC5Cx4KX3ZuujGSKP0Um-U_TTXmeREOnCmHHx9SUV8=
+pvfEhKb0GQ4J4xXKo9GNrhYT7jV69wJKPReF5X_rPGQZDIEVFU_WJ98TjcvwtDYK-HGf3mneIX=
+aezV7qKjMKg" rel=3D"nofollow" data-lynx-mode=3D"hover">Community Standards =
+on account integrity</a>.</p><p>If you think we made a mistake, you have =
+until June 28, 2025 to appeal.</p></span></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;"><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;margin:0.5em =
+0;"><tr><td align=3D"center" style=3D"padding:1em 0;"><a =
+href=3D"https://www.instagram.com/_u/ju5ts741k1n" =
+style=3D"color:#1b74e4;text-decoration:none;"><img =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v1/yb/r/kMtMygYTFzA.jpg" =
+height=3D"33" style=3D"border:solid 1px rgba(0, 0, 0, =
+.15);border-radius:50%;height:33px;width:auto;vertical-align:middle;" =
+/></a></td></tr><tr><td align=3D"center" style=3D""><a =
+href=3D"https://www.instagram.com/_u/ju5ts741k1n" =
+style=3D"color:#1b74e4;text-decoration:none;font-size:1.2em;"><span =
+class=3D"mb_text">ju5ts741k1n</span></a></td></tr><tr><td align=3D"center" =
+style=3D"padding:1em 0;"><a =
+href=3D"https://www.instagram.com/accounts/login/" style=3D"color:#1b74e4;=
+text-decoration:none;display:block;width:370px;"><table border=3D"0" =
+width=3D"390" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"border-collapse:colla=
+pse;border-radius:3px;text-align:center;display:block;border:solid 1px =
+#009fdf;padding:10px 16px 14px 16px;margin:0 2px 0 =
+auto;min-width:80px;background-color:#47A2EA;"><a =
+href=3D"https://www.instagram.com/accounts/login/" =
+style=3D"color:#1b74e4;text-decoration:none;display:block;"><center><font =
+size=3D"3"><span style=3D"font-family:Helvetica Neue,Helvetica,Roboto,Aria=
+l,sans-serif;white-space:nowrap;font-weight:bold;vertical-align:middle;col=
+or:#fdfdfd;font-size:16px;line-height:16px;">Review&nbsp;details</span></f=
+ont></center></a></td></tr></table></a></td></tr></table></td></tr></table=
+></td></tr><tr><td style=3D""><span class=3D"mb_text"><p>If you =
+don=E2=80=99t take action, your account will be permanently =
+disabled.</p></span></td></tr></table></td></tr><tr><td style=3D""><table =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;margin:0 auto 0 =
+auto;width:100%;max-width:600px;"><tr style=3D""><td height=3D"4" =
+style=3D"line-height:4px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+width=3D"15px" style=3D"width:15px;"></td><td width=3D"20" =
+style=3D"display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D"text-align:center;"><div =
+style=3D"padding-top:10px;display:flex;"><div style=3D"margin:auto;"><img =
+class=3D"img" =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v4/y3/r/Bqo9-L659wB.png" =
+height=3D"26" width=3D"52" alt=3D"" /></div><br /></div><div =
+style=3D"height:10px;"></div><div =
+style=3D"color:#abadae;font-size:11px;margin:0 auto 5px auto;">=C2=A9 =
+Instagram. Meta Platforms, Inc., 1601 Willow Road, Menlo Park, CA 94025<br =
+/></div><div style=3D"color:#abadae;font-size:11px;margin:0 auto 5px =
+auto;">This message was sent to <a style=3D"color:#abadae;text-decoration:=
+underline;">rafaelcostavieira12&#064;gmail.com</a> and intended for =
+ju5ts741k1n. <br /></div></td><td width=3D"20" =
+style=3D"display:block;width:20px;">&nbsp;&nbsp;&nbsp;</td><td =
+width=3D"15px" style=3D"width:15px;"></td></tr><tr style=3D""><td =
+height=3D"32" style=3D"line-height:32px;" =
+colspan=3D"3">&nbsp;</td></tr></table></td></tr><tr style=3D""><td =
+height=3D"20" style=3D"line-height:20px;" =
+colspan=3D"3">&nbsp;</td></tr></table><span style=3D""><img =
+src=3D"https://www.facebook.com/email_open_log_pic.php?mid=3D62a75d0823c24=
+G24bc3d87e31bb1G62a761a183ef7G5e09" =
+style=3D"border:0;width:1px;height:1px;" /></span></td></tr></table></body=
+></td></tr></table></td></tr></table></html>
+
+
+From - Sat Dec 20 02:20:19 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rafaelcostavieira12@gmail.com
+Received: by 2002:a05:6a10:66c5:b0:5e9:270e:1b7e with SMTP id l5csp1046552pxu;
+        Fri, 28 Mar 2025 12:28:54 -0700 (PDT)
+X-Received: by 2002:a17:903:19e7:b0:220:e5be:29c8 with SMTP id d9443c01a7336-2292f9e3203mr5802445ad.32.1743190134295;
+        Fri, 28 Mar 2025 12:28:54 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1743190134; cv=none;
+        d=google.com; s=arc-20240605;
+        b=MFdZJxrLWQCjLzOkxOpeQiCpGlgfVRnuUB1Hqk10l8esvGdpkroQEaEYiD6apl0FYO
+         BIaXt8DYmhmrDEN/0XfQP3ZtVL62tWaxfsxx+iozYpqAQx/PPFgC6EEagSyEKj8G9no5
+         AKYFNST6yGcAPsWIceYDw8FRAxUkKG4QKgxLd6No0PKmaVOZYE4kUhb53CXmZfw8+Rn2
+         +gPEtjTMjuglY0LnSDvEfHt2fmUSPNNkSE5WXf1oOurJ9lfuLwVfJd8kUp55B6sbOsSZ
+         LuTcm7X6iqU07Um009JdvnhRZviPEeMC6osYaULzyGfBtzF9vhuh85Pr/Vqzif3NHkeG
+         6T1w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:from:subject:message-id:feedback-id:date:mime-version
+         :dkim-signature;
+        bh=2FPuOOfJQYE98WMKgGCQz5SnMhkTn6vpwFy0ZrP4wCU=;
+        fh=S8u2YPHUydqqzi0DVytoDCAwpdMj+RVAjaCdPpmmH5o=;
+        b=HZcn9UEaZQR+uX+TtHCFxQBsip/L6jOrE3nntpUAOc7uPltbYrmSVOmnV598Dys6zC
+         Y6K30aukGjoNffGGi2FwpAkecSsoe8nUhGIrLyoOd+jTyVfFwSrWW6SRjJdrdd7Cpyv1
+         4qllGv3NEzXQTSxQ3Bo4Gp/AVLo5Diq4ZWG/UMtY1YtGXujeUJng2nDMFcFU6Np2TIEu
+         k+80pOfAYCJ7tKXwdcucExcGxL3eFiDkpvANbfuXDO+f2fsJn6x2bzEckq5SlFaTqd/i
+         aC7daiuaMJrJgJRc8TYqNUO54z/uQeFae1+DEhAMjyx+S1n3ktToZegx1OnZxeq60rml
+         VVwA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=ZxKnPfYD;
+       spf=pass (google.com: domain of 3dfjmzwgtaegxy-1ozv8kmmy4x32.qyyqvo.myw@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3dfjmZwgTAEgxy-1ozv8kmmy4x32.qyyqvo.myw@gaia.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <3dfjmZwgTAEgxy-1ozv8kmmy4x32.qyyqvo.myw@gaia.bounces.google.com>
+Received: from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73])
+        by mx.google.com with SMTPS id 41be03b00d2f7-af93d23ac1asor1881676a12.2.2025.03.28.12.28.54
+        for <rafaelcostavieira12@gmail.com>
+        (Google Transport Security);
+        Fri, 28 Mar 2025 12:28:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3dfjmzwgtaegxy-1ozv8kmmy4x32.qyyqvo.myw@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=ZxKnPfYD;
+       spf=pass (google.com: domain of 3dfjmzwgtaegxy-1ozv8kmmy4x32.qyyqvo.myw@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3dfjmZwgTAEgxy-1ozv8kmmy4x32.qyyqvo.myw@gaia.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=accounts.google.com; s=20230601; t=1743190134; x=1743794934; dara=google.com;
+        h=to:from:subject:message-id:feedback-id:date:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=2FPuOOfJQYE98WMKgGCQz5SnMhkTn6vpwFy0ZrP4wCU=;
+        b=ZxKnPfYD39iX4eAXRUy1OWnJ38We5wm7Q9Me5LEY1jgpCUh/8X/ny3gX8Gm5y+YyTj
+         ss8Qnvre9aeK86ruStJGMTOISLsJM0GiV/6UmZIMZp2r2rb/nXORlDB5QHgigSNINujK
+         kmQGuV19G3Q2AQ4AtPi2De20ONV21M+5Rvdidvqrg+E9Ssbw4Qel7U5KHnza9lJ+3lmA
+         cHSbdKQWMMkK+PtoNrXU7GD9xrADy3/y1yL/Z2/oEypPOhIBe+07BZ3M13ZSwWDNq9l/
+         K+4T7z5l9Wmrz5y/PUpaXtrQAWs9KfsVmgB+05yaSsY8toGa8+xTrBIOQ3shN8EBna8Y
+         xV4A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1743190134; x=1743794934;
+        h=to:from:subject:message-id:feedback-id:date:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=2FPuOOfJQYE98WMKgGCQz5SnMhkTn6vpwFy0ZrP4wCU=;
+        b=YjNOzpP4p6YuG4EaZQ481rzZZwKsldfWQr0+j7j/7j6UqL1UJQT2LcWvwNDvu/KX8W
+         Et2+FtIxJpc3b1w4Hc2w0nfLVWKOg8TBIZcbGklRuuhB1Ms1Iz+Ke+Lw3GcI9gwSnQ8K
+         3TlikWsShcH/hZRez/LzF8F6mPnlvQDvLT/PgtGsti8aW26i+qX+EVhPAZB0CHWxe7oH
+         gGkbgwuJZRkhVFkwvNtxHkLHiBDmXrCD1o3c80tYVGyun5itnwLlG38ftOotQzCLcNB3
+         YDZXNTJ3OCMl9FDqk/ysHjslPyAzrNhCp4s7EVR3Q1f5ykEj2/WEC6Orz1quM6qll2Fh
+         YzZw==
+X-Gm-Message-State: AOJu0YxmSuqkvYInimixm0AWC0c1+eD/pFrLCwG8x4Y7t2mifeNTJYU+
+	FNoaPLwZUENNDL0pfEdvPxULd9/ms+BLL0bvxbRgGBIDlY6eeJCj4VGPx+w1el6g1xjS4o9mJT1
+	+Jino2ci9P9gaBBh/Shjtey5eHb+WvSMekQk=
+X-Google-Smtp-Source: AGHT+IG++MVC1eQM1F/Pyk28S3am0vxHkMsOS0N506Fp5BuPOa4cDXNow2GoCUYXMSp6XOOlxkGT64Y20kZKSOa2zZ3bkg==
+MIME-Version: 1.0
+X-Received: by 2002:a17:90a:c2cb:b0:2ee:8427:4b02 with SMTP id
+ 98e67ed59e1d1-3053215e078mr658239a91.28.1743190133821; Fri, 28 Mar 2025
+ 12:28:53 -0700 (PDT)
+Date: Fri, 28 Mar 2025 19:28:53 GMT
+X-Account-Notification-Type: 325
+Feedback-ID: 325:account-notifier
+X-Notifications: 2d6dbabcc5b20000
+X-Notifications-Bounce-Info: Ab2lIHXxT6nNuGl8NzZAjVmQc3_7nPv1I87uwVgowHp8eaC6Ukb-H-FykyfFY3QDkWnsP_GzFFcED_IS5UkkWMuBYJG-f71C0BAXSsTlnDmpJXvyMgjYYLG2Uelj1EVyxfFhrH1JUaUA-xGfC5prAMCz40ztYy1RUtRs5C0JVCs3tTUZtF6pSOd-z6s-ut-0BJtr1_tcgwkUxj9OR-VPpTE1Ui6hwgNjAwNjA0MDQxNTM1NTk2OTMzMg
+Message-ID: <9IbIuDjuLsZO-CiYzgwWaQ@notifications.google.com>
+Subject: =?UTF-8?Q?Alerta_de_seguran=C3=A7a?=
+From: Google <no-reply@accounts.google.com>
+To: rafaelcostavieira12@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000b3cfa506316c14d6"
+
+--000000000000b3cfa506316c14d6
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+W2ltYWdlOiBHb29nbGVdDQpOb3ZvIGxvZ2luIG5vIFdpbmRvd3MNCg0KDQpyYWZhZWxjb3N0YXZp
+ZWlyYTEyQGdtYWlsLmNvbQ0KRGV0ZWN0YW1vcyB1bSBub3ZvIGxvZ2luIG5hIHN1YSBDb250YSBk
+byBHb29nbGUgZW0gdW0gV2luZG93cy4gU2UgZm9pIHZvY8OqDQpxdWUgZmV6IGlzc28sIG5lbmh1
+bWEgYcOnw6NvIMOpIG5lY2Vzc8OhcmlhLiBTZSBuw6NvIGZvaSwgYWp1ZGFyZW1vcyBhIHByb3Rl
+Z2VyDQpzdWEgY29udGEuDQpWZXJpZmljYXIgYXRpdmlkYWRlDQo8aHR0cHM6Ly9hY2NvdW50cy5n
+b29nbGUuY29tL0FjY291bnRDaG9vc2VyP0VtYWlsPXJhZmFlbGNvc3RhdmllaXJhMTJAZ21haWwu
+Y29tJmNvbnRpbnVlPWh0dHBzOi8vbXlhY2NvdW50Lmdvb2dsZS5jb20vYWxlcnQvbnQvMTc0MzE5
+MDEzMzAwMD9yZm4lM0QzMjUlMjZyZm5jJTNEMSUyNmVpZCUzRC03MDI2MDgyOTE3Mjk5NTYyNTYx
+JTI2ZXQlM0QwPg0KVm9jw6ogdGFtYsOpbSBwb2RlIHZlciBhcyBhdGl2aWRhZGVzIGRlIHNlZ3Vy
+YW7Dp2EgZW0NCmh0dHBzOi8vbXlhY2NvdW50Lmdvb2dsZS5jb20vbm90aWZpY2F0aW9ucw0KRXN0
+ZSBlLW1haWwgZm9pIGVudmlhZG8gYSB2b2PDqiBwYXJhIGluZm9ybWFyIHNvYnJlIGFsdGVyYcOn
+w7VlcyBpbXBvcnRhbnRlcw0KbmEgc3VhIENvbnRhIGRvIEdvb2dsZSBlIHNlcnZpw6dvcyByZWxh
+Y2lvbmFkb3MuDQrCqSAyMDI1IEdvb2dsZSBMTEMsIDE2MDAgQW1waGl0aGVhdHJlIFBhcmt3YXks
+IE1vdW50YWluIFZpZXcsIENBIDk0MDQzLCBVU0ENCg==
+--000000000000b3cfa506316c14d6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta name=3D"format-detection" cont=
+ent=3D"email=3Dno"/><meta name=3D"format-detection" content=3D"date=3Dno"/>=
+<style nonce=3D"AGu0G2LVL78DM-BQkOQyyg">.awl a {color: #FFFFFF; text-decora=
+tion: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,=
+Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color=
+: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; tex=
+t-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: =
+6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 6=
+00px) {.mdv2rw {padding: 40px 40px;}} </style><link href=3D"//fonts.googlea=
+pis.com/css?family=3DGoogle+Sans" rel=3D"stylesheet" type=3D"text/css" nonc=
+e=3D"AGu0G2LVL78DM-BQkOQyyg"/></head><body style=3D"margin: 0; padding: 0;"=
+ bgcolor=3D"#FFFFFF"><table width=3D"100%" height=3D"100%" style=3D"min-wid=
+th: 348px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" lang=3D"en"><t=
+r height=3D"32" style=3D"height: 32px;"><td></td></tr><tr align=3D"center">=
+<td><div itemscope itemtype=3D"//schema.org/EmailMessage"><div itemprop=3D"=
+action" itemscope itemtype=3D"//schema.org/ViewAction"><link itemprop=3D"ur=
+l" href=3D"https://accounts.google.com/AccountChooser?Email=3Drafaelcostavi=
+eira12@gmail.com&amp;continue=3Dhttps://myaccount.google.com/alert/nt/17431=
+90133000?rfn%3D325%26rfnc%3D1%26eid%3D-7026082917299562561%26et%3D0"/><meta=
+ itemprop=3D"name" content=3D"Analisar atividade"/></div></div><table borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"padding-bottom: 20px; =
+max-width: 516px; min-width: 220px;"><tr><td width=3D"8" style=3D"width: 8p=
+x;"></td><td><div style=3D"border-style: solid; border-width: thin; border-=
+color:#dadce0; border-radius: 8px; padding: 40px 20px;" align=3D"center" cl=
+ass=3D"mdv2rw"><img src=3D"https://www.gstatic.com/images/branding/googlelo=
+go/2x/googlelogo_color_74x24dp.png" width=3D"74" height=3D"24" aria-hidden=
+=3D"true" style=3D"margin-bottom: 16px;" alt=3D"Google"><div style=3D"font-=
+family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif=
+;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 3=
+2px; padding-bottom: 24px;text-align: center; word-break: break-word;"><div=
+ style=3D"font-size: 24px;">Novo login no Windows </div><table align=3D"cen=
+ter" style=3D"margin-top:8px;"><tr style=3D"line-height: normal;"><td align=
+=3D"right" style=3D"padding-right:8px;"><img width=3D"20" height=3D"20" sty=
+le=3D"width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;;"=
+ src=3D"https://lh3.googleusercontent.com/a/ACg8ocKRd_I4wKlOACVvqGlWXCBnJCR=
+-7UaDSZMt3Z1mFze8X_cM8hI=3Ds96-c" alt=3D""></td><td><a style=3D"font-family=
+: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color=
+: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;">rafaelcostavieira1=
+2@gmail.com</a></td></tr></table> </div><div style=3D"font-family: Roboto-R=
+egular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87)=
+; line-height: 20px;padding-top: 20px; text-align: center;">Detectamos um n=
+ovo login na sua Conta do Google em um Windows. Se foi voc=C3=AA que fez is=
+so, nenhuma a=C3=A7=C3=A3o =C3=A9 necess=C3=A1ria. Se n=C3=A3o foi, ajudare=
+mos a proteger sua conta.<div style=3D"padding-top: 32px; text-align: cente=
+r;"><a href=3D"https://accounts.google.com/AccountChooser?Email=3Drafaelcos=
+tavieira12@gmail.com&amp;continue=3Dhttps://myaccount.google.com/alert/nt/1=
+743190133000?rfn%3D325%26rfnc%3D1%26eid%3D-7026082917299562561%26et%3D0" ta=
+rget=3D"_blank" link-id=3D"main-button-link" style=3D"font-family: &#39;Goo=
+gle Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 1=
+6px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 14p=
+x;display:inline-block;padding: 10px 24px;background-color: #4184F3; border=
+-radius: 5px; min-width: 90px;">Verificar atividade</a></div></div><div sty=
+le=3D"padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368=
+; letter-spacing: 0.3px; text-align: center">Voc=C3=AA tamb=C3=A9m pode ver=
+ as atividades de seguran=C3=A7a em<br><a style=3D"color: rgba(0, 0, 0, 0.8=
+7);text-decoration: inherit;">https://myaccount.google.com/notifications</a=
+></div></div><div style=3D"text-align: left;"><div style=3D"font-family: Ro=
+boto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size:=
+ 11px; line-height: 18px; padding-top: 12px; text-align: center;"><div>Este=
+ e-mail foi enviado a voc=C3=AA para informar sobre altera=C3=A7=C3=B5es im=
+portantes na sua Conta do Google e servi=C3=A7os relacionados.</div><div st=
+yle=3D"direction: ltr;">&copy; 2025 Google LLC, <a class=3D"afal" style=3D"=
+font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.=
+54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: cen=
+ter;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a></div></di=
+v></div></td><td width=3D"8" style=3D"width: 8px;"></td></tr></table></td><=
+/tr><tr height=3D"32" style=3D"height: 32px;"><td></td></tr></table></body>=
+</html>
+--000000000000b3cfa506316c14d6--
+
+From - Sat Dec 20 02:20:19 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rafaelcostavieira12@gmail.com
+Received: by 2002:a05:6a10:66c5:b0:5e9:270e:1b7e with SMTP id l5csp1046749pxu;
+        Fri, 28 Mar 2025 12:29:18 -0700 (PDT)
+X-Received: by 2002:a17:90a:d88d:b0:2ee:c291:765a with SMTP id 98e67ed59e1d1-30531f964d1mr756894a91.8.1743190158793;
+        Fri, 28 Mar 2025 12:29:18 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1743190158; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Ex/pN2zDtfgj3+pAnLLDxPGGDzBQvGn7/pClagd5RzJYQFIc1RWGHIJQ7HmVFzCU91
+         P5pbQIOXYUc6cB2BgP/P7CP5rnHDwQEaVf2bq3wnlCPdFJqsKtd9aIlEoJa9BnKf8IAc
+         1E4Q0b0mtHgmaWrKtC7khuBhZ5gf71NFzQAjDAEhuEgbjjvI/5yhsBYtjPbXluztUfZP
+         1M9VkykKwXfCGDqcog6Oqa8brS9qjL7QiTATwzEKbV3jcqTRLB3zcG2zzsIRw1LEeeiD
+         8Sqt5WVsXDmsdWvP9TiXQLbPKC9CgoqmeTaKk4jzs1pLPwvmG82htcROcegBp+AsXqMP
+         +CFQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:from:subject:message-id:feedback-id:date:mime-version
+         :dkim-signature;
+        bh=aNB+2OuM5sWNV9wYxJsMohzZwB52y4Va7atEAH4BkhU=;
+        fh=S8u2YPHUydqqzi0DVytoDCAwpdMj+RVAjaCdPpmmH5o=;
+        b=IubjIEYsLg7iak/ZKtTsWCyFu+8b6yQiXPji7aznYPbg8zIOhe1z7X20ud75nWZLqj
+         8r7+XuQcsJguu379H0JnFeqhWRC+mV+TEbHqPD44ZhU8RaVWh57JXPLztCwEd4cRwrFX
+         2whXgmwHV4NaRTM6jz4F+th5+SF/9h1N3ddcXysC9kZzcMvKAgDqGn0yCpP3e9R4R/bg
+         dTcFPeNy6O6vT0FuyBURAsBDAbNSphiN3OqqPaGQNrRr/MuvCOkrnGXhe8jptnU5U0hz
+         X4OHGfwe65lVruA0ZeMBJYg83N8Pfz+8l+WRVnmrkzImPl3psKxSp2+ZTn7cN0xHNN4h
+         EBcQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=bWOMB86T;
+       spf=pass (google.com: domain of 3jvjmzwgtagemn-qdokx9bbntmsr.fnnfkd.bnl@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3jvjmZwgTAGEMN-QDOKX9BBNTMSR.FNNFKD.BNL@gaia.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <3jvjmZwgTAGEMN-QDOKX9BBNTMSR.FNNFKD.BNL@gaia.bounces.google.com>
+Received: from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73])
+        by mx.google.com with SMTPS id 98e67ed59e1d1-3051affc1d9sor2309574a91.7.2025.03.28.12.29.18
+        for <rafaelcostavieira12@gmail.com>
+        (Google Transport Security);
+        Fri, 28 Mar 2025 12:29:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3jvjmzwgtagemn-qdokx9bbntmsr.fnnfkd.bnl@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=bWOMB86T;
+       spf=pass (google.com: domain of 3jvjmzwgtagemn-qdokx9bbntmsr.fnnfkd.bnl@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3jvjmZwgTAGEMN-QDOKX9BBNTMSR.FNNFKD.BNL@gaia.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=accounts.google.com; s=20230601; t=1743190158; x=1743794958; dara=google.com;
+        h=to:from:subject:message-id:feedback-id:date:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=aNB+2OuM5sWNV9wYxJsMohzZwB52y4Va7atEAH4BkhU=;
+        b=bWOMB86Tk/ZFdcHN8ezcTAwaat2n/+cqiz9Q099t3pxdePQS5lb1LevuYWAAMsoOjp
+         iSaZ/G4RjtyghW17HmXQI4MTcfQP8m1Q/selRPJvDToXV7rFMEWEfdwSjmKM7wpFZPl9
+         ySa/XCMt3YcE05D9Trnz1CMQt8/cgd2crSpC7pc0kx32DPP/PzLdqQDo+y+Q3Ddd2/t0
+         5kZ/LPw+MYnnBPFIxsGTCuhG8CIEI0ryN1s0ogaL43ZUb2VU8opxvnUzRMQKyOHMNRQh
+         BXa8VXPVkPQwUkm9C1vT8PTGHvEyU3X1xoU8MbkChMzn4w1oL1EVSwcU6RmXPTpCSFCU
+         clNw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1743190158; x=1743794958;
+        h=to:from:subject:message-id:feedback-id:date:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=aNB+2OuM5sWNV9wYxJsMohzZwB52y4Va7atEAH4BkhU=;
+        b=MS6O1LzcUW2w0+XOpws4b7wln28oqvJ+Ek1c0R0qDAQ0G6Yrft2YK+nM28Kt0C5EPy
+         2EjeMMNrFL2WdBR5a01H2pu+LvoZId2Z2GSbAZdiTGnmzg28nrDojWA14svgIZR+h1MX
+         Uq9R9RmsvWGjXSjaNzNHqraFzQTNQZClH4W0WXkDJhgQTXJoZMdoBhjsJu2s63ZlQEoA
+         hGW+32NhGwvveQW/Ig2srqTsRyjY7co54tMtTW9H6UNNuK09laGLbZ/1I+VA67Rk5/pR
+         h4av/E9OOeYymZyAssBqoHjiu1xNlrJRI2HpMVtzzvgTuspPMCnf5nIh2G2tapRf3o0a
+         9WOA==
+X-Gm-Message-State: AOJu0Yy+3ErM8vNzEOJN8R23YPBby8ZLnu9FuHhA9hcsZxiTuNmcyVQD
+	hrrz01cNCLcSGwGU45YR1nvBUDwn293JuIFcOVb/S0KxcG3jPAb/m8p4/90AQPtT9x6RrwT3iCg
+	TcSmtKuhOboNMIcUozZpSiyprY0GFnxmKfLk=
+X-Google-Smtp-Source: AGHT+IGHbdVcLmTf+lyimj0WEfk8ph5bRSFUIpOqMXdoe5St8SuYQzV3Piwi7rYyYfg+eWxT8oVZK2Lmkv3XJVnZDTr4kA==
+MIME-Version: 1.0
+X-Received: by 2002:a17:90b:1f91:b0:2ff:693a:7590 with SMTP id
+ 98e67ed59e1d1-305321705f1mr806644a91.33.1743190158432; Fri, 28 Mar 2025
+ 12:29:18 -0700 (PDT)
+Date: Fri, 28 Mar 2025 19:29:14 GMT
+X-Account-Notification-Type: 2
+Feedback-ID: 2:account-notifier
+X-Notifications: d2a41142c5b20000
+X-Notifications-Bounce-Info: Ab2lIHUiKV2Qnk1oqU2On5eW5l5ICK95KBUHPvBJk9cr4WXkk_4nwFmnUkDaMtFK0pmTInXLVpvzg9fNS6mZJmXFoovN4iVh-s9xTsNKMzrUjN5OtZjAqEAgMDhaCHfvQUA-fYZO_9X6XfTK9kTUCO-ZJJ2jX0xQuCd2Lm0d1UW3GgTon6iEwqpWHg91LFjijtGeuPlBA98wnixbvOM8RfhUaVt6slD7jN6zGtUQR2IKzfT7NjAwNjA0MDQxNTM1NTk2OTMzMg
+Message-ID: <2Wk3oM1x9fgz0pYXnrTrpA@notifications.google.com>
+Subject: =?UTF-8?Q?Alerta_de_seguran=C3=A7a?=
+From: Google <no-reply@accounts.google.com>
+To: rafaelcostavieira12@gmail.com
+Content-Type: multipart/alternative; boundary="0000000000002b585b06316c1628"
+
+--0000000000002b585b06316c1628
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+W2ltYWdlOiBHb29nbGVdDQpPIGUtbWFpbCBkZSByZWN1cGVyYcOnw6NvIGZvaSBhbHRlcmFkbyBw
+YXJhDQoNCg0KcmFmYWVsY29zdGF2aWVpcmExMkBnbWFpbC5jb20NCk8gZS1tYWlsIGRlIHJlY3Vw
+ZXJhw6fDo28gZGEgc3VhIGNvbnRhIGZvaSBhbHRlcmFkby4gU2Ugdm9jw6ogbsOjbyBmZXogZXNz
+YQ0KYWx0ZXJhw6fDo28sIHZlcmlmaXF1ZSBvIHF1ZSBhY29udGVjZXUuDQpWZXJpZmljYXIgYXRp
+dmlkYWRlDQo8aHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tL0FjY291bnRDaG9vc2VyP0VtYWls
+PXJhZmFlbGNvc3RhdmllaXJhMTJAZ21haWwuY29tJmNvbnRpbnVlPWh0dHBzOi8vbXlhY2NvdW50
+Lmdvb2dsZS5jb20vYWxlcnQvbnQvMTc0MzE5MDE1NDI0MT9yZm4lM0QyJTI2cmZuYyUzRDElMjZl
+aWQlM0QtNjM4ODY3ODk4NzcyMzY0NTA3NSUyNmV0JTNEMD4NClZvY8OqIHRhbWLDqW0gcG9kZSB2
+ZXIgYXMgYXRpdmlkYWRlcyBkZSBzZWd1cmFuw6dhIGVtDQpodHRwczovL215YWNjb3VudC5nb29n
+bGUuY29tL25vdGlmaWNhdGlvbnMNCkVzdGUgZS1tYWlsIGZvaSBlbnZpYWRvIGEgdm9jw6ogcGFy
+YSBpbmZvcm1hciBzb2JyZSBhbHRlcmHDp8O1ZXMgaW1wb3J0YW50ZXMNCm5hIHN1YSBDb250YSBk
+byBHb29nbGUgZSBzZXJ2acOnb3MgcmVsYWNpb25hZG9zLg0KwqkgMjAyNSBHb29nbGUgTExDLCAx
+NjAwIEFtcGhpdGhlYXRyZSBQYXJrd2F5LCBNb3VudGFpbiBWaWV3LCBDQSA5NDA0MywgVVNBDQo=
+--0000000000002b585b06316c1628
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta name=3D"format-detection" cont=
+ent=3D"email=3Dno"/><meta name=3D"format-detection" content=3D"date=3Dno"/>=
+<style nonce=3D"qqt6ypQVRc2ZIjLaO8Xy7Q">.awl a {color: #FFFFFF; text-decora=
+tion: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,=
+Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color=
+: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; tex=
+t-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: =
+6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 6=
+00px) {.mdv2rw {padding: 40px 40px;}} </style><link href=3D"//fonts.googlea=
+pis.com/css?family=3DGoogle+Sans" rel=3D"stylesheet" type=3D"text/css" nonc=
+e=3D"qqt6ypQVRc2ZIjLaO8Xy7Q"/></head><body style=3D"margin: 0; padding: 0;"=
+ bgcolor=3D"#FFFFFF"><table width=3D"100%" height=3D"100%" style=3D"min-wid=
+th: 348px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" lang=3D"en"><t=
+r height=3D"32" style=3D"height: 32px;"><td></td></tr><tr align=3D"center">=
+<td><div itemscope itemtype=3D"//schema.org/EmailMessage"><div itemprop=3D"=
+action" itemscope itemtype=3D"//schema.org/ViewAction"><link itemprop=3D"ur=
+l" href=3D"https://accounts.google.com/AccountChooser?Email=3Drafaelcostavi=
+eira12@gmail.com&amp;continue=3Dhttps://myaccount.google.com/alert/nt/17431=
+90154241?rfn%3D2%26rfnc%3D1%26eid%3D-6388678987723645075%26et%3D0"/><meta i=
+temprop=3D"name" content=3D"Analisar atividade"/></div></div><table border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"padding-bottom: 20px; m=
+ax-width: 516px; min-width: 220px;"><tr><td width=3D"8" style=3D"width: 8px=
+;"></td><td><div style=3D"border-style: solid; border-width: thin; border-c=
+olor:#dadce0; border-radius: 8px; padding: 40px 20px;" align=3D"center" cla=
+ss=3D"mdv2rw"><img src=3D"https://www.gstatic.com/images/branding/googlelog=
+o/2x/googlelogo_color_74x24dp.png" width=3D"74" height=3D"24" aria-hidden=
+=3D"true" style=3D"margin-bottom: 16px;" alt=3D"Google"><div style=3D"font-=
+family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif=
+;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 3=
+2px; padding-bottom: 24px;text-align: center; word-break: break-word;"><div=
+ style=3D"font-size: 24px;">O e-mail de recupera=C3=A7=C3=A3o foi alterado&=
+nbsp;para </div><table align=3D"center" style=3D"margin-top:8px;"><tr style=
+=3D"line-height: normal;"><td align=3D"right" style=3D"padding-right:8px;">=
+<img width=3D"20" height=3D"20" style=3D"width: 20px; height: 20px; vertica=
+l-align: sub; border-radius: 50%;;" src=3D"https://lh3.googleusercontent.co=
+m/a/ACg8ocKRd_I4wKlOACVvqGlWXCBnJCR-7UaDSZMt3Z1mFze8X_cM8hI=3Ds96-c" alt=3D=
+""></td><td><a style=3D"font-family: &#39;Google Sans&#39;,Roboto,RobotoDra=
+ft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; lin=
+e-height: 20px;">rafaelcostavieira12@gmail.com</a></td></tr></table> </div>=
+<div style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-=
+size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; t=
+ext-align: left;">O e-mail de recupera=C3=A7=C3=A3o da sua conta foi altera=
+do. Se voc=C3=AA n=C3=A3o fez essa altera=C3=A7=C3=A3o, verifique o que aco=
+nteceu.<div style=3D"padding-top: 32px; text-align: center;"><a href=3D"htt=
+ps://accounts.google.com/AccountChooser?Email=3Drafaelcostavieira12@gmail.c=
+om&amp;continue=3Dhttps://myaccount.google.com/alert/nt/1743190154241?rfn%3=
+D2%26rfnc%3D1%26eid%3D-6388678987723645075%26et%3D0" target=3D"_blank" link=
+-id=3D"main-button-link" style=3D"font-family: &#39;Google Sans&#39;,Roboto=
+,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff;=
+ font-weight: 400; text-decoration: none;font-size: 14px;display:inline-blo=
+ck;padding: 10px 24px;background-color: #4184F3; border-radius: 5px; min-wi=
+dth: 90px;">Verificar atividade</a></div></div><div style=3D"padding-top: 2=
+0px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.=
+3px; text-align: center">Voc=C3=AA tamb=C3=A9m pode ver as atividades de se=
+guran=C3=A7a em<br><a style=3D"color: rgba(0, 0, 0, 0.87);text-decoration: =
+inherit;">https://myaccount.google.com/notifications</a></div></div><div st=
+yle=3D"text-align: left;"><div style=3D"font-family: Roboto-Regular,Helveti=
+ca,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: =
+18px; padding-top: 12px; text-align: center;"><div>Este e-mail foi enviado =
+a voc=C3=AA para informar sobre altera=C3=A7=C3=B5es importantes na sua Con=
+ta do Google e servi=C3=A7os relacionados.</div><div style=3D"direction: lt=
+r;">&copy; 2025 Google LLC, <a class=3D"afal" style=3D"font-family: Roboto-=
+Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px=
+; line-height: 18px; padding-top: 12px; text-align: center;">1600 Amphithea=
+tre Parkway, Mountain View, CA 94043, USA</a></div></div></div></td><td wid=
+th=3D"8" style=3D"width: 8px;"></td></tr></table></td></tr><tr height=3D"32=
+" style=3D"height: 32px;"><td></td></tr></table></body></html>
+--0000000000002b585b06316c1628--
+

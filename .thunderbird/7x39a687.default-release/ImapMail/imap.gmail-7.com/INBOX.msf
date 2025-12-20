@@ -1,0 +1,105 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=junkscore)(B9=keywords)(BA=X-GM-MSGID)(BB=X-GM-THRID)
+  (BC=X-GM-LABELS)(BD=dobayes.mailnews@mozilla.org#junk)(BE=storeToken)
+  (BF=gloda-id)(C0=gloda-dirty)(C1=useServerRetention)(C2=retainBy)
+  (C3=daysToKeepHdrs)(C4=numHdrsToKeep)(C5=daysToKeepBodies)
+  (C6=useServerDefaults)(C7=cleanupBodies)(C8=applyToFlaggedMessages)
+  (C9=ns:msg:db:row:scope:ops:all)(CA=ns:msg:db:table:kind:ops)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)
+  (B0=highestModSeq)(B1=highestRecordedUID)
+  (B2=ns:msg:db:row:scope:pending:all)(B3=ns:msg:db:table:kind:pending)
+  (B4=dateReceived)(B5=ProtoThreadFlags)(B6=MRUTime)(B7=account)>
+<(8D=3a)(8B=67e6f8e9)(81=0)(80=1)>
+[1:m(^9B=3a)(^8F=3a)(^91^8B)(^90=0)(^92=1)(^93=1)]
+<(93=3b)(91=67e9e772)>[2:m(^9B=3b)(^8F=3b)(^91^91)(^90=0)(^92=1)(^93=1)]
+<(98=3c)(96=67e9e779)>[3:m(^9B=3c)(^8F=3c)(^91^96)(^90=0)(^92=1)(^93=1)]
+<(9F=3d)(9D=67ec965e)>[4:m(^9B=3d)(^8F=3d)(^91^9D)(^90=0)(^92=1)(^93=1)]
+<(A6=3e)(A4=68b5bb72)>[5:m(^9B=3e)(^8F=3e)(^91^A4)(^90=0)(^92=1)(^93=1)]
+<(AB=3f)(A9=69460885)>[6:m(^9B=3f)(^8F=3f)(^91^A9)(^90=0)(^92=1)(^93=1)]
+<(B0=40)(AE=6946088b)>[7:m(^9B=40)(^8F=40)(^91^AE)(^90=0)(^92=1)(^93=1)]
+
+<(B2=80)(87=Google <no-reply@accounts.google.com>)(88=rcv.b4ckup@gmail.com)
+  (89=Security alert)(8A=HvpmL9S9xb1VajiPMNpH1w@notifications.google.com)
+  (86=)(8C=2fa7)(8E=ffffffff)(B3=2fda)(B4=ab)(C7=1e8b)(90
+    =gHWNHke4faHy4dXI1a1Cig@notifications.google.com)(92=2f1c)(B5=12285)
+  (B6=2f4f)(B7=a9)(C8=1e8c)(95
+    =zIy8_ysrbPDxSzgT38PKrw@notifications.google.com)(97=2f87)(B8=24431)
+  (B9=2fba)(C9=1e8d)(9A=Google Play <googleplay-noreply@google.com>)
+  (9B
+    =New face ID or fingerprint can be used for Play purchase verification)
+  (9C
+    =53dccaf7b752bf1c8d45dc99bad2c1a44a8c93c2-20300789-111457411@google.com)
+  (9E=3792)(BA=36684)(BB=37c5)(BC=139)(CA=1e8e)(A1
+    =Discord <notifications@discord.com>)(A2
+    ==?UTF-8?B?QXR1YWxpemHDp8O1ZXMgbmFzIHBvbMOtdGljYXM=?= do Discord)
+  (A3=vk8KBdr7R8mV69Nq3_BiIQ@geopod-ismtpd-14)(A5=7344)(BD=50996)(BE=7377)
+  (BF=2bf)(CB=1e8f)(A8=KXa04ydJAA9EgbucV-g1eg@notifications.google.com)
+  (AA=304e)(C0=80590)(C1=3081)(C2=ae)(CC=1e90)(AD
+    =HRYa8TBTM6qYDzZkJMboqg@notifications.google.com)(AF=364b)(C3=93042)
+  (C4=367e)(C5=c1)(CD=1e91)>
+{1:^80 {(k^96:c)(s=9)} 
+  [3A(^88=80)(^82^87)(^85^88)(^81^89)(^83^8A)(^84=)(^B4^8B)(^86^8B)
+    (^89=1)(^87^8C)(^9A^8E)(^8E=3a)(^B5=0)(^BA=)(^BB=)(^BC=)(^BE=0)
+    (^9D^B3)(^8B=ab)(^BF^C7)(^B9=)]
+  [3B(^88=80)(^82^87)(^85^88)(^81^89)(^83^90)(^84=)(^B4^91)(^86^91)
+    (^89=1)(^87^92)(^9A^8E)(^8E=3b)(^B5=0)(^BA=)(^BB=)(^BC=)(^BE^B5)
+    (^9D^B6)(^8B=a9)(^BF^C8)(^B9=)]
+  [3C(^88=80)(^82^87)(^85^88)(^81^89)(^83^95)(^84=)(^B4^96)(^86^96)
+    (^89=1)(^87^97)(^9A^8E)(^8E=3c)(^B5=0)(^BA=)(^BB=)(^BC=)(^BE^B8)
+    (^9D^B9)(^8B=ab)(^BF^C9)(^B9=)]
+  [3D(^88=80)(^82^9A)(^85^88)(^81^9B)(^83^9C)(^84=)(^B4^9D)(^86^9D)
+    (^89=1)(^87^9E)(^9A^8E)(^8E=3d)(^B5=0)(^BA=)(^BB=)(^BC=)(^BE^BA)
+    (^9D^BB)(^8B^BC)(^BF^CA)(^B9=)]
+  [3E(^88=80)(^82^A1)(^85^88)(^81^A2)(^83^A3)(^84=)(^B4^A4)(^86^A4)
+    (^89=1)(^87^A5)(^9A^8E)(^8E=3e)(^B5=0)(^BA=)(^BB=)(^BC=)(^BE^BD)
+    (^9D^BE)(^8B^BF)(^BF^CB)(^B9=)]
+  [3F(^88=80)(^82^87)(^85^88)(^81^89)(^83^A8)(^84=)(^B4^A9)(^86^A9)
+    (^89=1)(^87^AA)(^9A^8E)(^8E=3f)(^B5=0)(^BA=)(^BB=)(^BC=)(^BE^C0)
+    (^9D^C1)(^8B=ae)(^BF^CC)(^B9=)]
+  [40(^88=80)(^82^87)(^85^88)(^81^89)(^83^AD)(^84=)(^B4^AE)(^86^AE)
+    (^89=1)(^87^AF)(^9A^8E)(^8E=40)(^B5=0)(^BA=)(^BB=)(^BC=)(^BE^C3)
+    (^9D^C4)(^8B=c1)(^BF^CD)(^B9=)]}
+{3A:^80 {(k^97:c)(s=9)1:m } 3A }
+{3B:^80 {(k^97:c)(s=9)2:m } 3B }
+{3C:^80 {(k^97:c)(s=9)3:m } 3C }
+{3D:^80 {(k^97:c)(s=9)4:m } 3D }
+{3E:^80 {(k^97:c)(s=9)5:m } 3E }
+{3F:^80 {(k^97:c)(s=9)6:m } 3F }
+{40:^80 {(k^97:c)(s=9)7:m } 40 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [3A(^94^89)]
+  [3B(^94^89)]
+  [3C(^94^89)]
+  [3D(^94^9B)]
+  [3E(^94^A2)]
+  [3F(^94^89)]
+  [40(^94^89)]}
+
+<(82=INBOX)(83=e000)(CE=24156)(C6=83014)(B1=7)(8F=1766197367)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF^83)(^B0^CE)(^A7^82)(^88^C6)(^A8=1)
+    (^B1=40)(^A1=7)(^A2=7)(^A6=40)(^B6^8F)(^C1=1)]}
+
+@$${12{@
+@$$}12}@
+
+@$${13{@
+@$$}13}@
+
+@$${15{@
+{-1:^C9 {(k^CA:c)(s=9)} }
+@$$}15}@

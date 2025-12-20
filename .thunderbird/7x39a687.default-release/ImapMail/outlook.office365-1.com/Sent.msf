@@ -1,0 +1,1020 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=account)(B9=junkscore)(BA=keywords)
+  (BB=dobayes.mailnews@mozilla.org#junk)(BC=ns:msg:db:row:scope:ops:all)
+  (BD=ns:msg:db:table:kind:ops)(BE=prevkeywords)(BF=storeToken)
+  (C0=gloda-id)(C1=gloda-dirty)(80=ns:msg:db:row:scope:msgs:all)
+  (81=subject)(82=sender)(83=message-id)(84=references)(85=recipients)
+  (86=date)(87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)
+  (8C=ccList)(8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=indexingPriority)
+  (B0=imapFlags)(B1=highestModSeq)(B2=highestRecordedUID)
+  (B3=ns:msg:db:row:scope:pending:all)(B4=ns:msg:db:table:kind:pending)
+  (B5=dateReceived)(B6=ProtoThreadFlags)(B7=folderName)>
+<(23B=135)(239=5eb32a2b)(81=0)(80=1)>
+[40:m(^9B=135)(^8F=135)(^91^239)(^90=0)(^92=1)]
+<(241=137)(23F=5ea8433f)>[41:m(^9B=137)(^8F=137)(^91^23F)(^90=0)(^92=1)]
+<(247=138)(245=5ea21bc0)>[42:m(^9B=138)(^8F=138)(^91^245)(^90=0)(^92=1)]
+<(24D=13a)(24B=5eb3076c)>[43:m(^9B=13a)(^8F=13a)(^91^24B)(^90=0)(^92=1)]
+<(253=13b)(251=5fbaa8a6)>[44:m(^9B=13b)(^8F=13b)(^91^251)(^90=0)(^92=1)]
+<(259=13f)(257=5fbaac2b)>[45:m(^9B=13f)(^8F=13f)(^91^257)(^90=0)(^92=1)]
+<(25F=143)(25D=5f0368e5)>[46:m(^9B=143)(^8F=143)(^91^25D)(^90=0)(^92=1)]
+<(264=144)(262=5ec585b6)>[47:m(^9B=144)(^8F=144)(^91^262)(^90=0)(^92=1)]
+<(26A=145)(268=5ebb2830)>[48:m(^9B=145)(^8F=145)(^91^268)(^90=0)(^92=1)]
+<(270=146)(26E=601d4f07)>[49:m(^9B=146)(^8F=146)(^91^26E)(^90=0)(^92=1)]
+<(274=14a)(272=601d4fb9)>[4A:m(^9B=14a)(^8F=14a)(^91^272)(^90=0)(^92=1)]
+<(27B=152)(279=603e1984)>[4B:m(^9B=152)(^8F=152)(^91^279)(^90=0)(^92=1)]
+<(282=156)(280=603f83a6)>[4C:m(^9B=156)(^8F=156)(^91^280)(^90=0)(^92=1)]
+<(288=15b)(286=5fb301b1)>[4D:m(^9B=15b)(^8F=15b)(^91^286)(^90=0)(^92=1)]
+<(28F=15c)(28D=602e5e13)>[4E:m(^9B=15c)(^8F=15c)(^91^28D)(^90=0)(^92=1)]
+<(295=15d)(293=5fb42fa4)>[4F:m(^9B=15d)(^8F=15d)(^91^293)(^90=0)(^92=1)]
+<(29C=15e)(29A=649500cf)>[50:m(^9B=15e)(^8F=15e)(^91^29A)(^90=0)(^92=1)]
+<(91=fffffffe)(8C=5e94ea08)>[1:m(^9B=1)(^8F^91)(^91^8C)(^90=0)(^92=1)]
+<(97=5)(95=5e98cce8)>[2:m(^9B=5)(^8F=5)(^91^95)(^90=0)(^92=1)]
+<(9D=9)(9B=5e9a3679)>[3:m(^9B=9)(^8F=9)(^91^9B)(^90=0)(^92=1)]
+<(A3=d)(A1=5e9e29c7)>[4:m(^9B=d)(^8F=d)(^91^A1)(^90=0)(^92=1)]
+<(A9=11)(A7=5e9e2f50)>[5:m(^9B=11)(^8F=11)(^91^A7)(^90=0)(^92=1)]
+<(AF=18)(AD=5ea1a94c)>[6:m(^9B=18)(^8F=18)(^91^AD)(^90=0)(^92=1)]
+<(B7=1f)(B4=5ea61d9a)>[7:m(^9B=1f)(^8F=1f)(^91^B4)(^90=0)(^92=1)]
+<(BD=25)(BB=5ea99032)>[8:m(^9B=25)(^8F=25)(^91^BB)(^90=0)(^92=1)]
+<(C3=28)(C1=5eb17187)>[9:m(^9B=28)(^8F=28)(^91^C1)(^90=0)(^92=1)]
+<(C9=35)(C7=5ea1a2a9)>[A:m(^9B=35)(^8F=35)(^91^C7)(^90=0)(^92=1)]
+<(D1=36)(CF=5eb4943e)>[B:m(^9B=36)(^8F=36)(^91^CF)(^90=0)(^92=1)]
+<(D7=3b)(D5=5eb5646a)>[C:m(^9B=3b)(^8F=3b)(^91^D5)(^90=0)(^92=1)]
+<(DE=3f)(DC=5eb5656a)>[D:m(^9B=3f)(^8F=3f)(^91^DC)(^90=0)(^92=1)]
+<(E3=42)(E1=5eb56d7f)>[E:m(^9B=42)(^8F=42)(^91^E1)(^90=0)(^92=1)]
+<(E9=45)(E7=5eb59f65)>[F:m(^9B=45)(^8F=45)(^91^E7)(^90=0)(^92=1)]
+<(F0=4c)(EE=5eb97f45)>[10:m(^9B=4c)(^8F=4c)(^91^EE)(^90=0)(^92=1)]
+<(F6=4f)(F4=5ebb083f)>[11:m(^9B=4f)(^8F=4f)(^91^F4)(^90=0)(^92=1)]
+<(FB=5e)(F9=5ebbf142)>[12:m(^9B=5e)(^8F=5e)(^91^F9)(^90=0)(^92=1)]
+<(102=67)(100=5ecd6d7d)>[13:m(^9B=67)(^8F=67)(^91^100)(^90=0)(^92=1)]
+<(109=6a)(107=5ecd7792)>[14:m(^9B=6a)(^8F=6a)(^91^107)(^90=0)(^92=1)]
+<(10F=6e)(10D=5edebc6e)>[15:m(^9B=6e)(^8F=6e)(^91^10D)(^90=0)(^92=1)]
+<(115=72)(13B=5eebb2e9)(98=2)>[16:m(^9B=72)(^8F=72)(^91^13B)(^90=0)
+    (^92=2)]
+<(11B=75)(119=5ee695de)>[17:m(^9B=75)(^8F=75)(^91^119)(^90=0)(^92=1)]
+<(121=7b)(11F=5ee69cd7)>[18:m(^9B=7b)(^8F=7b)(^91^11F)(^90=0)(^92=1)]
+<(126=80)(12C=5eeba11c)>[19:m(^9B=80)(^8F=80)(^91^12C)(^90=0)(^92=2)]
+<(135=88)(133=5eeba78c)>[1A:m(^9B=88)(^8F=88)(^91^133)(^90=0)(^92=1)]
+<(143=91)(141=5ef3ab3d)>[1B:m(^9B=91)(^8F=91)(^91^141)(^90=0)(^92=1)]
+<(14A=94)(148=5eff6f1e)>[1C:m(^9B=94)(^8F=94)(^91^148)(^90=0)(^92=1)]
+<(150=97)(14E=5eff7f05)>[1D:m(^9B=97)(^8F=97)(^91^14E)(^90=0)(^92=1)]
+<(155=a0)(153=5f03149f)>[1E:m(^9B=a0)(^8F=a0)(^91^153)(^90=0)(^92=1)]
+<(15B=a7)(159=5f048cd4)>[1F:m(^9B=a7)(^8F=a7)(^91^159)(^90=0)(^92=1)]
+<(161=aa)(166=5f060947)>[20:m(^9B=aa)(^8F=aa)(^91^166)(^90=0)(^92=2)]
+<(16E=b5)(16C=5f077b6c)>[21:m(^9B=b5)(^8F=b5)(^91^16C)(^90=0)(^92=1)]
+<(174=b9)(172=5f08d8b4)>[22:m(^9B=b9)(^8F=b9)(^91^172)(^90=0)(^92=1)]
+<(17A=c9)(178=5f30701d)>[23:m(^9B=c9)(^8F=c9)(^91^178)(^90=0)(^92=1)]
+<(181=cd)(187=5f470a23)>[24:m(^9B=cd)(^8F=cd)(^91^187)(^90=0)(^92=2)]
+<(18E=d5)(18C=5f4ab1b9)>[25:m(^9B=d5)(^8F=d5)(^91^18C)(^90=0)(^92=1)]
+<(194=da)(1BE=5f68ad23)>[26:m(^9B=da)(^8F=da)(^91^1BE)(^90=0)(^92=2)]
+<(19A=dd)(198=5f5be905)>[27:m(^9B=dd)(^8F=dd)(^91^198)(^90=0)(^92=1)]
+<(1A0=e1)(19E=5f5c0f11)>[28:m(^9B=e1)(^8F=e1)(^91^19E)(^90=0)(^92=1)]
+<(1A6=e4)(1A4=5f5f9d32)>[29:m(^9B=e4)(^8F=e4)(^91^1A4)(^90=0)(^92=1)]
+<(1AD=e7)(1AB=5f1847a2)>[2A:m(^9B=e7)(^8F=e7)(^91^1AB)(^90=0)(^92=1)]
+<(1B3=e8)(1B1=5f15ad4c)>[2B:m(^9B=e8)(^8F=e8)(^91^1B1)(^90=0)(^92=1)]
+<(1B9=ea)(1B7=5f10d310)>[2C:m(^9B=ea)(^8F=ea)(^91^1B7)(^90=0)(^92=1)]
+<(1C6=ee)(1C4=5f6a0a56)>[2D:m(^9B=ee)(^8F=ee)(^91^1C4)(^90=0)(^92=1)]
+<(1CC=f1)(1CA=5f6a1fdd)>[2E:m(^9B=f1)(^8F=f1)(^91^1CA)(^90=0)(^92=1)]
+<(1D2=f4)(1D0=5f6a215d)>[2F:m(^9B=f4)(^8F=f4)(^91^1D0)(^90=0)(^92=1)]
+<(1D8=f9)(1D6=5f6a92d5)>[30:m(^9B=f9)(^8F=f9)(^91^1D6)(^90=0)(^92=1)]
+<(1DD=fc)(1DB=5f70a380)>[31:m(^9B=fc)(^8F=fc)(^91^1DB)(^90=0)(^92=1)]
+<(1E2=100)(1E0=5f72668d)>[32:m(^9B=100)(^8F=100)(^91^1E0)(^90=0)(^92=1)]
+<(1E8=104)(1EE=5f788f8e)>[33:m(^9B=104)(^8F=104)(^91^1EE)(^90=0)(^92=2)]
+<(1F7=10b)(1F5=5f8efe7e)>[34:m(^9B=10b)(^8F=10b)(^91^1F5)(^90=0)(^92=1)]
+<(1FD=110)(1FB=5f8f793f)>[35:m(^9B=110)(^8F=110)(^91^1FB)(^90=0)(^92=1)]
+<(202=113)(200=5fab1ce0)>[36:m(^9B=113)(^8F=113)(^91^200)(^90=0)(^92=1)]
+<(208=11a)(206=5fb41e7c)>[37:m(^9B=11a)(^8F=11a)(^91^206)(^90=0)(^92=1)]
+<(20E=121)(20C=5fba71f8)>[38:m(^9B=121)(^8F=121)(^91^20C)(^90=0)(^92=1)]
+<(214=125)(212=5fba7d85)>[39:m(^9B=125)(^8F=125)(^91^212)(^90=0)(^92=1)]
+<(219=129)(217=5fba9ab7)>[3A:m(^9B=129)(^8F=129)(^91^217)(^90=0)(^92=1)]
+<(21F=12d)(21D=5f06256f)>[3B:m(^9B=12d)(^8F=12d)(^91^21D)(^90=0)(^92=1)]
+<(225=12f)(223=5ee69b1d)>[3C:m(^9B=12f)(^8F=12f)(^91^223)(^90=0)(^92=1)]
+<(22A=130)(228=5ebdb2f2)>[3D:m(^9B=130)(^8F=130)(^91^228)(^90=0)(^92=1)]
+<(230=133)(22E=5ebb2185)>[3E:m(^9B=133)(^8F=133)(^91^22E)(^90=0)(^92=1)]
+<(236=134)(234=5eb8847c)>[3F:m(^9B=134)(^8F=134)(^91^234)(^90=0)(^92=1)]
+
+<(2AC=10000081)(88
+    =Rafael Costa Vieira <IMCEAEX-_O=FIRST+20ORGANIZATION_OU=EXCHANGE+20ADMINI\
+STRATIVE+20GROUP+28FYDIBOHF23SPDLT+29_CN=RECIPIENTS_CN=00067FFE0C14A239@sct-15\
+-20-9412-4-msonline-outlook-f33c2.templateTenant>)(89
+    ="profpatriciapinho@hotmail.com" <profpatriciapinho@hotmail.com>)
+  (8A=EVN Rafael Costa Vieira 8o matutino)(8B
+    =BY5PR20MB31714A7D193B23F27608F26CFFDD0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(87=)(3F0=112168)(90=ffffffff)(3F1=9815575)(3F2=11219b)(3F3=3851)
+  (3F4=246f)(92="silva1979@hotmail.com" <silva1979@hotmail.com>)(93
+    =prova Rafael Costa Vieira 8o matutino)(94
+    =BY5PR20MB31710CFD63F3B78961F1304EFFD80@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(332=21dec)(333=622172)(334=21e1f)(335=715)(33E=244c)(99
+    =prova rafael costa vieira 8m)(9A
+    =BY5PR20MB3171E70EE61A295EAA6B2BBAFFD90@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(336=1b621)(337=760990)(338=1b654)(339=5c6)(33F=244d)(9F
+    ="daianersantana@gmail.com" <daianersantana@gmail.com>)(A0
+    =BY5PR20MB31711E6ACA6E1EFA40B9C18BFFD40@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(382=3122a)(383=2277562)(384=3125d)(385=a3d)(386=245a)(A5
+    =atividade aula 05)(A6
+    =BY5PR20MB3171A731270AD7EEF5D8299CFFD40@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(387=4686f)(388=2478906)(389=468a2)(38A=eb1)(38F=245b)(AA
+    ="francielifri@hotmail.com" <francielifri@hotmail.com>)(AB
+    =prova 01 8o ano Rafael Costa Vieira)(AC
+    =BY5PR20MB31710090639ABAE32E476025FFD30@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(3AF=4e0a0)(3B0=4131164)(3B1=4e0d3)(3B2=102e)(3B7=2463)(29F=81)
+  (B1="vendas@novaind.com.br" <vendas@novaind.com.br>)(B2
+    ==?iso-8859-1?Q?Questionamento_fritadeira_sob_press=E3o_6.000W_BCK_el=E9tr\
+?= =?iso-8859-1?Q?ica_1_cuba?=)(B3
+    =BY5PR20MB3171121C4994313370CA69EDFFAE0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(B5=iso-8859-1)(29E=aff)(2A0=b32)(25A=4b)(2B6=2423)(8F=10000001)
+  (B9=atividades aula 06)(BA
+    =BY5PR20MB3171F5EDC558D5F2E5E0D096FFAD0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(BC=95454)(BF=prova 8o ano matutino)(C0
+    =BY5PR20MB317160DFAB0A914F0274165CFFA70@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(2A1=997)(2A2=2901)(2A3=9ca)(231=44)(2B7=2424)(C4
+    ="marisalvador5@hotmail.com" <marisalvador5@hotmail.com>)(C5
+    ==?iso-8859-1?Q?atividades_pag._254_at=E9_256_8o_ano?=)(C6
+    =BY5PR20MB3171BE16C258317E44CC921EFFD30@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(3CD=8743c)(3CE=6048698)(3CF=8746f)(3D0=1bfc)(3D1=2469)(CB
+    =rafaelcostav1@hotmail.com)(CC=<daianersantana@gmail.com>)(CD
+    ==?ISO-8859-1?Q?Segunda_tentativa_de_solicita=E7=E3o_de_prova?=)
+  (CE=md5:MwXNnk9BGZhIK0jlQ4e9Cg==)(2A4=3e1)(2A5=5442)(2A6=414)(12F=1a)
+  (2B8=2425)(D2=<kauanunes.pnd@gmail.com>)(D3
+    ==?ISO-8859-1?Q?T=F3_a_prova_a=ED_=F3?=)(D4
+    =md5:3sjzqdiSyY8Mn2GBNI4Cyg==)(2A7=328)(2A8=6521)(2A9=35b)(2B9=2426)
+  (D9="kauanunes.pnd@gmail.com" <kauanunes.pnd@gmail.com>)(DA
+    =sdijfnuisnfipos)(DB
+    =BY5PR20MB3171741E3F740B2D3F34E4B6FFA20@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(33A=1d8d0)(33B=873237)(33C=1d903)(33D=639)(340=244e)(DF
+    =prova 8o matutino)(E0
+    =BY5PR20MB317128E415BF73E161DFF9F5FFA20@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(341=1c985)(342=994363)(343=1c9b8)(344=60a)(34D=244f)(E5
+    ==?iso-8859-1?Q?Prova_Rafael_Costa_Vieira_8=BA_M?=)(E6
+    =BY5PR20MB31719A51D9904FB1EF4A9CE6FFA20@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(3B3=5f13e)(3B4=4450898)(3B5=5f171)(3B6=13ad)(3B8=2464)(EB
+    ="regina-silva1979@hotmail.com" <regina-silva1979@hotmail.com>)
+  (EC==?iso-8859-1?Q?atividade_OPEE_8=BA_ano_matutino?=)(ED
+    =BY5PR20MB3171C306359BC7446A807C37FFA10@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(2AA=b3c7)(2AB=7415)(2AD=b3fa)(2AE=27a)(2BA=2427)(F2
+    ==?iso-8859-1?Q?atividades_de_OPEE_8=BA_ano?=)(F3
+    =BY5PR20MB3171265AA6FAF2D8AC004CBCFFBE0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(345=b684)(346=1111574)(347=b6b7)(348=284)(34E=2450)(F7
+    ==?iso-8859-1?Q?atividade_OPEE_8=BA_ano?=)(F8
+    =BY5PR20MB3171FC01F8122A7D05B9D525FFBF0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(38B=2de32)(38C=2767871)(38D=2de65)(38E=99b)(390=245c)(FD
+    =Rafael Costa Vieira <Rafaelcostav1@hotmail.com>)(FE
+    ==?iso-8859-1?Q?prova_1_2=BA_bimestre?=)(FF
+    =BY5PR20MB31719B371BA4053B3E95E32CFFB00@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(349=d56d)(34A=1158384)(34B=d5a0)(34C=2f2)(34F=2451)(104
+    ="carolzeraa1532@gmail.com" <carolzeraa1532@gmail.com>)(105
+    ==?iso-8859-1?Q?trabalho_de_hist=F3ria_8=BA_ano?=)(106
+    =BY5PR20MB3171FCFDFE9B4CE930FFFCC2FFB00@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(2AF=620d)(2B0=53524)(2B1=6240)(2B2=174)(2BB=2428)(10B
+    ==?iso-8859-1?Q?trabalho_sobre_doa=E7=E3o_de_org=E3os?=)(10C
+    =BY5PR20MB317184E352F6DB5D83C3B17CFF850@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(2B3=5d39)(2B4=78711)(2B5=5d6c)(2BC=2429)(111
+    ==?iso-8859-1?Q?Prova_1_geografia_8=BA_ano_matutino?=)(112
+    =MW3PR20MB3548EBB470F954E17CFCCECCFF9F0@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(113=5ee694d9)(350=1adaa)(351=1213107)(352=1addd)(353=5ae)(358=242d)
+  (117==?iso-8859-1?Q?trabalho_matem=E1tica_pagina_130_8=BA_ano?=)(118
+    =MW3PR20MB354897BF3AABAE22A0F9F031FF9F0@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(354=17473)(355=1323187)(356=174a6)(357=4f2)(359=2452)(11D
+    ==?iso-8859-1?Q?prova_8=BA_ano_Matutino_Rafael_Costa_Vieira?=)(11E
+    =MW3PR20MB35486576FF04014FE702B80FFF9F0@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(35A=c78e)(35B=1418620)(35C=c7c1)(35D=2ba)(362=2453)(122
+    ==?iso-8859-1?Q?prova_Rafael_Costa_Vieira_8=BA_ano?=)(123
+    =MW3PR20MB3548F9D3EB02AAE2512AA942FF9D0@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(124=5ee906bc)(3E1=99981)(3E2=7953053)(3E3=999b4)(3E4=1fad)(3E5=242a)
+  (128="Prof Paty Pinho ." <profpatriciapinho@hotmail.com>)(129
+    ==?UTF-8?Q?prova_Rafael_Costa_Vieira_8=C2=BA_ano?=)(12A
+    =MW3PR20MB354888437B0B023AA8D1B14BFF9B0@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(12B
+    =<MW3PR20MB3548F9D3EB02AAE2512AA942FF9D0@MW3PR20MB3548.namprd20.prod.outlo\
+ok.com>,<BN8PR07MB694841EAF58337BEC1EC2ACDA19B0@BN8PR07MB6948.namprd07.prod.ou\
+tlook.com>)(2BD=10d7)(2BE=102662)(2BF=110a)(12E=84)(2D0=242c)(130
+    ==?iso-8859-1?Q?Mariana_Salvador_Far=E1h_Wolkmer?= <marisalvador5@hotmail.\
+com>)(131=Prova ciencias)(132
+    =MW3PR20MB35488D4BD94F03D4E6B208C1FF9B0@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(3E6=99498)(3E7=8582260)(3E8=994cb)(3E9=1f89)(3EA=246d)(137
+    =Daiane Santana <daiane.rsantana@gmail.com>)(138
+    ==?UTF-8?Q?Prova_1_geografia_8=C2=BA_ano_matutino?=)(139
+    =MW3PR20MB3548759D060CFF4D7DC93015FF9B0@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(13A
+    =<MW3PR20MB3548EBB470F954E17CFCCECCFF9F0@MW3PR20MB3548.namprd20.prod.outlo\
+ok.com>,<CAKfRdvS_6yRc9KpDhGxMJ59hnAtv0fk5m3FkCbVsQa8x8PefDQ@mail.gmail.com>)
+  (2C0=ebc)(2C1=107059)(2C2=eef)(2C3=69)(2D1=242f)(13F
+    ==?iso-8859-1?Q?feira_de_ci=EAncias_8=BA_ano?=)(140
+    =MW3PR20MB3548EA1C301BE272B4D7BDA9FF950@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(35E=20a38)(35F=1469792)(360=20a6b)(361=6df)(36B=2454)(145
+    ="nilpsygogo@gmail.com" <nilpsygogo@gmail.com>)(146
+    ==?Windows-1252?Q?Avalia=E7=E3o_Artes_8__Ano_=96_Rafael_Costa_Vieira?=)
+  (147
+    =CY4PR20MB15590BE5147D7B3E0346DD29FF6A0@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(2C4=6653)(2C5=110917)(2C6=6686)(2C7=17c)(2D2=2430)(14C
+    ==?iso-8859-1?Q?prova_de_educa=E7=E3o_f=EDsica_Rafael_Costa_Vieira_8=BA_an\
+?= =?iso-8859-1?Q?o?=)(14D
+    =CY4PR20MB1559FEE7FEF0D9A9A32CDDB2FF6A0@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(2C8=5a02)(2C9=137198)(2CA=5a35)(2CF=2421)(151
+    ==?iso-8859-1?Q?prova_de_educa=E7=E3o_f=EDsica_Rafael_Costa_Vieira_8=BA_an\
+?= =?iso-8859-1?Q?o_*?=)(152
+    =CY4PR20MB1559C75579F4937C1A7DE4F0FF690@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(2CB=c98)(2CC=160326)(2CD=ccb)(2CE=57)(2D3=2431)(157
+    ==?iso-8859-1?Q?expomath_8=BAano_Matutino_Rafael_Costa_Vieira?=)
+  (158
+    =CY4PR20MB155940BFE4577C0596223F26FF660@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(2D4=9c3a)(2D5=163636)(2D6=9c6d)(2D7=22c)(2E3=2432)(15D
+    ==?iso-8859-1?Q?prova_2_Rafael_Costa_Vieira_8=BA_ano_Matutino?=)
+  (15E
+    =CY4PR20MB1559E6CF0FF924C24DDFEE32FF670@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(15F=5f050f8d)(2D8=842e)(2D9=203716)(2DA=8461)(2DB=1dd)(2E4=2433)
+  (163==?UTF-8?Q?prova_2_Rafael_Costa_Vieira_8=C2=BA_ano_Matutino?=)
+  (164
+    =CY4PR20MB1559A5F861369C9B6C439D19FF670@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(165
+    =<CY4PR20MB1559E6CF0FF924C24DDFEE32FF670@CY4PR20MB1559.namprd20.prod.outlo\
+ok.com>,<CAKfRdvRUTQt=h1ELoQjzLRoPuJQxJ-AhX5Nx8h-YZyWT3HDgiQ@mail.gmail.com>)
+  (2DC=fa7)(2DD=237640)(2DE=fda)(2E5=2435)(16A
+    ==?iso-8859-1?Q?prova_2=BABimenstre_Rafael_Costa_Vieira?=)(16B
+    =CY4PR20MB1559483BB1B288E3EA6D4FB3FF640@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(363=10176)(364=1603566)(365=101a9)(366=379)(36D=2455)(170
+    =atividades 2 bimestre)(171
+    =CY4PR20MB15593009D975DEB36A57BE8AFF650@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(173=125180)(175
+    ="maristelasantosoliveira9@gmail.com" <maristelasantosoliveira9@gmail.com>)
+  (176=atividade releitura de um conto de Fadas)(177
+    =BYAPR20MB2871E4150EEDBAE92FA3A772FF470@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(2DF=6208)(2E0=241733)(2E1=623b)(2E2=16d)(2E6=2436)(17C
+    ="professoradaianegeo@gmail.com" <professoradaianegeo@gmail.com>)
+  (17D
+    ==?iso-8859-1?Q?trabalho_8=BA_ano_grupo_Rafael,_Kau=E3,_Pedro,_Jo=E3o,_Edu\
+?= =?iso-8859-1?Q?ardo,_Bernardo_e_Davi?=)(17E
+    =BYAPR20MB2871A21A2BD469FD11477155FF540@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(17F=5f46f19f)(180=c210ed)(183
+    =Daiane Rocha Santana <professoradaianegeo@gmail.com>)(184
+    ==?UTF-8?Q?trabalho_8=C2=BA_ano_grupo_Rafael=2C_Kau=C3=A3=2C?=$0D$0A =?UTF\
+-8?Q?_Pedro=2C_Jo=C3=A3o=2C_Eduardo=2C_Bernardo_e_Davi?=)(185
+    =MN2PR20MB2879C06E9B49305FC8294A5FFF550@MN2PR20MB2879.namprd20.prod.outloo\
+k.com)(186
+    =<BYAPR20MB2871A21A2BD469FD11477155FF540@BYAPR20MB2871.namprd20.prod.outlo\
+ok.com>,<CAB2+9jwUP-ozooX=yt--fW0699F1+cd_4Q7hnRoKwxifOv5reQ@mail.gmail.com>)
+  (2E7=c34)(2E8=266915)(2E9=c67)(26B=4e)(2EE=2439)(18A
+    ==?iso-8859-1?Q?Prova_Rafael_8=B0_ano_OPEE?=)(18B
+    =BYAPR20MB28717F7C84F6DFF1311C04ABFF530@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(2EA=5d38)(2EB=270125)(2EC=5d6b)(2ED=148)(2F3=243a)(190
+    ==?iso-8859-1?Q?Prova_3=BA_Bimestre_Rafael_Costa_Vieira?=)(191
+    =BYAPR20MB2871A77998A3565A9626E4B6FF2E0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(192=5f4e637a)(367=16fe6)(368=1669562)(369=17019)(36A=4e2)(36C=243d)
+  (196==?utf-8?B?cHJvdmEgZGUgZXNwYW5ob2wgOMK6IG1hdHV0aW5v?=)(197
+    =BYAPR20MB28719D1D11B295A7D0829F44FF240@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(2EF=1640f)(2F0=294075)(2F1=16442)(2F2=49f)(2F8=243b)(19C
+    ==?iso-8859-1?Q?trabalho_de_ci=EAncias_Rafael_Costa_Vieira_8=BAM?=)
+  (19D
+    =BYAPR20MB287173E290EBEB6BF012CE91FF240@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(2F4=57e0)(2F5=385312)(2F6=5813)(2F7=14b)(2F9=243c)(1A2
+    ==?iso-8859-1?Q?trabalho_OPEE_8=BAM?=)(1A3
+    =BYAPR20MB2871B97E38D62D84871B4443FF230@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(1A5=20a4dd)(1A8="Mef.estela@hotmail.com" <Mef.estela@hotmail.com>)
+  (1A9==?iso-8859-1?Q?atividades_ingl=EAs_8=BA_ano_M?=)(1AA
+    =BYAPR20MB287133072E6781C18B275B7AFF790@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(1AC=20bcef)(1AF
+    ==?iso-8859-1?Q?Atividade_p=E1gina_124_Rafael_Costa_Vieira?=)(1B0
+    =BYAPR20MB287137D86EA13CC6AEAB5536FF7B0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(391=28751)(392=2955911)(393=28784)(394=878)(399=245d)(1B5
+    ==?iso-8859-1?Q?atividades_do_livro_de_artes_8=BA_ano_matutino_Rafael_Cost\
+?= =?iso-8859-1?Q?a_Vieira?=)(1B6
+    =DM5PR20MB135678FC95CBF4BF6A7217E9FF7F0@DM5PR20MB1356.namprd20.prod.outloo\
+k.com)(3EB=93c5f)(3EC=9210210)(3ED=93c92)(3EE=1e95)(3EF=246e)(1BB
+    ==?iso-8859-1?Q?RES:_Prova_3=BA_Bimestre_Rafael_Costa_Vieira?=)
+  (1BC
+    =BYAPR20MB2871696E7FE5F88028A207D7FF3A0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(1BD
+    =<BYAPR20MB2871A77998A3565A9626E4B6FF2E0@BYAPR20MB2871.namprd20.prod.outlo\
+ok.com> <BN8PR07MB694842D45D5C7B1475AC64BAA13D0@BN8PR07MB6948.namprd07.prod.ou\
+tlook.com>)(2FA=17a2)(2FB=407894)(2FC=17d5)(2FD=a4)(302=243f)(1C2
+    ==?iso-8859-1?Q?v=EDdeo_OPEE_8=BA?=)(1C3
+    =BYAPR20MB2871BD5576547BC685676C62FF3B0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(1C5=23cc7d)(1C8==?iso-8859-1?Q?EVN_8=BAM_Rafael_Costa_Vieira?=)
+  (1C9
+    =BYAPR20MB287163F0FB7FB1BE80B539B6FF3B0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(2FE=c6dc)(2FF=414030)(300=c70f)(301=2b8)(303=2440)(1CE
+    ==?iso-8859-1?Q?prova_Portugu=EAs_8=BAM?=)(1CF
+    =BYAPR20MB28713B47ADC425D54F501708FF3B0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(3B9=5a787)(3BA=4840422)(3BB=5a7ba)(3BC=12ca)(3BD=2465)(1D4
+    ==?iso-8859-1?Q?Prova_de_Hist=F3ria_8=BAM_Rafael_Costa_Vieira?=)
+  (1D5
+    =BYAPR20MB2871DC8EA2EEB68D98D6B06BFF380@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(36E=c43e)(36F=1763830)(370=c471)(371=2af)(37A=2456)(1D9
+    ==?iso-8859-1?Q?prova_de_recupera=E7=E3o_Rafael_Costa_Vieira_8=BAM?=)
+  (1DA
+    =BYAPR20MB287124A02F6CFBD50623627DFF340@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(304=83ab)(305=465024)(306=83de)(307=1dc)(315=2441)(1DE
+    ==?iso-8859-1?Q?prova_de_ci=EAncias_do_8=BAM_Rafael_Costa_Vieira?=)
+  (1DF
+    =BYAPR20MB2871284A180D16C078105F52FF350@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(395=2dfbb)(396=3121710)(397=2dfee)(398=99c)(39A=245e)(1E4
+    ==?iso-8859-1?Q?trabalho_de_educa=E7=E3o_f=EDsica_Rafael_Costa_Vieira_8=BA\
+?= =?iso-8859-1?Q?M?=)(1E5
+    =BYAPR20MB28711E7F574105F966436099FF350@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(1E6=5f7269c1)(308=912)(309=498817)(30A=945)(316=2442)(1EA
+    =francieli frigeri <francielifri@hotmail.com>)(1EB
+    ==?iso-8859-1?Q?RES:_trabalho_de_educa=E7=E3o_f=EDsica_Rafael_Costa_Vieira\
+?= =?iso-8859-1?Q?_8=BAM?=)(1EC
+    =BYAPR20MB2871A8639CF365E809C6EDB5FF0E0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(1ED
+    =<BYAPR20MB28711E7F574105F966436099FF350@BYAPR20MB2871.namprd20.prod.outlo\
+ok.com> <BN6PR13MB3185EBCEDD1956EABC01D34FC3310@BN6PR13MB3185.namprd13.prod.ou\
+tlook.com>)(30B=5db6)(30C=501225)(30D=5de9)(30E=185)(317=2444)(1F2
+    ="Rafaelcostav1@hotmail.com" <Rafaelcostav1@hotmail.com>)(1F3=nada)
+  (1F4
+    =BYAPR20MB287165EACB0A17F2B78B2E05FF1F0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(372=28d11)(373=1814154)(374=28d44)(375=88c)(37B=2457)(1F9
+    ==?iso-8859-1?Q?prova_1_bimestre_4_8=BAM_Rafael_Costa_Vieira?=)
+  (1FA
+    =BYAPR20MB2871027EA4E70967AC964224FF1F0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(376=28ecd)(377=1981425)(378=28f00)(379=890)(380=2458)(1FE
+    ==?iso-8859-1?Q?Trabalho_Rafael_Costa_Vieira_8=BA_M?=)(1FF
+    =BYAPR20MB2871D2A66A5B5DB5FE89C4C8FFE90@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(30F=9e7)(310=525301)(311=a1a)(318=2445)(204
+    ==?iso-8859-1?Q?prova_de_OPEE_Rafael_Costa_Vieira_8=BAM?=)(205
+    =BYAPR20MB2871AAB691FC256F81D6F2BBFFE20@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(312=61ed)(313=527922)(314=6220)(319=2446)(20A
+    ==?iso-8859-1?Q?Estou_compartilhando_o_arquivo_'Prova_geo_4=B0_bim_-__8=B0\
+?= =?iso-8859-1?Q?_ano'_com_voc=EA?=)(20B
+    =BYAPR20MB28715948522E19E565E37113FFFD0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(20D=1231bf)(210
+    ==?iso-8859-1?Q?prova_de_geografia_Rafael_Costa_Vieira_8=BAM?=)
+  (211
+    =BYAPR20MB28711DEDF3D5280C6BD925B2FFFD0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(31A=533)(31B=553077)(31C=566)(156=20)(325=2447)(215
+    ==?iso-8859-1?Q?trabalho_de_ciencias_Rafael_Costa_Vieira_8=BAM?=)
+  (216
+    =BYAPR20MB2871D149DA0DC6BC8269ADF0FFFD0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(3D2=7cdfd)(3D3=6602828)(3D4=7ce30)(3D5=19b9)(3D6=246a)(21B
+    ==?iso-8859-1?Q?Linhas_loucas_8=BA_ano_Matutino_Rafael_Costa_Vieira?=)
+  (21C
+    =CY4PR20MB15599F9BC69FF7E73732121FFF670@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(39B=24ae7)(39C=3310143)(39D=24b1a)(39E=7b3)(3A3=245f)(221
+    ==?iso-8859-1?Q?atividade_p=E1ginas_304_305_8=BA_ano_?=)(222
+    =MW3PR20MB35484625FE19CEFC92D78783FF9F0@MW3PR20MB3548.namprd20.prod.outloo\
+k.com)(39F=3c332)(3A0=3460476)(3A1=3c365)(3A2=c8b)(3A4=2460)(226
+    ==?iso-8859-1?Q?atividades_14/05_8=BA_ano?=)(227
+    =BY5PR20MB31719437E7F22EF6A0683EADFFBC0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(3A5=248cd)(3A6=3707140)(3A7=24900)(3A8=7ac)(3AD=2461)(22C=asdasdad)
+  (22D
+    =BY5PR20MB31715767BA0590DE0743B772FFBE0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(22F=f6564)(232==?utf-8?B?UmVzdW1vIGF1bGEgTmFwb2xlw6Nv?=)(233
+    =BY5PR20MB31719F3B0113FFC97B388613FFA00@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(235=3c448f)(237=Atividades pagina 23)(238
+    =BY5PR20MB3171FCAB5E192C428B1F7FD8FFA40@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(23A=3d2ce8)(23D=atividades das paginas 270 e 271)(23E
+    =BY5PR20MB3171CDFE91CD5D6BCA04415DFFAC0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(3BE=54f56)(3BF=5211075)(3C0=54f89)(3C1=119f)(3CA=2466)(243
+    ==?iso-8859-1?Q?atividades_p=E1ginas_396_e_397_Rafael_Costa_Vieira?=)
+  (244
+    =BY5PR20MB31715600B55154085409EC38FFD30@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(3A9=42edf)(3AA=3856935)(3AB=42f12)(3AC=dee)(3AE=2462)(249
+    ==?utf-8?B?QXRpdmlkYWRlcyBkYXMgcMOhZ2luYXMgMzMzIGUgMzM0?=)(24A
+    =BY5PR20MB31710FEBE68A652E9F8D8E9FFFA40@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(24C=7a3fe1)(24F
+    ==?iso-8859-1?Q?prova_de_portugu=EAs_Rafael_Costa_Vieira_8=BAM?=)
+  (250
+    =BYAPR20MB287131FF0ECF39490CF12322FFFD0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(31D=36bf)(31E=554494)(31F=36f2)(320=ca)(326=2448)(255
+    ==?iso-8859-1?Q?prova_de_educa=E7=E3o_f=EDsica_Rafael_Costa_Vieira_8=BAM_4\
+?= =?iso-8859-1?Q?b?=)(256
+    =BYAPR20MB287113B8AA1709347E560022FFFD0@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(321=706c)(322=568595)(323=709f)(324=18d)(327=2449)(25B
+    =ficha de leitura Rafael Costa Vieira)(25C
+    =CY4PR20MB1559B8DF3DF50E6B25F82D89FF690@CY4PR20MB1559.namprd20.prod.outloo\
+k.com)(3D7=77dbd)(3D8=7114399)(3D9=77df0)(3DA=18cd)(3DF=246b)(260
+    ==?iso-8859-1?Q?atividade_dia_11/05_hist=F3ria_8=BA_ano?=)(261
+    =BY5PR20MB3171D4084DE34D3B443D46C8FFB60@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(3DB=54d95)(3DC=7605426)(3DD=54dc8)(3DE=119b)(3E0=246c)(266
+    ==?iso-8859-1?Q?atividades_paginas_28_e_29_8=BA_ano_matutino?=)
+  (267
+    =BY5PR20MB3171D6A59D5CFE1ED88BF584FFBE0@BY5PR20MB3171.namprd20.prod.outloo\
+k.com)(3C2=4f4d0)(3C3=5559151)(3C4=4f503)(3C5=1073)(3CB=2467)(26C=fodase?)
+  (26D
+    =BYAPR20MB287178F579FA1FEE7EB49D06FFB29@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(26F=1302ddf)(EA=f)(271
+    =BYAPR20MB2871A0108AB02CCCF0EEBF38FFB29@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(273=1302cd5)(276
+    ="proffraned.fisica@hotmail.com" <IMCEAMAILTO-proffraned+2Efisica+40hotmai\
+l+2Ecom@sct-15-20-9412-4-msonline-outlook-f33c2.templateTenant>)(277
+    ==?iso-8859-1?Q?trabalho_educa=E7=E3o_fisica?=)(278
+    =BYAPR20MB2871E203E121F5C204220C70FF999@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(328=3043)(329=597461)(32A=3076)(32B=b6)(330=244a)(27D
+    ="proffraned.fisica@hotmail.com" <proffraned.fisica@hotmail.com>)
+  (27E==?iso-8859-1?Q?Trabalho_9=B0_Rafael_Costa_Vieira?=)(27F
+    =BYAPR20MB28713C36E87C367A7EF56B64FF989@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(32C=2f98)(32D=609902)(32E=2fcb)(32F=b3)(331=244b)(284
+    =EVN Rafael Costa Vieira)(285
+    =BYAPR20MB28716D1C52A020D797AA853EFFE30@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(287=27d626)(28A="natalisr@gmail.com" <natalisr@gmail.com>)(28B
+    =mapa mental classes gramaticais)(28C
+    =BYAPR20MB2871E85F93EA0BF4505A046EFF859@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(3C6=282cf)(3C7=5884053)(3C8=28302)(3C9=855)(3CC=2468)(291
+    ==?iso-8859-1?Q?trabalho_espanhol_Rafael_Costa_Vieira_8=BA_ano_Matutino?=)
+  (292
+    =BYAPR20MB28719F2E6A5F47E90379AD3FFFE20@BYAPR20MB2871.namprd20.prod.outloo\
+k.com)(37C=1f550)(37D=2149140)(37E=1f583)(37F=69b)(381=2459)(297
+    ="malconbauer1@gmail.com" <malconbauer1@gmail.com>)(298
+    =Trabalho A Vida no Centro da Cidade 2o ano)(299
+    =MW6PR20MB6838B3F3E4F0F722EB35F7B3FF23A@MW6PR20MB6838.namprd20.prod.outloo\
+k.com)(29B=185df0)>
+{1:^80 {(k^96:c)(s=9)} 
+  [1(^88^2AC)(^82^88)(^85^89)(^81^8A)(^83^8B)(^84=)(^B5^8C)(^86^8C)
+    (^89=1)(^87^3F0)(^9A^90)(^8E^91)(^B6=0)(^BE=)(^BA=)(^BF^3F1)(^9D^3F2)
+    (^8B^3F3)(^C0^3F4)]
+  [5(^88^2AC)(^82^88)(^85^92)(^81^93)(^83^94)(^84=)(^B5^95)(^86^95)
+    (^89=1)(^87^332)(^9A^90)(^8E=5)(^B6=0)(^BE=)(^BA=)(^BF^333)(^9D^334)
+    (^8B=715)(^C0^33E)]
+  [9(^88^2AC)(^82^88)(^85^89)(^81^99)(^83^9A)(^84=)(^B5^9B)(^86^9B)
+    (^89=1)(^87^336)(^9A^90)(^8E=9)(^B6=0)(^BE=)(^BA=)(^BF^337)(^9D^338)
+    (^8B=5c6)(^C0^33F)]
+  [D(^88^2AC)(^82^88)(^85^9F)(^81^99)(^83^A0)(^84=)(^B5^A1)(^86^A1)
+    (^89=1)(^87^382)(^9A^90)(^8E=d)(^B6=0)(^BE=)(^BA=)(^BF^383)(^9D^384)
+    (^8B=a3d)(^C0^386)]
+  [11(^88^2AC)(^82^88)(^85^89)(^81^A5)(^83^A6)(^84=)(^B5^A7)(^86^A7)
+    (^89=1)(^87^387)(^9A^90)(^8E=11)(^B6=0)(^BE=)(^BA=)(^BF^388)(^9D^389)
+    (^8B=eb1)(^C0^38F)]
+  [18(^88^2AC)(^82^88)(^85^AA)(^81^AB)(^83^AC)(^84=)(^B5^AD)(^86^AD)
+    (^89=1)(^87^3AF)(^9A^90)(^8E=18)(^B6=0)(^BE=)(^BA=)(^BF^3B0)(^9D^3B1)
+    (^8B^3B2)(^C0^3B7)]
+  [1F(^88=81)(^82^88)(^85^B1)(^81^B2)(^83^B3)(^84=)(^B5^B4)(^86^B4)
+    (^89=1)(^95^B5)(^87=aff)(^9A^90)(^8E=1f)(^B6=0)(^BE=)(^BA=)(^BF=0)
+    (^9D=b32)(^8B=4b)(^C0^2B6)]
+  [25(^88^8F)(^82^88)(^85^89)(^81^B9)(^83^BA)(^84=)(^B5^BB)(^86^BB)
+    (^89=1)(^87^BC)(^9A^90)(^8E=25)(^B6=0)(^BE=)(^BA=)]
+  [28(^88=81)(^82^88)(^85^9F)(^81^BF)(^83^C0)(^84=)(^B5^C1)(^86^C1)
+    (^89=1)(^95^B5)(^87=997)(^9A^90)(^8E=28)(^B6=0)(^BE=)(^BA=)(^BF^2A2)
+    (^9D=9ca)(^8B=44)(^C0^2B7)]
+  [35(^88^2AC)(^82^88)(^85^C4)(^81^C5)(^83^C6)(^84=)(^B5^C7)(^86^C7)
+    (^89=1)(^87^3CD)(^9A^90)(^8E=35)(^B6=0)(^BE=)(^BA=)(^BF^3CE)(^9D^3CF)
+    (^8B^3D0)(^C0^3D1)]
+  [36(^88=81)(^82^CB)(^85^CC)(^81^CD)(^83^CE)(^84=)(^B5^CF)(^86^CF)
+    (^89=1)(^87=3e1)(^9A^90)(^8E=36)(^B6=0)(^BE=)(^BA=)(^BF^2A5)(^9D=414)
+    (^8B=1a)(^C0^2B8)]
+  [3B(^88=81)(^82^CB)(^85^D2)(^81^D3)(^83^D4)(^84=)(^B5^D5)(^86^D5)
+    (^89=1)(^87=328)(^9A^90)(^8E=3b)(^B6=0)(^BE=)(^BA=)(^BF^2A8)(^9D=35b)
+    (^8B=18)(^C0^2B9)]
+  [3F(^88^2AC)(^82^88)(^85^D9)(^81^DA)(^83^DB)(^84=)(^B5^DC)(^86^DC)
+    (^89=1)(^87^33A)(^9A^90)(^8E=3f)(^B6=0)(^BE=)(^BA=)(^BF^33B)(^9D^33C)
+    (^8B=639)(^C0^340)]
+  [42(^88^2AC)(^82^88)(^85^89)(^81^DF)(^83^E0)(^84=)(^B5^E1)(^86^E1)
+    (^89=1)(^87^341)(^9A^90)(^8E=42)(^B6=0)(^BE=)(^BA=)(^BF^342)(^9D^343)
+    (^8B=60a)(^C0^34D)]
+  [45(^88^2AC)(^82^88)(^85^9F)(^81^E5)(^83^E6)(^84=)(^B5^E7)(^86^E7)
+    (^89=1)(^87^3B3)(^9A^90)(^8E=45)(^B6=0)(^BE=)(^BA=)(^BF^3B4)(^9D^3B5)
+    (^8B^3B6)(^C0^3B8)]
+  [4C(^88^2AC)(^82^88)(^85^EB)(^81^EC)(^83^ED)(^84=)(^B5^EE)(^86^EE)
+    (^89=1)(^87^2AA)(^9A^90)(^8E=4c)(^B6=0)(^BE=)(^BA=)(^BF^2AB)(^9D^2AD)
+    (^8B=27a)(^C0^2BA)]
+  [4F(^88^2AC)(^82^88)(^85^EB)(^81^F2)(^83^F3)(^84=)(^B5^F4)(^86^F4)
+    (^89=1)(^87^345)(^9A^90)(^8E=4f)(^B6=0)(^BE=)(^BA=)(^BF^346)(^9D^347)
+    (^8B=284)(^C0^34E)]
+  [5E(^88^2AC)(^82^88)(^85^EB)(^81^F7)(^83^F8)(^84=)(^B5^F9)(^86^F9)
+    (^89=1)(^87^38B)(^9A^90)(^8E=5e)(^B6=0)(^BE=)(^BA=)(^BF^38C)(^9D^38D)
+    (^8B=99b)(^C0^390)]
+  [67(^88^2AC)(^82^FD)(^85^89)(^81^FE)(^83^FF)(^84=)(^B5^100)(^86^100)
+    (^89=1)(^87^349)(^9A^90)(^8E=67)(^B6=0)(^BE=)(^BA=)(^BF^34A)(^9D^34B)
+    (^8B=2f2)(^C0^34F)]
+  [6A(^88^2AC)(^82^FD)(^85^104)(^81^105)(^83^106)(^84=)(^B5^107)(^86^107)
+    (^89=1)(^87^2AF)(^9A^90)(^8E=6a)(^B6=0)(^BE=)(^BA=)(^BF^2B0)(^9D^2B1)
+    (^8B=174)(^C0^2BB)]
+  [6E(^88^2AC)(^82^88)(^85^C4)(^81^10B)(^83^10C)(^84=)(^B5^10D)(^86^10D)
+    (^89=1)(^87^2B3)(^9A^90)(^8E=6e)(^B6=0)(^BE=)(^BA=)(^BF^2B4)(^9D^2B5)
+    (^8B=15d)(^C0^2BC)]
+  [72(^88^2AC)(^82^88)(^85^9F)(^81^111)(^83^112)(^84=)(^B5^113)(^86^113)
+    (^89=1)(^87^350)(^9A^90)(^8E=72)(^B6=0)(^BE=)(^BA=)(^BF^351)(^9D^352)
+    (^8B=5ae)(^C0^358)]
+  [75(^88^2AC)(^82^88)(^85^89)(^81^117)(^83^118)(^84=)(^B5^119)(^86^119)
+    (^89=1)(^87^354)(^9A^90)(^8E=75)(^B6=0)(^BE=)(^BA=)(^BF^355)(^9D^356)
+    (^8B=4f2)(^C0^359)]
+  [7B(^88^2AC)(^82^88)(^85^EB)(^81^11D)(^83^11E)(^84=)(^B5^11F)(^86^11F)
+    (^89=1)(^87^35A)(^9A^90)(^8E=7b)(^B6=0)(^BE=)(^BA=)(^BF^35B)(^9D^35C)
+    (^8B=2ba)(^C0^362)]
+  [80(^88^2AC)(^82^88)(^85^89)(^81^122)(^83^123)(^84=)(^B5^124)(^86^124)
+    (^89=1)(^87^3E1)(^9A^90)(^8E=80)(^B6=0)(^BE=)(^BA=)(^BF^3E2)(^9D^3E3)
+    (^8B^3E4)(^C0^3E5)]
+  [84(^88=91)(^82^FD)(^85^128)(^81^129)(^83^12A)(^84^12B)(^B5^12C)(^86^12C)
+    (^89=1)(^95^B5)(^87^2BD)(^9A=80)(^8E=80)(^B6=0)(^BE=)(^BA=)(^BF^2BE)
+    (^9D^2BF)(^8B=84)(^C0^2D0)]
+  [88(^88^2AC)(^82^88)(^85^130)(^81^131)(^83^132)(^84=)(^B5^133)(^86^133)
+    (^89=1)(^87^3E6)(^9A^90)(^8E=88)(^B6=0)(^BE=)(^BA=)(^BF^3E7)(^9D^3E8)
+    (^8B^3E9)(^C0^3EA)]
+  [8C(^88=91)(^82^FD)(^85^137)(^81^138)(^83^139)(^84^13A)(^B5^13B)(^86^13B)
+    (^89=1)(^95^B5)(^87=ebc)(^9A=72)(^8E=72)(^B6=0)(^BE=)(^BA=)(^BF^2C1)
+    (^9D=eef)(^8B=69)(^C0^2D1)]
+  [91(^88^2AC)(^82^88)(^85^C4)(^81^13F)(^83^140)(^84=)(^B5^141)(^86^141)
+    (^89=1)(^87^35E)(^9A^90)(^8E=91)(^B6=0)(^BE=)(^BA=)(^BF^35F)(^9D^360)
+    (^8B=6df)(^C0^36B)]
+  [94(^88^2AC)(^82^88)(^85^145)(^81^146)(^83^147)(^84=)(^B5^148)(^86^148)
+    (^89=1)(^87^2C4)(^9A^90)(^8E=94)(^B6=0)(^BE=)(^BA=)(^BF^2C5)(^9D^2C6)
+    (^8B=17c)(^C0^2D2)]
+  [97(^88^2AC)(^82^88)(^85^AA)(^81^14C)(^83^14D)(^84=)(^B5^14E)(^86^14E)
+    (^89=1)(^87^2C8)(^9A^90)(^8E=97)(^B6=0)(^BE=)(^BA=)(^BF^2C9)(^9D^2CA)
+    (^8B=156)(^C0^2CF)]
+  [A0(^88=81)(^82^88)(^85^AA)(^81^151)(^83^152)(^84=)(^B5^153)(^86^153)
+    (^89=1)(^95^B5)(^87=c98)(^9A^90)(^8E=a0)(^B6=0)(^BE=)(^BA=)(^BF^2CC)
+    (^9D=ccb)(^8B=57)(^C0^2D3)]
+  [A7(^88^2AC)(^82^88)(^85^89)(^81^157)(^83^158)(^84=)(^B5^159)(^86^159)
+    (^89=1)(^87^2D4)(^9A^90)(^8E=a7)(^B6=0)(^BE=)(^BA=)(^BF^2D5)(^9D^2D6)
+    (^8B=22c)(^C0^2E3)]
+  [AA(^88^2AC)(^82^88)(^85^9F)(^81^15D)(^83^15E)(^84=)(^B5^15F)(^86^15F)
+    (^89=1)(^87^2D8)(^9A^90)(^8E=aa)(^B6=0)(^BE=)(^BA=)(^BF^2D9)(^9D^2DA)
+    (^8B=1dd)(^C0^2E4)]
+  [AE(^88=91)(^82^FD)(^85^137)(^81^163)(^83^164)(^84^165)(^B5^166)(^86^166)
+    (^89=1)(^95^B5)(^87=fa7)(^9A=aa)(^8E=aa)(^B6=0)(^BE=)(^BA=)(^BF^2DD)
+    (^9D=fda)(^8B=6e)(^C0^2E5)]
+  [B5(^88^2AC)(^82^88)(^85^AA)(^81^16A)(^83^16B)(^84=)(^B5^16C)(^86^16C)
+    (^89=1)(^87^363)(^9A^90)(^8E=b5)(^B6=0)(^BE=)(^BA=)(^BF^364)(^9D^365)
+    (^8B=379)(^C0^36D)]
+  [B9(^88^8F)(^82^88)(^85^9F)(^81^170)(^83^171)(^84=)(^B5^172)(^86^172)
+    (^89=1)(^87^173)(^9A^90)(^8E=b9)(^B6=0)(^BE=)(^BA=)]
+  [C9(^88^2AC)(^82^88)(^85^175)(^81^176)(^83^177)(^84=)(^B5^178)(^86^178)
+    (^89=1)(^87^2DF)(^9A^90)(^8E=c9)(^B6=0)(^BE=)(^BA=)(^BF^2E0)(^9D^2E1)
+    (^8B=16d)(^C0^2E6)]
+  [CD(^88^8F)(^82^88)(^85^17C)(^81^17D)(^83^17E)(^84=)(^B5^17F)(^86^17F)
+    (^89=1)(^87^180)(^9A^90)(^8E=cd)(^B6=0)(^BE=)(^BA=)]
+  [D1(^88=91)(^82^FD)(^85^183)(^81^184)(^83^185)(^84^186)(^B5^187)(^86^187)
+    (^89=1)(^95^B5)(^87=c34)(^9A=cd)(^8E=cd)(^B6=0)(^BE=)(^BA=)(^BF^2E8)
+    (^9D=c67)(^8B=4e)(^C0^2EE)]
+  [D5(^88^2AC)(^82^88)(^85^EB)(^81^18A)(^83^18B)(^84=)(^B5^18C)(^86^18C)
+    (^89=1)(^87^2EA)(^9A^90)(^8E=d5)(^B6=0)(^BE=)(^BA=)(^BF^2EB)(^9D^2EC)
+    (^8B=148)(^C0^2F3)]
+  [DA(^88^2AC)(^82^88)(^85^89)(^81^190)(^83^191)(^84=)(^B5^192)(^86^192)
+    (^89=1)(^87^367)(^9A^90)(^8E=da)(^B6=0)(^BE=)(^BA=)(^BF^368)(^9D^369)
+    (^8B=4e2)(^C0^36C)]
+  [DD(^88^2AC)(^82^88)(^85^175)(^81^196)(^83^197)(^84=)(^B5^198)(^86^198)
+    (^89=1)(^87^2EF)(^9A^90)(^8E=dd)(^B6=0)(^BE=)(^BA=)(^BF^2F0)(^9D^2F1)
+    (^8B=49f)(^C0^2F8)]
+  [E1(^88^2AC)(^82^88)(^85^C4)(^81^19C)(^83^19D)(^84=)(^B5^19E)(^86^19E)
+    (^89=1)(^87^2F4)(^9A^90)(^8E=e1)(^B6=0)(^BE=)(^BA=)(^BF^2F5)(^9D^2F6)
+    (^8B=14b)(^C0^2F9)]
+  [E4(^88^8F)(^82^88)(^85^EB)(^81^1A2)(^83^1A3)(^84=)(^B5^1A4)(^86^1A4)
+    (^89=1)(^87^1A5)(^9A^90)(^8E=e4)(^B6=0)(^BE=)(^BA=)]
+  [E7(^88^8F)(^82^88)(^85^1A8)(^81^1A9)(^83^1AA)(^84=)(^B5^1AB)(^86^1AB)
+    (^89=1)(^87^1AC)(^9A^90)(^8E=e7)(^B6=0)(^BE=)(^BA=)]
+  [E8(^88^2AC)(^82^88)(^85^145)(^81^1AF)(^83^1B0)(^84=)(^B5^1B1)(^86^1B1)
+    (^89=1)(^87^391)(^9A^90)(^8E=e8)(^B6=0)(^BE=)(^BA=)(^BF^392)(^9D^393)
+    (^8B=878)(^C0^399)]
+  [EA(^88^2AC)(^82^88)(^85^145)(^81^1B5)(^83^1B6)(^84=)(^B5^1B7)(^86^1B7)
+    (^89=1)(^87^3EB)(^9A^90)(^8E=ea)(^B6=0)(^BE=)(^BA=)(^BF^3EC)(^9D^3ED)
+    (^8B^3EE)(^C0^3EF)]
+  [EB(^88=81)(^82^88)(^85^128)(^81^1BB)(^83^1BC)(^84^1BD)(^B5^1BE)(^86^1BE)
+    (^89=1)(^95^B5)(^87^2FA)(^9A=da)(^8E=da)(^B6=0)(^BE=)(^BA=)(^BF^2FB)
+    (^9D^2FC)(^8B=a4)(^C0^302)]
+  [EE(^88^8F)(^82^88)(^85^EB)(^81^1C2)(^83^1C3)(^84=)(^B5^1C4)(^86^1C4)
+    (^89=1)(^87^1C5)(^9A^90)(^8E=ee)(^B6=0)(^BE=)(^BA=)]
+  [F1(^88^2AC)(^82^88)(^85^89)(^81^1C8)(^83^1C9)(^84=)(^B5^1CA)(^86^1CA)
+    (^89=1)(^87^2FE)(^9A^90)(^8E=f1)(^B6=0)(^BE=)(^BA=)(^BF^2FF)(^9D^300)
+    (^8B=2b8)(^C0^303)]
+  [F4(^88^2AC)(^82^88)(^85^EB)(^81^1CE)(^83^1CF)(^84=)(^B5^1D0)(^86^1D0)
+    (^89=1)(^87^3B9)(^9A^90)(^8E=f4)(^B6=0)(^BE=)(^BA=)(^BF^3BA)(^9D^3BB)
+    (^8B^3BC)(^C0^3BD)]
+  [F9(^88^2AC)(^82^88)(^85^104)(^81^1D4)(^83^1D5)(^84=)(^B5^1D6)(^86^1D6)
+    (^89=1)(^87^36E)(^9A^90)(^8E=f9)(^B6=0)(^BE=)(^BA=)(^BF^36F)(^9D^370)
+    (^8B=2af)(^C0^37A)]
+  [FC(^88^2AC)(^82^88)(^85^17C)(^81^1D9)(^83^1DA)(^84=)(^B5^1DB)(^86^1DB)
+    (^89=1)(^87^304)(^9A^90)(^8E=fc)(^B6=0)(^BE=)(^BA=)(^BF^305)(^9D^306)
+    (^8B=1dc)(^C0^315)]
+  [100(^88^2AC)(^82^88)(^85^C4)(^81^1DE)(^83^1DF)(^84=)(^B5^1E0)(^86^1E0)
+    (^89=1)(^87^395)(^9A^90)(^8E=100)(^B6=0)(^BE=)(^BA=)(^BF^396)(^9D^397)
+    (^8B=99c)(^C0^39A)]
+  [104(^88=81)(^82^88)(^85^AA)(^81^1E4)(^83^1E5)(^84=)(^B5^1E6)(^86^1E6)
+    (^89=1)(^95^B5)(^87=912)(^9A^90)(^8E=104)(^B6=0)(^BE=)(^BA=)(^BF^309)
+    (^9D=945)(^8B=44)(^C0^316)]
+  [108(^88^2AC)(^82^88)(^85^1EA)(^81^1EB)(^83^1EC)(^84^1ED)(^B5^1EE)
+    (^86^1EE)(^89=1)(^87^30B)(^9A=104)(^8E=104)(^B6=0)(^BE=)(^BA=)(^BF^30C)
+    (^9D^30D)(^8B=185)(^C0^317)]
+  [10B(^88^2AC)(^82^88)(^85^1F2)(^81^1F3)(^83^1F4)(^84=)(^B5^1F5)(^86^1F5)
+    (^89=1)(^87^372)(^9A^90)(^8E=10b)(^B6=0)(^BE=)(^BA=)(^BF^373)(^9D^374)
+    (^8B=88c)(^C0^37B)]
+  [110(^88^2AC)(^82^88)(^85^89)(^81^1F9)(^83^1FA)(^84=)(^B5^1FB)(^86^1FB)
+    (^89=1)(^87^376)(^9A^90)(^8E=110)(^B6=0)(^BE=)(^BA=)(^BF^377)(^9D^378)
+    (^8B=890)(^C0^380)]
+  [113(^88=81)(^82^88)(^85^17C)(^81^1FE)(^83^1FF)(^84=)(^B5^200)(^86^200)
+    (^89=1)(^95^B5)(^87=9e7)(^9A^90)(^8E=113)(^B6=0)(^BE=)(^BA=)(^BF^310)
+    (^9D=a1a)(^8B=44)(^C0^318)]
+  [11A(^88^2AC)(^82^88)(^85^EB)(^81^204)(^83^205)(^84=)(^B5^206)(^86^206)
+    (^89=1)(^87^312)(^9A^90)(^8E=11a)(^B6=0)(^BE=)(^BA=)(^BF^313)(^9D^314)
+    (^8B=16d)(^C0^319)]
+  [121(^88^8F)(^82^88)(^85^1F2)(^81^20A)(^83^20B)(^84=)(^B5^20C)(^86^20C)
+    (^89=1)(^87^20D)(^9A^90)(^8E=121)(^B6=0)(^BE=)(^BA=)]
+  [125(^88=81)(^82^88)(^85^183)(^81^210)(^83^211)(^84=)(^B5^212)(^86^212)
+    (^89=1)(^95^B5)(^87=533)(^9A^90)(^8E=125)(^B6=0)(^BE=)(^BA=)(^BF^31B)
+    (^9D=566)(^8B=20)(^C0^325)]
+  [129(^88^2AC)(^82^88)(^85^130)(^81^215)(^83^216)(^84=)(^B5^217)(^86^217)
+    (^89=1)(^87^3D2)(^9A^90)(^8E=129)(^B6=0)(^BE=)(^BA=)(^BF^3D3)(^9D^3D4)
+    (^8B^3D5)(^C0^3D6)]
+  [12D(^88^2AC)(^82^88)(^85^145)(^81^21B)(^83^21C)(^84=)(^B5^21D)(^86^21D)
+    (^89=1)(^87^39B)(^9A^90)(^8E=12d)(^B6=0)(^BE=)(^BA=)(^BF^39C)(^9D^39D)
+    (^8B=7b3)(^C0^3A3)]
+  [12F(^88^2AC)(^82^88)(^85^104)(^81^221)(^83^222)(^84=)(^B5^223)(^86^223)
+    (^89=1)(^87^39F)(^9A^90)(^8E=12f)(^B6=0)(^BE=)(^BA=)(^BF^3A0)(^9D^3A1)
+    (^8B=c8b)(^C0^3A4)]
+  [130(^88^2AC)(^82^88)(^85^9F)(^81^226)(^83^227)(^84=)(^B5^228)(^86^228)
+    (^89=1)(^87^3A5)(^9A^90)(^8E=130)(^B6=0)(^BE=)(^BA=)(^BF^3A6)(^9D^3A7)
+    (^8B=7ac)(^C0^3AD)]
+  [133(^88^8F)(^82^88)(^85^D9)(^81^22C)(^83^22D)(^84=)(^B5^22E)(^86^22E)
+    (^89=1)(^87^22F)(^9A^90)(^8E=133)(^B6=0)(^BE=)(^BA=)]
+  [134(^88^8F)(^82^88)(^85^104)(^81^232)(^83^233)(^84=)(^B5^234)(^86^234)
+    (^89=1)(^87^235)(^9A^90)(^8E=134)(^B6=0)(^BE=)(^BA=)]
+  [135(^88^8F)(^82^88)(^85^175)(^81^237)(^83^238)(^84=)(^B5^239)(^86^239)
+    (^89=1)(^87^23A)(^9A^90)(^8E=135)(^B6=0)(^BE=)(^BA=)]
+  [137(^88^2AC)(^82^88)(^85^C4)(^81^23D)(^83^23E)(^84=)(^B5^23F)(^86^23F)
+    (^89=1)(^87^3BE)(^9A^90)(^8E=137)(^B6=0)(^BE=)(^BA=)(^BF^3BF)(^9D^3C0)
+    (^8B^3C1)(^C0^3CA)]
+  [138(^88^2AC)(^82^88)(^85^9F)(^81^243)(^83^244)(^84=)(^B5^245)(^86^245)
+    (^89=1)(^87^3A9)(^9A^90)(^8E=138)(^B6=0)(^BE=)(^BA=)(^BF^3AA)(^9D^3AB)
+    (^8B=dee)(^C0^3AE)]
+  [13A(^88^8F)(^82^88)(^85^104)(^81^249)(^83^24A)(^84=)(^B5^24B)(^86^24B)
+    (^89=1)(^87^24C)(^9A^90)(^8E=13a)(^B6=0)(^BE=)(^BA=)]
+  [13B(^88^2AC)(^82^88)(^85^EB)(^81^24F)(^83^250)(^84=)(^B5^251)(^86^251)
+    (^89=1)(^87^31D)(^9A^90)(^8E=13b)(^B6=0)(^BE=)(^BA=)(^BF^31E)(^9D^31F)
+    (^8B=ca)(^C0^326)]
+  [13F(^88^2AC)(^82^88)(^85^1EA)(^81^255)(^83^256)(^84=)(^B5^257)(^86^257)
+    (^89=1)(^87^321)(^9A^90)(^8E=13f)(^B6=0)(^BE=)(^BA=)(^BF^322)(^9D^323)
+    (^8B=18d)(^C0^327)]
+  [143(^88^2AC)(^82^88)(^85^EB)(^81^25B)(^83^25C)(^84=)(^B5^25D)(^86^25D)
+    (^89=1)(^87^3D7)(^9A^90)(^8E=143)(^B6=0)(^BE=)(^BA=)(^BF^3D8)(^9D^3D9)
+    (^8B^3DA)(^C0^3DF)]
+  [144(^88^2AC)(^82^88)(^85^104)(^81^260)(^83^261)(^84=)(^B5^262)(^86^262)
+    (^89=1)(^87^3DB)(^9A^90)(^8E=144)(^B6=0)(^BE=)(^BA=)(^BF^3DC)(^9D^3DD)
+    (^8B^3DE)(^C0^3E0)]
+  [145(^88^2AC)(^82^88)(^85^175)(^81^266)(^83^267)(^84=)(^B5^268)(^86^268)
+    (^89=1)(^87^3C2)(^9A^90)(^8E=145)(^B6=0)(^BE=)(^BA=)(^BF^3C3)(^9D^3C4)
+    (^8B^3C5)(^C0^3CB)]
+  [146(^88^8F)(^82^88)(^85^D9)(^81^26C)(^83^26D)(^84=)(^B5^26E)(^86^26E)
+    (^89=1)(^87^26F)(^9A^90)(^8E=146)(^B6=0)(^BE=)(^BA=)]
+  [14A(^88^8F)(^82^88)(^85^D9)(^81=f)(^83^271)(^84=)(^B5^272)(^86^272)
+    (^89=1)(^87^273)(^9A^90)(^8E=14a)(^B6=0)(^BE=)(^BA=)]
+  [152(^88^2AC)(^82^88)(^85^276)(^81^277)(^83^278)(^84=)(^B5^279)(^86^279)
+    (^89=1)(^87^328)(^9A^90)(^8E=152)(^B6=0)(^BE=)(^BA=)(^BF^329)(^9D^32A)
+    (^8B=b6)(^C0^330)]
+  [156(^88^2AC)(^82^88)(^85^27D)(^81^27E)(^83^27F)(^84=)(^B5^280)(^86^280)
+    (^89=1)(^87^32C)(^9A^90)(^8E=156)(^B6=0)(^BE=)(^BA=)(^BF^32D)(^9D^32E)
+    (^8B=b3)(^C0^331)]
+  [15B(^88=1)(^82^88)(^85^128)(^81^284)(^83^285)(^84=)(^B5^286)(^86^286)
+    (^89=1)(^87^287)(^9A^90)(^8E=15b)(^B6=0)(^BE=)(^BA=)]
+  [15C(^88^2AC)(^82^88)(^85^28A)(^81^28B)(^83^28C)(^84=)(^B5^28D)(^86^28D)
+    (^89=1)(^87^3C6)(^9A^90)(^8E=15c)(^B6=0)(^BE=)(^BA=)(^BF^3C7)(^9D^3C8)
+    (^8B=855)(^C0^3CC)]
+  [15D(^88^2AC)(^82^88)(^85^175)(^81^291)(^83^292)(^84=)(^B5^293)(^86^293)
+    (^89=1)(^87^37C)(^9A^90)(^8E=15d)(^B6=0)(^BE=)(^BA=)(^BF^37D)(^9D^37E)
+    (^8B=69b)(^C0^381)]
+  [15E(^88^8F)(^82^88)(^85^297)(^81^298)(^83^299)(^84=)(^B5^29A)(^86^29A)
+    (^89=1)(^87^29B)(^9A^90)(^8E=15e)(^B6=0)(^BE=)(^BA=)]}
+{10B:^80 {(k^97:c)(s=9)34:m } 10B }
+{B5:^80 {(k^97:c)(s=9)21:m } B5 }
+{5:^80 {(k^97:c)(s=9)2:m } 5 }
+{5E:^80 {(k^97:c)(s=9)12:m } 5E }
+{110:^80 {(k^97:c)(s=9)35:m } 110 }
+{B9:^80 {(k^97:c)(s=9)22:m } B9 }
+{9:^80 {(k^97:c)(s=9)3:m } 9 }
+{113:^80 {(k^97:c)(s=9)36:m } 113 }
+{D:^80 {(k^97:c)(s=9)4:m } D }
+{67:^80 {(k^97:c)(s=9)13:m } 67 }
+{11:^80 {(k^97:c)(s=9)5:m } 11 }
+{11A:^80 {(k^97:c)(s=9)37:m } 11A }
+{6A:^80 {(k^97:c)(s=9)14:m } 6A }
+{6E:^80 {(k^97:c)(s=9)15:m } 6E }
+{18:^80 {(k^97:c)(s=9)6:m } 18 }
+{121:^80 {(k^97:c)(s=9)38:m } 121 }
+{C9:^80 {(k^97:c)(s=9)23:m } C9 }
+{72:^80 {(k^97:c)(s=9)16:m } 72 8C }
+{125:^80 {(k^97:c)(s=9)39:m } 125 }
+{CD:^80 {(k^97:c)(s=9)24:m } CD D1 }
+{75:^80 {(k^97:c)(s=9)17:m } 75 }
+{1F:^80 {(k^97:c)(s=9)7:m } 1F }
+{129:^80 {(k^97:c)(s=9)3A:m } 129 }
+{7B:^80 {(k^97:c)(s=9)18:m } 7B }
+{12D:^80 {(k^97:c)(s=9)3B:m } 12D }
+{D5:^80 {(k^97:c)(s=9)25:m } D5 }
+{25:^80 {(k^97:c)(s=9)8:m } 25 }
+{12F:^80 {(k^97:c)(s=9)3C:m } 12F }
+{130:^80 {(k^97:c)(s=9)3D:m } 130 }
+{80:^80 {(k^97:c)(s=9)19:m } 80 84 }
+{28:^80 {(k^97:c)(s=9)9:m } 28 }
+{DA:^80 {(k^97:c)(s=9)26:m } DA EB }
+{133:^80 {(k^97:c)(s=9)3E:m } 133 }
+{134:^80 {(k^97:c)(s=9)3F:m } 134 }
+{135:^80 {(k^97:c)(s=9)40:m } 135 }
+{DD:^80 {(k^97:c)(s=9)27:m } DD }
+{FFFFFFFE:^80 {(k^97:c)(s=9)1:m } 1 }
+{137:^80 {(k^97:c)(s=9)41:m } 137 }
+{138:^80 {(k^97:c)(s=9)42:m } 138 }
+{88:^80 {(k^97:c)(s=9)1A:m } 88 }
+{E1:^80 {(k^97:c)(s=9)28:m } E1 }
+{13A:^80 {(k^97:c)(s=9)43:m } 13A }
+{13B:^80 {(k^97:c)(s=9)44:m } 13B }
+{E4:^80 {(k^97:c)(s=9)29:m } E4 }
+{35:^80 {(k^97:c)(s=9)A:m } 35 }
+{36:^80 {(k^97:c)(s=9)B:m } 36 }
+{13F:^80 {(k^97:c)(s=9)45:m } 13F }
+{E7:^80 {(k^97:c)(s=9)2A:m } E7 }
+{E8:^80 {(k^97:c)(s=9)2B:m } E8 }
+{91:^80 {(k^97:c)(s=9)1B:m } 91 }
+{EA:^80 {(k^97:c)(s=9)2C:m } EA }
+{143:^80 {(k^97:c)(s=9)46:m } 143 }
+{3B:^80 {(k^97:c)(s=9)C:m } 3B }
+{144:^80 {(k^97:c)(s=9)47:m } 144 }
+{94:^80 {(k^97:c)(s=9)1C:m } 94 }
+{145:^80 {(k^97:c)(s=9)48:m } 145 }
+{146:^80 {(k^97:c)(s=9)49:m } 146 }
+{EE:^80 {(k^97:c)(s=9)2D:m } EE }
+{97:^80 {(k^97:c)(s=9)1D:m } 97 }
+{3F:^80 {(k^97:c)(s=9)D:m } 3F }
+{F1:^80 {(k^97:c)(s=9)2E:m } F1 }
+{14A:^80 {(k^97:c)(s=9)4A:m } 14A }
+{42:^80 {(k^97:c)(s=9)E:m } 42 }
+{F4:^80 {(k^97:c)(s=9)2F:m } F4 }
+{45:^80 {(k^97:c)(s=9)F:m } 45 }
+{A0:^80 {(k^97:c)(s=9)1E:m } A0 }
+{F9:^80 {(k^97:c)(s=9)30:m } F9 }
+{152:^80 {(k^97:c)(s=9)4B:m } 152 }
+{FC:^80 {(k^97:c)(s=9)31:m } FC }
+{4C:^80 {(k^97:c)(s=9)10:m } 4C }
+{156:^80 {(k^97:c)(s=9)4C:m } 156 }
+{A7:^80 {(k^97:c)(s=9)1F:m } A7 }
+{4F:^80 {(k^97:c)(s=9)11:m } 4F }
+{100:^80 {(k^97:c)(s=9)32:m } 100 }
+{AA:^80 {(k^97:c)(s=9)20:m } AA AE }
+{15B:^80 {(k^97:c)(s=9)4D:m } 15B }
+{15C:^80 {(k^97:c)(s=9)4E:m } 15C }
+{104:^80 {(k^97:c)(s=9)33:m } 104 108 }
+{15D:^80 {(k^97:c)(s=9)4F:m } 15D }
+{15E:^80 {(k^97:c)(s=9)50:m } 15E }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [FFFFFFFE(^94^8A)]
+  [5(^94^93)]
+  [9(^94^99)]
+  [D(^94^99)]
+  [11(^94^A5)]
+  [18(^94^AB)]
+  [1F(^94^B2)]
+  [25(^94^B9)]
+  [28(^94^BF)]
+  [35(^94^C5)]
+  [36(^94^CD)]
+  [3B(^94^D3)]
+  [3F(^94^DA)]
+  [42(^94^DF)]
+  [45(^94^E5)]
+  [4C(^94^EC)]
+  [4F(^94^F2)]
+  [5E(^94^F7)]
+  [67(^94^FE)]
+  [6A(^94^105)]
+  [6E(^94^10B)]
+  [72(^94^111)]
+  [75(^94^117)]
+  [7B(^94^11D)]
+  [80(^94^122)]
+  [88(^94^131)]
+  [91(^94^13F)]
+  [94(^94^146)]
+  [97(^94^14C)]
+  [A0(^94^151)]
+  [A7(^94^157)]
+  [AA(^94^15D)]
+  [B5(^94^16A)]
+  [B9(^94^170)]
+  [C9(^94^176)]
+  [CD(^94^17D)]
+  [D5(^94^18A)]
+  [DA(^94^190)]
+  [DD(^94^196)]
+  [E1(^94^19C)]
+  [E4(^94^1A2)]
+  [E7(^94^1A9)]
+  [E8(^94^1AF)]
+  [EA(^94^1B5)]
+  [EE(^94^1C2)]
+  [F1(^94^1C8)]
+  [F4(^94^1CE)]
+  [F9(^94^1D4)]
+  [FC(^94^1D9)]
+  [100(^94^1DE)]
+  [104(^94^1E4)]
+  [10B(^94^1F3)]
+  [110(^94^1F9)]
+  [113(^94^1FE)]
+  [11A(^94^204)]
+  [121(^94^20A)]
+  [125(^94^210)]
+  [129(^94^215)]
+  [12D(^94^21B)]
+  [12F(^94^221)]
+  [130(^94^226)]
+  [133(^94^22C)]
+  [134(^94^232)]
+  [135(^94^237)]
+  [137(^94^23D)]
+  [138(^94^243)]
+  [13A(^94^249)]
+  [13B(^94^24F)]
+  [13F(^94^255)]
+  [143(^94^25B)]
+  [144(^94^260)]
+  [145(^94^266)]
+  [146(^94^26C)]
+  [14A(^94=f)]
+  [152(^94^277)]
+  [156(^94^27E)]
+  [15B(^94^284)]
+  [15C(^94^28B)]
+  [15D(^94^291)]
+  [15E(^94^298)]}
+
+<(82=Sent)(83=60)(84=2000)(85=8082214)(86=b)(29D=56)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF=60)(^B0^84)(^B1=0)(^A7^82)(^88^85)
+    (^A8=b)(^B2=15e)(^A1=56)(^A6=15e)]}
+
+@$${53{@
+<(3F5=b2cfd)(3F6=10938325)(3F7=b2d30)(3F8=24fb)>
+[-25:^80(^88^2AC)(^82^88)(^85^89)(^81^B9)(^83^BA)(^84=)(^B5^BB)(^86^BB)
+    (^89=1)(^87^3F5)(^9A^90)(^8E=25)(^B6=0)(^BE=)(^BA=)(^BF^3F6)(^9D^3F7)
+    (^8B^3F8)]
+@$$}53}@
+
+@$${54{@
+<(3F9=2470)>[25:^80(^C0^3F9)]
+@$$}54}@
+
+@$${55{@
+<(3FA=c6347)(3FB=11670824)(3FC=c637a)(3FD=28d1)>
+[-133:^80(^88^2AC)(^82^88)(^85^D9)(^81^22C)(^83^22D)(^84=)(^B5^22E)
+    (^86^22E)(^89=1)(^87^3FA)(^9A^90)(^8E=133)(^B6=0)(^BE=)(^BA=)(^BF^3FB)
+    (^9D^3FC)(^8B^3FD)]
+@$$}55}@
+
+@$${56{@
+<(3FE=2471)>[133:^80(^C0^3FE)]
+@$$}56}@
+
+@$${57{@
+<(3FF=17e7a9)(400=12482757)(401=17e7dc)(402=4e8c)>
+[-121:^80(^88^2AC)(^82^88)(^85^1F2)(^81^20A)(^83^20B)(^84=)(^B5^20C)
+    (^86^20C)(^89=1)(^87^3FF)(^9A^90)(^8E=121)(^B6=0)(^BE=)(^BA=)(^BF^400)
+    (^9D^401)(^8B^402)]
+@$$}57}@
+
+@$${58{@
+<(403=2472)>[121:^80(^C0^403)]
+@$$}58}@
+
+@$${59{@
+<(404=174db2)(405=14049476)(406=174de5)(407=4cd0)>
+[-B9:^80(^88^2AC)(^82^88)(^85^9F)(^81^170)(^83^171)(^84=)(^B5^172)
+    (^86^172)(^89=1)(^87^404)(^9A^90)(^8E=b9)(^B6=0)(^BE=)(^BA=)(^BF^405)
+    (^9D^406)(^8B^407)]
+@$$}59}@
+
+@$${5A{@
+<(408=2473)>[B9:^80(^C0^408)]
+@$$}5A}@
+
+@$${5B{@
+<(409=1b2f94)(40A=15576780)(40B=1b2fc7)(40C=595f)>
+[-15E:^80(^88^2AC)(^82^88)(^85^297)(^81^298)(^83^299)(^84=)(^B5^29A)
+    (^86^29A)(^89=1)(^87^409)(^9A^90)(^8E=15e)(^B6=0)(^BE=)(^BA=)(^BF^40A)
+    (^9D^40B)(^8B^40C)]
+@$$}5B}@
+
+@$${5C{@
+<(40D=2474)>[15E:^80(^C0^40D)]
+@$$}5C}@
+
+@$${5D{@
+<(40E=2c6358)(40F=17358518)(410=2c638b)(411=91da)>
+[-E4:^80(^88^2AC)(^82^88)(^85^EB)(^81^1A2)(^83^1A3)(^84=)(^B5^1A4)
+    (^86^1A4)(^89=1)(^87^40E)(^9A^90)(^8E=e4)(^B6=0)(^BE=)(^BA=)(^BF^40F)
+    (^9D^410)(^8B^411)]
+@$$}5D}@
+
+@$${5E{@
+<(412=2475)>[E4:^80(^C0^412)]
+@$$}5E}@
+
+@$${5F{@
+<(413=2987f9)(414=20267620)(415=29882c)(416=88f9)>
+[-E7:^80(^88^2AC)(^82^88)(^85^1A8)(^81^1A9)(^83^1AA)(^84=)(^B5^1AB)
+    (^86^1AB)(^89=1)(^87^413)(^9A^90)(^8E=e7)(^B6=0)(^BE=)(^BA=)(^BF^414)
+    (^9D^415)(^8B^416)]
+@$$}5F}@
+
+@$${60{@
+<(417=2476)>[E7:^80(^C0^417)]
+@$$}60}@
+
+@$${61{@
+<(418=2ff2a2)(419=22989491)(41A=2ff2d5)(41B=9d89)>
+[-EE:^80(^88^2AC)(^82^88)(^85^EB)(^81^1C2)(^83^1C3)(^84=)(^B5^1C4)
+    (^86^1C4)(^89=1)(^87^418)(^9A^90)(^8E=ee)(^B6=0)(^BE=)(^BA=)(^BF^419)
+    (^9D^41A)(^8B^41B)]
+@$$}61}@
+
+@$${62{@
+<(41C=2477)>[EE:^80(^C0^41C)]
+@$$}62}@
+
+@$${63{@
+<(41D=31eaae)(41E=26131883)(41F=31eae1)(420=a3fa)>
+[-15B:^80(^88=81)(^82^88)(^85^128)(^81^284)(^83^285)(^84=)(^B5^286)
+    (^86^286)(^89=1)(^87^41D)(^9A^90)(^8E=15b)(^B6=0)(^BE=)(^BA=)(^BF^41E)
+    (^9D^41F)(^8B^420)]
+@$$}63}@
+
+@$${64{@
+<(421=2478)>[15B:^80(^C0^421)]
+@$$}64}@
+
+@$${65{@
+<(422=4d8b2a)(423=29403311)(424=4d8b5d)(425=fe91)>
+[-134:^80(^88^2AC)(^82^88)(^85^104)(^81^232)(^83^233)(^84=)(^B5^234)
+    (^86^234)(^89=1)(^87^422)(^9A^90)(^8E=134)(^B6=0)(^BE=)(^BA=)(^BF^423)
+    (^9D^424)(^8B^425)]
+@$$}65}@
+
+@$${66{@
+<(426=2479)>[134:^80(^C0^426)]
+@$$}66}@
+
+@$${67{@
+<(427=4e039e)(428=34485295)(429=4e03d1)(42A=1001d)>
+[-135:^80(^88^2AC)(^82^88)(^85^175)(^81^237)(^83^238)(^84=)(^B5^239)
+    (^86^239)(^89=1)(^87^427)(^9A^90)(^8E=135)(^B6=0)(^BE=)(^BA=)(^BF^428)
+    (^9D^429)(^8B^42A)]
+@$$}67}@
+
+@$${68{@
+<(42B=247a)>[135:^80(^C0^42B)]
+@$$}68}@
+
+@$${69{@
+<(42C=9d5a86)(42D=39598115)(42E=9d5ab9)(42F=20487)>
+[-13A:^80(^88^2AC)(^82^88)(^85^104)(^81^249)(^83^24A)(^84=)(^B5^24B)
+    (^86^24B)(^89=1)(^87^42C)(^9A^90)(^8E=13a)(^B6=0)(^BE=)(^BA=)(^BF^42D)
+    (^9D^42E)(^8B^42F)]
+@$$}69}@
+
+@$${6A{@
+<(430=247b)>[13A:^80(^C0^430)]
+@$$}6A}@
+
+@$${6B{@
+<(431=1088275)(432=49910527)(433=10882a8)(434=3644f)>
+[-CD:^80(^88^2AC)(^82^88)(^85^17C)(^81^17D)(^83^17E)(^84=)(^B5^17F)
+    (^86^17F)(^89=1)(^87^431)(^9A^90)(^8E=cd)(^B6=0)(^BE=)(^BA=)(^BF^432)
+    (^9D^433)(^8B^434)]
+@$$}6B}@
+
+@$${6C{@
+<(435=2437)>[CD:^80(^C0^435)]
+@$$}6C}@
+
+@$${6D{@
+<(436=19f51b9)(437=67245514)(438=19f51ec)(439=55332)>
+[-14A:^80(^88^2AC)(^82^88)(^85^D9)(^81=f)(^83^271)(^84=)(^B5^272)(^86^272)
+    (^89=1)(^87^436)(^9A^90)(^8E=14a)(^B6=0)(^BE=)(^BA=)(^BF^437)(^9D^438)
+    (^8B^439)]
+@$$}6D}@
+
+@$${6E{@
+<(43A=247c)>[14A:^80(^C0^43A)]
+@$$}6E}@
+
+@$${6F{@
+<(43B=19f51c5)(43C=94463961)(43D=19f51f8)>
+[-146:^80(^88^2AC)(^82^88)(^85^D9)(^81^26C)(^83^26D)(^84=)(^B5^26E)
+    (^86^26E)(^89=1)(^87^43B)(^9A^90)(^8E=146)(^B6=0)(^BE=)(^BA=)(^BF^43C)
+    (^9D^43D)(^8B^439)]
+@$$}6F}@
+
+@$${70{@
+<(43E=247e)>[146:^80(^C0^43E)]
+@$$}70}@
+
+@$${71{@
+< <(a=c)> // (f=iso-8859-1)
+  (C2=useServerRetention)>
+@$$}71}@
+
+@$${72{@
+< <(a=c)> // (f=iso-8859-1)
+  (C3=retainBy)(C4=daysToKeepHdrs)(C5=numHdrsToKeep)(C6=daysToKeepBodies)
+  (C7=useServerDefaults)(C8=cleanupBodies)(C9=applyToFlaggedMessages)>
+[1:^9F(^C2=1)]
+@$$}72}@
+
+@$${73{@
+@$$}73}@

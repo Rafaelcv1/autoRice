@@ -1,0 +1,17 @@
+11
+2
+0
+-1
+
+https://www.googletagmanager.com/static/service_worker
+https://www.googletagmanager.com/static/service_worker/5c20/sw.js?origin=https%3A%2F%2Flanguagetool.org
+false
+{45b5dbe9-4c04-40c5-a15b-e8fba077b6b3}
+1
+1766188265828965
+1766188265849351
+1766188265473511
+0
+true
+0
+#

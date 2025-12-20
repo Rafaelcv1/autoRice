@@ -1,0 +1,108 @@
+From - Sat Dec 20 02:52:06 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Received: from [192.168.2.109] (2603:10d6:103:94::8) by
+ SJ0PR03MB7127.namprd03.prod.outlook.com (2603:10b6:a03:4e6::9) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8158.17 via Mailbox Transport; Thu, 14 Nov 2024 16:01:47 +0000
+Message-ID: <SJ0PR03MB7127A57BA8341CF77D716622955B2@SJ0PR03MB7127.namprd03.prod.outlook.com>
+Date: Thu, 14 Nov 2024 13:01:43 -0300
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: <rafaelminhocadoida@gmail.com>
+From: Rafael Costa Vieira <rfl.must@outlook.com>
+Subject: testes
+Content-Type: text/plain; charset="UTF-8"; format=flowed
+Content-Transfer-Encoding: 7bit
+X-MS-Exchange-Organization-ExpirationStartTime: 14 Nov 2024 16:01:47.9957
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: a6395fca-0d1f-4d25-988f-08dd04c5a502
+X-MS-Exchange-Organization-AuthSource: SJ0PR03MB7127.namprd03.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 14
+X-ClientProxiedBy: CP5P284CA0021.BRAP284.PROD.OUTLOOK.COM
+ (2603:10d6:103:94::8) To SJ0PR03MB7127.namprd03.prod.outlook.com
+ (2603:10b6:a03:4e6::9)
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+Return-Path: rfl.must@outlook.com
+X-Microsoft-Original-Message-ID: <4b7ac736-7426-4c02-94f9-87cf02b5a7ea@outlook.com>
+MIME-Version: 1.0
+
+testsetsetsetsetset
+
+
+From - Sat Dec 20 02:52:06 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Received: from [192.168.2.109] (2603:10d6:103:94::23) by
+ MW4PR07MB8538.namprd07.prod.outlook.com (2603:10b6:303:bf::23) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8158.23 via Mailbox Transport; Tue, 19 Nov 2024 21:17:07 +0000
+Message-ID: <MW4PR07MB8538DC1CBA4955BFF86B15F795202@MW4PR07MB8538.namprd07.prod.outlook.com>
+Date: Tue, 19 Nov 2024 18:17:04 -0300
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: <rafaelminhocadoida@gmail.com>
+From: Rafael Costa Vieira <rfl.must@outlook.com>
+Subject: testse
+Content-Type: text/plain; charset="UTF-8"; format=flowed
+Content-Transfer-Encoding: 7bit
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Nov 2024 21:17:08.5897
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 3a541376-14ed-4b79-decd-08dd08df86a0
+X-MS-Exchange-Organization-AuthSource: MW4PR07MB8538.namprd07.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 14
+X-ClientProxiedBy: CP5P284CA0036.BRAP284.PROD.OUTLOOK.COM
+ (2603:10d6:103:94::23) To MW4PR07MB8538.namprd07.prod.outlook.com
+ (2603:10b6:303:bf::23)
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+Return-Path: rfl.must@outlook.com
+X-Microsoft-Original-Message-ID: <ed247ac9-2bc2-4e69-92d0-fd2ad1ddc84c@outlook.com>
+MIME-Version: 1.0
+
+tesstesetse
+
+
+From - Sat Dec 20 02:52:06 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Received: from [192.168.2.109] (2603:10d6:103:22a::18) by
+ DS0PR05MB10110.namprd05.prod.outlook.com (2603:10b6:8:fc::22) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8251.15 via Mailbox Transport; Fri, 13 Dec 2024 14:33:54 +0000
+Message-ID: <DS0PR05MB10110328948ED91C0C003E89595382@DS0PR05MB10110.namprd05.prod.outlook.com>
+Date: Fri, 13 Dec 2024 11:33:51 -0300
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: <rfl.must@gmail.com>
+From: Rafael Costa Vieira <rfl.must@outlook.com>
+Subject: tretert
+Content-Type: text/plain; charset="UTF-8"; format=flowed
+Content-Transfer-Encoding: 7bit
+X-MS-Exchange-Organization-ExpirationStartTime: 13 Dec 2024 14:33:54.5910
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: fd453fea-ddc9-442c-a74d-08dd1b832bcb
+X-MS-Exchange-Organization-AuthSource: DS0PR05MB10110.namprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 14
+X-ClientProxiedBy: CP5P284CA0157.BRAP284.PROD.OUTLOOK.COM
+ (2603:10d6:103:22a::18) To DS0PR05MB10110.namprd05.prod.outlook.com
+ (2603:10b6:8:fc::22)
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+Return-Path: rfl.must@outlook.com
+X-Microsoft-Original-Message-ID: <b5226017-6088-41c7-8455-cef2bd413283@outlook.com>
+MIME-Version: 1.0
+
+ertertert
+
+

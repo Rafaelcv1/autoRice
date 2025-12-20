@@ -1,0 +1,1866 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=account)(B9=junkscore)(BA=keywords)(BB=X-GM-MSGID)(BC=X-GM-THRID)
+  (BD=X-GM-LABELS)(BE=replyTo)(BF=junkscoreorigin)
+  (C0=ns:msg:db:row:scope:ops:all)(C1=ns:msg:db:table:kind:ops)
+  (C2=dobayes.mailnews@mozilla.org#junk)(C3=storeToken)(C4=gloda-id)
+  (C5=gloda-dirty)(80=ns:msg:db:row:scope:msgs:all)(81=subject)
+  (82=sender)(83=message-id)(84=references)(85=recipients)(86=date)
+  (87=size)(88=flags)(89=priority)(8A=label)(8B=numLines)(8C=ccList)
+  (8D=bccList)(8E=msgThreadId)(8F=threadId)(90=threadFlags)
+  (91=threadNewestMsgDate)(92=children)(93=unreadChildren)
+  (94=threadSubject)(95=msgCharSet)(96=ns:msg:db:table:kind:msgs)
+  (97=ns:msg:db:table:kind:thread)(98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=imapFlags)(B0=MRUTime)
+  (B1=highestModSeq)(B2=highestRecordedUID)
+  (B3=ns:msg:db:row:scope:pending:all)(B4=ns:msg:db:table:kind:pending)
+  (B5=dateReceived)(B6=ProtoThreadFlags)(B7=folderName)>
+<(27E=7c)(27C=68adb1f9)(81=0)(80=1)>
+[40:m(^9B=7c)(^8F=7c)(^91^27C)(^90=0)(^92=1)]
+<(284=7d)(282=68af7cc1)>[41:m(^9B=7d)(^8F=7d)(^91^282)(^90=0)(^92=1)]
+<(28B=7f)(289=68b19fea)>[42:m(^9B=7f)(^8F=7f)(^91^289)(^90=0)(^92=1)]
+<(292=81)(290=68b34150)>[43:m(^9B=81)(^8F=81)(^91^290)(^90=0)(^92=1)]
+<(298=82)(296=68b3a40f)>[44:m(^9B=82)(^8F=82)(^91^296)(^90=0)(^92=1)]
+<(29F=85)(29D=68b8483c)>[45:m(^9B=85)(^8F=85)(^91^29D)(^90=0)(^92=1)]
+<(2A6=88)(2A4=68b9f1c6)>[46:m(^9B=88)(^8F=88)(^91^2A4)(^90=0)(^92=1)]
+<(2AC=8a)(2AA=68bc968a)>[47:m(^9B=8a)(^8F=8a)(^91^2AA)(^90=0)(^92=1)]
+<(2B2=8e)(2B0=68be3cf6)>[48:m(^9B=8e)(^8F=8e)(^91^2B0)(^90=0)(^92=1)]
+<(2B8=90)(2B6=68beffb3)>[49:m(^9B=90)(^8F=90)(^91^2B6)(^90=0)(^92=1)]
+<(2BD=91)(2BB=68beffb5)>[4A:m(^9B=91)(^8F=91)(^91^2BB)(^90=0)(^92=1)]
+<(2C4=94)(2C2=68c02e3a)>[4B:m(^9B=94)(^8F=94)(^91^2C2)(^90=0)(^92=1)]
+<(2CB=97)(2C9=68c07c63)>[4C:m(^9B=97)(^8F=97)(^91^2C9)(^90=0)(^92=1)]
+<(2D1=98)(2CF=68c0a360)>[4D:m(^9B=98)(^8F=98)(^91^2CF)(^90=0)(^92=1)]
+<(2D8=9c)(2D6=68c0f989)>[4E:m(^9B=9c)(^8F=9c)(^91^2D6)(^90=0)(^92=1)]
+<(2DF=9d)(2DD=68c0fc0f)>[4F:m(^9B=9d)(^8F=9d)(^91^2DD)(^90=0)(^92=1)]
+<(2E6=a9)(2E4=68c87663)>[50:m(^9B=a9)(^8F=a9)(^91^2E4)(^90=0)(^92=1)]
+<(2EC=aa)(2EA=68c87811)>[51:m(^9B=aa)(^8F=aa)(^91^2EA)(^90=0)(^92=1)]
+<(2F3=ad)(2F1=68caa46b)>[52:m(^9B=ad)(^8F=ad)(^91^2F1)(^90=0)(^92=1)]
+<(2F8=ae)(2F6=68cc7d0a)>[53:m(^9B=ae)(^8F=ae)(^91^2F6)(^90=0)(^92=1)]
+<(2FD=af)(2FB=68cc7ebd)>[54:m(^9B=af)(^8F=af)(^91^2FB)(^90=0)(^92=1)]
+<(303=b1)(301=68d01954)>[55:m(^9B=b1)(^8F=b1)(^91^301)(^90=0)(^92=1)
+    (^93=1)]
+<(308=b2)(306=68d13b2c)>[56:m(^9B=b2)(^8F=b2)(^91^306)(^90=0)(^92=1)
+    (^93=1)]
+<(30F=b3)(30D=68d1586e)>[57:m(^9B=b3)(^8F=b3)(^91^30D)(^90=0)(^92=1)
+    (^93=1)]
+<(315=b4)(313=68d15556)>[58:m(^9B=b4)(^8F=b4)(^91^313)(^90=0)(^92=1)
+    (^93=1)]
+<(31C=b6)(31A=68d282aa)>[59:m(^9B=b6)(^8F=b6)(^91^31A)(^90=0)(^92=1)
+    (^93=1)]
+<(322=b7)(320=68d29313)>[5A:m(^9B=b7)(^8F=b7)(^91^320)(^90=0)(^92=1)
+    (^93=1)]
+<(328=b9)(326=68d2be1d)>[5B:m(^9B=b9)(^8F=b9)(^91^326)(^90=0)(^92=1)
+    (^93=1)]
+<(32E=ba)(32C=68d2e652)>[5C:m(^9B=ba)(^8F=ba)(^91^32C)(^90=0)(^92=1)
+    (^93=1)]
+<(336=bc)(334=68d43998)>[5D:m(^9B=bc)(^8F=bc)(^91^334)(^90=0)(^92=1)]
+<(33C=bd)(33A=68d451a2)>[5E:m(^9B=bd)(^8F=bd)(^91^33A)(^90=0)(^92=1)
+    (^93=1)]
+<(342=be)(340=68d451a3)>[5F:m(^9B=be)(^8F=be)(^91^340)(^90=0)(^92=1)
+    (^93=1)]
+<(348=bf)(346=68d46b3d)>[60:m(^9B=bf)(^8F=bf)(^91^346)(^90=0)(^92=1)
+    (^93=1)]
+<(34E=c0)(34C=68d46b3f)>[61:m(^9B=c0)(^8F=c0)(^91^34C)(^90=0)(^92=1)
+    (^93=1)]
+<(354=c2)(352=68d5b17c)>[62:m(^9B=c2)(^8F=c2)(^91^352)(^90=0)(^92=1)
+    (^93=1)]
+<(35A=c4)(358=68d823ad)>[63:m(^9B=c4)(^8F=c4)(^91^358)(^90=0)(^92=1)
+    (^93=1)]
+<(35F=c5)(35D=68d92605)>[64:m(^9B=c5)(^8F=c5)(^91^35D)(^90=0)(^92=1)
+    (^93=1)]
+<(365=c6)(363=68d993b5)>[65:m(^9B=c6)(^8F=c6)(^91^363)(^90=0)(^92=1)
+    (^93=1)]
+<(36D=c7)(36B=68da7747)>[66:m(^9B=c7)(^8F=c7)(^91^36B)(^90=0)(^92=1)
+    (^93=1)]
+<(373=c8)(371=68da80e0)>[67:m(^9B=c8)(^8F=c8)(^91^371)(^90=0)(^92=1)
+    (^93=1)]
+<(37B=ca)(379=68dabbeb)>[68:m(^9B=ca)(^8F=ca)(^91^379)(^90=0)(^92=1)]
+<(383=cb)(381=68dabda0)>[69:m(^9B=cb)(^8F=cb)(^91^381)(^90=0)(^92=1)
+    (^93=1)]
+<(388=cc)(387=68dbcfd9)>[6A:m(^9B=cc)(^8F=cc)(^91^387)(^90=0)(^92=1)]
+<(38F=cd)(38D=68dbe82e)>[6B:m(^9B=cd)(^8F=cd)(^91^38D)(^90=0)(^92=1)]
+<(397=ce)(394=68dbe985)>[6C:m(^9B=ce)(^8F=ce)(^91^394)(^90=0)(^92=1)]
+<(39E=d4)(39C=68e7ab96)>[6D:m(^9B=d4)(^8F=d4)(^91^39C)(^90=0)(^92=1)
+    (^93=1)]
+<(3A5=d6)(3A3=68dd7f57)>[6E:m(^9B=d6)(^8F=d6)(^91^3A3)(^90=0)(^92=1)]
+<(3AC=d7)(3AA=69285374)>[6F:m(^9B=d7)(^8F=d7)(^91^3AA)(^90=0)(^92=1)]
+<(3B2=d8)(3B0=692cc33e)>[70:m(^9B=d8)(^8F=d8)(^91^3B0)(^90=0)(^92=1)]
+<(3B9=d9)(3B7=692ecc20)>[71:m(^9B=d9)(^8F=d9)(^91^3B7)(^90=0)(^92=1)
+    (^93=1)]
+<(90=35)(8D=67b5e9ee)>[1:m(^9B=35)(^8F=35)(^91^8D)(^90=0)(^92=1)]
+<(9C=36)(9A=67bc9d3b)>[2:m(^9B=36)(^8F=36)(^91^9A)(^90=0)(^92=1)]
+<(A6=37)(A4=67c0cdc6)>[3:m(^9B=37)(^8F=37)(^91^A4)(^90=0)(^92=1)]
+<(AF=38)(AD=67c20eb8)>[4:m(^9B=38)(^8F=38)(^91^AD)(^90=0)(^92=1)]
+<(B8=39)(B6=67c26fa6)>[5:m(^9B=39)(^8F=39)(^91^B6)(^90=0)(^92=1)]
+<(C0=3a)(BE=67c463e8)>[6:m(^9B=3a)(^8F=3a)(^91^BE)(^90=0)(^92=1)]
+<(C9=3b)(C6=67c89954)>[7:m(^9B=3b)(^8F=3b)(^91^C6)(^90=0)(^92=1)]
+<(D4=3c)(D0=67c9b986)>[8:m(^9B=3c)(^8F=3c)(^91^D0)(^90=0)(^92=1)]
+<(DC=3d)(DA=67c9c020)>[9:m(^9B=3d)(^8F=3d)(^91^DA)(^90=0)(^92=1)]
+<(E2=3e)(E0=67cb504e)>[A:m(^9B=3e)(^8F=3e)(^91^E0)(^90=0)(^92=1)]
+<(EA=3f)(E8=67ce2800)>[B:m(^9B=3f)(^8F=3f)(^91^E8)(^90=0)(^92=1)]
+<(F3=40)(EF=67cef060)>[C:m(^9B=40)(^8F=40)(^91^EF)(^90=0)(^92=1)]
+<(FB=41)(F9=67cf24f0)>[D:m(^9B=41)(^8F=41)(^91^F9)(^90=0)(^92=1)]
+<(102=42)(100=67d018c5)>[E:m(^9B=42)(^8F=42)(^91^100)(^90=0)(^92=1)]
+<(10A=43)(108=67d1d0e4)>[F:m(^9B=43)(^8F=43)(^91^108)(^90=0)(^92=1)]
+<(112=44)(110=67d363c4)>[10:m(^9B=44)(^8F=44)(^91^110)(^90=0)(^92=1)]
+<(119=45)(117=67d36fb3)>[11:m(^9B=45)(^8F=45)(^91^117)(^90=0)(^92=1)]
+<(120=46)(11E=67d4759e)>[12:m(^9B=46)(^8F=46)(^91^11E)(^90=0)(^92=1)]
+<(128=47)(126=67e2e16c)>[13:m(^9B=47)(^8F=47)(^91^126)(^90=0)(^92=1)]
+<(130=48)(12E=67eff184)>[14:m(^9B=48)(^8F=48)(^91^12E)(^90=0)(^92=1)]
+<(138=49)(136=67fe8895)>[15:m(^9B=49)(^8F=49)(^91^136)(^90=0)(^92=1)]
+<(140=4a)(13E=680fbed0)>[16:m(^9B=4a)(^8F=4a)(^91^13E)(^90=0)(^92=1)]
+<(148=4b)(146=683c9104)>[17:m(^9B=4b)(^8F=4b)(^91^146)(^90=0)(^92=1)]
+<(150=4c)(14E=6852bb64)>[18:m(^9B=4c)(^8F=4c)(^91^14E)(^90=0)(^92=1)]
+<(159=4d)(157=687509eb)>[19:m(^9B=4d)(^8F=4d)(^91^157)(^90=0)(^92=1)]
+<(161=4e)(15F=6876a11c)>[1A:m(^9B=4e)(^8F=4e)(^91^15F)(^90=0)(^92=1)]
+<(169=4f)(167=687946c4)>[1B:m(^9B=4f)(^8F=4f)(^91^167)(^90=0)(^92=1)]
+<(171=50)(16F=687bd1c9)>[1C:m(^9B=50)(^8F=50)(^91^16F)(^90=0)(^92=1)]
+<(179=51)(177=687e3ec7)>[1D:m(^9B=51)(^8F=51)(^91^177)(^90=0)(^92=1)]
+<(17F=52)(17D=68949a16)>[1E:m(^9B=52)(^8F=52)(^91^17D)(^90=0)(^92=1)]
+<(187=53)(185=6894ee45)>[1F:m(^9B=53)(^8F=53)(^91^185)(^90=0)(^92=1)]
+<(18E=54)(18C=68950c30)>[20:m(^9B=54)(^8F=54)(^91^18C)(^90=0)(^92=1)]
+<(197=55)(195=6896b1d4)>[21:m(^9B=55)(^8F=55)(^91^195)(^90=0)(^92=1)]
+<(19E=56)(19C=6896b1d8)>[22:m(^9B=56)(^8F=56)(^91^19C)(^90=0)(^92=1)]
+<(1A6=57)(1A4=689a4234)>[23:m(^9B=57)(^8F=57)(^91^1A4)(^90=0)(^92=1)]
+<(1AE=58)(1AC=689a8479)>[24:m(^9B=58)(^8F=58)(^91^1AC)(^90=0)(^92=1)]
+<(1B5=59)(1B3=689a848a)>[25:m(^9B=59)(^8F=59)(^91^1B3)(^90=0)(^92=1)]
+<(1BF=5a)(1BD=689a0f8b)>[26:m(^9B=5a)(^8F=5a)(^91^1BD)(^90=0)(^92=1)]
+<(1C9=5b)(1C7=689b4163)>[27:m(^9B=5b)(^8F=5b)(^91^1C7)(^90=0)(^92=1)]
+<(1D0=5c)(1CE=689b80c6)>[28:m(^9B=5c)(^8F=5c)(^91^1CE)(^90=0)(^92=1)]
+<(1D8=5d)(1D6=689bac0f)>[29:m(^9B=5d)(^8F=5d)(^91^1D6)(^90=0)(^92=1)]
+<(1E1=5f)(1DF=689cda4c)>[2A:m(^9B=5f)(^8F=5f)(^91^1DF)(^90=0)(^92=1)]
+<(1E9=61)(1E7=689e11b9)>[2B:m(^9B=61)(^8F=61)(^91^1E7)(^90=0)(^92=1)]
+<(1F1=62)(1EF=689e4b2b)>[2C:m(^9B=62)(^8F=62)(^91^1EF)(^90=0)(^92=1)]
+<(1F8=63)(1F6=689e5078)>[2D:m(^9B=63)(^8F=63)(^91^1F6)(^90=0)(^92=1)]
+<(1FF=64)(1FD=689e63e3)>[2E:m(^9B=64)(^8F=64)(^91^1FD)(^90=0)(^92=1)]
+<(205=65)(203=689e6530)>[2F:m(^9B=65)(^8F=65)(^91^203)(^90=0)(^92=1)]
+<(20D=66)(20B=689e6885)>[30:m(^9B=66)(^8F=66)(^91^20B)(^90=0)(^92=1)]
+<(216=67)(214=689f14b1)>[31:m(^9B=67)(^8F=67)(^91^214)(^90=0)(^92=1)]
+<(21E=69)(21C=689f6bfa)>[32:m(^9B=69)(^8F=69)(^91^21C)(^90=0)(^92=1)]
+<(225=6a)(223=689fab30)>[33:m(^9B=6a)(^8F=6a)(^91^223)(^90=0)(^92=1)]
+<(22E=6b)(22C=689fae0f)>[34:m(^9B=6b)(^8F=6b)(^91^22C)(^90=0)(^92=1)]
+<(237=6c)(235=689c9aee)>[35:m(^9B=6c)(^8F=6c)(^91^235)(^90=0)(^92=1)]
+<(23D=6e)(23B=689dfcda)>[36:m(^9B=6e)(^8F=6e)(^91^23B)(^90=0)(^92=1)]
+<(243=6f)(241=68a3421e)>[37:m(^9B=6f)(^8F=6f)(^91^241)(^90=0)(^92=1)]
+<(24A=71)(248=68a367eb)>[38:m(^9B=71)(^8F=71)(^91^248)(^90=0)(^92=1)]
+<(251=72)(24F=68a3a6aa)>[39:m(^9B=72)(^8F=72)(^91^24F)(^90=0)(^92=1)]
+<(258=74)(256=68a5ae40)>[3A:m(^9B=74)(^8F=74)(^91^256)(^90=0)(^92=1)]
+<(25F=75)(25D=68a5b816)>[3B:m(^9B=75)(^8F=75)(^91^25D)(^90=0)(^92=1)]
+<(266=77)(264=68a64cd2)>[3C:m(^9B=77)(^8F=77)(^91^264)(^90=0)(^92=1)]
+<(26B=78)(269=68a65716)>[3D:m(^9B=78)(^8F=78)(^91^269)(^90=0)(^92=1)]
+<(271=79)(26F=68a666c2)>[3E:m(^9B=79)(^8F=79)(^91^26F)(^90=0)(^92=1)]
+<(278=7a)(276=68a66813)>[3F:m(^9B=7a)(^8F=7a)(^91^276)(^90=0)(^92=1)]
+
+<(473=80)(1C2
+    ="=?utf-8?B?TsOjbyByZXNwb25kYSBhIGVzdGEgbWVuc2FnZW0u?=" <naoresponda@moodl\
+e.ufsc.br>)(1D3
+    ="=?utf-8?B?SGVsaW8gQ29ycsOqYSBGaWxobyAodmlhIE1vb2RsZSBVRlNDIC0gUHJlc2U=?=\
+ =?utf-8?B?bmNpYWwp?=" <naoresponda@moodle.ufsc.br>)(1C4
+    ="Rafael Costa Vieira (25200391\)" <rafaelcvieira12@gmail.com>)
+  (2FF
+    ==?utf-8?B?SU5FNTQwMS0wMTIwOEIgKDIwMjUyKTogTGVtYnJldGU6IFByb3ZhIFAx?= =?ut\
+f-8?B?IOKAkyBRdWFydGEtZmVpcmEsIDI0LzA5LzIwMjU=?=)(300
+    =b07fb02de894ae11ae6dee5546d81d6d38508c8f3f42e5906975e686d83dabe9@presenci\
+al.moodle.ufsc.br)(88=)(302=2660)(91=ffffffff)(304=1843887803540492920)
+  (94="\\\\Inbox")(472=1515784)(474=2693)>
+{B1:^80 {(k^97:c)(s=9)55:m } [B1(^88=80)(^BE^1C2)(^82^1D3)(^85^1C4)(^81^2FF)
+    (^83^300)(^84=)(^B5^301)(^86^301)(^89=1)(^87^302)(^9A^91)(^8E=b1)
+    (^B6=0)(^BB^304)(^BC^304)(^BD^94)(^BA=)(^C3^472)(^9D^474)(^8B=af)]}
+
+<(89=sccp@sistemas.ufsc.br)(8A
+    =Rafael Costa Vieira <rafaelcvieira12@gmail.com>)(8B
+    =SeTIC/UFSC - Confirme seu e-mail)(8C
+    =1068675614.1739975150260@sistemas.ufsc.br)(8E=UTF-8)(8F=1345)(92
+    =1824496184553408894)(93=1824495420414871372)(3BB=1378)(95
+    =lucbsm@gmail.com)(96
+    ==?UTF-8?Q?F=C3=B3rum_da_Gradua=C3=A7=C3=A3o_UFSC?= <sistemas@sistemas.ufs\
+c.br>)(97=cagr@npd.ufsc.br)(98
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"OPORTUN?= =?UTF-8?Q?IDADE_|_Capacita=C\
+3=A7=C3=B5es_gratui?= =?UTF-8?Q?tas_sobre_prote=C3=A7=C3=A3o_de_dados?= =?UTF-\
+8?Q?_para_estudantes_da_UFSC!"_c?= =?UTF-8?Q?riado_em_**Graduandos_do_Cu?= =?U\
+TF-8?Q?rso:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O?= =?UTF-8?Q?________________\
+_______________________________________?=)(99
+    =882244765.1740414268017@sistemas.ufsc.br)(9B=23a3)(9E
+    =1824956637039339734)(3BC=5019)(3BD=23d6)(9F=anaagobbi@gmail.com)
+  (A0
+    ==?UTF-8?Q?Ana_Luiza_Sales_Gobbi_=28?= =?UTF-8?Q?F=C3=B3rum_da_Gradua=C3=A\
+7=C3=A3o_UFSC=29?= <sistemas@sistemas.ufsc.br>)(A1
+    =rafaelcvieira12@gmail.com)(A2=[FORUMGRAD] Apadrinhamento 2025 UFSC)
+  (A3=126437121.1740688838920@sistemas.ufsc.br)(A5=1da0)(A8
+    =1825244542319707838)(3BE=14228)(3BF=1dd3)(3C0=c1)(A9
+    ==?UTF-8?Q?Capacita=C3=A7=C3=B5es_Academia_Bridge?= <academia@bridge.ufsc.\
+br>)(AA=undisclosed-recipients:;)(AB
+    ==?UTF-8?Q?Boas=2Dvindas_=C3=A0_Academia_Bridge_LGPD_=7C_Informa=C3=A7=C3=\
+B5es_?= =?UTF-8?Q?iniciais?=)(AC
+    =CAHv-63as-ep7vmu3SUX+2BKpBe8Ca3i5aPgpsz_GCTBS2o6-_g@mail.gmail.com)
+  (AE=7e3e)(B1=1825330704773208670)(3C1=21898)(3C2=7e71)(3C3=1f6)(B2
+    =Marcelo Tragtenberg <tutoria2fisica@gmail.com>)(B3
+    ==?UTF-8?B?RndkOiBEaXZ1bGdhw6fDo28gZG9zIEN1cnNvcyBkZSBGw6lyaWFzIGRhIFDDs3M\
+tR3JhZA==?= =?UTF-8?B?dWHDp8OjbyBlbSBGw61zaWNhIGVtIE1hcsOnbyBkZSAyMDI1?=)
+  (B4=CAA75YpgBOzLCtWs23m_XWYG9tjs0G6pOUR-dGMAdno1=fOU4cg@mail.gmail.com)
+  (B5
+    =<CAH-p9GaHsrQj35d-GjxUuPmbO7U=dDRMGjPVZvz2NoOk0FcOAQ@mail.gmail.com> <CAH\
+-p9Gbqk_XRCwY6zGFrRUH3HLqrj=HJryW62LTjOY5_uOrxfQ@mail.gmail.com> <CAH-p9GY=BSo\
+8cf__6VRO=WD5G_7b=Q+2F5K3Dj8Ldpcz47eTYg@mail.gmail.com> <CAGoxsi=MP=p2bMEb-bMF\
+bQBkcwbdGjWD_PsEpZ1RR1pzcjgwBw@mail.gmail.com> <CAGoxsim-B-=WvztB3sn-reyt40OUU\
+g8QFT5NDbNxsOGEUy1c9g@mail.gmail.com> <CAA75Yph4GdjvDrMf3RcoESH3aYJwFNHbhu86kY\
+_DTKavpGkbcQ@mail.gmail.com>)(B7=6710)(BA=1825356751570754028)(3C4=54302)
+  (3C5=6743)(3C6=270)(BB=marcos.dranka@ufsc.br)(BC
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Vaga_para_est=C3=A1gio_re?= =?UTF-8?Q?\
+munerado"_criado_em_**Graduandos_do_Curs?= =?UTF-8?Q?o:_CI=C3=8ANCIAS_DA_COMPU\
+TA=C3=87=C3=83O_______________?= =?UTF-8?Q?___________________________________\
+_____?=)(BD=1904170244.1740923881220@sistemas.ufsc.br)(BF=1da6)(C2
+    =1825491004558914233)(3C7=80772)(3C8=1dd9)(3C9=a2)(C3
+    ==?utf-8?Q?Coordena=C3=A7=C3=A3o_do_curso_de_CI=C3=8ANCIAS_DA_COMPUTA?= =?\
+utf-8?Q?=C3=87=C3=83O?= <cco@contato.ufsc.br>)(C4
+    ==?utf-8?Q?Ajuste_excepcional_de_matr=C3=ADcula.?=)(C5
+    =qvZshbuSsBa6NbjYfpfiRFhjUhZn4OyXmH4dkXiOW8@gac.inf.ufsc.br)(C7=utf-8)
+  (C8=1544)(CB=1825780218204754297)(3CA=88448)(3CB=1577)(3CD=10000081)
+  (CC=noreply@sistemas.ufsc.br)(CD=cagr@sistemas.ufsc.br)(CE
+    ==?ISO-8859-1?Q?[CAGR]_Confirma=E7=E3o_de_matr=EDcula?=)(CF
+    =475182611.1741273478985@sistemas.ufsc.br)(D2=11a5d)(D6
+    =1825857581231120865)(3CC=93978)(3CE=11a90)(3CF=3d6)(D3=10000001)
+  (D7=lucas.sm.souza@gmail.com)(D8
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"PROCESSO_SELETIVO_AMPE?= =?UTF-8?Q?RA_\
+RACING_25.1"_criado_em_**Graduandos_do_?= =?UTF-8?Q?Curso:_CI=C3=8ANCIAS_DA_CO\
+MPUTA=C3=87=C3=83O_____________?= =?UTF-8?Q?__________________________________\
+________?=)(D9=106506707.1741275169484@sistemas.ufsc.br)(DB=314bc5)
+  (DD=1825859383023148250)(DE
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"=C3=9Altimos?= =?UTF-8?Q?_dias_para_se\
+_inscrever_nas?= =?UTF-8?Q?_tr=C3=AAs_capacita=C3=A7=C3=B5es_gratuita?= =?UTF-\
+8?Q?s_de_prote=C3=A7=C3=A3o_de_dados!"_cr?= =?UTF-8?Q?iado_em_**Graduandos_do_\
+Cur?= =?UTF-8?Q?so:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O_?= =?UTF-8?Q?_______\
+_______________________________________________?=)(DF
+    =933112839.1741377615758@sistemas.ufsc.br)(E1=1fb1)(E4
+    =1825966780542634831)(3D0=166349)(3D1=1fe4)(E5=jpresmer@gmail.com)
+  (E6
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Processo_seletivo_abe?= =?UTF-8?Q?rto_\
+-_Vento_Su"_criado_em_**Graduandos_do_?= =?UTF-8?Q?Curso:_CI=C3=8ANCIAS_DA_COM\
+PUTA=C3=87=C3=83O_____________?= =?UTF-8?Q?___________________________________\
+_______?=)(E7=1332717475.1741563905496@sistemas.ufsc.br)(E9=26608)(EC
+    =1826162126915970422)(3D2=174548)(3D3=2663b)(3D4=82e)(ED
+    ==?UTF-8?B?SG9qZSDDqSBkaWEgZGUgTEdQRCDwn5eT77iPIE3Ds2R1bG8gMSE=?=)
+  (EE=CAHv-63YmPQeKkDFbLXmjzp3DyNY3aZfbYQy8-ecQW-CemfcvAA@mail.gmail.com)
+  (F0=e2acd)(F1=imapflag)(F2=nonjunk)(F5=1826216026779620792)(F6
+    ==?UTF-8?Q?Grava=C3=A7=C3=A3o_Laborat=C3=B3rio_Bridge_=2D_UFSC?= <gravacao\
+@bridge.floripa.br>)(F7
+    ==?UTF-8?Q?Invitation_from_an_unknown_sender=3A_LGPD_=2D_Conceitos_?= =?UT\
+F-8?Q?essenciais_de_prote=C3=A7=C3=A3o_de_dados=09=09=09=09=09=09=09_=40_Mon_M\
+ar_10=2C_2025_?= =?UTF-8?Q?5pm_=2D_6pm_=28GMT=2D3=29_=28rafaelcvieira12=40gmai\
+l=2Ecom=29?=)(F8=calendar-3faeadd6-3e4c-4774-ad46-1f6640a69f55@google.com)
+  (FA=284c8)(FD=1826230011188733466)(FE
+    ==?UTF-8?Q?Invitation_from_an_unknown_sender=3A_LGPD_=2D_Conceitos_?= =?UT\
+F-8?Q?essenciais_de_prote=C3=A7=C3=A3o_de_dados=09=09=09=09=09=09=09_=40_Daily\
+_at_5pm_from?= =?UTF-8?Q?_Tue_Mar_11_to_Wed_Mar_12_=28GMT=2D3=29_=28rafaelcvie\
+ira12=40gmail=2Ecom?= =?UTF-8?Q?=29?=)(FF
+    =calendar-b14316a0-d98a-48db-9908-2df05c98532d@google.com)(101=2b8b8)
+  (104=1826295464825603892)(105=gabiramire.bm@gmail.com)(106
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Vaga_aberta_para_4_=C3=A1reas?= =?UTF-\
+8?Q?_no_Laborat=C3=B3rio_Bridge!"_criado_em_**Graduand?= =?UTF-8?Q?os_do_Curso\
+:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O__________?= =?UTF-8?Q?________________\
+_____________________________?=)(107
+    =1880150424.1741803751452@sistemas.ufsc.br)(109=2142)(10C
+    =1826413612514452240)(3D5=331826)(3D6=2175)(10D
+    =otavio.jatoba@grad.ufsc.br)(10E
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Avalia=C3=A7=C3=A3?= =?UTF-8?Q?o_in_lo\
+co_online_com_fins_de_?= =?UTF-8?Q?renova=C3=A7=C3=A3o_de_reconhecimento_d?= =\
+?UTF-8?Q?o_curso_de_ci=C3=AAncia_da_computa?= =?UTF-8?Q?=C3=A7=C3=A3o"_criado_\
+em_**Graduandos_?= =?UTF-8?Q?do_Curso:_CI=C3=8ANCIAS_DA_COMPUTA?= =?UTF-8?Q?=C\
+3=87=C3=83O__________________________?= =?UTF-8?Q?____________________________\
+_?=)(10F=517956205.1741906885123@sistemas.ufsc.br)(111=1ff4)(114
+    =1826521760364523611)(3D7=340426)(3D8=2027)(3D9=ac)(115
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Apresenta=C3=A7=C3=A3o_do_CALICO?= =?U\
+TF-8?Q?_e_EMPLACAMENTO"_criado_em_**Graduandos_do?= =?UTF-8?Q?_Curso:_CI=C3=8A\
+NCIAS_DA_COMPUTA=C3=87=C3=83O____________?= =?UTF-8?Q?________________________\
+___________________?=)(116=1068407151.1741909939775@sistemas.ufsc.br)
+  (118=1f0c)(11B=1826524962688580737)(3DA=348692)(3DB=1f3f)(3DC=a7)
+  (11C
+    ==?utf-8?Q?Avalia=C3=A7=C3=A3o_INEP-MEC_:_Reuni=C3=A3o_com_representantes_\
+?= =?utf-8?Q?discentes?=)(11D
+    =zPvwnSodDuD7INDau2mVMR8AENdMQHR46C860oleRMc@sisacad.inf.ufsc.br)
+  (11F=14a5)(122=1826595266848669202)(3DD=356726)(3DE=14d8)(123
+    =cmqadilino@gmail.com)(124
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Inscri=C3=A7=C3=B5es_na_Pixel_-_=C3=BA\
+?= =?UTF-8?Q?ltima_oportunidade"_criado_em_**Graduandos_?= =?UTF-8?Q?do_Curso:\
+_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O___________?= =?UTF-8?Q?________________\
+____________________________?=)(125
+    =2037832215.1742922093572@sistemas.ufsc.br)(127=3567)(12A
+    =1827586289832208848)(3DF=362097)(3E0=359a)(3E1=f0)(12B
+    =Sistema de Certificados <sistemas@sistemas.ufsc.br>)(12C
+    ==?UTF-8?Q?Certificados_UFSC_-_Certificado_dispon=C3=ADvel?=)(12D
+    =794687797.1743778180095@sistemas.ufsc.br)(12F=1351)(132
+    =1828483950622853650)(3E2=375854)(3E3=1384)(133=apwinck@gmail.com)
+  (134
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"VAGA_-_Desenvolvedor_de_Sol?= =?UTF-8?\
+Q?u=C3=A7=C3=B5es_para_Automa=C3=A7=C3=A3o_+_I?= =?UTF-8?Q?A_+_N8N"_criado_em_\
+**Gra?= =?UTF-8?Q?duandos_do_Curso:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O_____\
+__?= =?UTF-8?Q?________________________________________________?=)(135
+    =1382471851.1744734357509@sistemas.ufsc.br)(137=276d)(13A
+    =1829486577561082170)(3E4=380885)(3E5=27a0)(13B
+    =andreprcaceres@gmail.com)(13C
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Optativas_curricul?= =?UTF-8?Q?ares"_c\
+riado_em_**Graduandos_do_Curso:_?= =?UTF-8?Q?CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3\
+=83O________________?= =?UTF-8?Q?_______________________________________?=)
+  (13D=1071335035.1745862353045@sistemas.ufsc.br)(13F=1d46)(142
+    =1830669366719596431)(3E6=391064)(3E7=1d79)(3E8=a1)(143
+    =j.guntzel@ufsc.br)(144
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"20th_Intl._Microelectronics_Olympiad:?\
+= =?UTF-8?Q?_inscri=C3=A7=C3=B5es_para_a_etapa_loc?= =?UTF-8?Q?al_na_UFSC_aind\
+a_est=C3=A3o_aberta?= =?UTF-8?Q?s!"_criado_em_**Graduandos_d?= =?UTF-8?Q?o_Cur\
+so:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87?= =?UTF-8?Q?=C3=83O________________________\
+_______________________________?=)(145
+    =236244975.1748799748955@sistemas.ufsc.br)(147=250a)(14A
+    =1833749449690378715)(3E9=398644)(3EA=253d)(3EB=bb)(14B
+    =lucasctruppelm@gmail.com)(14C
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Processo_seletivo_2025.2_-_Labo?= =?UT\
+F-8?Q?rat=C3=B3rio_de_Seguran=C3=A7a_em_Co?= =?UTF-8?Q?mputa=C3=A7=C3=A3o_(Lab\
+SEC\)"_criado_?= =?UTF-8?Q?em_**Graduandos_do_Curso:?= =?UTF-8?Q?_CI=C3=8ANCIA\
+S_DA_COMPUTA=C3=87=C3=83O___?= =?UTF-8?Q?_____________________________________\
+_______________?=)(14D=450742004.1750252389274@sistemas.ufsc.br)(14F=23dc)
+  (152=1835272655947221826)(3EC=408212)(3ED=240f)(3EE=b8)(153
+    ="=?utf-8?B?TWluaXN0w6lyaW8gZGEgRWR1Y2HDp8Ojbw==?=" <informativo@mec.gov.b\
+r>)(154="rafaelcvieira12" <rafaelcvieira12@gmail.com>)(155
+    ==?utf-8?B?SW5zY3Jpw6fDtWVzIEZpZXMgLSAywrogc2VtZXN0cmUgZGUgMjAyNS4=?=)
+  (156=20250714134515.CA910163746@mx.mec.gov.br)(158=82c8)(15B
+    =1837630689812163569)(3EF=417478)(3F0=82fb)(3F1=1f5)(15C
+    ="=?utf-8?B?TWluaXN0w6lyaW8gZGEgRWR1Y2HDp8Ojbw==?=" <informativos@mec.gov.\
+br>)(15D==?utf-8?B?RmllcyAtIDLCuiBzZW1lc3RyZSBkZSAyMDI1Lg==?=)(15E
+    =20250715184236.BC94A789DD@mx.mec.gov.br)(160=87c6)(163
+    =1837739697953916558)(3F2=451044)(3F3=87f9)(3F4=20b)(164
+    ==?UTF-8?Q?Professor=28a=29=3A_JOSE_LUIS_ALMADA_G?= =?UTF-8?Q?UNTZEL_=28F=\
+C3=B3rum_da_Gradua=C3=A7=C3=A3o_UFSC=29?= <sistemas@sistemas.ufsc.br>)
+  (165
+    ==?UTF-8?Q?[FORUMGRAD]_[**Graduandos_do_Cur?= =?UTF-8?Q?so:_CI=C3=8ANCIAS_\
+DA_COMPUTA=C3=87=C3=83O]_Sele=C3=A7?= =?UTF-8?Q?=C3=A3o_de_monitor(a\)_de_ine5\
+406_(Sis?= =?UTF-8?Q?temas_Digitais\)_-_semestre_2025-2?=)(166
+    =1349659249.1752778437100@sistemas.ufsc.br)(168=23a1)(16B
+    =1837921408241924374)(3F5=485888)(3F6=23d4)(3F7=e4)(16C
+    =Google <no-reply@accounts.google.com>)(16D
+    ==?UTF-8?Q?Alerta_de_seguran=C3=A7a?=)(16E
+    =mBA7mWbF_q4ETmK1RU4SDA@notifications.google.com)(170=307b)(173
+    =1838096160650824442)(3F8=495095)(3F9=30ae)(174
+    =anajuliaccomp@gmail.com)(175
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Procura-se_Calouro?= =?UTF-8?Q?s!!_"_c\
+riado_em_**Graduandos_do_Curso:_?= =?UTF-8?Q?CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3\
+=83O________________?= =?UTF-8?Q?_______________________________________?=)
+  (176=76026057.1753104072612@sistemas.ufsc.br)(178=1b10)(17B
+    =1838262860677225013)(3FA=507592)(3FB=1b43)(3FC=99)(17C
+    =Zln7sYO16tEOVdemtmz5uVe1yAlO1xflPFHPiwVMaLM@gac.inf.ufsc.br)(17E=15a8)
+  (181=1839799196179620724)(3FD=514606)(3FE=15db)(182
+    =renanigordl04@gmail.com)(183
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Inscri=C3=A7=C3=B5es_para_o_Processo_S\
+?= =?UTF-8?Q?eletivo_-_AIESEC_em_Florian=C3=B3polis"_criado_em_**G?= =?UTF-8?Q\
+?raduandos_do_Curso:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O______?= =?UTF-8?Q?_\
+________________________________________________?=)(184
+    =1792329916.1754590789591@sistemas.ufsc.br)(186=5541)(189
+    =1839821796420990787)(3FF=520236)(400=5574)(401=158)(18A
+    ==?UTF-8?Q?[FORUMGRAD]_[**Graduandos_do_Curso:_CI?= =?UTF-8?Q?=C3=8ANCIAS_\
+DA_COMPUTA=C3=87=C3=83O]_Novo_prazo:_11/0?= =?UTF-8?Q?8_-->_Sele=C3=A7=C3=A3o_\
+de_monitor(a\)_de_ine5406?= =?UTF-8?Q?_(Sistemas_Digitais\)_-_semestre_2025-2?\
+=)(18B=29907952.1754598448965@sistemas.ufsc.br)(18D=2374)(190
+    =1839829827521251860)(402=542147)(403=23a7)(191
+    =Atendimento RU FLN e CCA <atendimento+praeRUF@sistemas.ufsc.br>)
+  (192="Rafael Costa Vieira" <rafael.cv@grad.ufsc.br>)(193
+    =[Ticket#2025080878006711] =?UTF-8?Q?Cart=C3=A3o=20?=de acesso (=?UTF-8?Q?\
+1=C2=AA=20?=[...])(194
+    =1754706388.602781.543733625.359845.1@atendimento.ufsc.br)(196=19d5)
+  (199=1839943007296498323)(404=551309)(405=1a08)(19A
+    =[Ticket#2025080878006729] =?UTF-8?Q?Cart=C3=A3o=20?=de acesso (=?UTF-8?Q?\
+1=C2=AA=20?=[...])(19B
+    =1754706392.878855.912755423.359846.1@atendimento.ufsc.br)(19D=19dc)
+  (1A0=1839943010876555128)(406=558008)(407=1a0f)(408=7e)(1A1
+    =rafael.cv@grad.ufsc.br)(1A2
+    ==?UTF-8?Q?=5BTicket=232025080878006711=5D_Cart=C3=A3o_de_ac?=$0D$0A =?UTF\
+-8?B?ZXNzbyAoMcKqIHZpYSk=?=)(1A3
+    =1754939956.156326.295102366.359845.755@atendimento.ufsc.br)(1A5=2548)
+  (1A8=1840187922802045240)(409=564714)(40A=257b)(1A9
+    =noreply@codeforces.com)(1AA
+    ==?utf-8?B?Q29kZWZvcmNlcyAtIEVtYWlsIGNvbmZpcm1hdGlvbg==?=)(1AB
+    =216584476.25.1754956921773@codeforces.com)(1AD=1562)(1B0
+    =1840205710997736142)(40B=574344)(40C=1595)(1B1
+    ==?utf-8?B?Q29kZWZvcmNlcyAtIE5ldyBsb2dpbg==?=)(1B2
+    =1795924958.31.1754956938452@codeforces.com)(1B4=13a3)(1B7
+    =1840205728088778173)(40D=579904)(40E=13d6)(1B8
+    =divulga@contato.ufsc.br)(1B9
+    ="Divulga UFSC por \\(Calouros2025.2\\\)" <calouros2025.2@mailman.ufsc.br>)
+  (1BA
+    =Tecnicos-administrativos@mailman.ufsc.br, Professores-ufsc@mailman.ufsc.b\
+r, Alunos-pos@mailman.ufsc.br, centros-externos@mailman.ufsc.br, hu@mailman.uf\
+sc.br)(1BB
+    =[Calouros2025.2] =?utf-8?q?Divulga_UFSC_=E2=80=93_11/08/2025_?= =?utf-8?b\
+?4oCTIEVkacOnw6NvIDIzODg=?=)(1BC
+    =96a33b9aa71901280a26ff14d82c1ecd@contato.ufsc.br)(1BE=c81c)(1C1
+    =1840210175891321205)(40F=585017)(410=c84f)(411=36e)(1C3
+    ="Fabian Leonardo Cabrera Riano (via Moodle UFSC - Presencial\)" <naorespo\
+nda@moodle.ufsc.br>)(1C5=Nova mensagem de Fabian Leonardo Cabrera Riano)
+  (1C6=689b416339d511.83507781@presencial.moodle.ufsc.br)(1C8=14f8)
+  (1CB=1840256424618649431)(412=636331)(413=152b)(1CC
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"processo_seletivo_d?= =?UTF-8?Q?a_Pixe\
+l"_criado_em_**Graduandos_do_Curso?= =?UTF-8?Q?:_CI=C3=8ANCIAS_DA_COMPUTA=C3=8\
+7=C3=83O_______________?= =?UTF-8?Q?________________________________________?=)
+  (1CD=1262060295.1755021511042@sistemas.ufsc.br)(1CF=1fa1)(1D2
+    =1840273441817518156)(414=641785)(415=1fd4)(1D4
+    =INE5401-01208B (20252\): Boas vindas)(1D5
+    =68f0ac8291cff9a431820c978538681ab00f18bfe4f46073bb59f5e5341e09cb@presenci\
+al.moodle.ufsc.br)(1D7=261d)(1DA=1840285064240179779)(416=649968)(417=2650)
+  (1DB=portal@beecrowd.com)(1DC=beecrowd <portal@beecrowd.com>)(1DD
+    =[beecrowd] Ative sua conta!)(1DE
+    =01000198a4b4ba20-5ffa9fa0-7dd6-4132-b6e5-afce10505efa-000000@email.amazon\
+ses.com)(1E0=ff75)(1E3=1840366186937358334)(418=659811)(419=ffa8)(41A=279)
+  (1E4=arturtomaz1@gmail.com)(1E5
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Inscri=C3=A7=C3=B5es_Abertas_-_Proc?= \
+=?UTF-8?Q?esso_Seletivo_|_AUTOJUN"_criado_em_**Graduand?= =?UTF-8?Q?os_do_Curs\
+o:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O__________?= =?UTF-8?Q?_______________\
+______________________________?=)(1E6
+    =242331718.1755189689637@sistemas.ufsc.br)(1E8=2120)(1EB
+    =1840449788345968043)(41B=725294)(41C=2153)(1EC
+    =odorico.mendizabal@ufsc.br)(1ED
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Bolsa_PIBIC_(2025/206\)_-_Implement?= \
+=?UTF-8?Q?a=C3=A7=C3=A3o_de_sistemas_Replicados?= =?UTF-8?Q?_com_Alta_Escalabi\
+lidade_"_c?= =?UTF-8?Q?riado_em_**Graduandos_do_Cu?= =?UTF-8?Q?rso:_CI=C3=8ANC\
+IAS_DA_COMPUTA=C3=87=C3=83O?= =?UTF-8?Q?______________________________________\
+_________________?=)(1EE=597125995.1755204395630@sistemas.ufsc.br)(1F0
+    =211e)(1F3=1840465208518193997)(41D=733860)(41E=2151)(1F4
+    ==?utf-8?B?SU5FNTQwMS0wMTIwOEIgKDIwMjUyKTogU2VtYW5hIDAyIC0gT3JpZW50YcOn?= \
+=?utf-8?B?w7VlcyBwYXJhIG8gdHJhYmFsaG8gZW0gZ3J1cG8=?=)(1F5
+    =cc1eef4a147e5786a6a3a1b86d5bff16154753fc236b7ac68fc0d71572ae0260@presenci\
+al.moodle.ufsc.br)(1F7=29a4)(1FA=1840466631089330862)(41F=742424)(420=29d7)
+  (1FB
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Debian_Day"_cri?= =?UTF-8?Q?ado_em_**G\
+raduandos_do_Curso:_CI=C3=8ANCI?= =?UTF-8?Q?AS_DA_COMPUTA=C3=87=C3=83O________\
+___________?= =?UTF-8?Q?____________________________________?=)(1FC
+    =914402410.1755210724167@sistemas.ufsc.br)(1FE=158e98)(201
+    =1840471856732053625)(202=1040901226.1755211059198@sistemas.ufsc.br)
+  (204=6d9c45)(207=1840472275014415161)(208=lorenaqquintino@gmail.com)
+  (209
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"VAGA_-_SPACELAB_UFSC:_Desenvolvedor(a\)\
+?= =?UTF-8?Q?_de_software_de_esta=C3=A7=C3=A3o_de_so?= =?UTF-8?Q?lo_para_comun\
+ica=C3=A7=C3=A3o_com_sat=C3=A9l?= =?UTF-8?Q?ites"_criado_em_**Graduandos_do_Cu\
+rso:_CI=C3=8ANCIAS_DA_COMPUTA?= =?UTF-8?Q?=C3=87=C3=83O_______________________\
+___?= =?UTF-8?Q?_____________________________?=)(20A
+    =276005582.1755211910271@sistemas.ufsc.br)(20C=96793)(20F
+    =1840473096704294509)(210=albanomendes33@gmail.com)(211
+    ==?UTF-8?Q?Albano_Ant=C3=B4nio_Mendes_=28?= =?UTF-8?Q?F=C3=B3rum_da_Gradua\
+=C3=A7=C3=A3o_UFSC=29?= <sistemas@sistemas.ufsc.br>)(212
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_respondido_em_"Bolsa_PIB?= =?UTF-8?Q?IC\
+_(2025/206\)_-_Implementa=C3=A7=C3=A3o_de_sistemas_Re?= =?UTF-8?Q?plicados_com\
+_Alta_Escalabilidade"_na_sala_*?= =?UTF-8?Q?*Graduandos_do_Curso:_CI=C3=8ANCIA\
+S_DA_COMPUTA=C3=87=C3=83O?=)(213=2042840089.1755255985895@sistemas.ufsc.br)
+  (215=2902a)(218=1840519306906059874)(219=1840482596733809640)(21A
+    ==?UTF-8?Q?Professor=28a=29=3A_ODORICO_MACHADO_MEN?= =?UTF-8?Q?DIZABAL_=28\
+F=C3=B3rum_da_Gradua=C3=A7=C3=A3o_UFSC=29?= <sistemas@sistemas.ufsc.br>)
+  (21B=862620256.1755278330669@sistemas.ufsc.br)(21D=1b35)(220
+    =1840542735965101977)(421=753170)(422=1b68)(423=9a)(221
+    =INE5401-01208B (20252\): Grupos de trabalho)(222
+    =171bbfc0a774a50e060dee3dd597437879953f357b2bbd62b52c207b2b7d0d56@presenci\
+al.moodle.ufsc.br)(224=20f6)(227=1840559702956707848)(424=760221)(425=2129)
+  (228=Anderson Porfirio <anderson.porfirio@gmail.com>)(229
+    =pedrozumstein@gmail.com, vinoduarte11@gmail.com, miguelsouzacardoso137@gm\
+ail.com, pierre.craze@icloud.com, rafaelcvieira12@gmail.com)(22A
+    ==?UTF-8?B?R3J1cG8gZGUgVHJhYmFsaG8gZGUgSU5FNTQwMS0wMTIwOEIgLSBJbnRyb2R1w6f\
+Do28g?= =?UTF-8?B?w6AgQ29tcHV0YcOnw6Nv?=)(22B
+    =CAHm18eVRKBKzi2OuQcYyXgmGuRuAD6tNf5+haBiL-uJ_W0sXwA@mail.gmail.com)
+  (22D=1ef0)(230=1840560481042793446)(426=768745)(427=1f23)(428=84)
+  (231="Divulga UFSC por \\(Ctc-alunos\\\)" <ctc-alunos@mailman.ufsc.br>)
+  (232
+    =Tecnicos-administrativos@mailman.ufsc.br, Professores-ufsc@mailman.ufsc.b\
+r, Alunos-pos@mailman.ufsc.br, centros-externos@mailman.ufsc.br, Hu <hu@mailma\
+n.ufsc.br>)(233
+    =[Ctc-alunos] =?utf-8?q?Divulga_UFSC_=E2=80=93_13/08/2025_?= =?utf-8?b?4oC\
+TIEVkacOnw6NvIDIzOTA=?=)(234
+    =2fb4891c605b552668c6ce4c95827caa@contato.ufsc.br)(236=aeac)(238
+    =1840655541507094245)(429=776751)(42A=aedf)(42B=302)(239
+    =[Ctc-alunos] =?utf-8?q?Divulga_UFSC_=E2=80=93_14/08/2025_?= =?utf-8?b?4oC\
+TIEVkacOnw6NvIDIzOTE=?=)(23A
+    =06a7b7a3dc42cdac31c082ac739c61a9@contato.ufsc.br)(23C=a5f2)(23E
+    =1840795589491090293)(42C=821553)(42D=a625)(42E=2f2)(23F
+    =INE5401-01208B (20252\): Representante de grupo e atividade da Semana 2)
+  (240
+    =e84521c5996bc2dc01f6066f1b5041869a48537d2569b1f7fbb745de706b0b80@presenci\
+al.moodle.ufsc.br)(242=2525)(244=1840806375725849488)(42F=864121)(430=2558)
+  (245=alvaro.junio@ufsc.br)(246
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Bolsa_de_Inicia=C3=A7=C3=A3o_Cien?= =?\
+UTF-8?Q?t=C3=ADfica_-_2025/2026"_criado_em_**Graduandos_?= =?UTF-8?Q?do_Curso:\
+_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O___________?= =?UTF-8?Q?________________\
+____________________________?=)(247
+    =443242224.1755539435726@sistemas.ufsc.br)(249=1e23)(24B
+    =1840816524406586329)(431=873716)(432=1e56)(433=a4)(24C
+    =jessicars241@gmail.com)(24D
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"[Convite]_STEM_Day_UFSC_-_Con?= =?UTF-\
+8?Q?ectando_mulheres_e_meninas_ao_futuro!"_criado_em_*?= =?UTF-8?Q?*Graduandos\
+_do_Curso:_CI?= =?UTF-8?Q?=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O_____?= =?UTF-8?Q\
+?__________________________________________________?=)(24E
+    =146293523.1755555499634@sistemas.ufsc.br)(250=39a0e)(252
+    =1840833372324148545)(253
+    ="Danilo Royer (via Moodle UFSC - Presencial\)" <naoresponda@moodle.ufsc.b\
+r>)(254=Nova mensagem de Danilo Royer)(255
+    =68a5ae4070aa15.69459047@presencial.moodle.ufsc.br)(257=1643)(259
+    =1840972842037532783)(434=881517)(435=1676)(25A
+    ="Roberta Piskor Gomes (24201480\) (via Moodle UFSC - Presencial\)" <naore\
+sponda@moodle.ufsc.br>)(25B
+    ==?utf-8?B?SU5FNTQwMy0wMTIwOEIgKDIwMjUyKTogSW5mb3JtYcOnw7VlcyBzb2JyZSA=?= \
+=?utf-8?B?YSBtb25pdG9yaWE=?=)(25C
+    =47f23aa1559325c2c8dcd967cb9ac915c2d32f0e604d635706238efd55290096@presenci\
+al.moodle.ufsc.br)(25E=2d95)(260=1840975480711461423)(436=887302)(437=2dc8)
+  (438=e3)(261=henriquegonformento@gmail.com)(262
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Ajud?= =?UTF-8?Q?e_a_transformar_a_edu\
+ca=C3=A7=C3=A3?= =?UTF-8?Q?o_brasileira_com_o_seu_conhecimento"_criado_em_**?=\
+ =?UTF-8?Q?Graduandos_do_Curso:_CI=C3=8A?= =?UTF-8?Q?NCIAS_DA_COMPUTA=C3=87=C3\
+=83O______?= =?UTF-8?Q?_________________________________________________?=)
+  (263=1059326450.1755729107248@sistemas.ufsc.br)(265=20e0)(267
+    =1841015410076090960)(439=899057)(43A=2113)(268
+    =418505198.1755731735333@sistemas.ufsc.br)(26A=1b8e)(26C
+    =1841018164614290508)(43B=907559)(43C=1bc1)(43D=9b)(26D
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"=C3=89_A?= =?UTF-8?Q?MANH=C3=83!_Seu_I\
+nterc=C3=A2mbio_c?= =?UTF-8?Q?om_a_AIESEC_=E2=80=93_=C3=9Altima_chance_!"_cria\
+do_em_**Grad?= =?UTF-8?Q?uandos_do_Curso:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83\
+O________?= =?UTF-8?Q?_______________________________________________?=)
+  (26E=1351156792.1755735747214@sistemas.ufsc.br)(270=5eaf)(272
+    =1841022371154118507)(43E=914699)(43F=5ee2)(440=178)(273
+    =henriquemateusteodoro@gmail.com)(274
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Oportunidade_de_bolsa_de?= =?UTF-8?Q?_\
+inicia=C3=A7=C3=A3o_cient=C3=ADfica"_criado_em_**Graduando?= =?UTF-8?Q?s_do_Cu\
+rso:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O__________?= =?UTF-8?Q?_____________\
+________________________________?=)(275
+    =1140294298.1755736084424@sistemas.ufsc.br)(277=6369c)(279
+    =1841022732152538515)(27A
+    ==?utf-8?B?SU5FNTQwMy0wMTIwOEIgKDIwMjUyKTogQUxURVJBw4fDg08gRE9TIEhPUg==?= \
+=?utf-8?B?w4FSSU9TIERFIE1PTklUT1JJQQ==?=)(27B
+    =6fb3c8f6cca61aa4c041863ac7c72a53897b87e383eb21c3e0f2eb427ef5d27d@presenci\
+al.moodle.ufsc.br)(27D=2844)(27F=1841523594356401356)(441=939024)(442=2877)
+  (280=Codeforces Round 1046)(281
+    =1227150436.1086241.1756331201832.JavaMail.noreply@codeforces.com)
+  (283=22aa)(285=1841652019676083987)(443=949418)(444=22dd)(445=92)
+  (286
+    ="Eduardo Luiz Ortiz Batista (via Moodle UFSC - Presencial\)" <naoresponda\
+@moodle.ufsc.br>)(287=Nova mensagem de Eduardo Luiz Ortiz Batista)(288
+    =68b19feab4a412.04348802@presencial.moodle.ufsc.br)(28A=1408)(28C
+    =1841793626357608115)(446=958378)(447=143b)(28D
+    ="=?utf-8?B?TsOjbyByZXNwb25kYSBhIGVzdGEgbWVuc2FnZW0uICh2aWEgTW9vZGxlIFU=?=\
+ =?utf-8?B?RlNDIC0gUHJlc2VuY2lhbCk=?=" <naoresponda@moodle.ufsc.br>)
+  (28E
+    ==?utf-8?B?Vm9jw6ogZW52aW91IHN1YSB0YXJlZmEgcGFyYSBMaXN0YSBkZSBFeGVyYw==?= \
+=?utf-8?B?w61jaW9zIHNvYnJlIEzDs2dpY2EgUHJvcG9zaWNpb25hbCBwYXJhIGVudHI=?= =?utf\
+-8?B?ZWdhcg==?=)(28F=68b34150a86481.51839909@presencial.moodle.ufsc.br)
+  (291=153b)(293=1841905669611033006)(448=963592)(449=156e)(294
+    ==?utf-8?B?Vm9jw6ogZW52aW91IHN1YSB0YXJlZmEgcGFyYSBMaXN0YSBkZSBFeGVyYw==?= \
+=?utf-8?B?w61jaW9zIHNvYnJlIEzDs2dpY2EgZGUgUHJlZGljYWRvcyBwYXJhIGVudHI=?= =?utf\
+-8?B?ZWdhcg==?=)(295=68b3a40f1d6cd4.68888426@presencial.moodle.ufsc.br)
+  (297=157f)(299=1841932175598822008)(44A=969113)(44B=15b2)(29A
+    =antonio.escobar.torres11@gmail.com)(29B
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Vagas_abertas_para_3_=C3=A1rea?= =?UTF\
+-8?Q?s_no_Laborat=C3=B3rio_Bridge!"_criado_em_**Graduan?= =?UTF-8?Q?dos_do_Cur\
+so:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O_________?= =?UTF-8?Q?_______________\
+_______________________________?=)(29C
+    =1051605833.1756907581404@sistemas.ufsc.br)(29E=22f6)(2A0
+    =1842251127178588225)(44C=974702)(44D=2329)(2A1
+    =joaobrunodossantos@gmail.com)(2A2
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Academi?= =?UTF-8?Q?a_Bridge_|_Capacit\
+a=C3=A7=C3=A3o_grat?= =?UTF-8?Q?uita_sobre_Quality_Assurance_para_estudantes_d\
+a_UFSC!"_?= =?UTF-8?Q?criado_em_**Graduandos_do_C?= =?UTF-8?Q?urso:_CI=C3=8ANC\
+IAS_DA_COMPUTA=C3=87=C3=83O?= =?UTF-8?Q?______________________________________\
+_________________?=)(2A3=938128958.1757016520840@sistemas.ufsc.br)(2A5
+    =3a2a)(2A7=1842365358961336858)(44E=983738)(44F=3a5d)(450=100)(2A8
+    ==?utf-8?B?Vm9jw6ogZW52aW91IHN1YSB0YXJlZmEgcGFyYSBMaXN0YSBFeGVyY8OtY2k=?= \
+=?utf-8?B?b3Mgc29icmUgSW5mZXLDqm5jaWEgTMOzZ2ljYSBwYXJhIGVudHJlZ2Fy?=)
+  (2A9=68bc968accb361.88945385@presencial.moodle.ufsc.br)(2AB=1563)
+  (2AD=1842547022692089507)(451=998714)(452=1596)(33D=5e)(2AE
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Processo_Eleitoral_2025/2?= =?UTF-8?Q?\
+026_da_gest=C3=A3o_do_CALICO"_criado_em_**Graduand?= =?UTF-8?Q?os_do_Curso:_CI\
+=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O__________?= =?UTF-8?Q?____________________\
+_________________________?=)(2AF=2057780446.1757297910941@sistemas.ufsc.br)
+  (2B1=2af6)(2B3=1842660419166077628)(453=1004275)(454=2b29)(2B4
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"UFSC_Titans_Abre_Processo_Sele?= =?UTF\
+-8?Q?tivo_para_seu_Time_de_Counter-Strike_2_"_criado_em?= =?UTF-8?Q?_**Graduan\
+dos_do_Curso:_C?= =?UTF-8?Q?I=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O____?= =?UTF-8\
+?Q?___________________________________________________?=)(2B5
+    =2090615249.1757347764314@sistemas.ufsc.br)(2B7=1c07)(2B9
+    =1842712694543162195)(455=1015359)(456=1c3a)(2BA
+    =1281875582.1757347766150@sistemas.ufsc.br)(2BC=1c1b)(2BE
+    =1842712697181980084)(457=1022620)(458=1c4e)(2BF
+    =Bridge - Contato <contato@bridge.floripa.br>)(2C0
+    ==?UTF-8?B?SW52aXRhdGlvbiBmcm9tIGFuIHVua25vd24gc2VuZGVyOiBiX2Rpc2NvdmVyeSD\
+wn5qA?= =?UTF-8?B?8J+SmSBAIFR1ZSBTZXAgOSwgMjAyNSA1OjMwcG0gLSA3cG0gKEdNVC0zKSAo\
+cmFmYWVsY3ZpZWlyYTEy?= =?UTF-8?B?QGdtYWlsLmNvbSk=?=)(2C1
+    =calendar-c10d9afc-2de6-4ea6-9b75-a91aa15fbb78@google.com)(2C3=25248)
+  (2C5=1842793902927638689)(459=1029901)(45A=2527b)(45B=9e3)(2C6
+    ==?UTF-8?B?U2VsZcOnw6NvIEJyaWRnZQ==?= <selecao@bridge.ufsc.br>)
+  (2C7==?UTF-8?B?Yl9kaXNjb3ZlcnkgLSBIb2plIMOgcyAxN2gzMCDwn5KZ?=)(2C8
+    =CAC=dSpnWheYcD4E_EDHYrjX1Xzw=dkgut-5ak=9E_SFZEc0H1A@mail.gmail.com)
+  (2CA=2f12)(2CC=1842814894067986349)(45C=1182123)(45D=2f45)(2CD
+    ==?UTF-8?Q?b=5Fdiscovery_=2D_Ajuda_a_gente_com_seu_feedback=3F=21_=F0=9F=8\
+C=8E?=)(2CE
+    =CAC=dSpm1YHrcJUVFBjYFsmnY5eKi3LVLsaP6y=nF-Y=Uw+XtFQ@mail.gmail.com)
+  (2D0=3a38)(2D2=1842825446470626752)(45E=1194259)(45F=3a6b)(460=ea)
+  (2D3=Google Forms <forms-receipts-noreply@google.com>)(2D4
+    ==?UTF-8?Q?Formul=C3=A1rio_Inscri=C3=A7=C3=A3o_=7C_Bolsista_de_Desenvolvim\
+ent?= =?UTF-8?Q?o_Mobile?=)(2D5
+    =autogen-java-7d2cae99-a427-440e-b159-6c6213a12de2@google.com)(2D7
+    =26313)(2D9=1842848473680799629)(461=1209249)(462=26346)(463=7f7)
+  (2DA
+    ==?UTF-8?Q?Formul=C3=A1rios_Google?= <forms-receipts-noreply@google.com>)
+  (2DB
+    ==?UTF-8?Q?Formul=C3=A1rio_Inscri=C3=A7=C3=A3o_=7C_Bolsista_de_Suporte_a_S\
+ist?= =?UTF-8?Q?emas_=28Help_desk=29?=)(2DC
+    =autogen-java-363494a3-3b7c-4fa0-94b0-2b7fd508f459@google.com)(2DE
+    =19211)(2E0=1842849151583301172)(464=1365770)(465=19244)(466=549)
+  (2E1=selecao@bridge.ufsc.br)(2E2
+    ==?UTF-8?Q?Laborat=C3=B3rio_Bridge_=2D_Processo_Seletivo_=7C_Bolsista_d?= \
+=?UTF-8?Q?e_Suporte_a_Sistemas?=)(2E3
+    =autogen-java-d5dde4eb-de85-47c0-9b65-eba64cdc442e@google.com)(2E5
+    =2088)(2E7=1843363024527858829)(467=1468785)(468=20bb)(2E8
+    ==?UTF-8?Q?Laborat=C3=B3rio_Bridge_=2D_Processo_Seletivo_=7C_Bolsista_d?= \
+=?UTF-8?Q?e_Desenvolvimento_Mobile?=)(2E9
+    =autogen-java-3fc0a3ad-3837-40f9-9ff2-3767619a6079@google.com)(2EB
+    =2094)(2ED=1843363475635645580)(469=1477199)(46A=20c7)(2EE
+    ="=?utf-8?B?QW5kcsOpIFBpZXRyb3Zza2kgUm9sw7NuIEPDoWNlcmVzICgyNDIwMDM5Nykg?=\
+ =?utf-8?B?KHZpYSBNb29kbGUgVUZTQyAtIFByZXNlbmNpYWwp?=" <naoresponda@moodle.ufs\
+c.br>)(2EF
+    ==?utf-8?B?Q0FMSUNPOiBDaGFwYSDDum5pY2EgaW5zY3JpdGEgZSBwcm9ycm9nYcOnw6Nv?= \
+=?utf-8?B?IGRlIGluc2NyacOnw6Nv?=)(2F0
+    =75d1ecb0f0f72bc7e71cbdbadb2dd1ce4a89c195fa563621e0594f2326d6f50b@presenci\
+al.moodle.ufsc.br)(2F2=3008)(2F4=1843512821047947461)(46B=1485625)(46C
+    =303b)(46D=da)(2F5
+    =autogen-java-f8feb99d-79b2-4124-a4d0-6e70ef060c50@google.com)(2F7
+    =226a)(2F9=1843639687588456926)(46E=1498007)(46F=229d)(2FA
+    =autogen-java-b777bcd6-1b87-4310-9798-055b08e18568@google.com)(2FC
+    =225b)(2FE=1843640143403398236)(470=1506903)(471=228e)(305
+    =68d13b2c19d365.29485820@presencial.moodle.ufsc.br)(307=13c6)(309
+    =1843965606504260834)(475=1525694)(476=13f9)(30A
+    =souzaalves.lucas.2017@gmail.com)(30B
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Hackathon_Shift_Smart_C?= =?UTF-8?Q?it\
+y!_-_SECCOM_2025"_criado_em_**Graduandos_?= =?UTF-8?Q?do_Curso:_CI=C3=8ANCIAS_\
+DA_COMPUTA=C3=87=C3=83O___________?= =?UTF-8?Q?_______________________________\
+_____________?=)(30C=371976909.1758550127000@sistemas.ufsc.br)(30E=1e99)
+  (310=1843973889822633089)(477=1530842)(478=1ecc)(479=a5)(311
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Mulheres_na_TI:_Uma_conversa_s?= =?UTF\
+-8?Q?obre_desafios_e_conquistas!_-_SECCOM_2025"_criado_e?= =?UTF-8?Q?m_**Gradu\
+andos_do_Curso:_?= =?UTF-8?Q?CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O____?= =?UTF\
+-8?Q?___________________________________________________?=)(312
+    =611584366.1758549336281@sistemas.ufsc.br)(314=1e8d)(316
+    =1843973950794976766)(47A=1538761)(47B=1ec0)(317
+    =luccafpascoali@gmail.com)(318
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Solana_Tech_Bootcam?= =?UTF-8?Q?p_-_UF\
+SC"_criado_em_**Graduandos_do_Curs?= =?UTF-8?Q?o:_CI=C3=8ANCIAS_DA_COMPUTA=C3=\
+87=C3=83O_______________?= =?UTF-8?Q?________________________________________?\
+=)(319=402124177.1758626474437@sistemas.ufsc.br)(31B=2d9e)(31D
+    =1844053519110434159)(47C=1546668)(47D=2dd1)(31E
+    ==?utf-8?B?SU5FNTQwMS0wMTIwOEIgKDIwMjUyKTogUmV1bmnDo28gcHJvamV0byBkZSBw?= \
+=?utf-8?B?ZXNxdWlzYTogUmVtYXJjYcOnw6Nv?=)(31F
+    =67d34e219180f9be03b18af88f24251055170a2bb62d672cbb7c1bb005b9ea8f@presenci\
+al.moodle.ufsc.br)(321=22f5)(323=1844058036376573274)(47E=1558432)(47F
+    =2328)(324
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Hackathon_AI_Challenge?= =?UTF-8?Q?_-_\
+SECCOM_2025"_criado_em_**Graduandos_do_?= =?UTF-8?Q?Curso:_CI=C3=8ANCIAS_DA_CO\
+MPUTA=C3=87=C3=83O_____________?= =?UTF-8?Q?__________________________________\
+________?=)(325=1553231775.1758641694364@sistemas.ufsc.br)(327=1f02)
+  (329=1844069477006043813)(480=1567467)(481=1f35)(482=a6)(32A
+    =Codeforces Round 1053)(32B
+    =1824420832.1087748.1758651986003.JavaMail.noreply@codeforces.com)
+  (32D=22d3)(32F=1844082538770373029)(483=1575491)(484=2306)(330
+    =Virtual Judge <virtual.judge.7@gmail.com>)(331
+    =escolhe ai <rafaelcvieira12@gmail.com>)(332
+    =Virtual Judge account activation)(333
+    =1330726765.6706.1758738840914@linode3)(335=1d1f)(337
+    =1844171341610009411)(485=1584492)(486=1d52)(487=7b)(338
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Hands-on_de_Projeto_de_Ch?= =?UTF-8?Q?\
+ips_-_ECL_-_SECCOM_2025"_criado_em_**Graduand?= =?UTF-8?Q?os_do_Curso:_CI=C3=8\
+ANCIAS_DA_COMPUTA=C3=87=C3=83O__________?= =?UTF-8?Q?_________________________\
+____________________?=)(339=740440330.1758744995168@sistemas.ufsc.br)
+  (33B=1dc1)(33E=1844177795646763358)(488=1592033)(489=1df4)(33F
+    =919854893.1758744996237@sistemas.ufsc.br)(341=1dac)(343
+    =1844177798397559113)(48A=1599736)(48B=1ddf)(344
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Minicurso_de_KET_-_S?= =?UTF-8?Q?ECCOM\
+_2025"_criado_em_**Graduandos_do_Cur?= =?UTF-8?Q?so:_CI=C3=8ANCIAS_DA_COMPUTA=\
+C3=87=C3=83O______________?= =?UTF-8?Q?_______________________________________\
+__?=)(345=614002514.1758751550157@sistemas.ufsc.br)(347=1d7c)(34A
+    =1844184669426411798)(48C=1607418)(48D=1daf)(34B
+    =1952305247.1758751551440@sistemas.ufsc.br)(34D=1d6b)(34F
+    =1844184671466317497)(48E=1615052)(48F=1d9e)(350=lucia.pacheco@ufsc.br)
+  (351=236572093.1758835069377@sistemas.ufsc.br)(353=50da)(355
+    =1844272247941108072)(490=1622669)(491=510d)(492=156)(356
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Hackathon_AI_Challenge_com_P?= =?UTF-8\
+?Q?R=C3=8AMIOS_EM_DINHEIRO!_-_SECCOM_2025"_criado_em_**G?= =?UTF-8?Q?raduandos\
+_do_Curso:_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O______?= =?UTF-8?Q?___________\
+______________________________________?=)(357
+    =1643097489.1758995373782@sistemas.ufsc.br)(359=209c)(35B
+    =1844440338418813339)(493=1643453)(494=20cf)(495=ab)(35C
+    =68d92605f31ce3.82757150@presencial.moodle.ufsc.br)(35E=2b71)(360
+    =1844509687336201012)(496=1651887)(497=2ba4)(498=d5)(361
+    ==?utf-8?B?Vm9jw6ogZW52aW91IHN1YSB0YXJlZmEgcGFyYSBMbHN0YXMgZGUgRXhlcg==?= \
+=?utf-8?B?Y8OtY2lvcyBzb2JyZSBBbsOhbGlzZSBDb21iaW5hdMOzcmlhIHBhcmEgRW50?= =?utf\
+-8?B?cmVnYXI=?=)(362=68d993b5a0ccb9.02747914@presencial.moodle.ufsc.br)
+  (364=1549)(366=1844539126768113011)(499=1663094)(49A=157c)(367
+    =SECCOM UFSC <seccom.ufsc@gmail.com>)(368
+    =pet.computacao.ufsc@gmail.com)(369=Data e hora do Minicurso de KET)
+  (36A=CAPQ0g6PYYUZ1aAq8eP2zPM7=J=weiPk4+eP+Fmx1AU20w8VxEA@mail.gmail.com)
+  (36C=1b2c)(36E=1844600223986997517)(49B=1668629)(49C=1b5f)(49D=76)
+  (36F
+    ==?UTF-8?B?8J+agCBCb2FzLXZpbmRhcyDDoCBTRUNDT00gMjAyNSDigJMgQ29uZmlyYSBhIHB\
+yb2dyYQ==?= =?UTF-8?B?bWHDp8OjbyBkbyBwcmltZWlybyBkaWEh?=)(370
+    =CAPQ0g6MWT5aLktx_FdGUC=zDhjR486-82V5Aa3Q-vjO9wi9aNA@mail.gmail.com)
+  (372=23d0)(374=1844602800361763429)(49E=1675671)(49F=2403)(375
+    =t.team@miro.com)(376="The Miro Team" <your@product.miro.com>)(377
+    =Here's Your Confirmation Code: 725880)(378
+    =1D.D6.46047.BEBBAD86@i-0bb78b3e4677fe87e.mta3vrest.sd.prd.sparkpost)
+  (37A=c318)(37D=1844618640178783925)(4A0=1684925)(4A1=c34b)(4A2=291)
+  (37E=no-reply@miro.com)(37F
+    ==?utf-8?B?V2VsY29tZSB0byBNaXJvLCBSYWZhZWwhIPCfkYs=?=)(380
+    =25.75.37563.0ADBAD86@i-0edeb1dda41100002.mta3vrest.sd.prd.sparkpost)
+  (382=161c9)(384=1844619098997689066)(4A3=1734955)(4A4=161fc)(4A5=49b)
+  (385
+    ==?UTF-8?B?8J+ThSBQcm9ncmFtYcOnw6NvIGRhIFNFQ0NPTSAyMDI1IOKAkyBUZXLDp2EtZmV\
+pcmE=?=)(386
+    =CAPQ0g6PZ5_+mbX0zBNCn_Yvpgs4N7Ouq+YybjmzU0wf8HhJCrA@mail.gmail.com)
+  (389=1844692720418844654)(4A6=1825610)(4A7=8b)(38A
+    =Team Uizard <noreply@uizard.io>)(38B=Please verify your email)
+  (38C=20250930142446.0b72d6ad2c55a100@cioeu77831.uizard.io)(38E=5adb)
+  (390=1844699240044818702)(4A8=1833644)(4A9=5b0e)(4AA=14a)(391
+    =BASE44 <app@base44.com>)(392=Verify your BASE44 account)(393
+    =6WxKGAZSTiOHzocZgx6BGA@geopod-ismtpd-8)(395=us-ascii)(396=3ab8)
+  (398=1844699601453173741)(4AB=1856989)(4AC=3aeb)(4AD=fa)(D1=10000000)
+  (399="seccom.ufsc@gmail.com" <seccom.ufsc@gmail.com>)(39A
+    ==?utf-8?q?Certificado_de_Participa=C3=A7=C3=A3o_-_SECCOM?=)(39B
+    =8a1f4c5f93f45dcd00c3a5583d3b1c46@yagmail)(39D=ad17b)(3A0
+    =1845507612951606544)(3A1
+    ==?utf-8?Q?oportunidade_de_interc=C3=A2mbio_na_Alemanha?=)(3A2
+    =Qb7rjFJXJcrAK1gsXKdsMvXiLxTU21GlPriTjov7Uk@sisacad.inf.ufsc.br)
+  (3A4=1bec)(3A6=1844808537330794538)(4AE=1872107)(4AF=1c1f)(3A7
+    =acarolina066@gmail.com)(3A8
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Hor=C3=A1rio_de?= =?UTF-8?Q?_monitoria\
+"_criado_em_C=C3=A1lculo_1?=)(3A9=812264108.1764250484087@sistemas.ufsc.br)
+  (3AB=1e5e)(3AD=1849950717530455477)(4B0=1879341)(4B1=1e91)(3AE
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Aos_interessados_em_Projeto_de_C?= =?U\
+TF-8?Q?hips_Digitais_(disciplina_ine5442_em_2026.1\)"_criado?= =?UTF-8?Q?_em_*\
+*Graduandos_do_Curso:?= =?UTF-8?Q?_CI=C3=8ANCIAS_DA_COMPUTA=C3=87=C3=83O___?= \
+=?UTF-8?Q?____________________________________________________?=)(3AF
+    =1664897717.1764541247265@sistemas.ufsc.br)(3B1=32bc)(3B4
+    =1850255607891783721)(4B2=1887201)(4B3=32ef)(4B4=ec)(3B5
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Hor=C3=A1rio_m?= =?UTF-8?Q?onitoria"_c\
+riado_em_C=C3=A1lculo_1?=)(3B6=189486220.1764674592333@sistemas.ufsc.br)
+  (3B8=1f0a)(3BA=1850395427651558684)(4B5=1900275)(4B6=1f3d)>
+{1:^80 {(k^96:c)(s=9)} 
+  [35(^88=81)(^82^89)(^85^8A)(^81^8B)(^83^8C)(^84=)(^B5^8D)(^86^8D)
+    (^89=1)(^95^8E)(^87^8F)(^9A^91)(^8E=35)(^B6=0)(^BB^92)(^BC^93)(^BD^94)
+    (^BA=)(^C3=0)(^9D^3BB)(^8B=59)]
+  [36(^88=81)(^BE^95)(^82^96)(^85^97)(^81^98)(^83^99)(^84=)(^B5^9A)
+    (^86^9A)(^89=1)(^95^8E)(^87^9B)(^9A^91)(^8E=36)(^B6=0)(^BB^9E)(^BC^9E)
+    (^BD^94)(^BA=)(^C3^3BC)(^9D^3BD)(^8B=b7)]
+  [37(^88=81)(^BE^9F)(^82^A0)(^85^A1)(^81^A2)(^83^A3)(^84=)(^B5^A4)
+    (^86^A4)(^89=1)(^95^8E)(^87^A5)(^9A^91)(^8E=37)(^B6=0)(^BB^A8)(^BC^A8)
+    (^BD^94)(^BA=)(^C3^3BE)(^9D^3BF)(^8B=c1)]
+  [38(^88=81)(^82^A9)(^85^AA)(^8D^A1)(^81^AB)(^83^AC)(^84=)(^B5^AD)
+    (^86^AD)(^89=1)(^87^AE)(^9A^91)(^8E=38)(^B6=0)(^BB^B1)(^BC^B1)(^BD^94)
+    (^BA=)(^C3^3C1)(^9D^3C2)(^8B=1f6)]
+  [39(^88=81)(^82^B2)(^85^AA)(^8D^A1)(^81^B3)(^83^B4)(^84^B5)(^B5^B6)
+    (^86^B6)(^89=1)(^87^B7)(^9A^91)(^8E=39)(^B6=0)(^BB^BA)(^BC^BA)(^BD^94)
+    (^BA=)(^C3^3C4)(^9D^3C5)(^8B=270)]
+  [3A(^88=81)(^BE^BB)(^82^96)(^85^97)(^81^BC)(^83^BD)(^84=)(^B5^BE)
+    (^86^BE)(^89=1)(^95^8E)(^87^BF)(^9A^91)(^8E=3a)(^B6=0)(^BB^C2)(^BC^C2)
+    (^BD^94)(^BA=)(^C3^3C7)(^9D^3C8)(^8B=a2)]
+  [3B(^88=81)(^82^C3)(^85^A1)(^81^C4)(^83^C5)(^84=)(^B5^C6)(^86^C6)
+    (^89=1)(^95^C7)(^87^C8)(^9A^91)(^8E=3b)(^B6=0)(^BB^CB)(^BC^CB)(^BD^94)
+    (^BA=)(^C3^3CA)(^9D^3CB)(^8B=55)]
+  [3C(^88^3CD)(^BE^CC)(^82^CD)(^85^8A)(^81^CE)(^83^CF)(^84=)(^B5^D0)
+    (^86^D0)(^89=1)(^87^D2)(^9A^91)(^8E=3c)(^B6=0)(^BB^D6)(^BC^D6)(^BD^94)
+    (^BA=)(^C3^3CC)(^9D^3CE)(^8B=3d6)]
+  [3D(^88^D3)(^BE^D7)(^82^96)(^85^97)(^81^D8)(^83^D9)(^84=)(^B5^DA)
+    (^86^DA)(^89=1)(^87^DB)(^9A^91)(^8E=3d)(^B6=0)(^BB^DD)(^BC^DD)(^BD^94)
+    (^BA=)]
+  [3E(^88=81)(^BE^95)(^82^96)(^85^97)(^81^DE)(^83^DF)(^84=)(^B5^E0)
+    (^86^E0)(^89=1)(^95^8E)(^87^E1)(^9A^91)(^8E=3e)(^B6=0)(^BB^E4)(^BC^E4)
+    (^BD^94)(^BA=)(^C3^3D0)(^9D^3D1)(^8B=aa)]
+  [3F(^88^3CD)(^BE^E5)(^82^96)(^85^97)(^81^E6)(^83^E7)(^84=)(^B5^E8)
+    (^86^E8)(^89=1)(^87^E9)(^9A^91)(^8E=3f)(^B6=0)(^BB^EC)(^BC^EC)(^BD^94)
+    (^BA=)(^C3^3D2)(^9D^3D3)(^8B=82e)]
+  [40(^88=1)(^82^A9)(^85^AA)(^8D^A1)(^81^ED)(^83^EE)(^84=)(^B5^EF)(^86^EF)
+    (^89=1)(^87^F0)(^B9=0)(^BF^F1)(^BA^F2)(^9A^91)(^8E=40)(^B6=0)(^BB^F5)
+    (^BC^F5)(^BD^94)]
+  [41(^88^D3)(^82^F6)
+    (^85
+    =rafaelcvieira12@gmail.com, cristiano@bridge.ufsc.br, beatriz.avila@bridge\
+.ufsc.br, miliane@bridge.ufsc.br, adrianesouza2101@gmail.com, adrianonkosi07@g\
+mail.com, alan.fochesatto@grad.ufsc.br, alemelloribeiro@gmail.com, alexandre.s\
+cheidt@ufsc.br, alinnygomes28@gmail.com, andreiasilva.tech@gmail.com, andreprc\
+aceres@gmail.com, angewluvss@gmail.com, annaclarabdg@gmail.com, araujops.gusta\
+vo@gmail.com, ariellelb74@gmail.com, assuncaoluisdomingos@gmail.com, augustovc\
+r@gmail.com, bcrussi@gmail.com, belquis.a.elisa@gmail.com, c.augusto0302@gmail\
+.com, caioandrade2506@gmail.com, carololiveiraadriano@gmail.com, correiasthali\
+ta@gmail.com, davi.simas55@gmail.com, daviffenker@gmail.com, diegoraylan16@gma\
+il.com, douglasjr.rosa@gmail.com, dynz1234@gmail.com, eduardadossantosacademic\
+2006gm@gmail.com, eduardagiron@gmail.com, egidiomariano@gmail.com, eliasbonfim\
+12@gmail.com, elisangela.geroleti@gmail.com, elsantos2@gmail.com, felipe.elton\
+.ps@gmail.com, filipepotrich@gmail.com, fjhats@gmail.com, freitagisadora6@gmai\
+l.com, gabiplimas@gmail.com, gabrelamarela@gmail.com, gabrielaizolan28@gmail.c\
+om, gabrieldahsilva@gmail.com, gdrezende77@gmail.com, gencen.abelino@grad.ufsc\
+.br, georgia.mastroianni@gmail.com, gipaludo@hotmail.com, gjuchem.ufsc@gmail.c\
+om, gleidsonsaudece@gmail.com, gustavomonteirojorge@gmail.com, hannaeugenioolv\
+@gmail.com, hazielsuzano@gmail.com, henrique.sabanay@gmail.com, hriqueh2@gmail\
+.com, igormcd0801@gmail.com, ingridmullerrodrigues21@gmail.com, iolandaecandid\
+o@gmail.com, isad0ramartinx@gmail.com, janynesjana@gmail.com, jhbrunetievangel\
+ista@gmail.com, joaogurgel1996@gmail.com, joshuaamaral05@gmail.com, jovict2021\
+@gmail.com, ju.rgomes96@gmail.com, jufernandesgoulart@gmail.com, julia.olivett\
+i@grad.ufsc.br, juliasottili33894@gmail.com, katialorena83@gmail.com, larissab\
+ritofelisbino@gmail.com, larissamirandaufsc@gmail.com, lenasmaia@gmail.com, le\
+sghedin11@gmail.com, letielyneubertriese@gmail.com, lolokadasilvaferreira@gmai\
+l.com, luciana.pimentel.projetos@gmail.com, luisfdb@gmail.com, luizahelena.con\
+tatos@gmail.com, madufsc@gmail.com, maieleborin@gmail.com, manfredinimarcia@gm\
+ail.com, mariaclararemors@gmail.com, mariaeduardaazevedo2003@gmail.com, marian\
+abaptista0723@gmail.com, maurorsj@gmail.com, mendesnivas@gmail.com, myllenacor\
+rea842@gmail.com, pagysel@gmail.com, pamy-14@hotmail.com, pedrojoaojpk@gmail.c\
+om, pedronunesalegri@gmail.com, pedrorubin4@gmail.com, phtaglialenha@gmail.com\
+, rafa.s.berti@gmail.com, renatokissellkloco@gmail.com, robertamime@gmail.com,\
+ rodrigo.sil.gel@gmail.com, rodrigomondardo98@gmail.com, rosaribeirosamuel@gma\
+il.com, sara.arias.contato@gmail.com, senenhaf@gmail.com, sofgazolla@gmail.com\
+, souzaalves.lucas.2017@gmail.com, tarcisio.osorio@gmail.com, thasiosantana523\
+@gmail.com, thiago.paz88@gmail.com, tomiolucas3@gmail.com, van.diniz.sanches@g\
+mail.com, vanelkevin02@gmail.com, viniciusfernandesdomingos@gmail.com, viniciu\
+smorine729@gmail.com, vittmanno@gmail.com, xeniacemin5@gmail.com, beatrizperei\
+ra1993@hotmail.com, brunopamplona10@hotmail.com, cadumeurer@hotmail.com, grasi\
+ssouza_2006@yahoo.com.br, laiz.margraf@hotmail.com, marcelodutram@hotmail.com,\
+ marcelols@msn.com, miranda.emi@hotmail.com, pamelabedin2016@hotmail.com)
+    (^81^F7)(^83^F8)(^84=)(^B5^F9)(^86^F9)(^89=1)(^87^FA)(^9A^91)(^8E=41)
+    (^B6=0)(^BB^FD)(^BC^FD)(^BD^94)(^BA=)]
+  [42(^88^D3)(^82^F6)
+    (^85
+    =rafaelcvieira12@gmail.com, cristiano@bridge.ufsc.br, beatriz.avila@bridge\
+.ufsc.br, miliane@bridge.ufsc.br, adrianesouza2101@gmail.com, adrianonkosi07@g\
+mail.com, alan.fochesatto@grad.ufsc.br, alemelloribeiro@gmail.com, alexandre.s\
+cheidt@ufsc.br, alinnygomes28@gmail.com, anapaularomano2007@gmail.com, andreia\
+silva.tech@gmail.com, andreprcaceres@gmail.com, angewluvss@gmail.com, annaclar\
+abdg@gmail.com, araujops.gustavo@gmail.com, ariellelb74@gmail.com, arthur.c.le\
+mes@gmail.com, assuncaoluisdomingos@gmail.com, augustovcr@gmail.com, bcrussi@g\
+mail.com, belquis.a.elisa@gmail.com, c.augusto0302@gmail.com, caetanoluizp@gma\
+il.com, caioandrade2506@gmail.com, carololiveiraadriano@gmail.com, cezarrami19\
+@gmail.com, chrystiantomasini@gmail.com, correiasthalita@gmail.com, davi.simas\
+55@gmail.com, daviffenker@gmail.com, diegoraylan16@gmail.com, douglasjr.rosa@g\
+mail.com, dynz1234@gmail.com, eduardadossantosacademic2006gm@gmail.com, eduard\
+agiron@gmail.com, egidiomariano@gmail.com, eliasbonfim12@gmail.com, elisangela\
+.geroleti@gmail.com, ellenc25@hotmail.com, elsantos2@gmail.com, felipe.elton.p\
+s@gmail.com, filipepotrich@gmail.com, fjhats@gmail.com, fregapanif@gmail.com, \
+freitagisadora6@gmail.com, gabiplimas@gmail.com, gabrelamarela@gmail.com, gabr\
+ielaizolan28@gmail.com, gabrieldahsilva@gmail.com, gdrezende77@gmail.com, genc\
+en.abelino@gmail.com, georgia.mastroianni@gmail.com, gipaludo@hotmail.com, gju\
+chem.ufsc@gmail.com, gleidsonsaudece@gmail.com, gustavomonteirojorge@gmail.com\
+, hannaeugenioolv@gmail.com, hazielsuzano@gmail.com, helenaschmalf@gmail.com, \
+henrique.sabanay@gmail.com, hriqueh2@gmail.com, igormcd0801@gmail.com, ingridm\
+ullerrodrigues21@gmail.com, iolandaecandido@gmail.com, isad0ramartinx@gmail.co\
+m, janynesjana@gmail.com, jhbrunetievangelista@gmail.com, joaogurgel1996@gmail\
+.com, joshuaamaral05@gmail.com, jovict2021@gmail.com, ju.rgomes96@gmail.com, j\
+ufernandesgoulart@gmail.com, julia.olivetti@grad.ufsc.br, juliasottili33894@gm\
+ail.com, katialorena83@gmail.com, klaus2027@gmail.com, larissabritofelisbino@g\
+mail.com, larissamirandaufsc@gmail.com, lenasmaia@gmail.com, lesghedin11@gmail\
+.com, letielyneubertriese@gmail.com, lolokadasilvaferreira@gmail.com, luciana.\
+pimentel.projetos@gmail.com, luisfdb@gmail.com, luizahelena.contatos@gmail.com\
+, luizmachadoathayde@gmail.com, madufsc@gmail.com, maieleborin@gmail.com, manf\
+redinimarcia@gmail.com, mariaclararemors@gmail.com, mariaeduardaazevedo2003@gm\
+ail.com, marianabaptista0723@gmail.com, markicast98@gmail.com, maurorsj@gmail.\
+com, mendesnivas@gmail.com, myllenacorrea842@gmail.com, pagysel@gmail.com, pam\
+y-14@hotmail.com, pedrojoaojpk@gmail.com, pedronunesalegri@gmail.com, pedrorub\
+in4@gmail.com, phtaglialenha@gmail.com, rafa.s.berti@gmail.com, renatokissellk\
+loco@gmail.com, robertamime@gmail.com, rodrigo.sil.gel@gmail.com, rodrigomonda\
+rdo98@gmail.com, romariohand@hotmail.com, rosaribeirosamuel@gmail.com, sara.ar\
+ias.contato@gmail.com, senenhaf@gmail.com, sofgazolla@gmail.com, souzaalves.lu\
+cas.2017@gmail.com, tarcisio.osorio@gmail.com, thasiosantana523@gmail.com, tha\
+yseestevo@gmail.com, thewsfotos@gmail.com, thiago.paz88@gmail.com, tomiolucas3\
+@gmail.com, ufschigor@gmail.com, van.diniz.sanches@gmail.com, vanelkevin02@gma\
+il.com, viniciusfernandesdomingos@gmail.com, viniciusmorine729@gmail.com, vitt\
+manno@gmail.com, xeniacemin5@gmail.com, beatrizpereira1993@hotmail.com, brunop\
+amplona10@hotmail.com, cadumeurer@hotmail.com, grasissouza_2006@yahoo.com.br, \
+laiz.margraf@hotmail.com, marcelols@msn.com, miranda.emi@hotmail.com, pamelabe\
+din2016@hotmail.com)(^81^FE)(^83^FF)(^84=)(^B5^100)(^86^100)(^89=1)
+    (^87^101)(^B9=0)(^BF^F1)(^BA^F2)(^9A^91)(^8E=42)(^B6=0)(^BB^104)
+    (^BC^104)(^BD^94)]
+  [43(^88=81)(^BE^105)(^82^96)(^85^97)(^81^106)(^83^107)(^84=)(^B5^108)
+    (^86^108)(^89=1)(^95^8E)(^87^109)(^B9=0)(^BF^F1)(^BA^F2)(^9A^91)
+    (^8E=43)(^B6=0)(^BB^10C)(^BC^10C)(^BD^94)(^C3^3D5)(^9D^3D6)(^8B=ae)]
+  [44(^88=81)(^BE^10D)(^82^96)(^85^97)(^81^10E)(^83^10F)(^84=)(^B5^110)
+    (^86^110)(^89=1)(^95^8E)(^87^111)(^B9=0)(^BF^F1)(^BA^F2)(^9A^91)
+    (^8E=44)(^B6=0)(^BB^114)(^BC^114)(^BD^94)(^C3^3D7)(^9D^3D8)(^8B=ac)]
+  [45(^88=81)(^BE^10D)(^82^96)(^85^97)(^81^115)(^83^116)(^84=)(^B5^117)
+    (^86^117)(^89=1)(^95^8E)(^87^118)(^B9=0)(^BF^F1)(^BA^F2)(^9A^91)
+    (^8E=45)(^B6=0)(^BB^11B)(^BC^11B)(^BD^94)(^C3^3DA)(^9D^3DB)(^8B=a7)]
+  [46(^88=81)(^82^C3)(^85^A1)(^81^11C)(^83^11D)(^84=)(^B5^11E)(^86^11E)
+    (^89=1)(^95^C7)(^87^11F)(^B9=0)(^BF^F1)(^BA^F2)(^9A^91)(^8E=46)
+    (^B6=0)(^BB^122)(^BC^122)(^BD^94)(^C3^3DD)(^9D^3DE)(^8B=53)]
+  [47(^88=81)(^BE^123)(^82^96)(^85^97)(^81^124)(^83^125)(^84=)(^B5^126)
+    (^86^126)(^89=1)(^95^8E)(^87^127)(^9A^91)(^8E=47)(^B6=0)(^BB^12A)
+    (^BC^12A)(^BD^94)(^BA=)(^C3^3DF)(^9D^3E0)(^8B=f0)]
+  [48(^88=81)(^82^12B)(^85^A1)(^81^12C)(^83^12D)(^84=)(^B5^12E)(^86^12E)
+    (^89=1)(^95^8E)(^87^12F)(^9A^91)(^8E=48)(^B6=0)(^BB^132)(^BC^132)
+    (^BD^94)(^BA=)(^C3^3E2)(^9D^3E3)(^8B=53)]
+  [49(^88=81)(^BE^133)(^82^96)(^85^97)(^81^134)(^83^135)(^84=)(^B5^136)
+    (^86^136)(^89=1)(^95^8E)(^87^137)(^9A^91)(^8E=49)(^B6=0)(^BB^13A)
+    (^BC^13A)(^BD^94)(^BA=)(^C3^3E4)(^9D^3E5)(^8B=c2)]
+  [4A(^88=81)(^BE^13B)(^82^96)(^85^97)(^81^13C)(^83^13D)(^84=)(^B5^13E)
+    (^86^13E)(^89=1)(^95^8E)(^87^13F)(^9A^91)(^8E=4a)(^B6=0)(^BB^142)
+    (^BC^142)(^BD^94)(^BA=)(^C3^3E6)(^9D^3E7)(^8B=a1)]
+  [4B(^88=81)(^BE^143)(^82^96)(^85^97)(^81^144)(^83^145)(^84=)(^B5^146)
+    (^86^146)(^89=1)(^95^8E)(^87^147)(^9A^91)(^8E=4b)(^B6=0)(^BB^14A)
+    (^BC^14A)(^BD^94)(^BA=)(^C3^3E9)(^9D^3EA)(^8B=bb)]
+  [4C(^88=81)(^BE^14B)(^82^96)(^85^97)(^81^14C)(^83^14D)(^84=)(^B5^14E)
+    (^86^14E)(^89=1)(^95^8E)(^87^14F)(^9A^91)(^8E=4c)(^B6=0)(^BB^152)
+    (^BC^152)(^BD^94)(^BA=)(^C3^3EC)(^9D^3ED)(^8B=b8)]
+  [4D(^88=81)(^82^153)(^85^154)(^81^155)(^83^156)(^84=)(^B5^157)(^86^157)
+    (^89=1)(^87^158)(^9A^91)(^8E=4d)(^B6=0)(^BB^15B)(^BC^15B)(^BD^94)
+    (^BA=)(^C3^3EF)(^9D^3F0)(^8B=1f5)]
+  [4E(^88=81)(^82^15C)(^85^154)(^81^15D)(^83^15E)(^84=)(^B5^15F)(^86^15F)
+    (^89=1)(^87^160)(^9A^91)(^8E=4e)(^B6=0)(^BB^163)(^BC^163)(^BD^94)
+    (^BA=)(^C3^3F2)(^9D^3F3)(^8B=20b)]
+  [4F(^88=81)(^BE^143)(^82^164)(^85^97)(^81^165)(^83^166)(^84=)(^B5^167)
+    (^86^167)(^89=1)(^95^8E)(^87^168)(^9A^91)(^8E=4f)(^B6=0)(^BB^16B)
+    (^BC^16B)(^BD^94)(^BA=)(^C3^3F5)(^9D^3F6)(^8B=e4)]
+  [50(^88=81)(^82^16C)(^85^A1)(^81^16D)(^83^16E)(^84=)(^B5^16F)(^86^16F)
+    (^89=1)(^87^170)(^9A^91)(^8E=50)(^B6=0)(^BB^173)(^BC^173)(^BD^94)
+    (^BA=)(^C3^3F8)(^9D^3F9)(^8B=ac)]
+  [51(^88=81)(^BE^174)(^82^96)(^85^97)(^81^175)(^83^176)(^84=)(^B5^177)
+    (^86^177)(^89=1)(^95^8E)(^87^178)(^9A^91)(^8E=51)(^B6=0)(^BB^17B)
+    (^BC^17B)(^BD^94)(^BA=)(^C3^3FA)(^9D^3FB)(^8B=99)]
+  [52(^88=81)(^82^C3)(^85^A1)(^81^C4)(^83^17C)(^84=)(^B5^17D)(^86^17D)
+    (^89=1)(^95^C7)(^87^17E)(^9A^91)(^8E=52)(^B6=0)(^BB^181)(^BC^181)
+    (^BD^94)(^BA=)(^C3^3FD)(^9D^3FE)(^8B=55)]
+  [53(^88=81)(^BE^182)(^82^96)(^85^97)(^81^183)(^83^184)(^84=)(^B5^185)
+    (^86^185)(^89=1)(^95^8E)(^87^186)(^9A^91)(^8E=53)(^B6=0)(^BB^189)
+    (^BC^189)(^BD^94)(^BA=)(^C3^3FF)(^9D^400)(^8B=158)]
+  [54(^88=81)(^BE^143)(^82^164)(^85^97)(^81^18A)(^83^18B)(^84=)(^B5^18C)
+    (^86^18C)(^89=1)(^95^8E)(^87^18D)(^9A^91)(^8E=54)(^B6=0)(^BB^190)
+    (^BC^190)(^BD^94)(^BA=)(^C3^402)(^9D^403)(^8B=d4)]
+  [55(^88=81)(^82^191)(^85^192)(^8C^A1)(^81^193)(^83^194)(^84=)(^B5^195)
+    (^86^195)(^89=1)(^87^196)(^9A^91)(^8E=55)(^B6=0)(^BB^199)(^BC^199)
+    (^BD^94)(^BA=)(^C3^404)(^9D^405)(^8B=7d)]
+  [56(^88=81)(^82^191)(^85^192)(^8C^A1)(^81^19A)(^83^19B)(^84=)(^B5^19C)
+    (^86^19C)(^89=1)(^87^19D)(^9A^91)(^8E=56)(^B6=0)(^BB^1A0)(^BC^1A0)
+    (^BD^94)(^BA=)(^C3^406)(^9D^407)(^8B=7e)]
+  [57(^88=91)(^82^191)(^85^1A1)(^8C^A1)(^81^1A2)(^83^1A3)(^84=)(^B5^1A4)
+    (^86^1A4)(^89=1)(^87^1A5)(^9A^91)(^8E=57)(^B6=0)(^BB^1A8)(^BC^1A8)
+    (^BD^94)(^BA=)(^C3^409)(^9D^40A)(^8B=c4)]
+  [58(^88=81)(^82^1A9)(^85^A1)(^81^1AA)(^83^1AB)(^84=)(^B5^1AC)(^86^1AC)
+    (^89=1)(^87^1AD)(^9A^91)(^8E=58)(^B6=0)(^BB^1B0)(^BC^1B0)(^BD^94)
+    (^BA=)(^C3^40B)(^9D^40C)(^8B=72)]
+  [59(^88=81)(^82^1A9)(^85^A1)(^81^1B1)(^83^1B2)(^84=)(^B5^1B3)(^86^1B3)
+    (^89=1)(^87^1B4)(^9A^91)(^8E=59)(^B6=0)(^BB^1B7)(^BC^1B7)(^BD^94)
+    (^BA=)(^C3^40D)(^9D^40E)(^8B=64)]
+  [5A(^88^3CD)(^BE^1B8)(^82^1B9)(^85^1BA)(^81^1BB)(^83^1BC)(^84=)(^B5^1BD)
+    (^86^1BD)(^89=1)(^87^1BE)(^9A^91)(^8E=5a)(^B6=0)(^BB^1C1)(^BC^1C1)
+    (^BD^94)(^BA=)(^C3^40F)(^9D^410)(^8B=36e)]
+  [5B(^88=81)(^BE^1C2)(^82^1C3)(^85^1C4)(^81^1C5)(^83^1C6)(^84=)(^B5^1C7)
+    (^86^1C7)(^89=1)(^87^1C8)(^9A^91)(^8E=5b)(^B6=0)(^BB^1CB)(^BC^1CB)
+    (^BD^94)(^BA=)(^C3^412)(^9D^413)(^8B=61)]
+  [5C(^88=81)(^BE^123)(^82^96)(^85^97)(^81^1CC)(^83^1CD)(^84=)(^B5^1CE)
+    (^86^1CE)(^89=1)(^95^8E)(^87^1CF)(^9A^91)(^8E=5c)(^B6=0)(^BB^1D2)
+    (^BC^1D2)(^BD^94)(^BA=)(^C3^414)(^9D^415)(^8B=a9)]
+  [5D(^88=81)(^BE^1C2)(^82^1D3)(^85^1C4)(^81^1D4)(^83^1D5)(^84=)(^B5^1D6)
+    (^86^1D6)(^89=1)(^87^1D7)(^9A^91)(^8E=5d)(^B6=0)(^BB^1DA)(^BC^1DA)
+    (^BD^94)(^BA=)(^C3^416)(^9D^417)(^8B=a9)]
+  [5F(^88=81)(^BE^1DB)(^82^1DC)(^85^A1)(^81^1DD)(^83^1DE)(^84=)(^B5^1DF)
+    (^86^1DF)(^89=1)(^95^8E)(^87^1E0)(^9A^91)(^8E=5f)(^B6=0)(^BB^1E3)
+    (^BC^1E3)(^BD^94)(^BA=)(^C3^418)(^9D^419)(^8B=279)]
+  [61(^88=81)(^BE^1E4)(^82^96)(^85^97)(^81^1E5)(^83^1E6)(^84=)(^B5^1E7)
+    (^86^1E7)(^89=1)(^95^8E)(^87^1E8)(^9A^91)(^8E=61)(^B6=0)(^BB^1EB)
+    (^BC^1EB)(^BD^94)(^BA=)(^C3^41B)(^9D^41C)(^8B=ad)]
+  [62(^88=81)(^BE^1EC)(^82^96)(^85^97)(^81^1ED)(^83^1EE)(^84=)(^B5^1EF)
+    (^86^1EF)(^89=1)(^95^8E)(^87^1F0)(^9A^91)(^8E=62)(^B6=0)(^BB^1F3)
+    (^BC^1F3)(^BD^94)(^BA=)(^C3^41D)(^9D^41E)(^8B=af)]
+  [63(^88=81)(^BE^1C2)(^82^1D3)(^85^1C4)(^81^1F4)(^83^1F5)(^84=)(^B5^1F6)
+    (^86^1F6)(^89=1)(^87^1F7)(^9A^91)(^8E=63)(^B6=0)(^BB^1FA)(^BC^1FA)
+    (^BD^94)(^BA=)(^C3^41F)(^9D^420)(^8B=c1)]
+  [64(^88^D3)(^BE^13B)(^82^96)(^85^97)(^81^1FB)(^83^1FC)(^84=)(^B5^1FD)
+    (^86^1FD)(^89=1)(^87^1FE)(^9A^91)(^8E=64)(^B6=0)(^BB^201)(^BC^201)
+    (^BD^94)(^BA=)]
+  [65(^88^D3)(^BE^D7)(^82^96)(^85^97)(^81^D8)(^83^202)(^84=)(^B5^203)
+    (^86^203)(^89=1)(^87^204)(^9A^91)(^8E=65)(^B6=0)(^BB^207)(^BC^207)
+    (^BD^94)(^BA=)]
+  [66(^88^D3)(^BE^208)(^82^96)(^85^97)(^81^209)(^83^20A)(^84=)(^B5^20B)
+    (^86^20B)(^89=1)(^87^20C)(^9A^91)(^8E=66)(^B6=0)(^BB^20F)(^BC^20F)
+    (^BD^94)(^BA=)]
+  [67(^88^D3)(^BE^210)(^82^211)(^85^97)(^81^212)(^83^213)(^84=)(^B5^214)
+    (^86^214)(^89=1)(^87^215)(^9A^91)(^8E=67)(^B6=0)(^BB^218)(^BC^219)
+    (^BD^94)(^BA=)]
+  [69(^88=81)(^BE^1EC)(^82^21A)(^85^97)(^81^212)(^83^21B)(^84=)(^B5^21C)
+    (^86^21C)(^89=1)(^95^8E)(^87^21D)(^9A^91)(^8E=69)(^B6=0)(^BB^220)
+    (^BC^219)(^BD^94)(^BA=)(^C3^421)(^9D^422)(^8B=9a)]
+  [6A(^88=81)(^BE^1C2)(^82^1D3)(^85^1C4)(^81^221)(^83^222)(^84=)(^B5^223)
+    (^86^223)(^89=1)(^87^224)(^9A^91)(^8E=6a)(^B6=0)(^BB^227)(^BC^227)
+    (^BD^94)(^BA=)(^C3^424)(^9D^425)(^8B=8e)]
+  [6B(^88=81)(^82^228)(^85^229)(^81^22A)(^83^22B)(^84=)(^B5^22C)(^86^22C)
+    (^89=1)(^87^22D)(^9A^91)(^8E=6b)(^B6=0)(^BB^230)(^BC^230)(^BD^94)
+    (^BA=)(^C3^426)(^9D^427)(^8B=84)]
+  [6C(^88^3CD)(^BE^1B8)(^82^231)(^85^232)(^81^233)(^83^234)(^84=)(^B5^235)
+    (^86^235)(^89=1)(^87^236)(^9A^91)(^8E=6c)(^B6=0)(^BB^238)(^BC^238)
+    (^BD^94)(^BA=)(^C3^429)(^9D^42A)(^8B=302)]
+  [6E(^88^3CD)(^BE^1B8)(^82^231)(^85^1BA)(^81^239)(^83^23A)(^84=)(^B5^23B)
+    (^86^23B)(^89=1)(^87^23C)(^9A^91)(^8E=6e)(^B6=0)(^BB^23E)(^BC^23E)
+    (^BD^94)(^BA=)(^C3^42C)(^9D^42D)(^8B=2f2)]
+  [6F(^88=81)(^BE^1C2)(^82^1D3)(^85^1C4)(^81^23F)(^83^240)(^84=)(^B5^241)
+    (^86^241)(^89=1)(^87^242)(^9A^91)(^8E=6f)(^B6=0)(^BB^244)(^BC^244)
+    (^BD^94)(^BA=)(^C3^42F)(^9D^430)(^8B=af)]
+  [71(^88=81)(^BE^245)(^82^96)(^85^97)(^81^246)(^83^247)(^84=)(^B5^248)
+    (^86^248)(^89=1)(^95^8E)(^87^249)(^9A^91)(^8E=71)(^B6=0)(^BB^24B)
+    (^BC^24B)(^BD^94)(^BA=)(^C3^431)(^9D^432)(^8B=a4)]
+  [72(^88^D3)(^BE^24C)(^82^96)(^85^97)(^81^24D)(^83^24E)(^84=)(^B5^24F)
+    (^86^24F)(^89=1)(^87^250)(^9A^91)(^8E=72)(^B6=0)(^BB^252)(^BC^252)
+    (^BD^94)(^BA=)]
+  [74(^88=81)(^BE^1C2)(^82^253)(^85^1C4)(^81^254)(^83^255)(^84=)(^B5^256)
+    (^86^256)(^89=1)(^87^257)(^9A^91)(^8E=74)(^B6=0)(^BB^259)(^BC^259)
+    (^BD^94)(^BA=)(^C3^434)(^9D^435)(^8B=66)]
+  [75(^88=81)(^BE^1C2)(^82^25A)(^85^1C4)(^81^25B)(^83^25C)(^84=)(^B5^25D)
+    (^86^25D)(^89=1)(^87^25E)(^9A^91)(^8E=75)(^B6=0)(^BB^260)(^BC^260)
+    (^BD^94)(^BA=)(^C3^436)(^9D^437)(^8B=e3)]
+  [77(^88=81)(^BE^261)(^82^96)(^85^97)(^81^262)(^83^263)(^84=)(^B5^264)
+    (^86^264)(^89=1)(^95^8E)(^87^265)(^9A^91)(^8E=77)(^B6=0)(^BB^267)
+    (^BC^267)(^BD^94)(^BA=)(^C3^439)(^9D^43A)(^8B=ad)]
+  [78(^88=81)(^BE^1EC)(^82^21A)(^85^97)(^81^212)(^83^268)(^84=)(^B5^269)
+    (^86^269)(^89=1)(^95^8E)(^87^26A)(^9A^91)(^8E=78)(^B6=0)(^BB^26C)
+    (^BC^26C)(^BD^94)(^BA=)(^C3^43B)(^9D^43C)(^8B=9b)]
+  [79(^88=81)(^BE^182)(^82^96)(^85^97)(^81^26D)(^83^26E)(^84=)(^B5^26F)
+    (^86^26F)(^89=1)(^95^8E)(^87^270)(^9A^91)(^8E=79)(^B6=0)(^BB^272)
+    (^BC^272)(^BD^94)(^BA=)(^C3^43E)(^9D^43F)(^8B=178)]
+  [7A(^88^D3)(^BE^273)(^82^96)(^85^97)(^81^274)(^83^275)(^84=)(^B5^276)
+    (^86^276)(^89=1)(^87^277)(^9A^91)(^8E=7a)(^B6=0)(^BB^279)(^BC^279)
+    (^BD^94)(^BA=)]
+  [7C(^88=81)(^BE^1C2)(^82^25A)(^85^1C4)(^81^27A)(^83^27B)(^84=)(^B5^27C)
+    (^86^27C)(^89=1)(^87^27D)(^9A^91)(^8E=7c)(^B6=0)(^BB^27F)(^BC^27F)
+    (^BD^94)(^BA=)(^C3^441)(^9D^442)(^8B=bf)]
+  [7D(^88=81)(^82^1A9)(^85^A1)(^81^280)(^83^281)(^84=)(^B5^282)(^86^282)
+    (^89=1)(^87^283)(^9A^91)(^8E=7d)(^B6=0)(^BB^285)(^BC^285)(^BD^94)
+    (^BA=)(^C3^443)(^9D^444)(^8B=92)]
+  [7F(^88=81)(^BE^1C2)(^82^286)(^85^1C4)(^81^287)(^83^288)(^84=)(^B5^289)
+    (^86^289)(^89=1)(^87^28A)(^9A^91)(^8E=7f)(^B6=0)(^BB^28C)(^BC^28C)
+    (^BD^94)(^BA=)(^C3^446)(^9D^447)(^8B=5f)]
+  [81(^88=81)(^BE^1C2)(^82^28D)(^85^1C4)(^81^28E)(^83^28F)(^84=)(^B5^290)
+    (^86^290)(^89=1)(^87^291)(^9A^91)(^8E=81)(^B6=0)(^BB^293)(^BC^293)
+    (^BD^94)(^BA=)(^C3^448)(^9D^449)(^8B=5f)]
+  [82(^88=81)(^BE^1C2)(^82^28D)(^85^1C4)(^81^294)(^83^295)(^84=)(^B5^296)
+    (^86^296)(^89=1)(^87^297)(^9A^91)(^8E=82)(^B6=0)(^BB^299)(^BC^299)
+    (^BD^94)(^BA=)(^C3^44A)(^9D^44B)(^8B=5f)]
+  [85(^88=81)(^BE^29A)(^82^96)(^85^97)(^81^29B)(^83^29C)(^84=)(^B5^29D)
+    (^86^29D)(^89=1)(^95^8E)(^87^29E)(^9A^91)(^8E=85)(^B6=0)(^BB^2A0)
+    (^BC^2A0)(^BD^94)(^BA=)(^C3^44C)(^9D^44D)(^8B=b4)]
+  [88(^88=81)(^BE^2A1)(^82^96)(^85^97)(^81^2A2)(^83^2A3)(^84=)(^B5^2A4)
+    (^86^2A4)(^89=1)(^95^8E)(^87^2A5)(^9A^91)(^8E=88)(^B6=0)(^BB^2A7)
+    (^BC^2A7)(^BD^94)(^BA=)(^C3^44E)(^9D^44F)(^8B=100)]
+  [8A(^88=81)(^BE^1C2)(^82^28D)(^85^1C4)(^81^2A8)(^83^2A9)(^84=)(^B5^2AA)
+    (^86^2AA)(^89=1)(^87^2AB)(^9A^91)(^8E=8a)(^B6=0)(^BB^2AD)(^BC^2AD)
+    (^BD^94)(^BA=)(^C3^451)(^9D^452)(^8B=5e)]
+  [8E(^88=81)(^BE^13B)(^82^96)(^85^97)(^81^2AE)(^83^2AF)(^84=)(^B5^2B0)
+    (^86^2B0)(^89=1)(^95^8E)(^87^2B1)(^9A^91)(^8E=8e)(^B6=0)(^BB^2B3)
+    (^BC^2B3)(^BD^94)(^BA=)(^C3^453)(^9D^454)(^8B=ce)]
+  [90(^88=81)(^BE^261)(^82^96)(^85^97)(^81^2B4)(^83^2B5)(^84=)(^B5^2B6)
+    (^86^2B6)(^89=1)(^95^8E)(^87^2B7)(^9A^91)(^8E=90)(^B6=0)(^BB^2B9)
+    (^BC^2B9)(^BD^94)(^BA=)(^C3^455)(^9D^456)(^8B=9d)]
+  [91(^88=81)(^BE^261)(^82^96)(^85^97)(^81^2B4)(^83^2BA)(^84=)(^B5^2BB)
+    (^86^2BB)(^89=1)(^95^8E)(^87^2BC)(^9A^91)(^8E=91)(^B6=0)(^BB^2BE)
+    (^BC^2B9)(^BD^94)(^BA=)(^C3^457)(^9D^458)(^8B=9d)]
+  [94(^88^3CD)(^82^2BF)
+    (^85
+    =rafaelcvieira12@gmail.com, arieli.belloli@bridge.ufsc.br, luisa@bridge.uf\
+sc.br, thayse.silveira@bridge.ufsc.br, priscila.souza@bridge.ufsc.br, julia.pe\
+drosa@bridge.ufsc.br, lucasmayer@bridge.ufsc.br, aline@bridge.ufsc.br, leo@bri\
+dge.ufsc.br, carlo.carminatti@bridge.ufsc.br, jades@bridge.ufsc.br, fernanda.m\
+ioto@bridge.ufsc.br, nathalia@bridge.ufsc.br, julia.duarte@bridge.ufsc.br, bru\
+na.sudoski@bridge.ufsc.br, liriel.cruz@bridge.ufsc.br, duda.furtado@bridge.ufs\
+c.br, ricardo@bridge.ufsc.br, wagner@bridge.ufsc.br, luisadarosa@bridge.ufsc.b\
+r, abrahammfelixx@gmail.com, alanalnardelli@gmail.com, alexissolis396@gmail.co\
+m, anat1409@hotmail.com, anateichmann@gmail.com, andressa1122almeida@gmail.com\
+, anitalima0804@gmail.com, arthur.salmoria@gmail.com, arthurmm2004@gmail.com, \
+augustojhunior@gmail.com, augustoschweitzer2@gmail.com, brunadelapace@gmail.co\
+m, brunorequiabatai@gmail.com, camilacf.figueroa@gmail.com, camilahasckel@gmai\
+l.com, carolinerosa.ufsc@gmail.com, daanbxt@gmail.com, davidarriecheb@gmail.co\
+m, dinizzeduarda@gmail.com, dudatcostaa@gmail.com, dudfuul@gmail.com, eduardam\
+edeirosgaia@gmail.com, edwinjs.kloczko@gmail.com, erika2001cost32@gmail.com, f\
+eduardaflores@gmail.com, felski.bouchabki@gmail.com, flordecerejera80@gmail.co\
+m, franciscolemosfisio@gmail.com, fsagaz2008@gmail.com, g.ricardo.schmidt@gmai\
+l.com, gabpessi@hotmail.com, gabrielhenriquegonzaga645@gmail.com, gabrielzippe\
+rer2005@gmail.com, giovanafama.fs@gmail.com, gujbh@hotmail.com, gustavocampos@\
+nucleofloripa.org, heloisachaquian@gmail.com, iago.rmunoz@gmail.com, inaborbau\
+fsc@gmail.com, isa.smorimoto@gmail.com, isadora.barreto.tb@gmail.com, jacqueli\
+ne.beber@gmail.com, jessicaschmitzz15@gmail.com, joaomdaltoe@gmail.com, ju.tom\
+asia@gmail.com, juliana.rabello@yahoo.com.br, juliaperycittadella@gmail.com, k\
+arla.francisco.constantino@gmail.com, karolini188@gmail.com, kayracristinaa@gm\
+ail.com, lauraaraujo.design@gmail.com, leandrodebe@gmail.com, letisantin280@gm\
+ail.com, luanascvieira@gmail.com, luandebrito.andrade25.2002@gmail.com, lucasd\
+ossantossantin@gmail.com, maarol1305@gmail.com, maithebunn@gmail.com, marcella\
+.betat@gmail.com, mariaeduardacavassani@gmail.com, marianasantosaw04@gmail.com\
+, matheusribeirodolivramento123@gmail.com, milks1108@gmail.com, misterato@gmai\
+l.com, mpetrypeixoto@gmail.com, nataliacastro.designer@gmail.com, oliveira.lau\
+ra.jorge@gmail.com, paolaruano0701@gmail.com, pedro.henrique.ss0105@gmail.com,\
+ pedrofdorini@gmail.com, pedrohpreuter@gmail.com, pedrorubin4@gmail.com, pefia\
+tes@gmail.com, rafaelveronezir@gmail.com, raidenigarashi@gmail.com, renanribei\
+roestudante@gmail.com, santosnayaraleticia@gmail.com, santostiburtino@gmail.co\
+m, savarisf.rafaela@gmail.com, taianafariasbs@gmail.com, tomiolucas3@gmail.com\
+, victor.pdns@gmail.com, vitor02krt@gmail.com, vitoriagrbn@gmail.com, zicacama\
+rgocecilia@gmail.com, franco.rafael@bridge.ufsc, wagner.nascimento@bridge.ufsc)
+    (^81^2C0)(^83^2C1)(^84=)(^B5^2C2)(^86^2C2)(^89=1)(^87^2C3)(^9A^91)
+    (^8E=94)(^B6=0)(^BB^2C5)(^BC^2C5)(^BD^94)(^BA=)(^C3^459)(^9D^45A)
+    (^8B=9e3)]
+  [97(^88=81)(^82^2C6)(^85^AA)(^8D^A1)(^81^2C7)(^83^2C8)(^84=)(^B5^2C9)
+    (^86^2C9)(^89=1)(^87^2CA)(^9A^91)(^8E=97)(^B6=0)(^BB^2CC)(^BC^2CC)
+    (^BD^94)(^BA=)(^C3^45C)(^9D^45D)(^8B=c1)]
+  [98(^88=81)(^82^2C6)(^85^AA)(^8D^A1)(^81^2CD)(^83^2CE)(^84=)(^B5^2CF)
+    (^86^2CF)(^89=1)(^87^2D0)(^9A^91)(^8E=98)(^B6=0)(^BB^2D2)(^BC^2D2)
+    (^BD^94)(^BA=)(^C3^45E)(^9D^45F)(^8B=ea)]
+  [9C(^88=81)(^82^2D3)(^85^A1)(^81^2D4)(^83^2D5)(^84=)(^B5^2D6)(^86^2D6)
+    (^89=1)(^87^2D7)(^9A^91)(^8E=9c)(^B6=0)(^BB^2D9)(^BC^2D9)(^BD^94)
+    (^BA=)(^C3^461)(^9D^462)(^8B=7f7)]
+  [9D(^88=81)(^82^2DA)(^85^A1)(^81^2DB)(^83^2DC)(^84=)(^B5^2DD)(^86^2DD)
+    (^89=1)(^87^2DE)(^9A^91)(^8E=9d)(^B6=0)(^BB^2E0)(^BC^2E0)(^BD^94)
+    (^BA=)(^C3^464)(^9D^465)(^8B=549)]
+  [A9(^88=81)(^82^2E1)(^85^A1)(^81^2E2)(^83^2E3)(^84=)(^B5^2E4)(^86^2E4)
+    (^89=1)(^87^2E5)(^9A^91)(^8E=a9)(^B6=0)(^BB^2E7)(^BC^2E7)(^BD^94)
+    (^BA=)(^C3^467)(^9D^468)(^8B=8a)]
+  [AA(^88=81)(^82^2E1)(^85^A1)(^81^2E8)(^83^2E9)(^84=)(^B5^2EA)(^86^2EA)
+    (^89=1)(^87^2EB)(^9A^91)(^8E=aa)(^B6=0)(^BB^2ED)(^BC^2ED)(^BD^94)
+    (^BA=)(^C3^469)(^9D^46A)(^8B=8a)]
+  [AD(^88=81)(^BE^1C2)(^82^2EE)(^85^1C4)(^81^2EF)(^83^2F0)(^84=)(^B5^2F1)
+    (^86^2F1)(^89=1)(^87^2F2)(^9A^91)(^8E=ad)(^B6=0)(^BB^2F4)(^BC^2F4)
+    (^BD^94)(^BA=)(^C3^46B)(^9D^46C)(^8B=da)]
+  [AE(^88=81)(^82^2E1)(^85^A1)(^81^2E8)(^83^2F5)(^84=)(^B5^2F6)(^86^2F6)
+    (^89=1)(^87^2F7)(^9A^91)(^8E=ae)(^B6=0)(^BB^2F9)(^BC^2F9)(^BD^94)
+    (^BA=)(^C3^46E)(^9D^46F)(^8B=97)]
+  [AF(^88=81)(^82^2E1)(^85^A1)(^81^2E2)(^83^2FA)(^84=)(^B5^2FB)(^86^2FB)
+    (^89=1)(^87^2FC)(^9A^91)(^8E=af)(^B6=0)(^BB^2FE)(^BC^2FE)(^BD^94)
+    (^BA=)(^C3^470)(^9D^471)(^8B=97)]B1 
+  [B2(^88=80)(^BE^1C2)(^82^253)(^85^1C4)(^81^254)(^83^305)(^84=)(^B5^306)
+    (^86^306)(^89=1)(^87^307)(^9A^91)(^8E=b2)(^B6=0)(^BB^309)(^BC^309)
+    (^BD^94)(^BA=)(^C3^475)(^9D^476)(^8B=5d)]
+  [B3(^88=80)(^BE^30A)(^82^96)(^85^97)(^81^30B)(^83^30C)(^84=)(^B5^30D)
+    (^86^30D)(^89=1)(^95^8E)(^87^30E)(^9A^91)(^8E=b3)(^B6=0)(^BB^310)
+    (^BC^310)(^BD^94)(^BA=)(^C3^477)(^9D^478)(^8B=a5)]
+  [B4(^88=80)(^BE^30A)(^82^96)(^85^97)(^81^311)(^83^312)(^84=)(^B5^313)
+    (^86^313)(^89=1)(^95^8E)(^87^314)(^9A^91)(^8E=b4)(^B6=0)(^BB^316)
+    (^BC^316)(^BD^94)(^BA=)(^C3^47A)(^9D^47B)(^8B=a5)]
+  [B6(^88=80)(^BE^317)(^82^96)(^85^97)(^81^318)(^83^319)(^84=)(^B5^31A)
+    (^86^31A)(^89=1)(^95^8E)(^87^31B)(^9A^91)(^8E=b6)(^B6=0)(^BB^31D)
+    (^BC^31D)(^BD^94)(^BA=)(^C3^47C)(^9D^47D)(^8B=d6)]
+  [B7(^88=80)(^BE^1C2)(^82^1D3)(^85^1C4)(^81^31E)(^83^31F)(^84=)(^B5^320)
+    (^86^320)(^89=1)(^87^321)(^9A^91)(^8E=b7)(^B6=0)(^BB^323)(^BC^323)
+    (^BD^94)(^BA=)(^C3^47E)(^9D^47F)(^8B=99)]
+  [B9(^88=80)(^BE^30A)(^82^96)(^85^97)(^81^324)(^83^325)(^84=)(^B5^326)
+    (^86^326)(^89=1)(^95^8E)(^87^327)(^9A^91)(^8E=b9)(^B6=0)(^BB^329)
+    (^BC^329)(^BD^94)(^BA=)(^C3^480)(^9D^481)(^8B=a6)]
+  [BA(^88=80)(^82^1A9)(^85^A1)(^81^32A)(^83^32B)(^84=)(^B5^32C)(^86^32C)
+    (^89=1)(^87^32D)(^9A^91)(^8E=ba)(^B6=0)(^BB^32F)(^BC^32F)(^BD^94)
+    (^BA=)(^C3^483)(^9D^484)(^8B=94)]
+  [BC(^88^3CD)(^82^330)(^85^331)(^81^332)(^83^333)(^84=)(^B5^334)(^86^334)
+    (^89=1)(^87^335)(^9A^91)(^8E=bc)(^B6=0)(^BB^337)(^BC^337)(^BD^94)
+    (^BA=)(^C3^485)(^9D^486)(^8B=7b)]
+  [BD(^88=80)(^BE^30A)(^82^96)(^85^97)(^81^338)(^83^339)(^84=)(^B5^33A)
+    (^86^33A)(^89=1)(^95^8E)(^87^33B)(^9A^91)(^8E=bd)(^B6=0)(^BB^33E)
+    (^BC^33E)(^BD^94)(^BA=)(^C3^488)(^9D^489)(^8B=a2)]
+  [BE(^88=80)(^BE^30A)(^82^96)(^85^97)(^81^338)(^83^33F)(^84=)(^B5^340)
+    (^86^340)(^89=1)(^95^8E)(^87^341)(^9A^91)(^8E=be)(^B6=0)(^BB^343)
+    (^BC^33E)(^BD^94)(^BA=)(^C3^48A)(^9D^48B)(^8B=a2)]
+  [BF(^88=80)(^BE^30A)(^82^96)(^85^97)(^81^344)(^83^345)(^84=)(^B5^346)
+    (^86^346)(^89=1)(^95^8E)(^87^347)(^9A^91)(^8E=bf)(^B6=0)(^BB^34A)
+    (^BC^34A)(^BD^94)(^BA=)(^C3^48C)(^9D^48D)(^8B=a1)]
+  [C0(^88=80)(^BE^30A)(^82^96)(^85^97)(^81^344)(^83^34B)(^84=)(^B5^34C)
+    (^86^34C)(^89=1)(^95^8E)(^87^34D)(^9A^91)(^8E=c0)(^B6=0)(^BB^34F)
+    (^BC^34A)(^BD^94)(^BA=)(^C3^48E)(^9D^48F)(^8B=a1)]
+  [C2(^88=80)(^BE^350)(^82^96)(^85^97)
+    (^81
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Caros_estudantes,_Dur?= =?UTF-8?Q?ante\
+_a_SECCOM_(https://seccom-ufsc.github.?= =?UTF-8?Q?io/2025/\)_haver=C3=A1_um_H\
+ackaton_Clim=C3=A1tico_20?= =?UTF-8?Q?25_SECCOM_2025_(https://noticias.ufsc.br\
+/2?= =?UTF-8?Q?025/09/inscricoes-abertas-para-hackathon-?= =?UTF-8?Q?shift-sma\
+rt-city-transformando-florianopol?= =?UTF-8?Q?is-em-uma-cidade-inteligente-na-\
+ufsc/\)_._?= =?UTF-8?Q?_=C3=89_uma_competi=C3=A7=C3=A3o_importante_ligada_a_De\
+fe?= =?UTF-8?Q?sa_Civil_do_Estado_de_Santa_Catarina._Os_?= =?UTF-8?Q?melhores_\
+projetos_poder=C3=A3o_ser_contemplados?= =?UTF-8?Q?_com_financiamento_de_Proje\
+tos_para_sua_e?= =?UTF-8?Q?xecu=C3=A7=C3=A3o._Al=C3=A9m_disso,_=C3=A9_uma_exce\
+lente_oport?= =?UTF-8?Q?unidade_de_aprender_buscando_solu=C3=A7=C3=B5es_par?= \
+=?UTF-8?Q?a_problemas_do_mundo_real_em_quest=C3=B5es_de_g?= =?UTF-8?Q?rande_re\
+lev=C3=A2ncia_para_sociedade_brasileir?= =?UTF-8?Q?a._Leiam_com_aten=C3=A7=C3=\
+A3o_a_mensagem_a_seguir_e?= =?UTF-8?Q?_os_convido_a_participarem._=C3=89_poss=\
+C3=ADvel_fo?= =?UTF-8?Q?rmar_as_equipes_na_abertura_da_SECCOM._Cor?= =?UTF-8?Q\
+?diais__sauda=C3=A7=C3=B5es_Profa._L=C3=BAcia_H._M._Pache?= =?UTF-8?Q?co_Coord\
+enadora_do_Curso_de_Computa=C3=A7=C3=A3o__--?= =?UTF-8?Q?------_Mensagem_origi\
+nal_--------__Assunt?= =?UTF-8?Q?o:=09Divulga=C3=A7=C3=A3o_Hackaton_Clim=C3=A1\
+tico_2025_SECC?= =?UTF-8?Q?OM_2025_Data:=0925.09.2025_17:21_De:=09harrys?= =?U\
+TF-8?Q?son.luiz@ufsc.br_Para:=09Lucia_Helena_Martin?= =?UTF-8?Q?s_Pacheco_<luc\
+ia.pacheco@ufsc.br>_____Car?= =?UTF-8?Q?a_Profa_Dra._Lucia_Pacheco__Conforme_n\
+ossa?= =?UTF-8?Q?_conversa_segue_seguem_os_links_para_divu?= =?UTF-8?Q?lga=C3=\
+A7=C3=A3o_do_Hackaton_Clim=C3=A1tico_que_acontecer?= =?UTF-8?Q?=C3=A1_de_29/09\
+_a_1/10_na_UFSC_na_Semana_da_Co?= =?UTF-8?Q?mputa=C3=A7=C3=A3o.__Os_17_desafio\
+s_tecnol=C3=B3gicos_lev?= =?UTF-8?Q?antados_pela_Defesa_Civil_Estadual_estar=C\
+3=A3o?= =?UTF-8?Q?_sendo_objeto_de_desenvolvimento_de_aplica?= =?UTF-8?Q?=C3=A\
+7=C3=B5es_tecnol=C3=B3gicas,_com_possibilidade_de_c?= =?UTF-8?Q?ontrata=C3=A7=\
+C3=A3o_futura_dos_resultados.__Os_Dire?= =?UTF-8?Q?tores_da_Defesa_Civil_Estad\
+ual_estar=C3=A3o_co?= =?UTF-8?Q?mo_mentores_nos_dias_do_evento.__O_Secret=C3=A\
+1?= =?UTF-8?Q?rio_de_Estado_dever=C3=A1_participar_prestigia?= =?UTF-8?Q?ndo_a\
+_UFSC_na_abertura_ou_na_premia=C3=A7=C3=A3o_con?= =?UTF-8?Q?forme_agenda.__A_D\
+efesa_Civil_estadual_j=C3=A1?= =?UTF-8?Q?_patrocinou_o_coffe_breack_dos_tres_d\
+ias_d?= =?UTF-8?Q?o_hackaton_e_o_material_de_apoio.__As_equ?= =?UTF-8?Q?ipes_p\
+odem_ser_de_v=C3=A1rias_=C3=A1reas_que_tem_int?= =?UTF-8?Q?erface_com_a_defesa\
+_civil,_podendo_ser_da?= =?UTF-8?Q?_UFSC_ou_fora_dela.__Segue:=C2=A0__Link_par\
+a_in?= =?UTF-8?Q?scri=C3=A7=C3=A3o_de_equipes_na_Semana_da_Computa=C3=A7=C3=A3\
+?= =?UTF-8?Q?o_da_UFSC_SECCOM_2025__https://docs.google?= =?UTF-8?Q?.com/forms\
+/d/e/1FAIpQLSfovssILAkBUyRp0vVL?= =?UTF-8?Q?tFXBZWZJExSK0pytIA8FcO1KKqTLtg/vie\
+wform__L?= =?UTF-8?Q?ink_do_Evento_publicado_no_site_da_Defesa?= =?UTF-8?Q?_Ci\
+vil_do_Estado__SPDC_participa_de_evento?= =?UTF-8?Q?_sobre_tecnologias_para_ge\
+st=C3=A3o_de_riscos_?= =?UTF-8?Q?e_desastres_na_UFSC_-_Secretaria_de_Estado?= \
+=?UTF-8?Q?_da_Prote=C3=A7=C3=A3o_e_Defesa_Civil_de_Santa_Cata?= =?UTF-8?Q?rina\
+__Agrade=C3=A7o_a_sua_aten=C3=A7=C3=A3o__Professor_Dr?= =?UTF-8?Q?._Harrysson_\
+Luiz_da_Silva__PPGDN_-_UFSC__?= =?UTF-8?Q?Inscri=C3=A7=C3=B5es_abertas_para_=E\
+2=80=98Hackathon_Shift_S?= =?UTF-8?Q?mart_City:_transformando_Florian=C3=B3pol\
+is_em?= =?UTF-8?Q?_uma_Cidade_Inteligente=E2=80=99_na_UFSC__https://?= =?UTF-8\
+?Q?noticias.ufsc.br/2025/09/inscricoes-abert?= =?UTF-8?Q?as-para-hackathon-shi\
+ft-smart-city-transfo?= =?UTF-8?Q?rmando-florianopolis-em-uma-cidade-inteli?= \
+=?UTF-8?Q?gente-na-ufsc/"_criado_em_**Graduandos_do_?= =?UTF-8?Q?Curso:_CI=C3=\
+8ANCIAS_DA_COMPUTA=C3=87=C3=83O_____________?= =?UTF-8?Q?_____________________\
+_____________________?=)(^83^351)(^84=)(^B5^352)(^86^352)(^89=1)(^95^8E)
+    (^87^353)(^9A^91)(^8E=c2)(^B6=0)(^BB^355)(^BC^355)(^BD^94)(^BA=)
+    (^C3^490)(^9D^491)(^8B=156)]
+  [C4(^88=80)(^BE^30A)(^82^96)(^85^97)(^81^356)(^83^357)(^84=)(^B5^358)
+    (^86^358)(^89=1)(^95^8E)(^87^359)(^9A^91)(^8E=c4)(^B6=0)(^BB^35B)
+    (^BC^35B)(^BD^94)(^BA=)(^C3^493)(^9D^494)(^8B=ab)]
+  [C5(^88=80)(^BE^1C2)(^82^1C3)(^85^1C4)(^81^1C5)(^83^35C)(^84=)(^B5^35D)
+    (^86^35D)(^89=1)(^87^35E)(^9A^91)(^8E=c5)(^B6=0)(^BB^360)(^BC^360)
+    (^BD^94)(^BA=)(^C3^496)(^9D^497)(^8B=d5)]
+  [C6(^88=80)(^BE^1C2)(^82^28D)(^85^1C4)(^81^361)(^83^362)(^84=)(^B5^363)
+    (^86^363)(^89=1)(^87^364)(^9A^91)(^8E=c6)(^B6=0)(^BB^366)(^BC^366)
+    (^BD^94)(^BA=)(^C3^499)(^9D^49A)(^8B=5f)]
+  [C7(^88=80)(^82^367)(^85^368)(^8D^A1)(^81^369)(^83^36A)(^84=)(^B5^36B)
+    (^86^36B)(^89=1)(^87^36C)(^9A^91)(^8E=c7)(^B6=0)(^BB^36E)(^BC^36E)
+    (^BD^94)(^BA=)(^C3^49B)(^9D^49C)(^8B=76)]
+  [C8(^88=80)(^82^367)(^85^368)(^8D^A1)(^81^36F)(^83^370)(^84=)(^B5^371)
+    (^86^371)(^89=1)(^87^372)(^9A^91)(^8E=c8)(^B6=0)(^BB^374)(^BC^374)
+    (^BD^94)(^BA=)(^C3^49E)(^9D^49F)(^8B=a4)]
+  [CA(^88=81)(^BE^375)(^82^376)(^85^A1)(^81^377)(^83^378)(^84=)(^B5^379)
+    (^86^379)(^89=1)(^87^37A)(^9A^91)(^8E=ca)(^B6=0)(^BB^37D)(^BC^37D)
+    (^BD^94)(^BA=)(^C3^4A0)(^9D^4A1)(^8B=291)]
+  [CB(^88=80)(^BE^37E)(^82^376)(^85^A1)(^81^37F)(^83^380)(^84=)(^B5^381)
+    (^86^381)(^89=1)(^87^382)(^9A^91)(^8E=cb)(^B6=0)(^BB^384)(^BC^384)
+    (^BD^94)(^BA=)(^C3^4A3)(^9D^4A4)(^8B=49b)]
+  [CC(^88=81)(^82^367)(^85^368)(^8D^A1)(^81^385)(^83^386)(^84=)(^B5^387)
+    (^86^387)(^89=1)(^87^118)(^9A^91)(^8E=cc)(^B6=0)(^BB^389)(^BC^389)
+    (^BD^94)(^BA=)(^C3^4A6)(^9D^3DB)(^8B=8b)]
+  [CD(^88=81)(^82^38A)(^85^A1)(^81^38B)(^83^38C)(^84=)(^B5^38D)(^86^38D)
+    (^89=1)(^87^38E)(^9A^91)(^8E=cd)(^B6=0)(^BB^390)(^BC^390)(^BD^94)
+    (^BA=)(^C3^4A8)(^9D^4A9)(^8B=14a)]
+  [CE(^88=81)(^82^391)(^85^A1)(^81^392)(^83^393)(^84=)(^B5^394)(^86^394)
+    (^89=1)(^95^395)(^87^396)(^9A^91)(^8E=ce)(^B6=0)(^BB^398)(^BC^398)
+    (^BD^94)(^BA=)(^C3^4AB)(^9D^4AC)(^8B=fa)]
+  [D4(^88^D1)(^82^399)(^85^A1)(^81^39A)(^83^39B)(^84=)(^B5^39C)(^86^39C)
+    (^89=1)(^87^39D)(^9A^91)(^8E=d4)(^B6=0)(^BB^3A0)(^BC^3A0)(^BD^94)
+    (^BA=)]
+  [D6(^88=81)(^82^C3)(^85^A1)(^81^3A1)(^83^3A2)(^84=)(^B5^3A3)(^86^3A3)
+    (^89=1)(^95^C7)(^87^3A4)(^9A^91)(^8E=d6)(^B6=0)(^BB^3A6)(^BC^3A6)
+    (^BD^94)(^BA=)(^C3^4AE)(^9D^4AF)(^8B=69)]
+  [D7(^88=81)(^BE^3A7)(^82^96)(^85^97)(^81^3A8)(^83^3A9)(^84=)(^B5^3AA)
+    (^86^3AA)(^89=1)(^95^8E)(^87^3AB)(^9A^91)(^8E=d7)(^B6=0)(^BB^3AD)
+    (^BC^3AD)(^BD^94)(^BA=)(^C3^4B0)(^9D^4B1)(^8B=a9)]
+  [D8(^88=81)(^BE^143)(^82^96)(^85^97)(^81^3AE)(^83^3AF)(^84=)(^B5^3B0)
+    (^86^3B0)(^89=1)(^95^8E)(^87^3B1)(^9A^91)(^8E=d8)(^B6=0)(^BB^3B4)
+    (^BC^3B4)(^BD^94)(^BA=)(^C3^4B2)(^9D^4B3)(^8B=ec)]
+  [D9(^88=80)(^BE^3A7)(^82^96)(^85^97)(^81^3B5)(^83^3B6)(^84=)(^B5^3B7)
+    (^86^3B7)(^89=1)(^95^8E)(^87^3B8)(^9A^91)(^8E=d9)(^B6=0)(^BB^3BA)
+    (^BC^3BA)(^BD^94)(^BA=)(^C3^4B5)(^9D^4B6)(^8B=ab)]}
+{B2:^80 {(k^97:c)(s=9)56:m } B2 }
+{B3:^80 {(k^97:c)(s=9)57:m } B3 }
+{B4:^80 {(k^97:c)(s=9)58:m } B4 }
+{B6:^80 {(k^97:c)(s=9)59:m } B6 }
+{B7:^80 {(k^97:c)(s=9)5A:m } B7 }
+{B9:^80 {(k^97:c)(s=9)5B:m } B9 }
+{BA:^80 {(k^97:c)(s=9)5C:m } BA }
+{BC:^80 {(k^97:c)(s=9)5D:m } BC }
+{BD:^80 {(k^97:c)(s=9)5E:m } BD }
+{BE:^80 {(k^97:c)(s=9)5F:m } BE }
+{BF:^80 {(k^97:c)(s=9)60:m } BF }
+{C0:^80 {(k^97:c)(s=9)61:m } C0 }
+{C2:^80 {(k^97:c)(s=9)62:m } C2 }
+{C4:^80 {(k^97:c)(s=9)63:m } C4 }
+{C5:^80 {(k^97:c)(s=9)64:m } C5 }
+{C6:^80 {(k^97:c)(s=9)65:m } C6 }
+{C7:^80 {(k^97:c)(s=9)66:m } C7 }
+{C8:^80 {(k^97:c)(s=9)67:m } C8 }
+{CA:^80 {(k^97:c)(s=9)68:m } CA }
+{CB:^80 {(k^97:c)(s=9)69:m } CB }
+{CC:^80 {(k^97:c)(s=9)6A:m } CC }
+{CD:^80 {(k^97:c)(s=9)6B:m } CD }
+{CE:^80 {(k^97:c)(s=9)6C:m } CE }
+{D4:^80 {(k^97:c)(s=9)6D:m } D4 }
+{D6:^80 {(k^97:c)(s=9)6E:m } D6 }
+{D7:^80 {(k^97:c)(s=9)6F:m } D7 }
+{D8:^80 {(k^97:c)(s=9)70:m } D8 }
+{D9:^80 {(k^97:c)(s=9)71:m } D9 }
+{35:^80 {(k^97:c)(s=9)1:m } 35 }
+{36:^80 {(k^97:c)(s=9)2:m } 36 }
+{37:^80 {(k^97:c)(s=9)3:m } 37 }
+{38:^80 {(k^97:c)(s=9)4:m } 38 }
+{39:^80 {(k^97:c)(s=9)5:m } 39 }
+{3A:^80 {(k^97:c)(s=9)6:m } 3A }
+{3B:^80 {(k^97:c)(s=9)7:m } 3B }
+{3C:^80 {(k^97:c)(s=9)8:m } 3C }
+{3D:^80 {(k^97:c)(s=9)9:m } 3D }
+{3E:^80 {(k^97:c)(s=9)A:m } 3E }
+{3F:^80 {(k^97:c)(s=9)B:m } 3F }
+{40:^80 {(k^97:c)(s=9)C:m } 40 }
+{41:^80 {(k^97:c)(s=9)D:m } 41 }
+{42:^80 {(k^97:c)(s=9)E:m } 42 }
+{43:^80 {(k^97:c)(s=9)F:m } 43 }
+{44:^80 {(k^97:c)(s=9)10:m } 44 }
+{45:^80 {(k^97:c)(s=9)11:m } 45 }
+{46:^80 {(k^97:c)(s=9)12:m } 46 }
+{47:^80 {(k^97:c)(s=9)13:m } 47 }
+{48:^80 {(k^97:c)(s=9)14:m } 48 }
+{49:^80 {(k^97:c)(s=9)15:m } 49 }
+{4A:^80 {(k^97:c)(s=9)16:m } 4A }
+{4B:^80 {(k^97:c)(s=9)17:m } 4B }
+{4C:^80 {(k^97:c)(s=9)18:m } 4C }
+{4D:^80 {(k^97:c)(s=9)19:m } 4D }
+{4E:^80 {(k^97:c)(s=9)1A:m } 4E }
+{4F:^80 {(k^97:c)(s=9)1B:m } 4F }
+{50:^80 {(k^97:c)(s=9)1C:m } 50 }
+{51:^80 {(k^97:c)(s=9)1D:m } 51 }
+{52:^80 {(k^97:c)(s=9)1E:m } 52 }
+{53:^80 {(k^97:c)(s=9)1F:m } 53 }
+{54:^80 {(k^97:c)(s=9)20:m } 54 }
+{55:^80 {(k^97:c)(s=9)21:m } 55 }
+{56:^80 {(k^97:c)(s=9)22:m } 56 }
+{57:^80 {(k^97:c)(s=9)23:m } 57 }
+{58:^80 {(k^97:c)(s=9)24:m } 58 }
+{59:^80 {(k^97:c)(s=9)25:m } 59 }
+{5A:^80 {(k^97:c)(s=9)26:m } 5A }
+{5B:^80 {(k^97:c)(s=9)27:m } 5B }
+{5C:^80 {(k^97:c)(s=9)28:m } 5C }
+{5D:^80 {(k^97:c)(s=9)29:m } 5D }
+{5F:^80 {(k^97:c)(s=9)2A:m } 5F }
+{61:^80 {(k^97:c)(s=9)2B:m } 61 }
+{62:^80 {(k^97:c)(s=9)2C:m } 62 }
+{63:^80 {(k^97:c)(s=9)2D:m } 63 }
+{64:^80 {(k^97:c)(s=9)2E:m } 64 }
+{65:^80 {(k^97:c)(s=9)2F:m } 65 }
+{66:^80 {(k^97:c)(s=9)30:m } 66 }
+{67:^80 {(k^97:c)(s=9)31:m } 67 }
+{69:^80 {(k^97:c)(s=9)32:m } 69 }
+{6A:^80 {(k^97:c)(s=9)33:m } 6A }
+{6B:^80 {(k^97:c)(s=9)34:m } 6B }
+{6C:^80 {(k^97:c)(s=9)35:m } 6C }
+{6E:^80 {(k^97:c)(s=9)36:m } 6E }
+{6F:^80 {(k^97:c)(s=9)37:m } 6F }
+{71:^80 {(k^97:c)(s=9)38:m } 71 }
+{72:^80 {(k^97:c)(s=9)39:m } 72 }
+{74:^80 {(k^97:c)(s=9)3A:m } 74 }
+{75:^80 {(k^97:c)(s=9)3B:m } 75 }
+{77:^80 {(k^97:c)(s=9)3C:m } 77 }
+{78:^80 {(k^97:c)(s=9)3D:m } 78 }
+{79:^80 {(k^97:c)(s=9)3E:m } 79 }
+{7A:^80 {(k^97:c)(s=9)3F:m } 7A }
+{7C:^80 {(k^97:c)(s=9)40:m } 7C }
+{7D:^80 {(k^97:c)(s=9)41:m } 7D }
+{7F:^80 {(k^97:c)(s=9)42:m } 7F }
+{81:^80 {(k^97:c)(s=9)43:m } 81 }
+{82:^80 {(k^97:c)(s=9)44:m } 82 }
+{85:^80 {(k^97:c)(s=9)45:m } 85 }
+{88:^80 {(k^97:c)(s=9)46:m } 88 }
+{8A:^80 {(k^97:c)(s=9)47:m } 8A }
+{8E:^80 {(k^97:c)(s=9)48:m } 8E }
+{90:^80 {(k^97:c)(s=9)49:m } 90 }
+{91:^80 {(k^97:c)(s=9)4A:m } 91 }
+{94:^80 {(k^97:c)(s=9)4B:m } 94 }
+{97:^80 {(k^97:c)(s=9)4C:m } 97 }
+{98:^80 {(k^97:c)(s=9)4D:m } 98 }
+{9C:^80 {(k^97:c)(s=9)4E:m } 9C }
+{9D:^80 {(k^97:c)(s=9)4F:m } 9D }
+{A9:^80 {(k^97:c)(s=9)50:m } A9 }
+{AA:^80 {(k^97:c)(s=9)51:m } AA }
+{AD:^80 {(k^97:c)(s=9)52:m } AD }
+{AE:^80 {(k^97:c)(s=9)53:m } AE }
+{AF:^80 {(k^97:c)(s=9)54:m } AF }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [35(^94^8B)]
+  [36(^94^98)]
+  [37(^94^A2)]
+  [38(^94^AB)]
+  [39(^94^B3)]
+  [3A(^94^BC)]
+  [3B(^94^C4)]
+  [3C(^94^CE)]
+  [3D(^94^D8)]
+  [3E(^94^DE)]
+  [3F(^94^E6)]
+  [40(^94^ED)]
+  [41(^94^F7)]
+  [42(^94^FE)]
+  [43(^94^106)]
+  [44(^94^10E)]
+  [45(^94^115)]
+  [46(^94^11C)]
+  [47(^94^124)]
+  [48(^94^12C)]
+  [49(^94^134)]
+  [4A(^94^13C)]
+  [4B(^94^144)]
+  [4C(^94^14C)]
+  [4D(^94^155)]
+  [4E(^94^15D)]
+  [4F(^94^165)]
+  [50(^94^16D)]
+  [51(^94^175)]
+  [52(^94^C4)]
+  [53(^94^183)]
+  [54(^94^18A)]
+  [55(^94^193)]
+  [56(^94^19A)]
+  [57(^94^1A2)]
+  [58(^94^1AA)]
+  [59(^94^1B1)]
+  [5A(^94^1BB)]
+  [5B(^94^1C5)]
+  [5C(^94^1CC)]
+  [5D(^94^1D4)]
+  [5F(^94^1DD)]
+  [61(^94^1E5)]
+  [62(^94^1ED)]
+  [63(^94^1F4)]
+  [64(^94^1FB)]
+  [65(^94^D8)]
+  [66(^94^209)]
+  [67(^94^212)]
+  [69(^94^212)]
+  [6A(^94^221)]
+  [6B(^94^22A)]
+  [6C(^94^233)]
+  [6E(^94^239)]
+  [6F(^94^23F)]
+  [71(^94^246)]
+  [72(^94^24D)]
+  [74(^94^254)]
+  [75(^94^25B)]
+  [77(^94^262)]
+  [78(^94^212)]
+  [79(^94^26D)]
+  [7A(^94^274)]
+  [7C(^94^27A)]
+  [7D(^94^280)]
+  [7F(^94^287)]
+  [81(^94^28E)]
+  [82(^94^294)]
+  [85(^94^29B)]
+  [88(^94^2A2)]
+  [8A(^94^2A8)]
+  [8E(^94^2AE)]
+  [90(^94^2B4)]
+  [91(^94^2B4)]
+  [94(^94^2C0)]
+  [97(^94^2C7)]
+  [98(^94^2CD)]
+  [9C(^94^2D4)]
+  [9D(^94^2DB)]
+  [A9(^94^2E2)]
+  [AA(^94^2E8)]
+  [AD(^94^2EF)]
+  [AE(^94^2E8)]
+  [AF(^94^2E2)]
+  [B1(^94^2FF)]
+  [B2(^94^254)]
+  [B3(^94^30B)]
+  [B4(^94^311)]
+  [B6(^94^318)]
+  [B7(^94^31E)]
+  [B9(^94^324)]
+  [BA(^94^32A)]
+  [BC(^94^332)]
+  [BD(^94^338)]
+  [BE(^94^338)]
+  [BF(^94^344)]
+  [C0(^94^344)]
+  [C2
+    (^94
+    ==?UTF-8?Q?[FORUMGRAD]_T=C3=B3pico_"Caros_estudantes,_Dur?= =?UTF-8?Q?ante\
+_a_SECCOM_(https://seccom-ufsc.github.?= =?UTF-8?Q?io/2025/\)_haver=C3=A1_um_H\
+ackaton_Clim=C3=A1tico_20?= =?UTF-8?Q?25_SECCOM_2025_(https://noticias.ufsc.br\
+/2?= =?UTF-8?Q?025/09/inscricoes-abertas-para-hackathon-?= =?UTF-8?Q?shift-sma\
+rt-city-transformando-florianopol?= =?UTF-8?Q?is-em-uma-cidade-inteligente-na-\
+ufsc/\)_._?= =?UTF-8?Q?_=C3=89_uma_competi=C3=A7=C3=A3o_importante_ligada_a_De\
+fe?= =?UTF-8?Q?sa_Civil_do_Estado_de_Santa_Catarina._Os_?= =?UTF-8?Q?melhores_\
+projetos_poder=C3=A3o_ser_contemplados?= =?UTF-8?Q?_com_financiamento_de_Proje\
+tos_para_sua_e?= =?UTF-8?Q?xecu=C3=A7=C3=A3o._Al=C3=A9m_disso,_=C3=A9_uma_exce\
+lente_oport?= =?UTF-8?Q?unidade_de_aprender_buscando_solu=C3=A7=C3=B5es_par?= \
+=?UTF-8?Q?a_problemas_do_mundo_real_em_quest=C3=B5es_de_g?= =?UTF-8?Q?rande_re\
+lev=C3=A2ncia_para_sociedade_brasileir?= =?UTF-8?Q?a._Leiam_com_aten=C3=A7=C3=\
+A3o_a_mensagem_a_seguir_e?= =?UTF-8?Q?_os_convido_a_participarem._=C3=89_poss=\
+C3=ADvel_fo?= =?UTF-8?Q?rmar_as_equipes_na_abertura_da_SECCOM._Cor?= =?UTF-8?Q\
+?diais__sauda=C3=A7=C3=B5es_Profa._L=C3=BAcia_H._M._Pache?= =?UTF-8?Q?co_Coord\
+enadora_do_Curso_de_Computa=C3=A7=C3=A3o__--?= =?UTF-8?Q?------_Mensagem_origi\
+nal_--------__Assunt?= =?UTF-8?Q?o:=09Divulga=C3=A7=C3=A3o_Hackaton_Clim=C3=A1\
+tico_2025_SECC?= =?UTF-8?Q?OM_2025_Data:=0925.09.2025_17:21_De:=09harrys?= =?U\
+TF-8?Q?son.luiz@ufsc.br_Para:=09Lucia_Helena_Martin?= =?UTF-8?Q?s_Pacheco_<luc\
+ia.pacheco@ufsc.br>_____Car?= =?UTF-8?Q?a_Profa_Dra._Lucia_Pacheco__Conforme_n\
+ossa?= =?UTF-8?Q?_conversa_segue_seguem_os_links_para_divu?= =?UTF-8?Q?lga=C3=\
+A7=C3=A3o_do_Hackaton_Clim=C3=A1tico_que_acontecer?= =?UTF-8?Q?=C3=A1_de_29/09\
+_a_1/10_na_UFSC_na_Semana_da_Co?= =?UTF-8?Q?mputa=C3=A7=C3=A3o.__Os_17_desafio\
+s_tecnol=C3=B3gicos_lev?= =?UTF-8?Q?antados_pela_Defesa_Civil_Estadual_estar=C\
+3=A3o?= =?UTF-8?Q?_sendo_objeto_de_desenvolvimento_de_aplica?= =?UTF-8?Q?=C3=A\
+7=C3=B5es_tecnol=C3=B3gicas,_com_possibilidade_de_c?= =?UTF-8?Q?ontrata=C3=A7=\
+C3=A3o_futura_dos_resultados.__Os_Dire?= =?UTF-8?Q?tores_da_Defesa_Civil_Estad\
+ual_estar=C3=A3o_co?= =?UTF-8?Q?mo_mentores_nos_dias_do_evento.__O_Secret=C3=A\
+1?= =?UTF-8?Q?rio_de_Estado_dever=C3=A1_participar_prestigia?= =?UTF-8?Q?ndo_a\
+_UFSC_na_abertura_ou_na_premia=C3=A7=C3=A3o_con?= =?UTF-8?Q?forme_agenda.__A_D\
+efesa_Civil_estadual_j=C3=A1?= =?UTF-8?Q?_patrocinou_o_coffe_breack_dos_tres_d\
+ias_d?= =?UTF-8?Q?o_hackaton_e_o_material_de_apoio.__As_equ?= =?UTF-8?Q?ipes_p\
+odem_ser_de_v=C3=A1rias_=C3=A1reas_que_tem_int?= =?UTF-8?Q?erface_com_a_defesa\
+_civil,_podendo_ser_da?= =?UTF-8?Q?_UFSC_ou_fora_dela.__Segue:=C2=A0__Link_par\
+a_in?= =?UTF-8?Q?scri=C3=A7=C3=A3o_de_equipes_na_Semana_da_Computa=C3=A7=C3=A3\
+?= =?UTF-8?Q?o_da_UFSC_SECCOM_2025__https://docs.google?= =?UTF-8?Q?.com/forms\
+/d/e/1FAIpQLSfovssILAkBUyRp0vVL?= =?UTF-8?Q?tFXBZWZJExSK0pytIA8FcO1KKqTLtg/vie\
+wform__L?= =?UTF-8?Q?ink_do_Evento_publicado_no_site_da_Defesa?= =?UTF-8?Q?_Ci\
+vil_do_Estado__SPDC_participa_de_evento?= =?UTF-8?Q?_sobre_tecnologias_para_ge\
+st=C3=A3o_de_riscos_?= =?UTF-8?Q?e_desastres_na_UFSC_-_Secretaria_de_Estado?= \
+=?UTF-8?Q?_da_Prote=C3=A7=C3=A3o_e_Defesa_Civil_de_Santa_Cata?= =?UTF-8?Q?rina\
+__Agrade=C3=A7o_a_sua_aten=C3=A7=C3=A3o__Professor_Dr?= =?UTF-8?Q?._Harrysson_\
+Luiz_da_Silva__PPGDN_-_UFSC__?= =?UTF-8?Q?Inscri=C3=A7=C3=B5es_abertas_para_=E\
+2=80=98Hackathon_Shift_S?= =?UTF-8?Q?mart_City:_transformando_Florian=C3=B3pol\
+is_em?= =?UTF-8?Q?_uma_Cidade_Inteligente=E2=80=99_na_UFSC__https://?= =?UTF-8\
+?Q?noticias.ufsc.br/2025/09/inscricoes-abert?= =?UTF-8?Q?as-para-hackathon-shi\
+ft-smart-city-transfo?= =?UTF-8?Q?rmando-florianopolis-em-uma-cidade-inteli?= \
+=?UTF-8?Q?gente-na-ufsc/"_criado_em_**Graduandos_do_?= =?UTF-8?Q?Curso:_CI=C3=\
+8ANCIAS_DA_COMPUTA=C3=87=C3=83O_____________?= =?UTF-8?Q?_____________________\
+_____________________?=)]
+  [C4(^94^356)]
+  [C5(^94^1C5)]
+  [C6(^94^361)]
+  [C7(^94^369)]
+  [C8(^94^36F)]
+  [CA(^94^377)]
+  [CB(^94^37F)]
+  [CC(^94^385)]
+  [CD(^94^38B)]
+  [CE(^94^392)]
+  [D4(^94^39A)]
+  [D6(^94^3A1)]
+  [D7(^94^3A8)]
+  [D8(^94^3AE)]
+  [D9(^94^3B5)]}
+
+<(82=[Gmail]/Importante)(83=e000)(84=1766195690)(85=116629)(86=8082014)
+  (87=9)(139=15)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AA=0)(^AF^83)(^B0^84)(^B1^85)(^A7^82)
+    (^88^86)(^A8=9)(^B2=d9)(^A1=71)(^A6=d9)(^A2=15)]}
+
+@$${2{@
+[3C:^80(^88=81)]
+@$$}2}@
+
+@$${3{@
+[5A:^80(^88=81)]
+[6C:^80(^88=81)]
+[6E:^80(^88=81)]
+[BC:^80(^88=81)]
+@$$}3}@
+
+@$${4{@
+<(511=185d)>[50:^80(^C4^511)]
+<(510=185c)>[51:^80(^C4^510)]
+<(50F=185b)>[52:^80(^C4^50F)]
+<(50E=185a)>[53:^80(^C4^50E)]
+<(50D=1859)>[54:^80(^C4^50D)]
+<(50C=1858)>[55:^80(^C4^50C)]
+<(50B=1857)>[56:^80(^C4^50B)]
+<(50A=1856)>[57:^80(^C4^50A)]
+<(509=1855)>[58:^80(^C4^509)]
+<(508=1854)>[59:^80(^C4^508)]
+<(507=1853)>[5A:^80(^C4^507)]
+<(506=1852)>[5B:^80(^C4^506)]
+<(505=1851)>[5C:^80(^C4^505)]
+<(504=1850)>[5D:^80(^C4^504)]
+<(503=184f)>[5F:^80(^C4^503)]
+<(502=184e)>[61:^80(^C4^502)]
+<(501=184d)>[62:^80(^C4^501)]
+<(500=184c)>[63:^80(^C4^500)]
+<(4FF=184b)>[69:^80(^C4^4FF)]
+<(4FE=184a)>[6A:^80(^C4^4FE)]
+<(4FD=1849)>[6B:^80(^C4^4FD)]
+<(4FC=1848)>[6C:^80(^C4^4FC)]
+<(4FB=1847)>[6E:^80(^C4^4FB)]
+<(4FA=1846)>[6F:^80(^C4^4FA)]
+<(4F9=1845)>[71:^80(^C4^4F9)]
+<(4F8=1844)>[74:^80(^C4^4F8)]
+<(4F7=1843)>[75:^80(^C4^4F7)]
+<(4F6=1842)>[77:^80(^C4^4F6)]
+<(4F5=1841)>[78:^80(^C4^4F5)]
+<(4F4=1840)>[79:^80(^C4^4F4)]
+<(4F3=183f)>[7C:^80(^C4^4F3)]
+<(4F2=183e)>[7D:^80(^C4^4F2)]
+<(4F1=183d)>[7F:^80(^C4^4F1)]
+<(4F0=183c)>[81:^80(^C4^4F0)]
+<(4EF=183b)>[82:^80(^C4^4EF)]
+<(4EE=183a)>[85:^80(^C4^4EE)]
+<(4ED=1839)>[88:^80(^C4^4ED)]
+<(4EC=1838)>[8A:^80(^C4^4EC)]
+<(4EB=1837)>[8E:^80(^C4^4EB)]
+<(4EA=1836)>[90:^80(^C4^4EA)]
+<(4E9=1835)>[91:^80(^C4^4E9)]
+<(4E8=1834)>[94:^80(^C4^4E8)]
+<(4E7=1833)>[97:^80(^C4^4E7)]
+<(4E6=1832)>[98:^80(^C4^4E6)]
+<(4E5=1831)>[9C:^80(^C4^4E5)]
+<(4E4=1830)>[9D:^80(^C4^4E4)]
+<(4E3=182f)>[A9:^80(^C4^4E3)]
+<(4E2=182e)>[AA:^80(^C4^4E2)]
+<(4E1=182d)>[AD:^80(^C4^4E1)]
+<(4E0=182c)>[AE:^80(^C4^4E0)]
+<(4DF=182b)>[AF:^80(^C4^4DF)]
+<(4DE=182a)>[B1:^80(^C4^4DE)]
+<(4DD=1829)>[B2:^80(^C4^4DD)]
+<(4DC=1828)>[B3:^80(^C4^4DC)]
+<(4DB=1827)>[B4:^80(^C4^4DB)]
+<(4DA=1826)>[B6:^80(^C4^4DA)]
+<(4D9=1825)>[B7:^80(^C4^4D9)]
+<(4D8=1824)>[B9:^80(^C4^4D8)]
+<(4D7=1823)>[BA:^80(^C4^4D7)]
+<(4D6=1822)>[BC:^80(^C4^4D6)]
+<(4D5=1821)>[BD:^80(^C4^4D5)]
+<(4D4=1820)>[BE:^80(^C4^4D4)]
+<(4D3=181f)>[BF:^80(^C4^4D3)]
+<(4D2=181e)>[C0:^80(^C4^4D2)]
+<(4D1=181d)>[C2:^80(^C4^4D1)]
+<(4D0=181c)>[C4:^80(^C4^4D0)]
+<(4CF=181b)>[C5:^80(^C4^4CF)]
+<(4CE=181a)>[C6:^80(^C4^4CE)]
+<(4CD=1819)>[C7:^80(^C4^4CD)]
+<(4CC=1818)>[C8:^80(^C4^4CC)]
+<(4CB=1817)>[CA:^80(^C4^4CB)]
+<(4CA=1816)>[CB:^80(^C4^4CA)]
+<(4C9=1815)>[CC:^80(^C4^4C9)]
+<(4C8=1814)>[CD:^80(^C4^4C8)]
+<(4C7=1813)>[CE:^80(^C4^4C7)]
+<(4C6=1812)>[D6:^80(^C4^4C6)]
+<(4C5=1811)>[D7:^80(^C4^4C5)]
+<(4C4=1810)>[D8:^80(^C4^4C4)]
+<(4C3=180f)>[D9:^80(^C4^4C3)]
+<(4B7=17d4)>[35:^80(^C4^4B7)]
+<(4B8=17d5)>[36:^80(^C4^4B8)]
+<(4B9=17d6)>[37:^80(^C4^4B9)]
+<(4BA=17d8)>[38:^80(^C4^4BA)]
+<(4BB=17da)>[39:^80(^C4^4BB)]
+<(4BC=17db)>[3A:^80(^C4^4BC)]
+<(4BD=17dc)>[3B:^80(^C4^4BD)]
+<(4BE=17de)>[3C:^80(^C4^4BE)]
+<(4BF=17df)>[3E:^80(^C4^4BF)]
+<(4C0=17e0)>[3F:^80(^C4^4C0)]
+<(4C1=17e1)>[43:^80(^C4^4C1)]
+<(4C2=17e2)>[44:^80(^C4^4C2)]
+<(51C=1868)>[45:^80(^C4^51C)]
+<(51B=1867)>[46:^80(^C4^51B)]
+<(51A=1866)>[47:^80(^C4^51A)]
+<(519=1865)>[48:^80(^C4^519)]
+<(518=1864)>[49:^80(^C4^518)]
+<(517=1863)>[4A:^80(^C4^517)]
+<(516=1862)>[4B:^80(^C4^516)]
+<(515=1861)>[4C:^80(^C4^515)]
+<(514=1860)>[4D:^80(^C4^514)]
+<(513=185f)>[4E:^80(^C4^513)]
+<(512=185e)>[4F:^80(^C4^512)]
+@$$}4}@
+
+@$${6{@
+<(51D=1908307)(51E=284fb)(51F=a9c)>
+[-41:^80(^88^3CD)(^82^F6)
+    (^85
+    =rafaelcvieira12@gmail.com, cristiano@bridge.ufsc.br, beatriz.avila@bridge\
+.ufsc.br, miliane@bridge.ufsc.br, adrianesouza2101@gmail.com, adrianonkosi07@g\
+mail.com, alan.fochesatto@grad.ufsc.br, alemelloribeiro@gmail.com, alexandre.s\
+cheidt@ufsc.br, alinnygomes28@gmail.com, andreiasilva.tech@gmail.com, andreprc\
+aceres@gmail.com, angewluvss@gmail.com, annaclarabdg@gmail.com, araujops.gusta\
+vo@gmail.com, ariellelb74@gmail.com, assuncaoluisdomingos@gmail.com, augustovc\
+r@gmail.com, bcrussi@gmail.com, belquis.a.elisa@gmail.com, c.augusto0302@gmail\
+.com, caioandrade2506@gmail.com, carololiveiraadriano@gmail.com, correiasthali\
+ta@gmail.com, davi.simas55@gmail.com, daviffenker@gmail.com, diegoraylan16@gma\
+il.com, douglasjr.rosa@gmail.com, dynz1234@gmail.com, eduardadossantosacademic\
+2006gm@gmail.com, eduardagiron@gmail.com, egidiomariano@gmail.com, eliasbonfim\
+12@gmail.com, elisangela.geroleti@gmail.com, elsantos2@gmail.com, felipe.elton\
+.ps@gmail.com, filipepotrich@gmail.com, fjhats@gmail.com, freitagisadora6@gmai\
+l.com, gabiplimas@gmail.com, gabrelamarela@gmail.com, gabrielaizolan28@gmail.c\
+om, gabrieldahsilva@gmail.com, gdrezende77@gmail.com, gencen.abelino@grad.ufsc\
+.br, georgia.mastroianni@gmail.com, gipaludo@hotmail.com, gjuchem.ufsc@gmail.c\
+om, gleidsonsaudece@gmail.com, gustavomonteirojorge@gmail.com, hannaeugenioolv\
+@gmail.com, hazielsuzano@gmail.com, henrique.sabanay@gmail.com, hriqueh2@gmail\
+.com, igormcd0801@gmail.com, ingridmullerrodrigues21@gmail.com, iolandaecandid\
+o@gmail.com, isad0ramartinx@gmail.com, janynesjana@gmail.com, jhbrunetievangel\
+ista@gmail.com, joaogurgel1996@gmail.com, joshuaamaral05@gmail.com, jovict2021\
+@gmail.com, ju.rgomes96@gmail.com, jufernandesgoulart@gmail.com, julia.olivett\
+i@grad.ufsc.br, juliasottili33894@gmail.com, katialorena83@gmail.com, larissab\
+ritofelisbino@gmail.com, larissamirandaufsc@gmail.com, lenasmaia@gmail.com, le\
+sghedin11@gmail.com, letielyneubertriese@gmail.com, lolokadasilvaferreira@gmai\
+l.com, luciana.pimentel.projetos@gmail.com, luisfdb@gmail.com, luizahelena.con\
+tatos@gmail.com, madufsc@gmail.com, maieleborin@gmail.com, manfredinimarcia@gm\
+ail.com, mariaclararemors@gmail.com, mariaeduardaazevedo2003@gmail.com, marian\
+abaptista0723@gmail.com, maurorsj@gmail.com, mendesnivas@gmail.com, myllenacor\
+rea842@gmail.com, pagysel@gmail.com, pamy-14@hotmail.com, pedrojoaojpk@gmail.c\
+om, pedronunesalegri@gmail.com, pedrorubin4@gmail.com, phtaglialenha@gmail.com\
+, rafa.s.berti@gmail.com, renatokissellkloco@gmail.com, robertamime@gmail.com,\
+ rodrigo.sil.gel@gmail.com, rodrigomondardo98@gmail.com, rosaribeirosamuel@gma\
+il.com, sara.arias.contato@gmail.com, senenhaf@gmail.com, sofgazolla@gmail.com\
+, souzaalves.lucas.2017@gmail.com, tarcisio.osorio@gmail.com, thasiosantana523\
+@gmail.com, thiago.paz88@gmail.com, tomiolucas3@gmail.com, van.diniz.sanches@g\
+mail.com, vanelkevin02@gmail.com, viniciusfernandesdomingos@gmail.com, viniciu\
+smorine729@gmail.com, vittmanno@gmail.com, xeniacemin5@gmail.com, beatrizperei\
+ra1993@hotmail.com, brunopamplona10@hotmail.com, cadumeurer@hotmail.com, grasi\
+ssouza_2006@yahoo.com.br, laiz.margraf@hotmail.com, marcelodutram@hotmail.com,\
+ marcelols@msn.com, miranda.emi@hotmail.com, pamelabedin2016@hotmail.com)
+    (^81^F7)(^83^F8)(^84=)(^B5^F9)(^86^F9)(^89=1)(^87^FA)(^9A^91)(^8E=41)
+    (^B6=0)(^BB^FD)(^BC^FD)(^BD^94)(^BA=)(^C3^51D)(^9D^51E)(^8B=a9c)]
+@$$}6}@
+
+@$${7{@
+<(523=1b96)>[41:^80(^C4^523)]
+<(520=2073457)(521=2b8eb)(522=b65)>
+[-42:^80(^88^3CD)(^82^F6)
+    (^85
+    =rafaelcvieira12@gmail.com, cristiano@bridge.ufsc.br, beatriz.avila@bridge\
+.ufsc.br, miliane@bridge.ufsc.br, adrianesouza2101@gmail.com, adrianonkosi07@g\
+mail.com, alan.fochesatto@grad.ufsc.br, alemelloribeiro@gmail.com, alexandre.s\
+cheidt@ufsc.br, alinnygomes28@gmail.com, anapaularomano2007@gmail.com, andreia\
+silva.tech@gmail.com, andreprcaceres@gmail.com, angewluvss@gmail.com, annaclar\
+abdg@gmail.com, araujops.gustavo@gmail.com, ariellelb74@gmail.com, arthur.c.le\
+mes@gmail.com, assuncaoluisdomingos@gmail.com, augustovcr@gmail.com, bcrussi@g\
+mail.com, belquis.a.elisa@gmail.com, c.augusto0302@gmail.com, caetanoluizp@gma\
+il.com, caioandrade2506@gmail.com, carololiveiraadriano@gmail.com, cezarrami19\
+@gmail.com, chrystiantomasini@gmail.com, correiasthalita@gmail.com, davi.simas\
+55@gmail.com, daviffenker@gmail.com, diegoraylan16@gmail.com, douglasjr.rosa@g\
+mail.com, dynz1234@gmail.com, eduardadossantosacademic2006gm@gmail.com, eduard\
+agiron@gmail.com, egidiomariano@gmail.com, eliasbonfim12@gmail.com, elisangela\
+.geroleti@gmail.com, ellenc25@hotmail.com, elsantos2@gmail.com, felipe.elton.p\
+s@gmail.com, filipepotrich@gmail.com, fjhats@gmail.com, fregapanif@gmail.com, \
+freitagisadora6@gmail.com, gabiplimas@gmail.com, gabrelamarela@gmail.com, gabr\
+ielaizolan28@gmail.com, gabrieldahsilva@gmail.com, gdrezende77@gmail.com, genc\
+en.abelino@gmail.com, georgia.mastroianni@gmail.com, gipaludo@hotmail.com, gju\
+chem.ufsc@gmail.com, gleidsonsaudece@gmail.com, gustavomonteirojorge@gmail.com\
+, hannaeugenioolv@gmail.com, hazielsuzano@gmail.com, helenaschmalf@gmail.com, \
+henrique.sabanay@gmail.com, hriqueh2@gmail.com, igormcd0801@gmail.com, ingridm\
+ullerrodrigues21@gmail.com, iolandaecandido@gmail.com, isad0ramartinx@gmail.co\
+m, janynesjana@gmail.com, jhbrunetievangelista@gmail.com, joaogurgel1996@gmail\
+.com, joshuaamaral05@gmail.com, jovict2021@gmail.com, ju.rgomes96@gmail.com, j\
+ufernandesgoulart@gmail.com, julia.olivetti@grad.ufsc.br, juliasottili33894@gm\
+ail.com, katialorena83@gmail.com, klaus2027@gmail.com, larissabritofelisbino@g\
+mail.com, larissamirandaufsc@gmail.com, lenasmaia@gmail.com, lesghedin11@gmail\
+.com, letielyneubertriese@gmail.com, lolokadasilvaferreira@gmail.com, luciana.\
+pimentel.projetos@gmail.com, luisfdb@gmail.com, luizahelena.contatos@gmail.com\
+, luizmachadoathayde@gmail.com, madufsc@gmail.com, maieleborin@gmail.com, manf\
+redinimarcia@gmail.com, mariaclararemors@gmail.com, mariaeduardaazevedo2003@gm\
+ail.com, marianabaptista0723@gmail.com, markicast98@gmail.com, maurorsj@gmail.\
+com, mendesnivas@gmail.com, myllenacorrea842@gmail.com, pagysel@gmail.com, pam\
+y-14@hotmail.com, pedrojoaojpk@gmail.com, pedronunesalegri@gmail.com, pedrorub\
+in4@gmail.com, phtaglialenha@gmail.com, rafa.s.berti@gmail.com, renatokissellk\
+loco@gmail.com, robertamime@gmail.com, rodrigo.sil.gel@gmail.com, rodrigomonda\
+rdo98@gmail.com, romariohand@hotmail.com, rosaribeirosamuel@gmail.com, sara.ar\
+ias.contato@gmail.com, senenhaf@gmail.com, sofgazolla@gmail.com, souzaalves.lu\
+cas.2017@gmail.com, tarcisio.osorio@gmail.com, thasiosantana523@gmail.com, tha\
+yseestevo@gmail.com, thewsfotos@gmail.com, thiago.paz88@gmail.com, tomiolucas3\
+@gmail.com, ufschigor@gmail.com, van.diniz.sanches@gmail.com, vanelkevin02@gma\
+il.com, viniciusfernandesdomingos@gmail.com, viniciusmorine729@gmail.com, vitt\
+manno@gmail.com, xeniacemin5@gmail.com, beatrizpereira1993@hotmail.com, brunop\
+amplona10@hotmail.com, cadumeurer@hotmail.com, grasissouza_2006@yahoo.com.br, \
+laiz.margraf@hotmail.com, marcelols@msn.com, miranda.emi@hotmail.com, pamelabe\
+din2016@hotmail.com)(^81^FE)(^83^FF)(^84=)(^B5^100)(^86^100)(^89=1)
+    (^87^101)(^B9=0)(^BF^F1)(^BA^F2)(^9A^91)(^8E=42)(^B6=0)(^BB^104)
+    (^BC^104)(^BD^94)(^C3^520)(^9D^521)(^8B=b65)]
+@$$}7}@
+
+@$${8{@
+@$$}8}@
+
+@$${9{@
+<(524=1b97)>[42:^80(^C4^524)]
+@$$}9}@
+
+@$${A{@
+<(525=2251903)(526=967c6)(527=1f34)>
+[-66:^80(^88^3CD)(^BE^208)(^82^96)(^85^97)(^81^209)(^83^20A)(^84=)
+    (^B5^20B)(^86^20B)(^89=1)(^87^20C)(^9A^91)(^8E=66)(^B6=0)(^BB^20F)
+    (^BC^20F)(^BD^94)(^BA=)(^C3^525)(^9D^526)(^8B^527)]
+<(528=2868328)(529=2905d)(52A=8bb)>
+[-67:^80(^88^3CD)(^BE^210)(^82^211)(^85^97)(^81^212)(^83^213)(^84=)
+    (^B5^214)(^86^214)(^89=1)(^87^215)(^9A^91)(^8E=67)(^B6=0)(^BB^218)
+    (^BC^219)(^BD^94)(^BA=)(^C3^528)(^9D^529)(^8B=8bb)]
+<(52B=3036392)(52C=39a41)(52D=c20)>
+[-72:^80(^88^3CD)(^BE^24C)(^82^96)(^85^97)(^81^24D)(^83^24E)(^84=)
+    (^B5^24F)(^86^24F)(^89=1)(^87^250)(^9A^91)(^8E=72)(^B6=0)(^BB^252)
+    (^BC^252)(^BD^94)(^BA=)(^C3^52B)(^9D^52C)(^8B=c20)]
+<(52E=3272524)(52F=636cf)(530=14b1)>
+[-7A:^80(^88^3CD)(^BE^273)(^82^96)(^85^97)(^81^274)(^83^275)(^84=)
+    (^B5^276)(^86^276)(^89=1)(^87^277)(^9A^91)(^8E=7a)(^B6=0)(^BB^279)
+    (^BC^279)(^BD^94)(^BA=)(^C3^52E)(^9D^52F)(^8B^530)]
+@$$}A}@
+
+@$${B{@
+@$$}B}@
+
+@$${C{@
+<(531=1b98)>[66:^80(^C4^531)]
+<(532=1b99)>[67:^80(^C4^532)]
+<(533=1b9a)>[72:^80(^C4^533)]
+<(534=1b9b)>[7A:^80(^C4^534)]
+@$$}C}@
+
+@$${D{@
+<(539=10000080)(538=4608353)(53A=ad1ae)(53B=23a4)>
+[-D4:^80(^88^539)(^82^399)(^85^A1)(^81^39A)(^83^39B)(^84=)(^B5^39C)
+    (^86^39C)(^89=1)(^87^39D)(^9A^91)(^8E=d4)(^B6=0)(^BB^3A0)(^BC^3A0)
+    (^BD^94)(^BA=)(^C3^538)(^9D^53A)(^8B^53B)]
+<(535=3679806)(536=e2b00)(537=2ea0)>
+[-40:^80(^88=81)(^82^A9)(^85^AA)(^8D^A1)(^81^ED)(^83^EE)(^84=)(^B5^EF)
+    (^86^EF)(^89=1)(^87^F0)(^B9=0)(^BF^F1)(^BA^F2)(^9A^91)(^8E=40)(^B6=0)
+    (^BB^F5)(^BC^F5)(^BD^94)(^C3^535)(^9D^536)(^8B^537)]
+@$$}D}@
+
+@$${E{@
+<(53D=1b9d)>[D4:^80(^C4^53D)]
+<(53C=1b9c)>[40:^80(^C4^53C)]
+@$$}E}@
+
+@$${F{@
+<(53E=5317426)(53F=158ecb)(540=4714)>
+[-64:^80(^88^3CD)(^BE^13B)(^82^96)(^85^97)(^81^1FB)(^83^1FC)(^84=)
+    (^B5^1FD)(^86^1FD)(^89=1)(^87^1FE)(^9A^91)(^8E=64)(^B6=0)(^BB^201)
+    (^BC^201)(^BD^94)(^BA=)(^C3^53E)(^9D^53F)(^8B^540)]
+@$$}F}@
+
+@$${10{@
+<(541=1b9e)>[64:^80(^C4^541)]
+@$$}10}@
+
+@$${11{@
+<(542=6730272)(543=314bf8)(544=a218)>
+[-3D:^80(^88^3CD)(^BE^D7)(^82^96)(^85^97)(^81^D8)(^83^D9)(^84=)(^B5^DA)
+    (^86^DA)(^89=1)(^87^DB)(^9A^91)(^8E=3d)(^B6=0)(^BB^DD)(^BC^DD)(^BD^94)
+    (^BA=)(^C3^542)(^9D^543)(^8B^544)]
+@$$}11}@
+
+@$${12{@
+<(545=1b9f)>[3D:^80(^C4^545)]
+@$$}12}@
+
+@$${13{@
+<(546=9961019)(547=6d9c78)(548=1680c)>
+[-65:^80(^88^3CD)(^BE^D7)(^82^96)(^85^97)(^81^D8)(^83^202)(^84=)(^B5^203)
+    (^86^203)(^89=1)(^87^204)(^9A^91)(^8E=65)(^B6=0)(^BB^207)(^BC^207)
+    (^BD^94)(^BA=)(^C3^546)(^9D^547)(^8B^548)]
+@$$}13}@
+
+@$${14{@
+<(549=1ba0)>[65:^80(^C4^549)]
+@$$}14}@
+
+@$${15{@
+< <(a=c)> // (f=iso-8859-1)
+  (C6=useServerRetention)>
+@$$}15}@
+
+@$${16{@
+< <(a=c)> // (f=iso-8859-1)
+  (C7=retainBy)(C8=daysToKeepHdrs)(C9=numHdrsToKeep)(CA=daysToKeepBodies)
+  (CB=useServerDefaults)(CC=cleanupBodies)(CD=applyToFlaggedMessages)>
+[1:^9F(^C6=1)]
+@$$}16}@
+
+@$${17{@
+@$$}17}@

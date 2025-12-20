@@ -1,0 +1,129 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=folderName)(B9=account)(BA=junkscore)(BB=keywords)(BC=X-GM-MSGID)
+  (BD=X-GM-THRID)(BE=X-GM-LABELS)(BF=dobayes.mailnews@mozilla.org#junk)
+  (C0=ns:msg:db:row:scope:ops:all)(C1=ns:msg:db:table:kind:ops)
+  (C2=storeToken)(C3=gloda-id)(C4=gloda-dirty)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=numLines)(8C=ccList)(8D=bccList)(8E=msgThreadId)
+  (8F=threadId)(90=threadFlags)(91=threadNewestMsgDate)(92=children)
+  (93=unreadChildren)(94=threadSubject)(95=msgCharSet)
+  (96=ns:msg:db:table:kind:msgs)(97=ns:msg:db:table:kind:thread)
+  (98=ns:msg:db:table:kind:allthreads)
+  (99=ns:msg:db:row:scope:threads:all)(9A=threadParent)(9B=threadRoot)
+  (9C=msgOffset)(9D=offlineMsgSize)(9E=uidOnServer)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=version)(AC=forceReparse)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=indexingPriority)
+  (B0=imapFlags)(B1=useServerRetention)(B2=highestModSeq)
+  (B3=highestRecordedUID)(B4=ns:msg:db:row:scope:pending:all)
+  (B5=ns:msg:db:table:kind:pending)(B6=dateReceived)(B7=ProtoThreadFlags)>
+<(D4=64)(D1=65c2a9c5)(81=0)(80=1)>
+[9:m(^9B=64)(^8F=64)(^91^D1)(^90=0)(^92=1)]
+<(DD=66)(DB=670d95f2)>[A:m(^9B=66)(^8F=66)(^91^DB)(^90=0)(^92=1)]
+<(8E=29)(8C=5bec1f65)>[1:m(^9B=29)(^8F=29)(^91^8C)(^90=0)(^92=1)]
+<(97=3c)(95=5d308c3e)>[2:m(^9B=3c)(^8F=3c)(^91^95)(^90=0)(^92=1)]
+<(9F=53)(9D=6020251e)>[3:m(^9B=53)(^8F=53)(^91^9D)(^90=0)(^92=1)]
+<(A7=54)(A5=60202545)>[4:m(^9B=54)(^8F=54)(^91^A5)(^90=0)(^92=1)]
+<(AF=57)(AD=62992fcc)>[5:m(^9B=57)(^8F=57)(^91^AD)(^90=0)(^92=1)]
+<(B6=5a)(B4=62d5bd6c)>[6:m(^9B=5a)(^8F=5a)(^91^B4)(^90=0)(^92=1)]
+<(BF=5c)(BD=6452f3b3)>[7:m(^9B=5c)(^8F=5c)(^91^BD)(^90=0)(^92=1)]
+<(CA=63)(C6=65a02fff)>[8:m(^9B=63)(^8F=63)(^91^C6)(^90=0)(^92=1)]
+
+<(F9=10000085)(89=Rafael Costa Vieira <rafaelminhocadoida@gmail.com>)
+  (C3=rafaelminhocadoida@gmail.com)(C4==?UTF-8?Q?Plano_de_sa=C3=BAde_?=)
+  (C5=CANX4u1jBMruUpK_Tk7q+pqF0a2JjpnEjYtMKRE6mUdqNgsewsQ@mail.gmail.com)
+  (88=)(F7=198de)(8F=ffffffff)(CC=1787818791682335212)(CD
+    =1787818772009665150)(CE="\\\\Important" "\\\\Inbox" "\\\\Starred")
+  (F8=17283)(FA=19911)(FB=550)(106=16e6)>
+{63:^80 {(k^97:c)(s=9)8:m } [63(^88^F9)(^82^89)(^85^C3)(^81^C4)(^83^C5)
+    (^84=)(^B6^C6)(^86^C6)(^89=1)(^87^F7)(^9A^8F)(^8E=63)(^B7=0)(^BC^CC)
+    (^BD^CD)(^BE^CE)(^BB=)(^C2^F8)(^9D^FA)(^8B^FB)(^C3^106)]}
+
+<(101=10000081)(BA=junior clovis <clovisvjunior@gmail.com>)(CF
+    ==?UTF-8?Q?inscri=C3=A7=C3=A3o_concurso_unificado_comprovante_E_boleto?=)
+  (D0=CANX4u1jW8R1iDfk-Fe64cK0JMbNr4ph=kNaMQ6upNy_0m9G=vA@mail.gmail.com)
+  (FF=25d02c)(D6=1790187945565526885)(D7=1790187900000124037)(100=293701)
+  (102=25d05f)(103=7c32)(105=16e5)>
+{64:^80 {(k^97:c)(s=9)9:m } [64(^88^101)(^82^89)(^85^BA)(^81^CF)(^83^D0)
+    (^84=)(^B6^D1)(^86^D1)(^89=1)(^87^FF)(^9A^8F)(^8E=64)(^B7=0)(^BC^D6)
+    (^BD^D7)(^BE=)(^BB=)(^C2^100)(^9D^102)(^8B^103)(^C3^105)]}
+
+<(E0=81)(8A=CPF)(8B
+    =CANX4u1gg=f1GAi3wQ_PstsYg_Z=ED_T0O5yQmAiqkgdXWRE-Dw@mail.gmail.com)
+  (96=250)(90=1617115160333114596)(91=1617115135718121174)(92
+    ="\\\\Important")(E1=283)(E2=13)(10D=16ed)(93=senha trove)(94
+    =CANX4u1hyUxmVycvawgbdrgJNeYdE9+WNEwTNgiW4sYLbaPC7oA@mail.gmail.com)
+  (E3=252)(99=1639409485606035294)(9A=1639409471717103410)(E4=678)(E5=285)
+  (10C=16ec)(9B=codigo teamspeak)(9C
+    =CANX4u1gsO7e5-Xrz442O2n2h4QQGe7o5L_H0gz2aec1OW-K-1g@mail.gmail.com)
+  (E6=29c)(A1=1691058855623988274)(A2=1691058849733053283)(E7=1358)
+  (E8=2cf)(10B=16eb)(A3=codigo discord)(A4
+    =CANX4u1haxnYUR+qt9BxdkzVuuh3PN7h4e9PQ3geWzVYzNDLATQ@mail.gmail.com)
+  (E9=51f)(A9=1691058898596663547)(AA=1691058897975942781)(EA=2112)
+  (EB=552)(EC=27)(10A=16ea)(AB=conta PBE)(AC
+    =CANX4u1jMu-MpmjyQgduxbKDPEDNa_zD48yOC1auwkrmjcjGVYg@mail.gmail.com)
+  (ED=251)(B0=1734561148527383779)(B1=1734561147835301207)(EE=3509)
+  (EF=284)(109=16e9)(B2=senha microsoft)(B3
+    =CANX4u1ihZK+5kFQO4ntMuxqk8T8GBP5ZNi0VcryZu5ACDo6HjQ@mail.gmail.com)
+  (F0=2fa)(B8=1738722332886339565)(B9=1738722326569254881)(F1=4188)
+  (F2=32d)(108=16e8)(BB==?UTF-8?Q?resumo_atlas_fasc=C3=ADculo_3?=)(BC
+    =CANX4u1ii3f1jNnRvZhjepeMLM36ZouNcxjX1VhK0Ly_rPF9WJw@mail.gmail.com)
+  (F3=2f81)(C1=1764919178914273114)(C2=1764919141647531634)(F4=5036)
+  (F5=2fb4)(F6=cf)(107=16e7)(D8=support@redact.dev)(D9
+    =I can't connect to Twitter after using Redact)(DA
+    =30bc41cb-9496-439f-a215-d07a6f918b5f@gmail.com)(DC=29e38)(DF
+    =1812928769660031996)(FC=122039)(FD=29e6b)(FE=92a)(104=16e4)>
+{1:^80 {(k^96:c)(s=9)} 
+  [29(^88=81)(^82^89)(^85^89)(^81^8A)(^83^8B)(^84=)(^B6^8C)(^86^8C)
+    (^89=1)(^87^96)(^9A^8F)(^8E=29)(^B7=0)(^BC^90)(^BD^91)(^BE^92)(^BB=)
+    (^C2=0)(^9D^E1)(^8B=13)(^C3^10D)]
+  [3C(^88=81)(^82^89)(^85^89)(^81^93)(^83^94)(^84=)(^B6^95)(^86^95)
+    (^89=1)(^87^E3)(^9A^8F)(^8E=3c)(^B7=0)(^BC^99)(^BD^9A)(^BE^92)(^BB=)
+    (^C2^E4)(^9D^E5)(^8B=13)(^C3^10C)]
+  [53(^88=81)(^82^89)(^85^89)(^81^9B)(^83^9C)(^84=)(^B6^9D)(^86^9D)
+    (^89=1)(^87^E6)(^9A^8F)(^8E=53)(^B7=0)(^BC^A1)(^BD^A2)(^BE^92)(^BB=)
+    (^C2^E7)(^9D^E8)(^8B=13)(^C3^10B)]
+  [54(^88=81)(^82^89)(^85^89)(^81^A3)(^83^A4)(^84=)(^B6^A5)(^86^A5)
+    (^89=1)(^87^E9)(^9A^8F)(^8E=54)(^B7=0)(^BC^A9)(^BD^AA)(^BE^92)(^BB=)
+    (^C2^EA)(^9D^EB)(^8B=27)(^C3^10A)]
+  [57(^88=81)(^82^89)(^85^89)(^81^AB)(^83^AC)(^84=)(^B6^AD)(^86^AD)
+    (^89=1)(^87^ED)(^9A^8F)(^8E=57)(^B7=0)(^BC^B0)(^BD^B1)(^BE^92)(^BB=)
+    (^C2^EE)(^9D^EF)(^8B=13)(^C3^109)]
+  [5A(^88=81)(^82^89)(^85^89)(^81^B2)(^83^B3)(^84=)(^B6^B4)(^86^B4)
+    (^89=1)(^87^F0)(^9A^8F)(^8E=5a)(^B7=0)(^BC^B8)(^BD^B9)(^BE^92)(^BB=)
+    (^C2^F1)(^9D^F2)(^8B=13)(^C3^108)]
+  [5C(^88=81)(^82^89)(^85^BA)(^81^BB)(^83^BC)(^84=)(^B6^BD)(^86^BD)
+    (^89=1)(^87^F3)(^9A^8F)(^8E=5c)(^B7=0)(^BC^C1)(^BD^C2)(^BE=)(^BB=)
+    (^C2^F4)(^9D^F5)(^8B=cf)(^C3^107)]63 64 
+  [66(^88=81)(^82^89)(^85^D8)(^81^D9)(^83^DA)(^84=)(^B6^DB)(^86^DB)
+    (^89=1)(^87^DC)(^9A^8F)(^8E=66)(^B7=0)(^BC^DF)(^BD^DF)(^BE=)(^BB=)
+    (^C2^FC)(^9D^FD)(^8B^FE)(^C3^104)]}
+{5A:^80 {(k^97:c)(s=9)6:m } 5A }
+{66:^80 {(k^97:c)(s=9)A:m } 66 }
+{5C:^80 {(k^97:c)(s=9)7:m } 5C }
+{3C:^80 {(k^97:c)(s=9)2:m } 3C }
+{53:^80 {(k^97:c)(s=9)3:m } 53 }
+{54:^80 {(k^97:c)(s=9)4:m } 54 }
+{29:^80 {(k^97:c)(s=9)1:m } 29 }
+{57:^80 {(k^97:c)(s=9)5:m } 57 }
+{FFFFFFFD:^99 {(k^98:c)(s=9)} [29(^94^8A)]
+  [3C(^94^93)]
+  [53(^94^9B)]
+  [54(^94^A3)]
+  [57(^94^AB)]
+  [5A(^94^B2)]
+  [5C(^94^BB)]
+  [63(^94^C4)]
+  [64(^94^CF)]
+  [66(^94^D9)]}
+
+<(82=[Gmail]/Sent Mail)(83=60)(84=e000)(85=2416973)(86=8082214)(87=5)
+  (DE=a)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AB=1)(^AC=0)(^AD=1)(^AE^82)(^AF=60)(^B0^84)(^B1=1)(^B2^85)(^A7^82)
+    (^88^86)(^A8=5)(^B3=66)(^A1=a)(^A6=66)]}

@@ -21,4 +21,6 @@ It's just dracula theme on everything
 - ublock origin
 - avira manager
 - full-screen-api.warning.timeout: 15000
-- dracula stylus: github, youtube and leetcode
+- dracula stylus: github, youtube, leetcode and codeforces
+
+unzip .thunderbird/7x39a687.default-release/ImapMail/outlook.office365-1.com/Sent.7z

@@ -1,0 +1,1086 @@
+From - Sat Dec 20 01:52:45 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rafaelminhocadoida@gmail.com
+Received: by 2002:ab0:6394:0:b0:7c3:fe05:6759 with SMTP id y20csp1227094uao;
+        Fri, 1 Dec 2023 07:51:08 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFflIqu85y57sls55ZzRi1rAuXmihH90qf9O9PFX7JHaewatal5g1W2sPe3UisaPZif8JfR
+X-Received: by 2002:a25:b18f:0:b0:db5:3fe9:e820 with SMTP id h15-20020a25b18f000000b00db53fe9e820mr4819989ybj.62.1701445868474;
+        Fri, 01 Dec 2023 07:51:08 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1701445868; cv=none;
+        d=google.com; s=arc-20160816;
+        b=s3Ctct/zaxK9QWYoUqFeNS9V/VJwzcJbadcKAF0SrUbBYS7M0W6DN7W0cAbzkGKwuG
+         c1BD/ScVkaFNulyVxzMP2m3y9Mc1O50Gkpygu8oaGTzZbsKrwdyCmKDHsaMh0WenRrjT
+         SGFuY044/2+miIbrJvdiKvAO15DU4YBsGXLNmmhWPPanIo7/R8Ty0Tq8l6DpH5SokEsb
+         gY5HGEw0otn1nRRVxn+69NrF/tWfpX+kRct+P5pmXuP9SnhyubCPLy9y+IAuDRb8GyGl
+         yLvpqDyK93eU6efPFOZhmZ+oe79BunqeajexbwV4Ju7sEK4laDbqDpLWrO3V+3SogdRU
+         eu/Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:mime-version:to:from:subject:date:message-id
+         :dkim-signature:dkim-signature;
+        bh=/Di3zw9aZMIzxI+jVarRZrmfJDlSU04+sxgIj7M+2fQ=;
+        fh=DJTJ0xOOkMjStpQjDEZbRKFAIYScvmzt40yYVZwQCsU=;
+        b=d8ahzxcfhaoyZFRnzlRTaYwyYHEGLyxL1ykEPeYV3NmNyMsNaPT/8MZhs8YawhB+V4
+         EX7C0Ugxyv3pq+Eqy6j7YR14iMdFawPR/4LBlbyoCrL+dJiQGzW40WP0d2Xw5oHh4B5t
+         zTS2UdVy6hBdKrkKzdqlfhax+F153kpskJ0Ydzyqr+xDaXUWYmkHSPKm8jkvuXuE/BWq
+         Jx9ScqR7QmSKPu/JAR404kaNO/lLH5T8cUGq6mMREtAoO8fkYEZiXFhzn+P5usNhdejd
+         DsSpko8e3Cp7zbmGBfy9zxCBZUZ66R6ife6yjCXYeAVCB3DUfpPFMWDjUkR66xoQtZvY
+         4nxg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@perfectpay.com.br header.s=pyl6jkpz3f2fsyrfsj6jk5fwxcpjdray header.b=RpPqKc6p;
+       dkim=pass header.i=@amazonses.com header.s=kra23psoka5qyyh6gdejiiuof3nluwuz header.b=VEpARq6q;
+       spf=pass (google.com: domain of 010f018c261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000@us-east-2.amazonses.com designates 23.251.226.52 as permitted sender) smtp.mailfrom=010f018c261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000@us-east-2.amazonses.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=perfectpay.com.br
+Return-Path: <010f018c261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000@us-east-2.amazonses.com>
+Received: from e226-52.smtp-out.us-east-2.amazonses.com (e226-52.smtp-out.us-east-2.amazonses.com. [23.251.226.52])
+        by mx.google.com with ESMTPS id 64-20020a250043000000b00db537c8be8asi893543yba.71.2023.12.01.07.51.08
+        for <rafaelminhocadoida@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 Dec 2023 07:51:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of 010f018c261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000@us-east-2.amazonses.com designates 23.251.226.52 as permitted sender) client-ip=23.251.226.52;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@perfectpay.com.br header.s=pyl6jkpz3f2fsyrfsj6jk5fwxcpjdray header.b=RpPqKc6p;
+       dkim=pass header.i=@amazonses.com header.s=kra23psoka5qyyh6gdejiiuof3nluwuz header.b=VEpARq6q;
+       spf=pass (google.com: domain of 010f018c261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000@us-east-2.amazonses.com designates 23.251.226.52 as permitted sender) smtp.mailfrom=010f018c261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000@us-east-2.amazonses.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=perfectpay.com.br
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=pyl6jkpz3f2fsyrfsj6jk5fwxcpjdray; d=perfectpay.com.br;
+	t=1701445868;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	bh=5qTSe5JeAZLniDf+UZmaOJIw5bBIFPChVEKa290hfGY=;
+	b=RpPqKc6pkHELbadw8FA60dptdzKCckV7gRaJ9Dj/ePGSmH/94JKr75+I5aTmvwno
+	XG2mtS94rYwxRJj6DmD/FPNvL7S/AU1oRILiocASD22PE3j/65zbdiuA3zLwvpYPTXI
+	YvCWBR08SjAB4lMpneR7zRocfa5cz10xdlKIdArE=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1701445868;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:Feedback-ID;
+	bh=5qTSe5JeAZLniDf+UZmaOJIw5bBIFPChVEKa290hfGY=;
+	b=VEpARq6qniwwEKM5H4tmQKFZKsJAkpeCFPpVaOBr2dgwdT+m63e6QczlDtv2Ban+
+	PlTzxOpVoHNjrRub1D6bVS4sj4MrtRtaCWZo2p6/J5mtvvZHj+bXbiJKYV1whINh2FD
+	YD4jqhhkEvCJr8dX8jFC5Y+E/LIGb2SDnjcIgz/E=
+Message-ID: <010f018c261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000@us-east-2.amazonses.com>
+Date: Fri, 1 Dec 2023 15:51:07 +0000
+Subject: Compra Aprovada: Manual dos Acordes para =?utf-8?Q?Viol=C3=A3o?= e
+ Guitarra. =?utf-8?Q?=C2=BB?= Compra: PPCPMTB5CLN8I0
+From: PerfectPay <noreply@perfectpay.com.br>
+To: rafaelminhocadoida@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="_=_swift_1701445866_ab9084d2bcac6cce46c1f15236ee4019_=_"
+Feedback-ID: 1.us-east-2.Z+/YVhe3o0qDc2GznoFaUnl2Lp3kc2nUQAi9zKTrj3k=:AmazonSES
+X-SES-Outgoing: 2023.12.01-23.251.226.52
+
+--_=_swift_1701445866_ab9084d2bcac6cce46c1f15236ee4019_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<table style=3D"width: 100%; color: #444444; background-color: #f4f5f7; col=
+or: #525f7f; font-family: Helvetica, Arial, sans-serif; margin: 0;" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+    <tr>
+        <td style=3D'vertical-align: middle; font-size: 12px; text-align: c=
+enter; padding: 0 0 20px;'>
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"margin: 1.5rem auto 1rem; width: 600px; background-color: #fff; border-=
+radius: 5px; border-color: #EDEFF1; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2=
+5);">
+
+               =20
+                                    <tr>
+                        <td style=3D" vertical-align:middle; text-align: ce=
+nter; padding: 25px 0; border-bottom: 2px solid #01B790">
+                            <img loading=3D"lazy" src=3D"https://perfectpay=
+-files.s3.us-east-2.amazonaws.com/app/img/product/PPPB4RP2/pppb4rp2imagepat=
+hmeuebookresetei_2.png" alt=3D"Manual dos Acordes para Viol=C3=A3o e Guitar=
+ra." style=3D"border-radius: 5px; max-height: 200px; max-width: 500px">
+                            <h1 style=3D"padding: 10px 0; letter-spacing: 1=
+px; font-size: 32px; font-weight: 400; margin: 0 5px; color: #01B790">
+                                    Compra Aprovada!
+                            </h1>
+                        </td>
+                    </tr>
+                                <tr>
+                    <td style=3D"text-align:left; padding: 25px 40px; font-=
+size: 1rem; font-weight: 400; line-height: 25px; color: #2c3e50">
+                        <h3>    Ol=C3=A1 Rafael Costa Vieira!
+</h3>
+                                    <p>Parab=C3=A9ns! Sua compra est=C3=A1 =
+aprovada, segue as informa=C3=A7=C3=B5es do pedido:</p>
+        <p><p>Parab=C3=A9ns por adquirir o Manual dos Acordes! Acesse agora=
+ o seu material.</p><p>Bons estudos!</p></p>
+
+                    <br><br>Ps. Caso tenha dificuldades em acessar, copie e=
+ cole esse link no navegador:
+            <a href=3Dhttps://20js5vj7.r.us-east-2.awstrack.me/L0/https:%2F=
+%2Facademy.perfectpay.com.br%2Fbr%2Fpedido%2FPPCPMTB5CLN8I0/1/010f018c26139=
+8b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000/x7AVQENQBEtUnmgkS4EnbDcIoTs=
+=3D135>https://academy.perfectpay.com.br/br/pedido/PPCPMTB5CLN8I0</a><br><b=
+r>
+                <hr style=3D"margin: 10px 0; border: 1px solid #e9e9e9;">
+            <p>C=C3=B3digo da compra: <strong>PPCPMTB5CLN8I0 </strong></p>
+        <p style=3D"margin: 0;">Produto:
+            <strong>Manual dos Acordes para Viol=C3=A3o e Guitarra. - Plano=
+ B=C3=A1sico</strong>
+        </p>
+        <p>Valor: <strong>
+                                    R$ 15,00
+                            </strong>
+        </p>
+        <p>Data da compra:
+        <strong>01/12/2023 12:50:17</strong>
+    </p>
+    <br>
+            <p style=3D'text-align: center'>
+    <a href=3D"https://20js5vj7.r.us-east-2.awstrack.me/L0/https:%2F%2Fapp.=
+perfectpay.com.br%2Fcustomer%2FPPCPMTB5CLN8I0/1/010f018c261398b9-037e75c8-b=
+6f6-4d58-bbdf-0a197dcc7447-000000/DuljnzdgvdZx-bGBNfYYFz4eSeo=3D135" target=
+=3D"_blank" style=3D"text-decoration: none;  color: #fff; background-color:=
+ #01B790; font-weight: 400; text-align: center; white-space: nowrap; vertic=
+al-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-us=
+er-select: none; user-select: none; border: 1px solid transparent; padding:=
+ .55rem .85rem; font-size: 1rem; border-radius: .25rem; transition: color .=
+15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in=
+-out,box-shadow .15s ease-in-out; box-shadow: 1px 1px 2px 0 #666">
+        Acessar Minhas Compras  e fazer Download de Arquivos  =C2=BB
+    </a>
+</p>
+
+        <br>
+        <tr>
+        <td style=3D"border-bottom: groove;text-align: center;padding: 10px=
+ 25px 20px;font-size: 16px;font-weight: 400;line-height: 25px;color: #2b4d6=
+2;">
+            <b>Aten=C3=A7=C3=A3o:</b> Essa =C3=A9 uma mensagem autom=C3=A1t=
+ica, n=C3=A3o responda esse email, se precisar fazer contato com o SAC do p=
+roduto/empresa entre em contato no email:
+            <b style=3D''>manualdosacordes@gmail.com</b>
+        </td>
+    </tr>
+                    </td>
+                </tr>
+            </table>
+            <p style=3D"font-size: 12px; text-align: center; margin-top: 25=
+px">PerfectPay =C2=AE
+                                    |
+                    <a href=3D'https://20js5vj7.r.us-east-2.awstrack.me/L0/=
+https:%2F%2Fapp.perfectpay.com.br%2Femail%2Fcancel%2FZmMyZjEwZDAzZTJiODNiZD=
+c0N2QyYWM3YTgwNTMwODB8fHJhZmFlbG1pbmhvY2Fkb2lkYUBnbWFpbC5jb20=3D/1/010f018c=
+261398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000/C0NRfGtTjbU8q559AMhJpJ=
+Lj15Q=3D135'>Descadastrar</a>
+                            </p>
+        </td>
+    </tr>
+</table>
+
+<img alt=3D"" src=3D"https://20js5vj7.r.us-east-2.awstrack.me/I0/010f018c26=
+1398b9-037e75c8-b6f6-4d58-bbdf-0a197dcc7447-000000/9t8dbRPvh4lD5b1_NilOdPF_=
+P6o=3D135" style=3D"display: none; width: 1px; height: 1px;">
+
+--_=_swift_1701445866_ab9084d2bcac6cce46c1f15236ee4019_=_
+Content-Type: image/png; name=PPCPMTB5CLN8I0.png
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=PPCPMTB5CLN8I0.png
+
+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
+rkJggg==
+
+--_=_swift_1701445866_ab9084d2bcac6cce46c1f15236ee4019_=_--
+
+From - Sat Dec 20 01:52:45 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rafaelminhocadoida@gmail.com
+Received: by 2002:ab0:6394:0:b0:7c3:fe05:6759 with SMTP id y20csp1259218uao;
+        Fri, 1 Dec 2023 08:32:36 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGNjJDpWvJ5GOJwj4zBK12FYOaQXGZAB0ETjxi1+mmmZsqBhdoIoltyLQMO8i9ICueKAza/
+X-Received: by 2002:a05:6902:38a:b0:db5:4e4b:181d with SMTP id f10-20020a056902038a00b00db54e4b181dmr2335067ybs.33.1701448355981;
+        Fri, 01 Dec 2023 08:32:35 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1701448355; cv=none;
+        d=google.com; s=arc-20160816;
+        b=curZDAaijY3vJpQ06PXWvEolxXqqWQ2SDqtlSA4l/rITHztKvjP+4S2YwXvYSYvMNf
+         KbfFqVCE5UKzvrNTk98nGVyuA2oVdQ2ss1587smpF0PIvvmPw47Eau0xThB21NIuzbXi
+         bOEaSmufvkcTbl2FCGNGJrx/tWL1nZNmuaW3ZLPBBNoA6K21LpPLX5ZxfEbVmMK5e6j3
+         /RLn/vNz35qVDPtVXofmbbKO1U17Ysq8+JrQSivdeOwN/ZmdGPwnQL019qOoF4otiQgp
+         z7T0lvl2VC6dKrhuP5xBbW8EnDhJGTTfR6UqRFkvoPHTsiXK3/LajfqxpzgxxEZ7+AV8
+         47vA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:content-transfer-encoding:mime-version:to:from:subject
+         :date:message-id:dkim-signature:dkim-signature;
+        bh=vIZ0CR9OSt679vIASyI+Pl8Cpe3ZQUjLozCs/GAT8fI=;
+        fh=nuMNT+CUHJs/y2nknLBYN2/BX/UsfKKSDgsTgxAV5i8=;
+        b=MTu8nk9JAsSdyP26jhMKmkI1J0VNpzK/BDROLfm+TGhiwb5HesHPHCDL2Df+vmlA4D
+         5nym3V9qlaC/B+iGzrUf6ZrHxFQ2wnDdrpRJvDyHTYyUExgaJNqQOw15fL6XHHR88TeS
+         7XMCx+PNCGC5xLZ0MqAsz5w8g49qzihHYIo4YhGAcq/QGg+ZEKF4FS5akMxzqV/ZnmZU
+         hpHBK2m6Xzn0D48ILyfmkn1gkvGeONnDKROeFxHNw2qeUc7qGyJ5Bc7qHP5bA6Ha/yx/
+         TjK+RnAkrJfwxlnEDMK13XRWBkfER/XWIEDsmhZBJ+OQ2qd9jgOH9ZkSuSSJJEtMvE/i
+         oLkw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@perfectacademy.com.br header.s=gkn65l6ra7kwjbqy6c5fyydzwkkghcpl header.b=aUmCSuV6;
+       dkim=pass header.i=@amazonses.com header.s=kra23psoka5qyyh6gdejiiuof3nluwuz header.b=QnWpiJLf;
+       spf=pass (google.com: domain of 010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000@mail.perfectacademy.com.br designates 23.251.226.52 as permitted sender) smtp.mailfrom=010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000@mail.perfectacademy.com.br;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=perfectacademy.com.br
+Return-Path: <010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000@mail.perfectacademy.com.br>
+Received: from e226-52.smtp-out.us-east-2.amazonses.com (e226-52.smtp-out.us-east-2.amazonses.com. [23.251.226.52])
+        by mx.google.com with ESMTPS id l126-20020a252584000000b00db54c59a03bsi954903ybl.97.2023.12.01.08.32.35
+        for <rafaelminhocadoida@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 Dec 2023 08:32:35 -0800 (PST)
+Received-SPF: pass (google.com: domain of 010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000@mail.perfectacademy.com.br designates 23.251.226.52 as permitted sender) client-ip=23.251.226.52;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@perfectacademy.com.br header.s=gkn65l6ra7kwjbqy6c5fyydzwkkghcpl header.b=aUmCSuV6;
+       dkim=pass header.i=@amazonses.com header.s=kra23psoka5qyyh6gdejiiuof3nluwuz header.b=QnWpiJLf;
+       spf=pass (google.com: domain of 010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000@mail.perfectacademy.com.br designates 23.251.226.52 as permitted sender) smtp.mailfrom=010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000@mail.perfectacademy.com.br;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=perfectacademy.com.br
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=gkn65l6ra7kwjbqy6c5fyydzwkkghcpl; d=perfectacademy.com.br;
+	t=1701448355;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=Ab3raTDyA/qB7shPXW54kHMQbIRmZqU2H9jT82k7p/A=;
+	b=aUmCSuV605wmVpxL6QD2ayw1fBdDTwsUcSzlpO5nQ6DPpuRZ7+rfzwvVgxy7m345
+	PrlsVxdtV9tVCQkvh5mcmmveiKxqw7H6noYR6fPzgyDoXi3bqagQvE8CZI0O+uf1SfD
+	+WE5NtQRDoRfEhBoPNjiEQgeqXsGYLal5hH97rO0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1701448355;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=Ab3raTDyA/qB7shPXW54kHMQbIRmZqU2H9jT82k7p/A=;
+	b=QnWpiJLfQdNL8rqExekdt/cX05dVpbNDfzcDUX48kSW4oLBm/An82HJ9XQO2j5Yq
+	jitOjwaQbBMEATJwDKHG8QRLZxhsp2qFlV7BWbEJQTDzN6BinadNsfGgH1lXh1AkZcC
+	IgC/+SI1JbYpG7LFEq8UY9efdBMu8YwUp9w6kpoE=
+Message-ID: <010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000@us-east-2.amazonses.com>
+Date: Fri, 1 Dec 2023 16:32:35 +0000
+Subject: Acesso Liberado
+From: Manual dos Acordes <noreply@perfectacademy.com.br>
+To: Rafael Costa Vieira <rafaelminhocadoida@gmail.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Feedback-ID: 1.us-east-2.Z+/YVhe3o0qDc2GznoFaUnl2Lp3kc2nUQAi9zKTrj3k=:AmazonSES
+X-SES-Outgoing: 2023.12.01-23.251.226.52
+
+<table style=3D"width: 100%; color: #444444; background-color: #f4f5f7; col=
+or: #007c7d; font-family: Helvetica, Arial, sans-serif; margin: 0;" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+    <tr>
+        <td style=3D'vertical-align: middle; font-size: 12px; text-align: c=
+enter; padding: 0 0 20px;'>
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"margin: 0 auto 1rem; width: 100%; background-color: #fff; border-radius=
+: 20px; border-color: #007c7d">
+                                <tr>
+                    <td style=3D"text-align:left; padding: 25px; font-size:=
+ 1rem; font-weight: 400; line-height: 25px; color: #2c3e50">
+                        <h3>    Ol=C3=A1 Rafael Costa Vieira.
+</h3>
+                            <p>Voc=C3=AA recebeu acesso ao(s) curso(s):<br/=
+>
+                  <b>Manual dos Acordes</b>
+                  <p></p>
+                  <br/>
+                  Seus dados de acesso s=C3=A3o:<br/>
+                  Site: <a href=3D'https://933f0l8z.r.us-east-2.awstrack.me=
+/L0/https:%2F%2Facademy.perfectpay.com.br/1/010f018c26398e46-d5c902e6-b67b-=
+4191-8e11-0adf6e542ea8-000000/AWwvmMkrAoSeMLc88QdIdCYibxY=3D135' target=3D'=
+_blank'>https://academy.perfectpay.com.br</a><br/>
+                  Email: rafaelminhocadoida@gmail.com<br/>
+                  Senha: xsljhv5v<br/><br><br>Ps. Caso tenha dificuldades e=
+m acessar, entre por esse link para gerar novo acesso: <a href=3D'https://9=
+33f0l8z.r.us-east-2.awstrack.me/L0/https:%2F%2Facademy.perfectpay.com.br%2F=
+br%2Fpedido%2FPPCPMTB5CLN8I0/1/010f018c26398e46-d5c902e6-b67b-4191-8e11-0ad=
+f6e542ea8-000000/5pNIKuOiHBoL_IY5i9vdeZ4baMQ=3D135' target=3D'_blank'>https=
+://academy.perfectpay.com.br/br/pedido/PPCPMTB5CLN8I0</a><br><br></p>      =
+ =20
+    <br>
+
+           =20
+        <a href=3D"https://933f0l8z.r.us-east-2.awstrack.me/L0/https:%2F%2F=
+academy.perfectpay.com.br/2/010f018c26398e46-d5c902e6-b67b-4191-8e11-0adf6e=
+542ea8-000000/G-It_VQEN0yIXkBVaRf4iF7B_5g=3D135" target=3D"_blank" style=3D=
+"color: #111;">
+            Acessar =C2=BB=20
+        </a>
+        <br/><br/>
+        Caso o link acima n=C3=A3o esteja aparecendo copie e cole no seu na=
+vegador o endere=C3=A7o abaixo:<br/>
+        https://academy.perfectpay.com.br
+                        </td>
+                </tr>
+                <tr>
+                    <td style=3D"text-align:left; padding: 10px 25px 20px; =
+font-size: 12px; font-weight: 400; line-height: 25px; color: #2c3e50">
+                                                            Atenciosamente,=
+ equipe Manual dos Acordes
+                                                </td>
+                </tr>
+            </table>
+            <p class=3D'text-center'></p>
+        </td>
+    </tr>
+</table>
+
+<img alt=3D"" src=3D"https://933f0l8z.r.us-east-2.awstrack.me/I0/010f018c26=
+398e46-d5c902e6-b67b-4191-8e11-0adf6e542ea8-000000/JJMU0N2H9wf5W0Rdg-xTPhLW=
+0b4=3D135" style=3D"display: none; width: 1px; height: 1px;">
+
+From - Sat Dec 20 01:52:45 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rafaelminhocadoida@gmail.com
+Received: by 2002:ab0:2558:0:b0:7c3:fe05:6759 with SMTP id l24csp27739uan;
+        Mon, 4 Dec 2023 18:23:25 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHlV34TYczVo0ND2rTM4ddTWGRi6gCz7BxfIoQHiVG5E78oTc5nuNBwOYqjPOr11sOevp6h
+X-Received: by 2002:a25:ca44:0:b0:db7:dacf:61fe with SMTP id a65-20020a25ca44000000b00db7dacf61femr3777423ybg.80.1701743005376;
+        Mon, 04 Dec 2023 18:23:25 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1701743005; cv=none;
+        d=google.com; s=arc-20160816;
+        b=TpARP0i+bPZmSJVO+YEnewkAnsku2RgYwd5+GSjlJPKCn4BeXpZGUH5K4hdRX1EHo2
+         if3FcQ20/6J/xfrNj2ZkLEX2qCIHdO0BQwr3h+me1iXJaW3IfNeB+dkd29WWuOuiesyl
+         N5X3QPkjVWvOFaco9DeqcjLvD6JG/+ml5AS8z7G6/dSJADMS+jwmwuh/WiRgnogEA7yb
+         xAcKl27ylWSzp70ipD4gs+G1U8I3cXNlyPV8TQc+n0kpHs3KGVT7drqH7VtUpzu+Bf8P
+         70Abu5My1WrNZsp0U4uMFdLvXcbmO5IwfMTWv2K9O3JgLEvs1fUBDiVbCTwx9r+qlpLB
+         HxxA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:content-transfer-encoding:mime-version:to:from:subject
+         :date:message-id:dkim-signature:dkim-signature;
+        bh=PY6a2kw1ik40HDxFM0RGEVcOYOYZtoPWHOOXqYLVTPg=;
+        fh=nuMNT+CUHJs/y2nknLBYN2/BX/UsfKKSDgsTgxAV5i8=;
+        b=FCH61PC2QgDynakucBR71q8hcZ08EBl/knCbq4gGppQN/QGKQX93E0Y8Nhjxx3uA9m
+         9pDqXqEa/8on1/mue/yRZ/6p9i3MGUG+cY8WZ7IjA50QBzPvKcVTAzVPtN4IgktyEqLJ
+         aQiE8bp28p5XvfZ8SUB61KklhAIR2iJhgY+VsOAtRjrMPwM4AdN5iLV7ze/11kIJF627
+         HhIhT2vyMeuXZcxznWtP1bsINexggOEIzRsxkRmh3mq/Uusi8KSk2fWBRaOVgsERWFQF
+         teQ0vWrtG6IbQ3Ai9uoL9BkSBNUn4aM/k7UnDPgkTkUkZK2TBZJRr7hl1x9TOWil5z8T
+         SQjA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@perfectacademy.com.br header.s=gkn65l6ra7kwjbqy6c5fyydzwkkghcpl header.b=P4XMrOMS;
+       dkim=pass header.i=@amazonses.com header.s=kra23psoka5qyyh6gdejiiuof3nluwuz header.b=eaNn8Ltb;
+       spf=pass (google.com: domain of 010f018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000@mail.perfectacademy.com.br designates 23.251.226.51 as permitted sender) smtp.mailfrom=010f018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000@mail.perfectacademy.com.br;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=perfectacademy.com.br
+Return-Path: <010f018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000@mail.perfectacademy.com.br>
+Received: from e226-51.smtp-out.us-east-2.amazonses.com (e226-51.smtp-out.us-east-2.amazonses.com. [23.251.226.51])
+        by mx.google.com with ESMTPS id l3-20020ad44443000000b0067ab531ffefsi5725638qvt.403.2023.12.04.18.23.25
+        for <rafaelminhocadoida@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 04 Dec 2023 18:23:25 -0800 (PST)
+Received-SPF: pass (google.com: domain of 010f018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000@mail.perfectacademy.com.br designates 23.251.226.51 as permitted sender) client-ip=23.251.226.51;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@perfectacademy.com.br header.s=gkn65l6ra7kwjbqy6c5fyydzwkkghcpl header.b=P4XMrOMS;
+       dkim=pass header.i=@amazonses.com header.s=kra23psoka5qyyh6gdejiiuof3nluwuz header.b=eaNn8Ltb;
+       spf=pass (google.com: domain of 010f018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000@mail.perfectacademy.com.br designates 23.251.226.51 as permitted sender) smtp.mailfrom=010f018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000@mail.perfectacademy.com.br;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=perfectacademy.com.br
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=gkn65l6ra7kwjbqy6c5fyydzwkkghcpl; d=perfectacademy.com.br;
+	t=1701743005;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=EB8sEtCYbKIl4YFLSTbptZH7r+d+3AdLKkdqMEag4NI=;
+	b=P4XMrOMS4nj30MJbi5NAy41nv/iHznaKpAAS89DX89qJW/83rdSbEbKr5akiRgwf
+	ofcJO3pF3LnL4eRgTxvQ849FmtSNkyiOpdM9xlqC1WgqNOat1RCbLbS8Tug4yEB9Dq1
+	ILDuwUcYb2T8IkPYpyzAaFuucyA6hSLqaMAlAnYc=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=kra23psoka5qyyh6gdejiiuof3nluwuz; d=amazonses.com; t=1701743005;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=EB8sEtCYbKIl4YFLSTbptZH7r+d+3AdLKkdqMEag4NI=;
+	b=eaNn8LtbfDxhTpDm4w5F1F3lL5zTxnEJDzprAsAWiIwrlr/u183BQZGpi3LaNFdd
+	HwVYA1A9Igp+/soxLcWmDlFeuf0JO8Mp07nSgPu30AW+iesb2A7eUCW0/XnKgjJ0wLV
+	A4cGd/NCUlsWG313DFF25N2yL2S0EZGBmG9zzjQ8=
+Message-ID: <010f018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000@us-east-2.amazonses.com>
+Date: Tue, 5 Dec 2023 02:23:24 +0000
+Subject: PerfectAcademy - Token de acesso direto
+From: PerfectAcademy <noreply@perfectacademy.com.br>
+To: Rafael Costa Vieira <rafaelminhocadoida@gmail.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Feedback-ID: 1.us-east-2.Z+/YVhe3o0qDc2GznoFaUnl2Lp3kc2nUQAi9zKTrj3k=:AmazonSES
+X-SES-Outgoing: 2023.12.05-23.251.226.51
+
+<table style=3D"width: 100%; color: #444444; background-color: #f4f5f7; col=
+or: #007c7d; font-family: Helvetica, Arial, sans-serif; margin: 0;" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+    <tr>
+        <td style=3D'vertical-align: middle; font-size: 12px; text-align: c=
+enter; padding: 0 0 20px;'>
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"margin: 0 auto 1rem; width: 100%; background-color: #fff; border-radius=
+: 20px; border-color: #007c7d">
+                                <tr>
+                    <td style=3D"text-align:left; padding: 25px; font-size:=
+ 1rem; font-weight: 400; line-height: 25px; color: #2c3e50">
+                        <h3>    Ol=C3=A1 Rafael Costa Vieira.
+</h3>
+                            <p>Para acessar a sua conta basta clicar no lin=
+k abaixo.</p>       =20
+    <br>
+
+           =20
+        <a href=3D"https://933f0l8z.r.us-east-2.awstrack.me/L0/https:%2F%2F=
+academy.perfectpay.com.br%2Flogin%2F62da256ce06e45ce339e8f25eb69abad/1/010f=
+018c37c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000/w6xk4cbmSU9FCHqBcn=
+AEiGgtd7o=3D135" target=3D"_blank" style=3D"color: #111;">
+            Acessar pelo token =C2=BB
+        </a>
+        <br/><br/>
+        Caso o link acima n=C3=A3o esteja aparecendo copie e cole no seu na=
+vegador o endere=C3=A7o abaixo:<br/>
+        https://academy.perfectpay.com.br/login/62da256ce06e45ce339e8f25eb6=
+9abad
+                        </td>
+                </tr>
+                <tr>
+                    <td style=3D"text-align:left; padding: 10px 25px 20px; =
+font-size: 12px; font-weight: 400; line-height: 25px; color: #2c3e50">
+                                                    Atenciosamente, <br>Per=
+fectAcademy
+                                            </td>
+                </tr>
+            </table>
+            <p class=3D'text-center'></p>
+        </td>
+    </tr>
+</table>
+
+<img alt=3D"" src=3D"https://933f0l8z.r.us-east-2.awstrack.me/I0/010f018c37=
+c98c6e-92b19d7c-85c4-4f63-b132-edcc1ba7ee49-000000/Q5HXui3T1uVsuhXwvcwnzwrb=
+NaU=3D135" style=3D"display: none; width: 1px; height: 1px;">
+
+From - Sat Dec 20 01:52:45 2025
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: rafaelminhocadoida@gmail.com
+Received: by 2002:ab0:3054:0:b0:941:1a52:a994 with SMTP id x20csp1626203ual;
+        Sun, 14 Dec 2025 20:34:30 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IEBjyH1+Ulpbo673/sBo2kzsSC4/emOdDywa3qqRdx8LaQHcHk10XQ4fbeyXv44aOeGcAeG
+X-Received: by 2002:a05:6214:4903:b0:880:57dd:5f15 with SMTP id 6a1803df08f44-8887e7d9e71mr154977036d6.54.1765773269942;
+        Sun, 14 Dec 2025 20:34:29 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1765773269; cv=none;
+        d=google.com; s=arc-20240605;
+        b=F6AyzCTLb3A2jgO1PtZJOVsKz/znx4qBkSa9IxYLciads7/4CANROfOfcIpJlWvRPU
+         WRbin/2PCdhjQkZswRcxMR6xvWYpe8UBvsKODVUEaM1+Yny0WEFkl8mD7ahSBKzGPCmn
+         AtoiWcT4hfK37wHzaMHHbdnxK0Qcz6vzpgd/X7gSCiNMhywfX/33pGw2eNtH3ZCOvRTu
+         B789yohQZFeukXdEezH3k48ev17fWrrRRptoBPgyZSQNqy8FkfSgq0jxxXpSbl6YJ/i1
+         lFEailoidyqX3V3fNBHK8efy/Re4+YJ1qu50WUkJhNQnBSwXFYPlpPzNeZvN3UMT7GGp
+         3svA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:date:message-id:mime-version:subject:to:from
+         :dkim-signature:dkim-signature;
+        bh=Y8gGV/JQuV7qiaf/bY/9fxnfT5bY1b5DsEoftzDZL00=;
+        fh=DJTJ0xOOkMjStpQjDEZbRKFAIYScvmzt40yYVZwQCsU=;
+        b=S9n/A57YKQUnbu37k1szKWuRdw6/ZFFtfzvNLUIi/rXd/owJZsQhfmRYJNuZ+6NNi9
+         vsYpKLQKFeGlunLd5QYfwnIPIEXdTtW4hO0MVSGwy0+OFBYoEyDMvzFVFY+QvU4KGyKL
+         f2iraRBKZdzCtC6myQa5sE6fnGRbbCfcdiamLnCNArUR5wGNCZYepY9uu8HONcxr6fxt
+         WesDNFAel3ajQLiMAhhw35kFRdF32onhKXySrwfuoL8Zph8x6/hzU0hgD3wr/MZbYksU
+         3jllvLZQAvp2/oMcHMo/C2Q6PZJnxMGw7xthGiE8vIck/0+UqI2jcXON/Mf6tn6Edqok
+         IYHA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@id.supercell.com header.s=ahhv4vjqhjtwnccyid3cpbsgznkht7ui header.b=buhZhhmF;
+       dkim=pass header.i=@amazonses.com header.s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw header.b=OrL8z3MM;
+       spf=pass (google.com: domain of 0100019b2049da27-68807a67-f4f6-4ed8-8658-b98884aadd24-000000@mail.id.supercell.com designates 54.240.48.223 as permitted sender) smtp.mailfrom=0100019b2049da27-68807a67-f4f6-4ed8-8658-b98884aadd24-000000@mail.id.supercell.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=id.supercell.com
+Return-Path: <0100019b2049da27-68807a67-f4f6-4ed8-8658-b98884aadd24-000000@mail.id.supercell.com>
+Received: from a48-223.smtp-out.amazonses.com (a48-223.smtp-out.amazonses.com. [54.240.48.223])
+        by mx.google.com with ESMTPS id 6a1803df08f44-889a8692f50si60397196d6.509.2025.12.14.20.34.29
+        for <rafaelminhocadoida@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 14 Dec 2025 20:34:29 -0800 (PST)
+Received-SPF: pass (google.com: domain of 0100019b2049da27-68807a67-f4f6-4ed8-8658-b98884aadd24-000000@mail.id.supercell.com designates 54.240.48.223 as permitted sender) client-ip=54.240.48.223;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@id.supercell.com header.s=ahhv4vjqhjtwnccyid3cpbsgznkht7ui header.b=buhZhhmF;
+       dkim=pass header.i=@amazonses.com header.s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw header.b=OrL8z3MM;
+       spf=pass (google.com: domain of 0100019b2049da27-68807a67-f4f6-4ed8-8658-b98884aadd24-000000@mail.id.supercell.com designates 54.240.48.223 as permitted sender) smtp.mailfrom=0100019b2049da27-68807a67-f4f6-4ed8-8658-b98884aadd24-000000@mail.id.supercell.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=id.supercell.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ahhv4vjqhjtwnccyid3cpbsgznkht7ui; d=id.supercell.com;
+	t=1765773269;
+	h=From:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=XoYjYwJ/xpG7pNUQ/usBiU2PPYhxZdVjEBlL5zb7M2o=;
+	b=buhZhhmFJCvVJ7r1Peems3gRWcftB0iibja6Kuea364PSRCapOncMa8TbEOmKco+
+	iMzCZ3amiCNVYsBREBVliGrSbxTs/TxiqAAMPxvOUY9KYdeLgBt8LG+3UGjhs8Z4Az5
+	iCthToIziEqndmsPydQeqA1nVOC8pTPueS9bC2u0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1765773269;
+	h=From:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=XoYjYwJ/xpG7pNUQ/usBiU2PPYhxZdVjEBlL5zb7M2o=;
+	b=OrL8z3MMrXi2isJQrC94ku6mJ9ZDk1z9lsh0LOPJ2EuDIdyK5ejw2b6AnN99nfYg
+	OfdUen+P+LESeQm7Ld8q7SG2+DJqwr+FZQwFP6XCyDxhraCzf5Dp6Y2lj92IuAEofNZ
+	GgmEV1nJWsXyXbGJ/X1FvJiH+ZH2T2BtpxH8O7C8=
+From: Supercell <noreply@id.supercell.com>
+To: rafaelminhocadoida@gmail.com
+Subject: =?UTF-8?Q?Supercell_ID_=E2=80=93_alerta_de_novo_dispositivo?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_948563_1435925264.1765773269543"
+Message-ID: <0100019b2049da27-68807a67-f4f6-4ed8-8658-b98884aadd24-000000@email.amazonses.com>
+Date: Mon, 15 Dec 2025 04:34:29 +0000
+Feedback-ID: new-device-logged-in:clashroyale:1.us-east-1.fVJTURz7WmJsB4wH0L6YLpD4uaD50Bp6vEV0SV8prbM=:AmazonSES
+X-SES-Outgoing: 2025.12.15-54.240.48.223
+
+------=_Part_948563_1435925264.1765773269543
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Supercell ID =E2=80=93 alerta de novo dispositivo
+
+Um novo dispositivo est=C3=A1 acessando o seu Supercell ID
+Android
+Brasil
+
+<strong>Caso tenha sido voc=C3=AA,</strong><br /> ignore este e-mail, e sua=
+ conta continuar=C3=A1 segura.
+
+<strong>Caso n=C3=A3o tenha sido voc=C3=AA,</strong><br /> recomendamos que=
+ acesse o link abaixo para evitar que outra pessoa roube a sua conta.
+https://accounts.supercell.com/oauth/checkActivity.open?token=3DAUn6GS6Canh=
+6TRKKAcz5dcl7tF3o-8OCMA3X-JAQUbvIQ_Q9PXFnaKebJ90Gq8G4hPvSq6BjQLiJICCLHrF7Mr=
+qQcxgurOO9PMV1JfOZ_9xf6t4t4sM0h04-Eillw7ljNyBkr0gl5-ZRaMyol-j06oe9oW0XJgaxy=
+pxxY_ieydKTYP0LwLRDBbTZGc1-ax34YpUUvI-e__sJ74IQWv_d2NrZyP2NhS9tvuHedpTMGaom=
+cpU31cJzg7gY4vmtnatKYzvT-wCppFgt8rEt_gjadMy6sla1QyGxqiuvOpN6PsKFEv4fxr1TV7p=
+DocBvmQHHPUn3DefrcxdyHhTbUgMMTkYfwcAreniQ7qXz5XeI2LvMfw-R3nrG3SLBfSMRf7yOsu=
+2ww9W3QuBC7HfVli65mtZFFPsWWhbi5BePNxfj8K99dTcYaQ7dM1vGO5VD174rhs0lrjK4zJbb9=
+PSVnQF2P6LU2QuTIsR4uhjbx-cpjQsID3_o-bgRGAxw6wzql5SlrzqsbVZFE8NrwcmVtZU3wTua=
+Y8-h2hIHEbhhW2SACfHPCXQcdfm3DR1kfnIJ5dmw0lIq85EBLEnA-uC87waOIq23fC3jm21I2Op=
+4vwdqhEzlrQuiPUssn5MWA-I_pXMqWcwzKphM1imTtQY01W1K82AUje_B41IwqzByhlx7Fg722d=
+i1wWTqe7s7xcyuWf4G06L3L9dPEdRIJaduEOf6cvP57SmplyqLuvwGyKLwCa4I3FzrLDrdoge4p=
+QSkmYLCaM5hBAZFfIcANO56yOtixWg=3D
+
+---
+
+https://supercell.com/en/terms-of-service/pt/
+Termos de Uso
+
+https://supercell.com/en/privacy-policy/pt/
+Pol=C3=ADtica de Privacidade
+
+------=_Part_948563_1435925264.1765773269543
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en" dir=3D"ltr" xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:=
+v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:of=
+fice:office">
+<head>
+    <meta charset=3D"utf-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"x-apple-disable-message-reformatting">
+    <title>Supercell ID =E2=80=93 alerta de novo dispositivo</title>
+
+    <!-- Web Font / @font-face : BEGIN -->
+    <!--[if mso]>
+        <style>
+            * {
+                font-family: Arial, sans-serif !important;
+            }
+        </style>
+    <![endif]-->
+
+    <!--[if !mso]><!-->
+        <link href=3D"https://fonts.googleapis.com/css?family=3DRoboto:300,=
+500" rel=3D"stylesheet">
+    <!--<![endif]-->
+    <!-- Web Font / @font-face : END -->
+
+    <!-- CSS Reset -->
+    <style>
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        div[style*=3D"margin: 16px 0"] {
+            margin:0 !important;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        table {
+            border-spacing: 0 !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+        table table table {
+            table-layout: auto;
+        }
+
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
+
+        *[x-apple-data-detectors],  /* iOS */
+        .x-gmail-data-detectors,    /* Gmail */
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        .a6S {
+            display: none !important;
+            opacity: 0.01 !important;
+        }
+        img.g-img + div {
+            display:none !important;
+           }
+
+        .button-link {
+            text-decoration: none !important;
+        }
+    </style>
+
+    <!-- Progressive Enhancements -->
+    <style>
+
+        body, .email-container {
+            background-color: #E4E4E4;
+        }
+
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 480px) {
+
+            body, .email-container {
+                background-color: white;
+            }
+
+            .fluid {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            .stack-column-center {
+                text-align: center !important;
+            }
+
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+        }
+
+        .text {
+            color: #666666;
+        }
+
+        .text strong {
+            font-size: 19px;
+            color: black;
+        }
+
+        .text.regular-strong strong {
+            font-size: 16px;
+            color: #666666;
+        }
+
+    </style>
+
+
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+</head>
+<body width=3D"100%" style=3D"margin: 0; mso-line-height-rule: exactly;">
+    <center dir=3D"ltr" style=3D"width: 100%; text-align: left;" class=3D"e=
+mail-container">
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style=3D"display:none;font-size:1px;line-height:1px;max-height=
+:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: 'Rob=
+oto', sans-serif;">
+             Um novo dispositivo est=C3=A1 acessando o seu Supercell ID - <=
+strong>Caso n=C3=A3o tenha sido voc=C3=AA,</strong><br /> recomendamos que =
+acesse o link abaixo para evitar que outra pessoa roube a sua conta. https:=
+//accounts.supercell.com/oauth/checkActivity.open?token=3DAUn6GS6Canh6TRKKA=
+cz5dcl7tF3o-8OCMA3X-JAQUbvIQ_Q9PXFnaKebJ90Gq8G4hPvSq6BjQLiJICCLHrF7MrqQcxgu=
+rOO9PMV1JfOZ_9xf6t4t4sM0h04-Eillw7ljNyBkr0gl5-ZRaMyol-j06oe9oW0XJgaxypxxY_i=
+eydKTYP0LwLRDBbTZGc1-ax34YpUUvI-e__sJ74IQWv_d2NrZyP2NhS9tvuHedpTMGaomcpU31c=
+Jzg7gY4vmtnatKYzvT-wCppFgt8rEt_gjadMy6sla1QyGxqiuvOpN6PsKFEv4fxr1TV7pDocBvm=
+QHHPUn3DefrcxdyHhTbUgMMTkYfwcAreniQ7qXz5XeI2LvMfw-R3nrG3SLBfSMRf7yOsu2ww9W3=
+QuBC7HfVli65mtZFFPsWWhbi5BePNxfj8K99dTcYaQ7dM1vGO5VD174rhs0lrjK4zJbb9PSVnQF=
+2P6LU2QuTIsR4uhjbx-cpjQsID3_o-bgRGAxw6wzql5SlrzqsbVZFE8NrwcmVtZU3wTuaY8-h2h=
+IHEbhhW2SACfHPCXQcdfm3DR1kfnIJ5dmw0lIq85EBLEnA-uC87waOIq23fC3jm21I2Op4vwdqh=
+EzlrQuiPUssn5MWA-I_pXMqWcwzKphM1imTtQY01W1K82AUje_B41IwqzByhlx7Fg722di1wWTq=
+e7s7xcyuWf4G06L3L9dPEdRIJaduEOf6cvP57SmplyqLuvwGyKLwCa4I3FzrLDrdoge4pQSkmYL=
+CaM5hBAZFfIcANO56yOtixWg=3D
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+
+
+        <div style=3D"max-width: 480px; min-width: 390px; margin: auto;">
+            <!--[if mso]>
+            <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0" width=3D"680" align=3D"center">
+            <tr>
+            <td>
+            <![endif]-->
+
+            <!-- Email Body : BEGIN -->
+            <table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0" align=3D"center" width=3D"100%" style=3D"width: 100%">
+
+                <!-- Header : BEGIN -->
+                <tr>
+                    <td bgcolor=3D"#051036" align=3D"center" valign=3D"top"=
+ style=3D"text-align: center; background-position: center center !important=
+; background-size: cover !important;">
+                        <!--[if gte mso 9]>
+                        <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" f=
+ill=3D"true" stroke=3D"false" style=3D"width:600px; height:134px; backgroun=
+d-position: center center !important;">
+                        <v:fill type=3D"tile" color=3D"#051036" />
+                        <v:textbox inset=3D"0,0,0,0">
+                        <![endif]-->
+                        <div>
+                            <!--[if mso]>
+                            <table role=3D"presentation" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" align=3D"center" width=3D"600">
+                            <tr>
+                            <td align=3D"center" valign=3D"middle" width=3D=
+"600">
+                            <![endif]-->
+                            <table role=3D"presentation" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" align=3D"center" width=3D"100%" style=3D"max=
+-width:600px; margin: auto;">
+
+
+
+                                <tr>
+                                  <td align=3D"right" valign=3D"middle">
+
+                                  <table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" align=3D"center" width=3D"100%" style=
+=3D"max-width:600px; margin: auto;">
+                                     <tr>
+                                         <td valign=3D"middle" style=3D"tex=
+t-align: center; padding: 22px; background-color: #F1F1F1">
+                                             <img src=3D"https://cdn.id.sup=
+ercell.com/assets/email/images/supercell_id_header.png" alt=3D"Supercell ID=
+" border=3D"0" style=3D"display: block; height: 36px; margin: 0 auto;">
+                                         </td>
+                                     </tr>
+                                  </table>
+
+                                  </td>
+                                </tr>
+
+
+
+                            </table>
+                            <!--[if mso]>
+                            </td>
+                            </tr>
+                            </table>
+                            <![endif]-->
+                        </div>
+                        <!--[if gte mso 9]>
+                        </v:textbox>
+                        </v:rect>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- Header : END -->
+
+                <!-- Main Section : BEGIN -->
+
+                <tr>
+                    <td bgcolor=3D"#FFFFFF">
+                        <table role=3D"presentation" cellspacing=3D"0" cell=
+padding=3D"0" border=3D"0" width=3D"100%" align=3D"center" bgcolor=3D"#FFFF=
+FF">
+                            <tr>
+                                <td style=3D"padding: 40px 40px 32px 40px; =
+text-align: center;">
+                                    <img src=3D"https://cdn.id.supercell.co=
+m/assets/email/images/new_device_warning.png" alt=3D"New device warning" bo=
+rder=3D"0" style=3D"display: block; margin: 0 auto; height: 140px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=3D"padding: 0 28px 32px 28px; tex=
+t-align: center;">
+                                    <h1 style=3D"margin: 0; font-family: 'R=
+oboto', 'Arial', sans-serif; font-size: 32px; line-height: 40px; color: #33=
+3333; letter-spacing: 0px;">Um novo dispositivo est=C3=A1 acessando o seu S=
+upercell ID</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=3D"padding: 0 28px 32px 28px;">
+                                    <table style=3D"width: 100%; border: 1.=
+5px solid #cccccc; border-radius: 18px; overflow: hidden; margin: 20px auto=
+; font-family: Arial, sans-serif;">
+                                        <tr style=3D"background-color: #F1F=
+1F1;">
+                                            <td colspan=3D"2" style=3D"padd=
+ing: 28px 0 28px 28px; text-align: left;">
+                                                <p style=3D"font-weight: bo=
+ld; font-size: 19px; margin: 0 0 5px 0">Android</p>
+                                                <p style=3D"margin: 0; colo=
+r: #666666; font-size: 19px;">Brasil</p>
+                                            </td>
+                                            <td colspan=3D"2" style=3D"padd=
+ing: 28px 28px 28px 0; text-align: right; vertical-align: middle">
+                                                <img src=3D"https://cdn.id.=
+supercell.com/assets/email/images/countries/BR.png" style=3D"height: 40px; =
+border-radius: 4px;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style=3D"text-align: left; =
+padding-top: 28px; vertical-align: top" class=3D"icon-thumb">
+                                                <img style=3D"width: 70%; p=
+adding-left: 16px" src=3D"https://cdn.id.supercell.com/assets/email/images/=
+new_device_thumbs_up.png" alt=3D"Safely ignore">
+                                            </td>
+                                            <td style=3D"text-align: left; =
+padding: 28px 16px 0 8px; line-height: 22px;" class=3D"text" colspan=3D"3">
+                                                <p style=3D"font-size: 16px=
+; font-family: Arial, sans-serif; margin: 0;"><strong>Caso tenha sido voc=
+=C3=AA,</strong><br /> ignore este e-mail, e sua conta continuar=C3=A1 segu=
+ra.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style=3D"text-align: left; =
+padding-top: 28px; vertical-align: top" class=3D"icon-cross-mark">
+                                                <img style=3D"width: 70%; p=
+adding-left: 16px" src=3D"https://cdn.id.supercell.com/assets/email/images/=
+new_device_cross_mark.png" alt=3D"Logout">
+                                            </td>
+                                            <td style=3D"text-align: left; =
+padding: 20px 16px 0 8px; line-height: 22px;" class=3D"text" colspan=3D"3">
+                                                <p style=3D"font-size: 16px=
+; font-family: Arial, sans-serif; margin: 0;"><strong>Caso n=C3=A3o tenha s=
+ido voc=C3=AA,</strong><br /> recomendamos que acesse o link abaixo para ev=
+itar que outra pessoa roube a sua conta.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan=3D"4">
+                                                <table cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0" width=3D"100%">
+                                                    <tr>
+                                                        <td align=3D"center=
+" style=3D"padding: 20px 16px 20px 16px">
+                                                            <table role=3D"=
+presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100=
+%">
+                                                                <tr>
+                                                                    <td sty=
+le=3D"background-color: #D42983; padding: 20px 16px 20px 16px;; text-align:=
+ center; border-radius: 8px;">
+                                                                        <a =
+href=3D"https://accounts.supercell.com/oauth/checkActivity.open?token=3DAUn=
+6GS6Canh6TRKKAcz5dcl7tF3o-8OCMA3X-JAQUbvIQ_Q9PXFnaKebJ90Gq8G4hPvSq6BjQLiJIC=
+CLHrF7MrqQcxgurOO9PMV1JfOZ_9xf6t4t4sM0h04-Eillw7ljNyBkr0gl5-ZRaMyol-j06oe9o=
+W0XJgaxypxxY_ieydKTYP0LwLRDBbTZGc1-ax34YpUUvI-e__sJ74IQWv_d2NrZyP2NhS9tvuHe=
+dpTMGaomcpU31cJzg7gY4vmtnatKYzvT-wCppFgt8rEt_gjadMy6sla1QyGxqiuvOpN6PsKFEv4=
+fxr1TV7pDocBvmQHHPUn3DefrcxdyHhTbUgMMTkYfwcAreniQ7qXz5XeI2LvMfw-R3nrG3SLBfS=
+MRf7yOsu2ww9W3QuBC7HfVli65mtZFFPsWWhbi5BePNxfj8K99dTcYaQ7dM1vGO5VD174rhs0lr=
+jK4zJbb9PSVnQF2P6LU2QuTIsR4uhjbx-cpjQsID3_o-bgRGAxw6wzql5SlrzqsbVZFE8NrwcmV=
+tZU3wTuaY8-h2hIHEbhhW2SACfHPCXQcdfm3DR1kfnIJ5dmw0lIq85EBLEnA-uC87waOIq23fC3=
+jm21I2Op4vwdqhEzlrQuiPUssn5MWA-I_pXMqWcwzKphM1imTtQY01W1K82AUje_B41IwqzByhl=
+x7Fg722di1wWTqe7s7xcyuWf4G06L3L9dPEdRIJaduEOf6cvP57SmplyqLuvwGyKLwCa4I3FzrL=
+Drdoge4pQSkmYLCaM5hBAZFfIcANO56yOtixWg=3D" style=3D"display: block; font-si=
+ze: 16px; color: white; text-decoration: none; text-transform: uppercase;">
+                                                                           =
+ Esse dispositivo n=C3=A3o =C3=A9 meu
+                                                                        </a=
+>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=3D"padding: 0 28px 48px 28px;" cl=
+ass=3D"text regular-strong">
+                                    <p style=3D"color: #999999; font-size: =
+16px; font-family: Arial, sans-serif; text-align: center; line-height: 23px=
+; margin: 0;"><strong>Nunca informe seu c=C3=B3digo de verifica=C3=A7=C3=A3=
+o</strong> para outras pessoas. Voc=C3=AA corre o risco de perder a sua con=
+ta para sempre.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Main Section : END -->
+
+                <!-- FOOTER : BEGIN -->
+                <tr>
+                    <td bgcolor=3D"#000000">
+                        <table role=3D"presentation" cellspacing=3D"0" cell=
+padding=3D"0" border=3D"0" width=3D"100%">
+                            <tr>
+                                <td align=3D"left" style=3D"padding: 23px; =
+font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 12px; colo=
+r: #FFFFFF; text-align: left; font-weight:300;">
+                                    <p style=3D"margin: 0 0 10px 0;"><a hre=
+f=3D"https://supercell.com/en/terms-of-service/pt/" class=3D"links__link" s=
+tyle=3D"color: #ffffff; font-size: 12px; text-decoration: none;">Termos de =
+Uso</a></p>
+                                    <p style=3D"margin: 0;"><a href=3D"http=
+s://supercell.com/en/privacy-policy/pt/" class=3D"links__link" style=3D"col=
+or: #ffffff; font-size: 12px; text-decoration: none;">Pol=C3=ADtica de Priv=
+acidade</a></p>
+                                </td>
+                                <td align=3D"right" style=3D"padding: 23px;=
+ text-align: right;">
+                                    <img src=3D"https://cdn.id.supercell.co=
+m/assets/email/images/supercell_logo.png" alt=3D"Supercell" style=3D"height=
+: 34px;" />
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+                <!-- FOOTER : END -->
+
+            </table>
+            <!-- Email Body : END -->
+
+            <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+
+    </center>
+</body>
+</html>
+
+------=_Part_948563_1435925264.1765773269543--
+
