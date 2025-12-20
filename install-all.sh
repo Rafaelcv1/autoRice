@@ -4,7 +4,7 @@ sudo pacman -Syu
 
 #default packages
 sudo pacman -S noto-fonts-emoji ttf-font-awesome ttf-jetbrains-mono-nerd ca-certificates pipewire pulseaudio wireplumber
-sudo pacman -S hyprland kitty zsh firefox fastfetch git yazi wofi mpv less waybar tmux 7zip imagemagick uwsm libnewt python-pip wl-clipboard KeePassXC proton-vpn-gtk-app network-manager-applet torbrowser-launcher swww xorg-xrandr brightnessctl pavucontrol dunst zoxide ueberzugpp poppler resvg discord gzip libavif mise
+sudo pacman -S hyprland kitty zsh firefox fastfetch git yazi wofi mpv less waybar tmux 7zip imagemagick uwsm libnewt python-pip wl-clipboard KeePassXC proton-vpn-gtk-app network-manager-applet torbrowser-launcher swww xorg-xrandr brightnessctl pavucontrol dunst zoxide ueberzugpp poppler resvg discord gzip libavif mise rclone gnome-keyring libsecret
 
 #set AUR
 git clone https://aur.archlinux.org/yay.git
