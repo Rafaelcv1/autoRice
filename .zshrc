@@ -1,9 +1,28 @@
 fastfetch
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+fpath+=~/.zsh/completions
+
+#compdef kitty
+
+_kitty() {
+    (( ${+commands[kitten]} )) || builtin return
+    builtin local src cmd=${(F)words:0:$CURRENT}
+    # Send all words up to the word the cursor is currently on.
+    src=$(builtin command kitten __complete__ zsh "_matcher=$_matcher" <<<$cmd) || builtin return
+    builtin eval "$src"
+}
+
+if (( $+functions[compdef] )); then
+    compdef _kitty kitty
+    compdef _kitty clone-in-kitty
+    compdef _kitty kitten
 fi
 
 # If you come from bash you might have to change your $PATH.
@@ -78,7 +97,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git aliases alias-finder archlinux arduino-cli battery command-not-found common-aliases copypath copyfile docker emoji emoji-clock emotty encode64 eza fzf git-auto-fetch git-commit git-escape-magic git-extras git-flow gitfast git-flow-avh git-hubflow git-lfs git-prompt github gitignore history mise sudo systemd themes tldr zoxide z zsh-interactive-cd zsh-navigation-tools)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -123,6 +142,8 @@ alias logoN="rm -rf /home/rafa/.config/fastfetch/logo/ && cp -r /home/rafa/.conf
 alias logoS="rm -rf /home/rafa/.config/fastfetch/logo/ && cp -r /home/rafa/.config/fastfetch/logoS /home/rafa/.config/fastfetch/logo"
 
 eval "$(mise activate zsh)"
+
+zstyle ':completion:*' matcher-list ''
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
